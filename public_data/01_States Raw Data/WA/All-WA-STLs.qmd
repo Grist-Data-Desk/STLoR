@@ -1,0 +1,32 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.0-Lima">
+  <identifier>https://gis.dnr.wa.gov/site3/rest/services/Public_Boundaries/WADNR_PUBLIC_Cadastre_OpenData/MapServer/6</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>DNR Managed Land Parcels</title>
+  <abstract>The Parcel layer consists of parcels that are areas land in which the Department of Natural Resources holds some interest and are located anywhere in the upland area of the State of Washington.  Three types of Parcels are currently held in the parcel layer.  The number of Parcel types may increase in the future.  Ownership Parcels, parcel type code 1, consist of Washington State owned land managed by the Department of Natural Resources.  Most ownership parcels are held and managed for the benefit of some trust such as the Common School and Indemnity trust.  Of the several parcel types, only Ownership Parcels represent the entire extent of the particular type of land managed by DNR.  The other parcel types are incomplete data sets.  Disposed Parcels, parcel type code 2, consist of ownership parcels that have been disposed of since July 1, 2007.  A very few parcels disposed of prior to that date are also included.  Easement Parcels, parcel type code 3, consist of various types of easements acquired for the State by the Department.  Some of the Easements are negative easements over land not owned by the State, for example Conservation Easements which remove certain development rights away for the parcel owner.  Other Easements are positive rights acquired by the State, such as roadway easements.</abstract>
+  <links>
+    <link url="https://gis.dnr.wa.gov/site3/rest/services/Public_Boundaries/WADNR_PUBLIC_Cadastre_OpenData/MapServer/6" name="Source" type="WWW:LINK" description="" format="" size="" mimeType=""/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <rights>Washington State Department of Natural Resources</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-13888012.66143869981169701" crs="EPSG:3857" maxz="0" maxy="6281351.63408814556896687" miny="5700690.07944166380912066" minz="0" maxx="-12992317.28524921089410782" dimensions="2"/>
+  </extent>
+</qgis>

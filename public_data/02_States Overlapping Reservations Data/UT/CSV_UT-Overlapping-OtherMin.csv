@@ -1,0 +1,889 @@
+state,managing_agency,rights_type,state_enabling_act,activity,objectid,township,range,section,county,bene_cd,bene_abrev,aliquot,acres
+UT,Trust Lands Administration,Subsurface,28 Stat. 107-110 (1894),Other Minerals,415612,41,17,36,Washington,10,SCH,"NE4,E2SE4,N2SW4,SW4SW4",360.000000000000000
+UT,Trust Lands Administration,Subsurface,29 Stat. 107-110 (1894),Other Minerals,410690,5,8,2,Tooele,10,SCH,"LOTS 1-4, S2N2, S2 (ALL)",640.960000000000036
+UT,Trust Lands Administration,Subsurface,30 Stat. 107-110 (1894),Other Minerals,410691,5,8,24,Tooele,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,31 Stat. 107-110 (1894),Other Minerals,410693,5,8,36,Tooele,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,32 Stat. 107-110 (1894),Other Minerals,410994,9,19,22,Tooele,6,NS,NE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,33 Stat. 107-110 (1894),Other Minerals,410996,9,19,32,Tooele,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,34 Stat. 107-110 (1894),Other Minerals,411091,10,19,36,Tooele,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,35 Stat. 107-110 (1894),Other Minerals,411092,10,20,36,Tooele,10,SCH,"LOTS 1(118.94), 2(119.22) [ALL]",238.159999999999997
+UT,Trust Lands Administration,Subsurface,36 Stat. 107-110 (1894),Other Minerals,416196,3,1,22,Salt Lake,10,SCH,"NE4, E2NW4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,37 Stat. 107-110 (1894),Other Minerals,416198,3,1,23,Salt Lake,10,SCH,"NE4NE4, NW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,38 Stat. 107-110 (1894),Other Minerals,416349,4,19,2,Uintah,10,SCH,"LOTS 1(48.76), 2(44.13), 3(39.51), 4(34.90) [ALL]",167.300000000000011
+UT,Trust Lands Administration,Subsurface,39 Stat. 107-110 (1894),Other Minerals,416452,5,19,2,Uintah,10,SCH,"LOTS 1(42.30), 2(42.32), 3(42.36), 4(36.84), 5(33.55), S2NE4, SE4NW4, S2 [ALL]",637.370000000000005
+UT,Trust Lands Administration,Subsurface,40 Stat. 107-110 (1894),Other Minerals,416457,5,19,16,Uintah,10,SCH,"LOTS 1(25.68), 4(32.37), NE4NE4 [LOTS AKA PART OF NW4NE4, PART OF SW4SW4]",98.049999999999997
+UT,Trust Lands Administration,Subsurface,41 Stat. 107-110 (1894),Other Minerals,416460,5,19,29,Uintah,10,SCH,"LOTS 3(41.85), 4(24.72), SE4NE4 [LOTS AKA PART OF N2SE4, PART OF SE4SE4]",106.569999999999993
+UT,Trust Lands Administration,Subsurface,42 Stat. 107-110 (1894),Other Minerals,416461,5,19,32,Uintah,10,SCH,LOT 1 [PART OF NE4NE4],7.820000000000000
+UT,Trust Lands Administration,Subsurface,43 Stat. 107-110 (1894),Other Minerals,416462,5,19,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,44 Stat. 107-110 (1894),Other Minerals,416478,5,20,32,Uintah,10,SCH,"LOTS 1(45.11), 2(44.84), 3(44.58), 4(44.31), N2, N2S2 [ALL]",658.840000000000032
+UT,Trust Lands Administration,Subsurface,45 Stat. 107-110 (1894),Other Minerals,416479,5,20,36,Uintah,10,SCH,"LOTS 1(40.77), 2(40.55), 3(40.33), 4(40.11), NW4, N2SW4, NW4SE4 [LOTS AKA S2S2]",441.759999999999991
+UT,Trust Lands Administration,Subsurface,46 Stat. 107-110 (1894),Other Minerals,416524,5,21,32,Uintah,10,SCH,"LOTS 1(40.06), 2(40.69), 3(41.36), 4(41.51), N2, N2S2 [ALL]",643.620000000000005
+UT,Trust Lands Administration,Subsurface,47 Stat. 107-110 (1894),Other Minerals,416526,5,21,35,Uintah,10,SCH,"W2, SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,48 Stat. 107-110 (1894),Other Minerals,416528,5,21,36,Uintah,10,SCH,"LOTS 1(19.27), 2(40.00), 3(40.00), 4(20.17), 5(21.07), 6(40.00), 7(40.00), 8(21.97), W2E2, W2 [ALL]",722.480000000000018
+UT,Trust Lands Administration,Subsurface,49 Stat. 107-110 (1894),Other Minerals,416547,5,22,31,Uintah,10,SCH,LOT 4 [SW4SW4],39.969999999999999
+UT,Trust Lands Administration,Subsurface,50 Stat. 107-110 (1894),Other Minerals,416549,5,22,32,Uintah,10,SCH,"N2, SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,51 Stat. 107-110 (1894),Other Minerals,416550,5,22,33,Uintah,10,SCH,"E2, NW4NW4, S2NW4, SW4",600.000000000000000
+UT,Trust Lands Administration,Subsurface,52 Stat. 107-110 (1894),Other Minerals,416551,5,22,34,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,53 Stat. 107-110 (1894),Other Minerals,416552,5,22,35,Uintah,10,SCH,"S2NE4, NW4, S2",560.000000000000000
+UT,Trust Lands Administration,Subsurface,54 Stat. 107-110 (1894),Other Minerals,416568,5,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,55 Stat. 107-110 (1894),Other Minerals,416599,6,19,2,Uintah,10,SCH,"LOTS 1(7.54), 2(7.50), 3(7.46), 4(7.42), S2N2, S2 [ALL] [ALSO KNOWN AS TRACT 37]",509.920000000000016
+UT,Trust Lands Administration,Subsurface,56 Stat. 107-110 (1894),Other Minerals,416600,6,19,10,Uintah,12,UNIV,"PART OF TRACT 44, LESS ROW [AKA PART OF S2SW4, PART OF SE4]",125.629999999999995
+UT,Trust Lands Administration,Subsurface,57 Stat. 107-110 (1894),Other Minerals,416601,6,19,11,Uintah,12,UNIV,"PART OF TRACT 44, LESS ROW [AKA PART OF SW4NW4, PART OF W2SW4]",76.799999999999997
+UT,Trust Lands Administration,Subsurface,58 Stat. 107-110 (1894),Other Minerals,416602,6,19,14,Uintah,12,UNIV,PART OF TRACT 44 [AKA PART OF NW4NW4NW4],6.170000000000000
+UT,Trust Lands Administration,Subsurface,59 Stat. 107-110 (1894),Other Minerals,416603,6,19,15,Uintah,12,UNIV,"PART OF TRACT 44, PART OF TRACT 47, LESS ROW [AKA PART OF N2N2, PART OF W2SW4NW4, PART OF W2W2SW4]",109.510000000000005
+UT,Trust Lands Administration,Subsurface,60 Stat. 107-110 (1894),Other Minerals,416604,6,19,16,Uintah,12,UNIV,PART OF TRACT 47 [AKA PART OF E2NE4],48.219999999999999
+UT,Trust Lands Administration,Subsurface,61 Stat. 107-110 (1894),Other Minerals,416605,6,19,36,Uintah,10,SCH,"N2, SW4, N2SE4",560.000000000000000
+UT,Trust Lands Administration,Subsurface,62 Stat. 107-110 (1894),Other Minerals,416606,6,20,2,Uintah,10,SCH,"LOTS 1(6.61), 2(6.71), SE4NE4, SE4 [LOTS AKA N2NE4]",213.319999999999993
+UT,Trust Lands Administration,Subsurface,63 Stat. 107-110 (1894),Other Minerals,416607,6,20,2,Uintah,10,SCH,"LOTS 3(6.81), 4(6.91), SW4NE4, S2NW4, SW4 [LOTS AKA N2NW4]",293.720000000000027
+UT,Trust Lands Administration,Subsurface,64 Stat. 107-110 (1894),Other Minerals,416608,6,20,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,65 Stat. 107-110 (1894),Other Minerals,416609,6,20,32,Uintah,10,SCH,"W2NE4, E2NW4, W2SW4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,66 Stat. 107-110 (1894),Other Minerals,416610,6,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,67 Stat. 107-110 (1894),Other Minerals,416611,6,21,2,Uintah,10,SCH,"LOTS 1(44.91), 2(45.46), 3(46.00), 4(38.49), 5(36.09), 6(38.84), E2SW4, SE4 [ALL]",489.790000000000020
+UT,Trust Lands Administration,Subsurface,68 Stat. 107-110 (1894),Other Minerals,416612,6,21,13,Uintah,10,SCH,LOT 10 [PART OF SW4NW4],22.199999999999999
+UT,Trust Lands Administration,Subsurface,69 Stat. 107-110 (1894),Other Minerals,416613,6,21,14,Uintah,10,SCH,"LOTS 5(33.70), 6(16.50), 9(42.80), NE4SE4 [LOTS AKA PART OF SE4NE4, PART OF E2NW4SE4, PART OF SE4SE4]",133.000000000000000
+UT,Trust Lands Administration,Subsurface,70 Stat. 107-110 (1894),Other Minerals,416614,6,21,14,Uintah,10,SCH,"LOTS 7(31.90), 8(42.00) [AKA PART OF E2SW4]",73.900000000000006
+UT,Trust Lands Administration,Subsurface,71 Stat. 107-110 (1894),Other Minerals,416615,6,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,72 Stat. 107-110 (1894),Other Minerals,416616,6,21,25,Uintah,10,SCH,LOT 5 [PART OF SW4SE4],36.700000000000003
+UT,Trust Lands Administration,Subsurface,73 Stat. 107-110 (1894),Other Minerals,416617,6,21,27,Uintah,10,SCH,LOT 4 [PART OF SW4NE4],34.000000000000000
+UT,Trust Lands Administration,Subsurface,74 Stat. 107-110 (1894),Other Minerals,416618,6,21,28,Uintah,2,DEAF,LOT 1 [NE4NW4],39.020000000000003
+UT,Trust Lands Administration,Subsurface,75 Stat. 107-110 (1894),Other Minerals,416619,6,21,28,Uintah,9,RES,LOT 2 [PART OF NW4NW4],28.480000000000000
+UT,Trust Lands Administration,Subsurface,76 Stat. 107-110 (1894),Other Minerals,416620,6,21,29,Uintah,9,RES,LOT 4 [PART OF SW4NE4],40.549999999999997
+UT,Trust Lands Administration,Subsurface,77 Stat. 107-110 (1894),Other Minerals,416621,6,21,32,Uintah,10,SCH,"LOTS 1(39.10), 3(10.20), 8(1.50), 9(3.50), NE4SW4 [LOTS AKA SW4NW4, PART OF S2SW4SE4, PART OF SE4SE4]",94.299999999999997
+UT,Trust Lands Administration,Subsurface,78 Stat. 107-110 (1894),Other Minerals,416622,6,21,32,Uintah,10,SCH,"NE4, N2NW4, SE4NW4, NE4SE4",320.000000000000000
+UT,Trust Lands Administration,Subsurface,79 Stat. 107-110 (1894),Other Minerals,416623,6,21,36,Uintah,10,SCH,"LOTS 1(31.70), 5(15.40) [AKA PART OF NE4NE4, PART OF SW4NE4]",47.100000000000001
+UT,Trust Lands Administration,Subsurface,80 Stat. 107-110 (1894),Other Minerals,416624,6,21,36,Uintah,10,SCH,"LOTS 2(16.62), 3(39.88), 4(31.50), 7(49.00), 8(26.00), SE4NE4, W2NW4, NE4SE4, S2SE4 [LOTS AKA PART OF NW4NE4, PART OF E2NW4, PART OF N2SW4, PART OF SW4SW4]",403.000000000000000
+UT,Trust Lands Administration,Subsurface,81 Stat. 107-110 (1894),Other Minerals,416625,6,22,2,Uintah,10,SCH,"LOTS 1(7.08), 2(7.09), 3(7.10), 4(7.12), S2NW4, SW4 [LOTS AKA N2N2]",268.389999999999986
+UT,Trust Lands Administration,Subsurface,82 Stat. 107-110 (1894),Other Minerals,416626,6,22,3,Uintah,10,SCH,"LOTS 1(7.31), 2(7.53), 3(7.75), 4(7.97), SE4NW4, S2SW4, SE4 [LOTS AKA N2N2]",310.560000000000002
+UT,Trust Lands Administration,Subsurface,83 Stat. 107-110 (1894),Other Minerals,416627,6,22,3,Uintah,10,SCH,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,84 Stat. 107-110 (1894),Other Minerals,416628,6,22,4,Uintah,10,SCH,"LOTS 2(7.89), 3(7.79), 4(7.69), SW4NE4, S2NW4 [LOTS AKA NW4NE4, N2NW4]",143.370000000000005
+UT,Trust Lands Administration,Subsurface,85 Stat. 107-110 (1894),Other Minerals,416629,6,22,4,Uintah,10,SCH,"LOT 1(7.99), S2 [LOT AKA NE4NE4]",327.990000000000009
+UT,Trust Lands Administration,Subsurface,86 Stat. 107-110 (1894),Other Minerals,416630,6,22,5,Uintah,10,SCH,"LOTS 1(7.62), 2(7.58), 3(7.54), 4(7.50), S2N2, S2 [ALL]",510.240000000000009
+UT,Trust Lands Administration,Subsurface,87 Stat. 107-110 (1894),Other Minerals,416631,6,22,6,Uintah,10,SCH,"LOTS 1(7.56), 2(7.72), 3(7.88), 4(8.55), 5(40.20), 6(41.09), 7(41.98), S2NE4, SE4NW4, E2SW4, SE4 [ALL]",514.980000000000018
+UT,Trust Lands Administration,Subsurface,88 Stat. 107-110 (1894),Other Minerals,416632,6,22,7,Uintah,10,SCH,"LOT 3(24.00), SW4NW4, NW4SW4 [LOT AKA PART OF SE4NW4]",104.000000000000000
+UT,Trust Lands Administration,Subsurface,89 Stat. 107-110 (1894),Other Minerals,416633,6,22,7,Uintah,10,SCH,"NW4NE4, N2NW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,90 Stat. 107-110 (1894),Other Minerals,416634,6,22,9,Uintah,10,SCH,"LOTS 1(35.65), 2(26.60), 5(30.40), N2, N2SE4, SE4SE4 [LOTS AKA PART OF N2SW4, PART OF SW4SE4]",532.649999999999977
+UT,Trust Lands Administration,Subsurface,91 Stat. 107-110 (1894),Other Minerals,416635,6,22,10,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,92 Stat. 107-110 (1894),Other Minerals,416636,6,22,11,Uintah,10,SCH,"SW4NE4, W2, NW4SE4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,93 Stat. 107-110 (1894),Other Minerals,416637,6,22,15,Uintah,10,SCH,"N2NE4, NW4NW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,94 Stat. 107-110 (1894),Other Minerals,416638,6,22,15,Uintah,10,SCH,NE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,95 Stat. 107-110 (1894),Other Minerals,416639,6,22,16,Uintah,10,SCH,"LOT 1(32.00), 4(1.35) [AKA PART OF NE4NE4]",33.350000000000001
+UT,Trust Lands Administration,Subsurface,96 Stat. 107-110 (1894),Other Minerals,416640,6,22,16,Uintah,10,SCH,"S2NW4, S2",400.000000000000000
+UT,Trust Lands Administration,Subsurface,97 Stat. 107-110 (1894),Other Minerals,416641,6,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,98 Stat. 107-110 (1894),Other Minerals,416642,6,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,99 Stat. 107-110 (1894),Other Minerals,416643,6,23,2,Uintah,10,SCH,"LOTS 1(7.90), 2(7.74), 3(7.58), 4(7.42), S2N2, S2 [ALL]",510.639999999999986
+UT,Trust Lands Administration,Subsurface,100 Stat. 107-110 (1894),Other Minerals,416644,6,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,101 Stat. 107-110 (1894),Other Minerals,416645,6,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,102 Stat. 107-110 (1894),Other Minerals,416646,6,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,103 Stat. 107-110 (1894),Other Minerals,416652,6,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,104 Stat. 107-110 (1894),Other Minerals,416653,6,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,105 Stat. 107-110 (1894),Other Minerals,416659,6,25,32,Uintah,10,SCH,"W2E2, W2, SE4SE4",520.000000000000000
+UT,Trust Lands Administration,Subsurface,106 Stat. 107-110 (1894),Other Minerals,416661,6,25,36,Uintah,10,SCH,"LOTS 3(45.00), 4(44.96), 8(41.65), 9(41.07), 10(41.13), 11(41.71) [AKA W2NW4, SW4]",255.520000000000010
+UT,Trust Lands Administration,Subsurface,107 Stat. 107-110 (1894),Other Minerals,416662,6,25,36,Uintah,10,SCH,"LOTS 1(5.64), 2(43.20), 5(43.15), 6(5.28), 7(4.95), 12(4.67) [AKA W2E2, E2NW4]",106.890000000000001
+UT,Trust Lands Administration,Subsurface,108 Stat. 107-110 (1894),Other Minerals,416669,7,19,2,Uintah,10,SCH,"LOTS 1(41.92), 2(47.42), 3(28.65), 4(12.02), 5(35.32), SE4NE4, NE4SE4 [ALL]",245.330000000000013
+UT,Trust Lands Administration,Subsurface,109 Stat. 107-110 (1894),Other Minerals,416670,7,20,2,Uintah,10,SCH,"LOTS 1(40.58), 2(40.67), 3(40.77), 4(40.86), S2N2, S2 [ALL]",642.879999999999995
+UT,Trust Lands Administration,Subsurface,110 Stat. 107-110 (1894),Other Minerals,416671,7,20,4,Uintah,10,SCH,"LOT 3(41.17), SE4NW4 [LOT AKA NE4NW4]",81.170000000000002
+UT,Trust Lands Administration,Subsurface,111 Stat. 107-110 (1894),Other Minerals,416672,7,20,4,Uintah,10,SCH,PART OF W2NW4 [METES & BOUNDS],77.709999999999994
+UT,Trust Lands Administration,Subsurface,112 Stat. 107-110 (1894),Other Minerals,416673,7,20,15,Uintah,10,SCH,"SW4, SW4SE4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,113 Stat. 107-110 (1894),Other Minerals,416674,7,20,16,Uintah,10,SCH,"NW4NE4, SE4NE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,114 Stat. 107-110 (1894),Other Minerals,416675,7,20,18,Uintah,12,UNIV,SE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,115 Stat. 107-110 (1894),Other Minerals,416676,7,20,24,Uintah,2,DEAF,"LOT 13(42.71), SE4SE4 [LOT PART OF SW4SE4]",82.709999999999994
+UT,Trust Lands Administration,Subsurface,116 Stat. 107-110 (1894),Other Minerals,416677,7,20,25,Uintah,2,DEAF,"LOT 13(27.39), N2NE4 [LOT PART OF SE4NE4]",107.390000000000001
+UT,Trust Lands Administration,Subsurface,117 Stat. 107-110 (1894),Other Minerals,416678,7,20,32,Uintah,10,SCH,"NW4, NW4SW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,118 Stat. 107-110 (1894),Other Minerals,416679,7,20,32,Uintah,10,SCH,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,119 Stat. 107-110 (1894),Other Minerals,416680,7,20,36,Uintah,10,SCH,"N2, SW4, NW4SE4",520.000000000000000
+UT,Trust Lands Administration,Subsurface,120 Stat. 107-110 (1894),Other Minerals,416681,7,20,36,Uintah,10,SCH,"NE4SE4, S2SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,121 Stat. 107-110 (1894),Other Minerals,416682,7,21,1,Uintah,10,SCH,"LOTS 3(38.76), 5(8.28) [PART OF NE4NW4, PART OF SE4NW4NW4]",47.039999999999999
+UT,Trust Lands Administration,Subsurface,122 Stat. 107-110 (1894),Other Minerals,416683,7,21,2,Uintah,10,SCH,"LOTS 4(20.50), 5(4.90), 6(39.40), 7(35.00), 8(30.50), SW4NW4, S2 [LOTS AKA PART OF S2NE4, PART OF S2N2NW4, PART OF SE4NW4]",490.300000000000011
+UT,Trust Lands Administration,Subsurface,123 Stat. 107-110 (1894),Other Minerals,416684,7,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,124 Stat. 107-110 (1894),Other Minerals,416685,7,21,19,Uintah,2,DEAF,"LOTS 9(23.45), 10(36.76) [AKA PART OF S2NW4SW4, SW4SW4]",60.210000000000001
+UT,Trust Lands Administration,Subsurface,125 Stat. 107-110 (1894),Other Minerals,416686,7,21,19,Uintah,9,RES,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,126 Stat. 107-110 (1894),Other Minerals,416687,7,21,29,Uintah,2,DEAF,LOT 4 [PART OF NW4NW4],16.430000000000000
+UT,Trust Lands Administration,Subsurface,127 Stat. 107-110 (1894),Other Minerals,416688,7,21,29,Uintah,10,SCH,"LOTS 5(19.00), 6(30.00), 7(32.00), 8(9.10), 10(29.00), 11(37.30), 12(13.00), 13(40.00), 14(19.00), N2SW4, NW4SE4 [LOTS AKA PART OF S2S2N2, PART OF S2SW4, PART OF NE4SE4, PART OF S2SE4]",348.399999999999977
+UT,Trust Lands Administration,Subsurface,128 Stat. 107-110 (1894),Other Minerals,416689,7,21,30,Uintah,2,DEAF,"LOTS 2(35.33), 3(27.30), 4(13.00), 5(19.70), 6(14.30) [AKA PART OF N2NE4, PART OF SW4NE4, PART OF W2NW4, PART OF SE4NW4]",109.629999999999995
+UT,Trust Lands Administration,Subsurface,129 Stat. 107-110 (1894),Other Minerals,416690,7,21,31,Uintah,10,SCH,"LOTS 5(6.27), 6(5.40), 7(32.00), 8(36.90), 9(0.08) [AKA PART OF NW4SE4NE4, PART OF N2SW4, PART OF NW4NW4SE4, PART OF SE4SE4SE4SE4]",80.650000000000006
+UT,Trust Lands Administration,Subsurface,130 Stat. 107-110 (1894),Other Minerals,416691,7,21,32,Uintah,10,SCH,"LOTS 1(39.00), 2(11.23), 3(29.00), 6(4.55), 7(37.25), 8(22.80), 9(46.20) [AKA PART OF NW4NE4, PART OF SW4NE4, PART OF NW4NW4, PART OF SE4NW4, PART OF SW4, PART OF NW4SE4]",190.030000000000001
+UT,Trust Lands Administration,Subsurface,131 Stat. 107-110 (1894),Other Minerals,416692,7,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,132 Stat. 107-110 (1894),Other Minerals,416693,7,22,2,Uintah,10,SCH,"LOTS 1(25.14), 2(24.39), 3(23.63), 4(22.88), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, S2 [ALL]",736.039999999999964
+UT,Trust Lands Administration,Subsurface,133 Stat. 107-110 (1894),Other Minerals,416694,7,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,134 Stat. 107-110 (1894),Other Minerals,416695,7,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,135 Stat. 107-110 (1894),Other Minerals,416696,7,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,136 Stat. 107-110 (1894),Other Minerals,416697,7,23,2,Uintah,10,SCH,"LOTS 1(20.80), 2(20.82), 3(20.86), 4(20.88), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), S2N2, S2 [ALL]",883.360000000000014
+UT,Trust Lands Administration,Subsurface,137 Stat. 107-110 (1894),Other Minerals,416698,7,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,138 Stat. 107-110 (1894),Other Minerals,416699,7,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,139 Stat. 107-110 (1894),Other Minerals,416700,7,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,140 Stat. 107-110 (1894),Other Minerals,416701,7,24,2,Uintah,10,SCH,"LOTS 1(20.88), 2(21.02), 3(21.18), 4(21.32), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), S2N2, S2 [ALL]",884.399999999999977
+UT,Trust Lands Administration,Subsurface,141 Stat. 107-110 (1894),Other Minerals,416702,7,24,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,142 Stat. 107-110 (1894),Other Minerals,416703,7,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,143 Stat. 107-110 (1894),Other Minerals,416704,7,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,144 Stat. 107-110 (1894),Other Minerals,416705,7,25,2,Uintah,10,SCH,"LOTS 1(20.83), 2(20.59), 3(20.40), 4(20.20), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), S2N2, S2 [ALL]",882.019999999999982
+UT,Trust Lands Administration,Subsurface,145 Stat. 107-110 (1894),Other Minerals,416706,7,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,146 Stat. 107-110 (1894),Other Minerals,416707,7,25,25,Uintah,10,SCH,"LOT 4(24.32), NW4SW4 [LOT AKA SE4SW4]",64.319999999999993
+UT,Trust Lands Administration,Subsurface,147 Stat. 107-110 (1894),Other Minerals,416708,7,25,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,148 Stat. 107-110 (1894),Other Minerals,416709,7,25,36,Uintah,10,SCH,"LOTS 1(24.34), 2(24.40), 3(24.47), 4(24.55), W2W2 [ALL]",257.759999999999991
+UT,Trust Lands Administration,Subsurface,149 Stat. 107-110 (1894),Other Minerals,416724,8,16,36,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,150 Stat. 107-110 (1894),Other Minerals,416725,8,17,16,Duchesne,10,SCH,"LOTS 1(21.04), 2(20.76), 3(20.48), 4(20.20) [ALL]",82.480000000000004
+UT,Trust Lands Administration,Subsurface,151 Stat. 107-110 (1894),Other Minerals,416726,8,17,32,Duchesne,10,SCH,"LOTS 1(22.38), 2(5.96), 3(32.71), 4(5.25), 5(29.63), 6(34.71), 7(3.29), 8(32.41), 9(37.26), 10(5.22), 11(29.85), W2SW4, SE4SW4, NE4SE4 [AKA PART OF W2NW4, PART OF SE4NW4, PART OF NE4SW4, PART OF W2SE4, PART OF SE4SE4]",398.670000000000016
+UT,Trust Lands Administration,Subsurface,152 Stat. 107-110 (1894),Other Minerals,416727,8,17,32,Duchesne,10,SCH,"NE4, NE4NW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,153 Stat. 107-110 (1894),Other Minerals,416728,8,17,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,154 Stat. 107-110 (1894),Other Minerals,416729,8,18,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,155 Stat. 107-110 (1894),Other Minerals,416730,8,18,36,Uintah,10,SCH,"LOT 1(30.32), NW4NE4, S2NE4, NW4, S2 [ALL]",630.320000000000050
+UT,Trust Lands Administration,Subsurface,156 Stat. 107-110 (1894),Other Minerals,416731,8,19,32,Uintah,10,SCH,LOT 1 [PART OF SW4SW4],26.120000000000001
+UT,Trust Lands Administration,Subsurface,157 Stat. 107-110 (1894),Other Minerals,416732,8,20,2,Uintah,10,SCH,"LOTS 1(40.27), 2(40.47), 3(40.68), 4(40.88), 5(36.76), 6(20.00), 7(0.80), S2N2, SW4, W2SE4 [ALL]",619.860000000000014
+UT,Trust Lands Administration,Subsurface,158 Stat. 107-110 (1894),Other Minerals,416733,8,20,16,Uintah,10,SCH,"LOTS 3(38.00), 4(28.50), 5(10.50), E2, NW4NW4, E2W2 [ALL]",597.000000000000000
+UT,Trust Lands Administration,Subsurface,159 Stat. 107-110 (1894),Other Minerals,416734,8,20,21,Uintah,3,USH,"LOTS 3(31.00), 4(10.08), 5(13.54) [AKA PART OF SE4NE4, PART OF N2NW4SE4, PART OF NW4NE4SE4]",54.619999999999997
+UT,Trust Lands Administration,Subsurface,160 Stat. 107-110 (1894),Other Minerals,416735,8,20,32,Uintah,10,SCH,"LOTS 1(2.80), 2(6.40), 3(0.52) [ALL]",9.720000000000001
+UT,Trust Lands Administration,Subsurface,161 Stat. 107-110 (1894),Other Minerals,416736,8,20,36,Uintah,10,SCH,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,162 Stat. 107-110 (1894),Other Minerals,416737,8,21,2,Uintah,10,SCH,"LOTS 1(40.58), 2(40.52), 3(40.48), 4(40.42), S2N2, S2 [ALL]",642.000000000000000
+UT,Trust Lands Administration,Subsurface,163 Stat. 107-110 (1894),Other Minerals,416738,8,21,5,Uintah,10,SCH,LOT 3 [AKA PART OF NW4NW4],15.720000000000001
+UT,Trust Lands Administration,Subsurface,164 Stat. 107-110 (1894),Other Minerals,416739,8,21,6,Uintah,10,SCH,"LOTS 1(31.70), 2(23.00), 3(23.50), 4(13.00), 5(6.50) [AKA PART OF N2N2]",97.700000000000003
+UT,Trust Lands Administration,Subsurface,165 Stat. 107-110 (1894),Other Minerals,416740,8,21,13,Uintah,3,USH,E2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,166 Stat. 107-110 (1894),Other Minerals,416741,8,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,167 Stat. 107-110 (1894),Other Minerals,416742,8,21,32,Uintah,10,SCH,"N2, N2S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,168 Stat. 107-110 (1894),Other Minerals,416743,8,21,36,Uintah,10,SCH,"N2, N2SW4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,169 Stat. 107-110 (1894),Other Minerals,416744,8,22,2,Uintah,10,SCH,"LOTS 1(20.53), 2(20.54), 3(20.56), 4(20.57), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, S2 [ALL]",722.200000000000045
+UT,Trust Lands Administration,Subsurface,170 Stat. 107-110 (1894),Other Minerals,416745,8,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,171 Stat. 107-110 (1894),Other Minerals,416746,8,23,2,Uintah,10,SCH,"LOTS 1(39.46), 2(39.52), 3(39.56), 4(39.62), S2N2, S2 [ALL]",638.159999999999968
+UT,Trust Lands Administration,Subsurface,172 Stat. 107-110 (1894),Other Minerals,416747,8,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,173 Stat. 107-110 (1894),Other Minerals,416748,8,23,24,Uintah,10,SCH,"SW4NW4, NE4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,174 Stat. 107-110 (1894),Other Minerals,416749,8,24,2,Uintah,10,SCH,"LOTS 1(39.99), 2(39.97), 3(39.95), 4(39.93), S2N2, S2 [ALL]",639.840000000000032
+UT,Trust Lands Administration,Subsurface,175 Stat. 107-110 (1894),Other Minerals,416750,8,24,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,176 Stat. 107-110 (1894),Other Minerals,416751,8,24,35,Uintah,10,SCH,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,177 Stat. 107-110 (1894),Other Minerals,416752,8,25,2,Uintah,10,SCH,"LOTS 1(39.31), 2(39.44), 3(39.58), 4(39.71), S2N2, S2 [ALL]",638.039999999999964
+UT,Trust Lands Administration,Subsurface,178 Stat. 107-110 (1894),Other Minerals,416753,8,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,179 Stat. 107-110 (1894),Other Minerals,416805,9,15,2,Duchesne,10,SCH,"LOTS 1(40.28), 2(40.35), 3(40.43), 4(23.68), 5(36.33), S2NE4, SE4NW4, S2 [ALL]",621.070000000000050
+UT,Trust Lands Administration,Subsurface,180 Stat. 107-110 (1894),Other Minerals,416810,9,16,36,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,181 Stat. 107-110 (1894),Other Minerals,416811,9,17,2,Duchesne,10,SCH,"PART OF LOT 3(6.93, LOT 4(40.03), SW4NW4, PART OF SE4NW4 (5.49), PART OF E2SW4 (11.54), W2SW4 [LOTS AKA PART OF NE4NW4, NW4NW4]",183.990000000000009
+UT,Trust Lands Administration,Subsurface,182 Stat. 107-110 (1894),Other Minerals,416812,9,17,2,Uintah,10,SCH,"LOTS 1(40.07), 2(40.06), PART OF LOT 3(33.11), S2NE4, PART OF SE4NW4 (34.51), PART OF E2SW4 (68.46), SE4 [LOTS AKA N2NE4, PART OF NE4NW4]",456.209999999999980
+UT,Trust Lands Administration,Subsurface,183 Stat. 107-110 (1894),Other Minerals,416813,9,17,16,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,184 Stat. 107-110 (1894),Other Minerals,416814,9,17,32,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,185 Stat. 107-110 (1894),Other Minerals,416815,9,17,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,186 Stat. 107-110 (1894),Other Minerals,416816,9,18,2,Uintah,10,SCH,"LOTS 1(40.08), 2(40.10), 3(40.10), 4(40.12), S2N2, S2 [ALL]",640.399999999999977
+UT,Trust Lands Administration,Subsurface,187 Stat. 107-110 (1894),Other Minerals,416817,9,18,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,188 Stat. 107-110 (1894),Other Minerals,416818,9,18,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,189 Stat. 107-110 (1894),Other Minerals,416819,9,18,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,190 Stat. 107-110 (1894),Other Minerals,416820,9,19,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,191 Stat. 107-110 (1894),Other Minerals,416821,9,19,32,Uintah,10,SCH,"LOTS 1(24.17), 2(30.36), 3(41.11), 4(40.00), 5(20.65), N2 [ALL]",476.290000000000020
+UT,Trust Lands Administration,Subsurface,192 Stat. 107-110 (1894),Other Minerals,416822,9,20,2,Uintah,10,SCH,"N2SW4, SE4SW4, SE4",280.000000000000000
+UT,Trust Lands Administration,Subsurface,193 Stat. 107-110 (1894),Other Minerals,416823,9,20,16,Uintah,10,SCH,"NW4SE4, SE4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,194 Stat. 107-110 (1894),Other Minerals,416824,9,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,195 Stat. 107-110 (1894),Other Minerals,416825,9,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,196 Stat. 107-110 (1894),Other Minerals,416826,9,21,2,Uintah,10,SCH,S2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,197 Stat. 107-110 (1894),Other Minerals,416827,9,21,16,Uintah,10,SCH,"E2, SW4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,198 Stat. 107-110 (1894),Other Minerals,416828,9,21,25,Uintah,10,SCH,"N2, NE4SW4, N2SE4, SW4SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,199 Stat. 107-110 (1894),Other Minerals,416829,9,21,25,Uintah,10,SCH,"NW4SW4, S2SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,200 Stat. 107-110 (1894),Other Minerals,416830,9,21,25,Uintah,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,201 Stat. 107-110 (1894),Other Minerals,416831,9,21,26,Uintah,10,SCH,"N2, SW4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,202 Stat. 107-110 (1894),Other Minerals,416832,9,21,26,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,203 Stat. 107-110 (1894),Other Minerals,416833,9,21,27,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,204 Stat. 107-110 (1894),Other Minerals,416834,9,21,31,Uintah,10,SCH,"LOTS 3(50.47), 4(50.47), 5(14.52), 6(50.70), 7(49.99), 8(49.27), NE4SW4, N2SE4 [LOTS AKA W2SW4, SE4SW4, S2SE4]",385.420000000000016
+UT,Trust Lands Administration,Subsurface,205 Stat. 107-110 (1894),Other Minerals,416835,9,21,32,Uintah,10,SCH,"LOTS 2(46.78), 3(47.62), 4(48.48), N2, N2S2 [LOTS AKA S2SW4, SW4SE4]",622.879999999999995
+UT,Trust Lands Administration,Subsurface,206 Stat. 107-110 (1894),Other Minerals,416836,9,21,32,Uintah,10,SCH,LOT 1 [SE4SE4],45.920000000000002
+UT,Trust Lands Administration,Subsurface,207 Stat. 107-110 (1894),Other Minerals,416837,9,21,33,Uintah,10,SCH,"LOTS 1(44.06), 2(44.47), 3(44.88), 4(45.29), S2N2, N2S2 [LOTS AKA S2S2]",498.699999999999989
+UT,Trust Lands Administration,Subsurface,208 Stat. 107-110 (1894),Other Minerals,416838,9,21,34,Uintah,10,SCH,"LOTS 1(42.45), 2(42.91), 3(43.33), 4(43.70), N2, N2S2 [ALL]",652.389999999999986
+UT,Trust Lands Administration,Subsurface,209 Stat. 107-110 (1894),Other Minerals,416839,9,21,35,Uintah,10,SCH,"LOTS 1(39.89), 2(40.48), 3(41.13), 4(41.84), N2, N2S2 [ALL]",643.340000000000032
+UT,Trust Lands Administration,Subsurface,210 Stat. 107-110 (1894),Other Minerals,416840,9,21,36,Uintah,10,SCH,"LOTS 1(39.95), 2(39.85), 3(39.75), 4(39.65), N2, N2S2 [ALL]",639.200000000000045
+UT,Trust Lands Administration,Subsurface,211 Stat. 107-110 (1894),Other Minerals,416841,9,22,2,Uintah,10,SCH,"LOTS 1(38.30), 2(38.50), 3(38.70), 4(38.90), S2N2, S2 [ALL]",634.399999999999977
+UT,Trust Lands Administration,Subsurface,212 Stat. 107-110 (1894),Other Minerals,416842,9,22,6,Uintah,11,SM,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,213 Stat. 107-110 (1894),Other Minerals,416843,9,22,7,Uintah,11,SM,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,214 Stat. 107-110 (1894),Other Minerals,416844,9,22,7,Uintah,11,SM,SE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,215 Stat. 107-110 (1894),Other Minerals,416845,9,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,216 Stat. 107-110 (1894),Other Minerals,416846,9,22,29,Uintah,10,SCH,"E2, E2NW4, SW4",560.000000000000000
+UT,Trust Lands Administration,Subsurface,217 Stat. 107-110 (1894),Other Minerals,416847,9,22,29,Uintah,10,SCH,W2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,218 Stat. 107-110 (1894),Other Minerals,416848,9,22,30,Uintah,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,219 Stat. 107-110 (1894),Other Minerals,416849,9,22,31,Uintah,10,SCH,"LOTS 1(27.98), 2(28.02), 3(28.06), E2, SE4NW4, E2SW4 [LOTS AKA W2NW4, NW4SW4]",524.059999999999945
+UT,Trust Lands Administration,Subsurface,220 Stat. 107-110 (1894),Other Minerals,416850,9,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,221 Stat. 107-110 (1894),Other Minerals,416851,9,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,222 Stat. 107-110 (1894),Other Minerals,416852,9,23,2,Uintah,10,SCH,"LOTS 1(36.11), 2(36.14), 3(36.16), 4(36.19), S2N2, S2 [ALL]",624.600000000000023
+UT,Trust Lands Administration,Subsurface,223 Stat. 107-110 (1894),Other Minerals,416853,9,23,13,Uintah,10,SCH,NE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,224 Stat. 107-110 (1894),Other Minerals,416854,9,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,225 Stat. 107-110 (1894),Other Minerals,416855,9,23,23,Uintah,10,SCH,SW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,226 Stat. 107-110 (1894),Other Minerals,416856,9,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,227 Stat. 107-110 (1894),Other Minerals,416857,9,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,228 Stat. 107-110 (1894),Other Minerals,416858,9,24,1,Uintah,10,SCH,S2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,229 Stat. 107-110 (1894),Other Minerals,416859,9,24,2,Uintah,10,SCH,"LOTS 1(36.34), 2(36.35), 3(36.35), 4(36.36), 5(45.13), 6(25.30), 7(20.86), 8(37.51), 9(55.50), 10(14.60), 11(32.63), 12(49.54), S2NE4, SE4NW4, SW4SW4 [ALL]",586.470000000000027
+UT,Trust Lands Administration,Subsurface,230 Stat. 107-110 (1894),Other Minerals,416860,9,24,3,Uintah,10,SCH,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,231 Stat. 107-110 (1894),Other Minerals,416861,9,24,6,Uintah,10,SCH,LOT 4 [NW4NW4],33.869999999999997
+UT,Trust Lands Administration,Subsurface,232 Stat. 107-110 (1894),Other Minerals,416862,9,24,16,Uintah,10,SCH,"N2N2, SE4NW4, S2SW4",280.000000000000000
+UT,Trust Lands Administration,Subsurface,233 Stat. 107-110 (1894),Other Minerals,416863,9,24,23,Uintah,10,SCH,"LOTS 9(15.96), 11(38.72) [AKA S2NW4SE4, SE4SE4]",54.680000000000000
+UT,Trust Lands Administration,Subsurface,234 Stat. 107-110 (1894),Other Minerals,416864,9,24,23,Uintah,10,SCH,"LOTS 4(23.54), 7(16.41), 8(20.24) [AKA S2SW4NE4, SE4NW4, NE4SE4, N2NW4SE4]",60.189999999999998
+UT,Trust Lands Administration,Subsurface,235 Stat. 107-110 (1894),Other Minerals,416865,9,24,23,Uintah,10,SCH,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,236 Stat. 107-110 (1894),Other Minerals,416866,9,24,24,Uintah,10,SCH,"LOTS 2(25.18), 3(13.44), 9(21.51) [AKA W2SW4]",60.130000000000003
+UT,Trust Lands Administration,Subsurface,237 Stat. 107-110 (1894),Other Minerals,416867,9,24,24,Uintah,10,SCH,"LOTS 1(44.59), 4(10.10), 5(24.48), 6(39.32), 7(4.54), 10(6.01), N2SE4 [LOTS AKA E2SW4, S2SE4]",209.039999999999992
+UT,Trust Lands Administration,Subsurface,238 Stat. 107-110 (1894),Other Minerals,416868,9,24,25,Uintah,10,SCH,"LOTS 1(5.93), 2(5.20), 3(40.50), 4(39.73), 5(46.60), 6(23.78), 7(24.13), 8(42.10), 9(37.50), 10(38.70), 11(27.91), 12(45.89), NW4SW4, S2S2 [ALL, LESS MINING CLAIMS]",577.970000000000027
+UT,Trust Lands Administration,Subsurface,239 Stat. 107-110 (1894),Other Minerals,416869,9,24,36,Uintah,10,SCH,"N2, SW4SW4, N2SE4",440.000000000000000
+UT,Trust Lands Administration,Subsurface,240 Stat. 107-110 (1894),Other Minerals,416870,9,25,8,Uintah,10,SCH,"LOTS 1(33.81), 3(0.67), S2N2, N2SW4, SE4SW4, SE4 [LOTS AKA SW4SW4]",474.480000000000018
+UT,Trust Lands Administration,Subsurface,241 Stat. 107-110 (1894),Other Minerals,416871,9,25,9,Uintah,10,SCH,"S2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,242 Stat. 107-110 (1894),Other Minerals,416872,9,25,10,Uintah,10,SCH,"S2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,243 Stat. 107-110 (1894),Other Minerals,416873,9,25,11,Uintah,10,SCH,"S2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,244 Stat. 107-110 (1894),Other Minerals,416874,9,25,12,Uintah,10,SCH,"LOTS 2(28.92), 3(29.01), 4(29.09), SW4NW4, W2SW4 [LOTS AKA SE4NW4, E2SW4]",207.020000000000010
+UT,Trust Lands Administration,Subsurface,245 Stat. 107-110 (1894),Other Minerals,416875,9,25,13,Uintah,10,SCH,"LOTS 1(29.16), 2(29.20), W2NW4 [LOTS AKA E2NW4]",138.360000000000014
+UT,Trust Lands Administration,Subsurface,246 Stat. 107-110 (1894),Other Minerals,416876,9,25,14,Uintah,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,247 Stat. 107-110 (1894),Other Minerals,416877,9,25,15,Uintah,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,248 Stat. 107-110 (1894),Other Minerals,416878,9,25,16,Uintah,10,SCH,"LOTS 1(43.77), 2(21.55), 3(41.93), 4(27.72), 5(48.04), 6(30.93), 7(25.86), NE4, N2NW4, SE4NW4, SW4SW4, NE4SE4 [ALL, LESS MINING CLAIM AREA]",599.799999999999955
+UT,Trust Lands Administration,Subsurface,249 Stat. 107-110 (1894),Other Minerals,416879,9,25,17,Uintah,9,RES,"LOT 6(18.85), NE4NE4 [LOT AKA N2SE4NE4]",58.850000000000001
+UT,Trust Lands Administration,Subsurface,250 Stat. 107-110 (1894),Other Minerals,416880,9,25,17,Uintah,10,SCH,"LOTS 1(36.38), 3(34.16), 4(53.89), 5(44.19), 7(17.80), SW4NW4, S2 [LOTS AKA W2NE4, N2NW4, SE4NW4]",546.419999999999959
+UT,Trust Lands Administration,Subsurface,251 Stat. 107-110 (1894),Other Minerals,416881,9,25,19,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,252 Stat. 107-110 (1894),Other Minerals,416882,9,25,19,Uintah,10,SCH,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,253 Stat. 107-110 (1894),Other Minerals,416883,9,25,20,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,254 Stat. 107-110 (1894),Other Minerals,416884,9,25,21,Uintah,10,SCH,"LOT 1(38.59), NW4NE4, S2NE4, W2, SE4 [ALL]",638.590000000000032
+UT,Trust Lands Administration,Subsurface,255 Stat. 107-110 (1894),Other Minerals,416885,9,25,22,Uintah,10,SCH,"LOTS 2(20.73), 3(37.34), SW4NW4 [LOTS AKA S2NW4NW4, SE4NW4]",98.069999999999993
+UT,Trust Lands Administration,Subsurface,256 Stat. 107-110 (1894),Other Minerals,416886,9,25,28,Uintah,10,SCH,S2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,257 Stat. 107-110 (1894),Other Minerals,416887,9,25,29,Uintah,10,SCH,"LOTS 1(42.47), 2(24.58), 3(0.60), 4(30.27), N2, NE4SW4, SE4 [LOTS AKA PART W2SW4, PART SE4SW4, LESS MINING CLAIMS]",617.919999999999959
+UT,Trust Lands Administration,Subsurface,258 Stat. 107-110 (1894),Other Minerals,416888,9,25,30,Uintah,10,SCH,"LOTS 5(32.35), 6(16.09), 7(26.25), 8(29.23), 9(38.22), 10(42.44), 11(30.91), 12(10.78), 13(35.38), 14(16.89), N2NE4, SE4NE4 [LOTS AKA SW4NE4, S2]",398.540000000000020
+UT,Trust Lands Administration,Subsurface,259 Stat. 107-110 (1894),Other Minerals,416889,9,25,30,Uintah,10,SCH,"LOTS 1(49.78), 2(27.04), 3(23.79), 4(30.01) [AKA PART OF NW4, PART OF N2NE4SW4]",130.620000000000005
+UT,Trust Lands Administration,Subsurface,260 Stat. 107-110 (1894),Other Minerals,416890,9,25,31,Uintah,10,SCH,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,261 Stat. 107-110 (1894),Other Minerals,416891,9,25,31,Uintah,10,SCH,"LOTS 1(24.43), 2(29.57), 3(48.17), SW4NE4, S2 [LOTS AKA N2NE4, SE4NE4]",462.170000000000016
+UT,Trust Lands Administration,Subsurface,262 Stat. 107-110 (1894),Other Minerals,416892,9,25,32,Uintah,10,SCH,"LOTS 1(47.72), 2(20.51), 3(35.58), 4(36.04), 5(38.69), 6(49.21), 7(21.76), 8(10.61), 9(37.58), 10(4.64), SE4NW4, SW4, N2SE4 [ALL, EXCEPT MINING CLAIMS]",582.340000000000032
+UT,Trust Lands Administration,Subsurface,263 Stat. 107-110 (1894),Other Minerals,416893,9,25,33,Uintah,10,SCH,"LOTS 1(39.00), 2(40.47), 3(33.82), 4(27.15), 5(20.49), NE4, N2NW4, SE4NW4 [LOTS AKA SW4NW4, PART OF N2S2]",440.930000000000007
+UT,Trust Lands Administration,Subsurface,264 Stat. 107-110 (1894),Other Minerals,416894,9,25,36,Uintah,10,SCH,"LOTS 1(29.34), 2(29.93), 3(30.52), 4(31.11), W2SW4 [LOTS AKA E2W2]",200.900000000000006
+UT,Trust Lands Administration,Subsurface,265 Stat. 107-110 (1894),Other Minerals,416944,10,11,36,Duchesne,10,SCH,"LOTS 1(19.73), 2(25.80), 3(22.99), 4(52.67) [ALL]",121.189999999999998
+UT,Trust Lands Administration,Subsurface,266 Stat. 107-110 (1894),Other Minerals,416945,10,12,32,Duchesne,10,SCH,"LOTS 1(0.14), 2(2.92) [ALL]",3.060000000000000
+UT,Trust Lands Administration,Subsurface,267 Stat. 107-110 (1894),Other Minerals,416946,10,13,32,Duchesne,10,SCH,"LOTS 1(44.59), 2(22.88), 3(9.65), 4(8.64) [ALL]",85.760000000000005
+UT,Trust Lands Administration,Subsurface,268 Stat. 107-110 (1894),Other Minerals,416949,10,15,16,Duchesne,10,SCH,"LOTS 1(27.92), 2(35.99), 3(32.23), 4(40.32), 5(26.93), NE4SE4, S2SE4 [ALL]",283.389999999999986
+UT,Trust Lands Administration,Subsurface,269 Stat. 107-110 (1894),Other Minerals,416956,10,16,36,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,270 Stat. 107-110 (1894),Other Minerals,416957,10,17,2,Duchesne,10,SCH,"PART OF LOT 3(5.76), LOT 4(39.97), SW4NW4, PART OF SE4NW4 (6.26), PART OF E2SW4 (12.16), W2SW4 [AKA PART OF NE4NW4, NW4NW4]",184.150000000000006
+UT,Trust Lands Administration,Subsurface,271 Stat. 107-110 (1894),Other Minerals,416958,10,17,2,Uintah,10,SCH,"LOTS 1(39.93), 2(39.94), PART OF LOT 3(34.20), S2NE4, PART OF SE4NW4 (33.74), PART OF E2SW4 (67.84), SE4 [LOTS AKA N2NE4, PART OF NE4NW4]",455.649999999999977
+UT,Trust Lands Administration,Subsurface,272 Stat. 107-110 (1894),Other Minerals,416959,10,17,16,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,273 Stat. 107-110 (1894),Other Minerals,416960,10,17,32,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,274 Stat. 107-110 (1894),Other Minerals,416961,10,17,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,275 Stat. 107-110 (1894),Other Minerals,416962,10,18,2,Uintah,10,SCH,"LOTS 1(39.97), 2(39.99), 3(40.01), 4(40.03), S2N2, S2 [ALL]",640.000000000000000
+UT,Trust Lands Administration,Subsurface,276 Stat. 107-110 (1894),Other Minerals,416963,10,18,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,277 Stat. 107-110 (1894),Other Minerals,416964,10,18,18,Uintah,10,SCH,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,278 Stat. 107-110 (1894),Other Minerals,416965,10,18,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,279 Stat. 107-110 (1894),Other Minerals,416966,10,18,36,Uintah,10,SCH,"LOTS 1(32.17), 2(32.17), 3(32.18), 4(40.00), 5(40.00), 6(32.57), 7(10.46), 8(7.18), W2NE4, NW4, N2SW4 [ALL]",546.730000000000018
+UT,Trust Lands Administration,Subsurface,280 Stat. 107-110 (1894),Other Minerals,416967,10,19,16,Uintah,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,281 Stat. 107-110 (1894),Other Minerals,416968,10,19,16,Uintah,10,SCH,S2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,282 Stat. 107-110 (1894),Other Minerals,416969,10,19,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,283 Stat. 107-110 (1894),Other Minerals,416970,10,19,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,284 Stat. 107-110 (1894),Other Minerals,416971,10,20,13,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,285 Stat. 107-110 (1894),Other Minerals,416972,10,20,16,Uintah,10,SCH,"N2NE4, NE4NW4, W2SW4, SE4SW4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,286 Stat. 107-110 (1894),Other Minerals,416973,10,20,24,Uintah,10,SCH,"S2NE4, SE4NW4, S2",440.000000000000000
+UT,Trust Lands Administration,Subsurface,287 Stat. 107-110 (1894),Other Minerals,416974,10,20,24,Uintah,10,SCH,"N2N2, SW4NW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,288 Stat. 107-110 (1894),Other Minerals,416975,10,20,25,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,289 Stat. 107-110 (1894),Other Minerals,416976,10,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,290 Stat. 107-110 (1894),Other Minerals,416977,10,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,291 Stat. 107-110 (1894),Other Minerals,416978,10,21,1,Uintah,10,SCH,"LOTS 1(42.52), 2(42.72), 3(42.92), 4(43.12), S2N2, SE4 [LOTS AKA N2N2]",491.279999999999973
+UT,Trust Lands Administration,Subsurface,292 Stat. 107-110 (1894),Other Minerals,416979,10,21,2,Uintah,10,SCH,"LOTS 1(42.90), 2(42.62), 3(42.34), 4(42.06), S2N2, S2 [ALL]",649.919999999999959
+UT,Trust Lands Administration,Subsurface,293 Stat. 107-110 (1894),Other Minerals,416980,10,21,4,Uintah,10,SCH,"LOTS 1(42.28), 2(42.28), S2NE4 [LOTS AKA N2NE4]",164.560000000000002
+UT,Trust Lands Administration,Subsurface,294 Stat. 107-110 (1894),Other Minerals,416981,10,21,12,Uintah,10,SCH,N2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,295 Stat. 107-110 (1894),Other Minerals,416982,10,21,13,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,296 Stat. 107-110 (1894),Other Minerals,416983,10,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,297 Stat. 107-110 (1894),Other Minerals,416984,10,21,17,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,298 Stat. 107-110 (1894),Other Minerals,416985,10,21,18,Uintah,10,SCH,"LOTS 3(40.20), 4(40.42), E2SW4 [LOTS AKA W2SW4]",160.620000000000005
+UT,Trust Lands Administration,Subsurface,299 Stat. 107-110 (1894),Other Minerals,416986,10,21,18,Uintah,10,SCH,"LOTS 5(42.55), 6(42.45), E2, E2NW4 [LOTS AKA W2NW4]",485.000000000000000
+UT,Trust Lands Administration,Subsurface,300 Stat. 107-110 (1894),Other Minerals,416987,10,21,19,Uintah,10,SCH,"LOTS 1(40.75), 2(40.97), 3(41.02), 4(40.76), E2, E2W2 [ALL]",643.500000000000000
+UT,Trust Lands Administration,Subsurface,301 Stat. 107-110 (1894),Other Minerals,416988,10,21,20,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,302 Stat. 107-110 (1894),Other Minerals,416989,10,21,21,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,303 Stat. 107-110 (1894),Other Minerals,416990,10,21,28,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,304 Stat. 107-110 (1894),Other Minerals,416991,10,21,29,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,305 Stat. 107-110 (1894),Other Minerals,416992,10,21,30,Uintah,10,SCH,"LOTS 1(40.86), 2(40.94), 3(40.88), 4(41.16), E2, E2W2 [ALL]",643.840000000000032
+UT,Trust Lands Administration,Subsurface,306 Stat. 107-110 (1894),Other Minerals,416993,10,21,31,Uintah,10,SCH,"LOTS 1(40.94), 2(40.68), 3(40.96), 4(40.54), E2, E2W2 [ALL]",643.120000000000005
+UT,Trust Lands Administration,Subsurface,307 Stat. 107-110 (1894),Other Minerals,416994,10,21,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,308 Stat. 107-110 (1894),Other Minerals,416995,10,21,33,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,309 Stat. 107-110 (1894),Other Minerals,416996,10,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,310 Stat. 107-110 (1894),Other Minerals,416997,10,22,2,Uintah,10,SCH,"LOTS 1(40.77), 2(40.70), 3(40.64), 4(40.57), 5(39.92), 6(2.28), 7(15.45), 8(39.92), S2N2, N2S2, SE4SE4 [ALL]",620.250000000000000
+UT,Trust Lands Administration,Subsurface,311 Stat. 107-110 (1894),Other Minerals,416998,10,22,7,Uintah,10,SCH,"LOTS 1(27.19), 2(27.03), NE4, E2NW4 [LOTS AKA W2NW4]",294.220000000000027
+UT,Trust Lands Administration,Subsurface,312 Stat. 107-110 (1894),Other Minerals,416999,10,22,10,Uintah,10,SCH,"N2NE4, NE4NW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,313 Stat. 107-110 (1894),Other Minerals,417000,10,22,11,Uintah,10,SCH,"LOT 1(34.49), NE4, NW4NW4, S2NW4, S2 [ALL]",634.490000000000009
+UT,Trust Lands Administration,Subsurface,314 Stat. 107-110 (1894),Other Minerals,417001,10,22,12,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,315 Stat. 107-110 (1894),Other Minerals,417002,10,22,13,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,316 Stat. 107-110 (1894),Other Minerals,417003,10,22,14,Uintah,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,317 Stat. 107-110 (1894),Other Minerals,417004,10,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,318 Stat. 107-110 (1894),Other Minerals,417005,10,22,18,Uintah,10,SCH,"LOTS 1(26.61), 2(26.49), 3(26.39), 4(26.27), E2, E2W2 [ALL]",585.759999999999991
+UT,Trust Lands Administration,Subsurface,319 Stat. 107-110 (1894),Other Minerals,417006,10,22,19,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,320 Stat. 107-110 (1894),Other Minerals,417007,10,22,20,Uintah,10,SCH,W2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,321 Stat. 107-110 (1894),Other Minerals,417008,10,22,24,Uintah,10,SCH,"NE4, NE4SE4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,322 Stat. 107-110 (1894),Other Minerals,417009,10,22,25,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,323 Stat. 107-110 (1894),Other Minerals,417010,10,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,324 Stat. 107-110 (1894),Other Minerals,417011,10,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,325 Stat. 107-110 (1894),Other Minerals,417012,10,23,2,Uintah,10,SCH,"LOTS 1(40.56), 2(40.58), 3(40.58), 4(40.60), S2N2, S2 [ALL]",642.320000000000050
+UT,Trust Lands Administration,Subsurface,326 Stat. 107-110 (1894),Other Minerals,417013,10,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,327 Stat. 107-110 (1894),Other Minerals,417014,10,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,328 Stat. 107-110 (1894),Other Minerals,417015,10,24,1,Uintah,10,SCH,SW4SE4SW4,10.000000000000000
+UT,Trust Lands Administration,Subsurface,329 Stat. 107-110 (1894),Other Minerals,417016,10,24,1,Uintah,10,SCH,"LOTS 1(40.62), 2(40.61), 3(40.61), 4(40.60), 5(38.86), S2NE4, SE4NW4, N2SW4, N2S2SW4, SW4SW4SW4, W2SE4SW4SW4, SE4SE4SW4, SE4 [LOTS AKA N2N2, SW4NW4]",626.299999999999955
+UT,Trust Lands Administration,Subsurface,330 Stat. 107-110 (1894),Other Minerals,417017,10,24,2,Uintah,10,SCH,"LOTS 1(40.61), 2(40.62), 3(40.62), 4(40.63), 6(6.58), S2NW4, SW4, S2SE4 [LOTS AKA N2N2, NE4SE4NE4]",489.060000000000002
+UT,Trust Lands Administration,Subsurface,331 Stat. 107-110 (1894),Other Minerals,417018,10,24,36,Uintah,10,SCH,E2E2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,332 Stat. 107-110 (1894),Other Minerals,417019,10,25,2,Uintah,10,SCH,"LOTS 1(40.57), 2(40.54), 3(40.52), 4(40.49), S2N2, S2 [ALL]",642.120000000000005
+UT,Trust Lands Administration,Subsurface,333 Stat. 107-110 (1894),Other Minerals,417020,10,25,16,Uintah,10,SCH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,334 Stat. 107-110 (1894),Other Minerals,417021,10,25,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,335 Stat. 107-110 (1894),Other Minerals,417022,10,25,36,Uintah,10,SCH,"LOTS 1(35.91), 2(35.94), 3(35.96), 4(35.99), W2W2 [ALL]",303.800000000000011
+UT,Trust Lands Administration,Subsurface,336 Stat. 107-110 (1894),Other Minerals,417142,11,9,10,Utah,10,SCH,"LOT 2(18.87), NW4SW4, SE4SW4, NW4SE4, SE4SE4 [AKA SW4NE4]",178.870000000000005
+UT,Trust Lands Administration,Subsurface,337 Stat. 107-110 (1894),Other Minerals,417193,11,10,18,Duchesne,10,SCH,LOT  2 [NW4NW4],40.770000000000003
+UT,Trust Lands Administration,Subsurface,338 Stat. 107-110 (1894),Other Minerals,417236,11,11,2,Duchesne,10,SCH,"LOTS 1(39.79), 2(39.88), 3(37.64), 4(32.63), S2N2 [LOTS AKA N2N2]",309.939999999999998
+UT,Trust Lands Administration,Subsurface,339 Stat. 107-110 (1894),Other Minerals,417257,11,13,2,Duchesne,10,SCH,"LOTS 1(16.91), 2(8.57), 3(30.53), 4(41.47), 5(34.64), S2SW4 [ALL]",212.120000000000005
+UT,Trust Lands Administration,Subsurface,340 Stat. 107-110 (1894),Other Minerals,417262,11,14,2,Duchesne,10,SCH,"LOTS 1(39.55), 2(39.76), 3(43.00), 4(21.62), 5(37.57), S2NE4, SE4NW4, NE4SW4, S2SW4, SE4 [ALL]",581.500000000000000
+UT,Trust Lands Administration,Subsurface,341 Stat. 107-110 (1894),Other Minerals,417288,11,16,36,Duchesne,10,SCH,"N2, N2SW4, SW4SW4, SE4SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,342 Stat. 107-110 (1894),Other Minerals,417289,11,17,2,Duchesne,10,SCH,"PART OF LOT 2(12.99), LOTS 3(39.48), 4(39.44), PART OF SW4NE4(12.55), S2NW4, SW4, PART OF W2SE4(24.29) [LOTS AKA PART OF NW4NE4, N2NW4]",368.750000000000000
+UT,Trust Lands Administration,Subsurface,343 Stat. 107-110 (1894),Other Minerals,417290,11,17,2,Uintah,10,SCH,"LOT 1(39.56), PART OF LOT 2(26.53), PART OF SW4NE4(27.45), SE4NE4, PART OF W2SE4(55.71), E2SE4 [LOTS AKA NE4NE4, PART OF NW4NE4]",269.250000000000000
+UT,Trust Lands Administration,Subsurface,344 Stat. 107-110 (1894),Other Minerals,417291,11,17,16,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,345 Stat. 107-110 (1894),Other Minerals,417292,11,17,32,Duchesne,10,SCH,"N2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,346 Stat. 107-110 (1894),Other Minerals,417293,11,17,32,Duchesne,10,SCH,S2N2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,347 Stat. 107-110 (1894),Other Minerals,417294,11,17,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,348 Stat. 107-110 (1894),Other Minerals,417295,11,18,2,Uintah,10,SCH,"LOT 3(39.80), SW4NW4, SW4, SW4SE4 [LOT AKA NW4NW4]",279.800000000000011
+UT,Trust Lands Administration,Subsurface,349 Stat. 107-110 (1894),Other Minerals,417296,11,18,16,Uintah,10,SCH,"NW4, N2SW4, SW4SW4",280.000000000000000
+UT,Trust Lands Administration,Subsurface,350 Stat. 107-110 (1894),Other Minerals,417297,11,18,27,Uintah,10,SCH,"E2SW4, NW4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,351 Stat. 107-110 (1894),Other Minerals,417298,11,18,27,Uintah,10,SCH,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,352 Stat. 107-110 (1894),Other Minerals,417299,11,18,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,353 Stat. 107-110 (1894),Other Minerals,417300,11,18,33,Uintah,10,SCH,"S2NE4, N2SW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,354 Stat. 107-110 (1894),Other Minerals,417301,11,18,34,Uintah,10,SCH,N2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,355 Stat. 107-110 (1894),Other Minerals,417302,11,19,2,Uintah,10,SCH,"LOTS 1(36.93), 2(36.58), 3(36.23), 4(35.88), S2N2, S2 [ALL]",625.620000000000005
+UT,Trust Lands Administration,Subsurface,356 Stat. 107-110 (1894),Other Minerals,417303,11,19,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,357 Stat. 107-110 (1894),Other Minerals,417304,11,19,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,358 Stat. 107-110 (1894),Other Minerals,417305,11,19,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,359 Stat. 107-110 (1894),Other Minerals,417306,11,20,2,Uintah,10,SCH,"LOTS 1(39.96), 2(39.99), 3(39.51), 4(39.04), S2N2, S2 [ALL]",638.500000000000000
+UT,Trust Lands Administration,Subsurface,360 Stat. 107-110 (1894),Other Minerals,417307,11,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,361 Stat. 107-110 (1894),Other Minerals,417308,11,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,362 Stat. 107-110 (1894),Other Minerals,417309,11,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,363 Stat. 107-110 (1894),Other Minerals,417310,11,21,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,364 Stat. 107-110 (1894),Other Minerals,417311,11,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,365 Stat. 107-110 (1894),Other Minerals,417312,11,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,366 Stat. 107-110 (1894),Other Minerals,417313,11,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,367 Stat. 107-110 (1894),Other Minerals,417314,11,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,368 Stat. 107-110 (1894),Other Minerals,417315,11,23,2,Uintah,10,SCH,"LOTS 1(18.11), 2(18.17), 3(18.23), 4(18.29), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(38.60), 10(32.81), SW4NE4, S2NW4, SW4, W2SE4, SE4SE4 [ALL]",704.210000000000036
+UT,Trust Lands Administration,Subsurface,369 Stat. 107-110 (1894),Other Minerals,417316,11,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,370 Stat. 107-110 (1894),Other Minerals,417317,11,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,371 Stat. 107-110 (1894),Other Minerals,417318,11,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,372 Stat. 107-110 (1894),Other Minerals,417319,11,24,2,Uintah,10,SCH,"LOTS 1(39.92), 2(39.94), 3(39.94), 4(39.96), S2N2, S2 [ALL]",639.759999999999991
+UT,Trust Lands Administration,Subsurface,373 Stat. 107-110 (1894),Other Minerals,417320,11,24,16,Uintah,10,SCH,"LOTS 1(29.20), 2(37.71), S2NE4, N2NW4, SE4NW4, W2SW4, SE4SW4, NE4SE4, SW4SE4 [LOTS AKA PART OF N2NE4]",466.910000000000025
+UT,Trust Lands Administration,Subsurface,374 Stat. 107-110 (1894),Other Minerals,417321,11,24,21,Uintah,10,SCH,E2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,375 Stat. 107-110 (1894),Other Minerals,417322,11,24,32,Uintah,10,SCH,"N2NE4, SE4NE4, W2, W2SE4, SE4SE4",560.000000000000000
+UT,Trust Lands Administration,Subsurface,376 Stat. 107-110 (1894),Other Minerals,417323,11,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,377 Stat. 107-110 (1894),Other Minerals,417324,11,25,32,Uintah,10,SCH,"LOTS 7(40.00), 8(26.82), 9(40.00), 10(40.00), 11(36.75), 12(30.54), 13(40.00), NE4, NE4NW4, S2SW4, E2SE4 [ALL, EXCEPT MINING CLAIM]",614.110000000000014
+UT,Trust Lands Administration,Subsurface,378 Stat. 107-110 (1894),Other Minerals,417325,11,25,36,Uintah,10,SCH,"LOTS 1(16.26), 2(40.00), 3(40.00), 4(40.00), 5(40.00), 6(40.00), 7(40.00), 8(15.78), 9(15.65), 10(40.00), 11(40.00), 12(40.00), 13(40.00), 14(40.00), 15(40.00), 16(15.71), W2 [ALL]",863.399999999999977
+UT,Trust Lands Administration,Subsurface,379 Stat. 107-110 (1894),Other Minerals,417550,12,17,2,Carbon,10,SCH,"LOTS 1(39.24), 2(39.24), 3(39.24), 4(39.24), S2 [ALL]",476.959999999999980
+UT,Trust Lands Administration,Subsurface,380 Stat. 107-110 (1894),Other Minerals,417551,12,17,16,Carbon,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,381 Stat. 107-110 (1894),Other Minerals,417552,12,19,2,Uintah,10,SCH,"LOTS 1(40.36), 2(40.44), 3(40.52), 4(40.60), S2N2, S2 [ALL]",641.919999999999959
+UT,Trust Lands Administration,Subsurface,382 Stat. 107-110 (1894),Other Minerals,417553,12,20,2,Uintah,10,SCH,"LOTS 1(39.99), 2(39.98), 3(39.98), 4(39.97), S2N2, S2 [ALL]",639.919999999999959
+UT,Trust Lands Administration,Subsurface,383 Stat. 107-110 (1894),Other Minerals,417554,12,20,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,384 Stat. 107-110 (1894),Other Minerals,417555,12,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,385 Stat. 107-110 (1894),Other Minerals,417556,12,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,386 Stat. 107-110 (1894),Other Minerals,417557,12,21,2,Uintah,10,SCH,"LOTS 1(39.97), 2(40.04), 3(40.10), 4(40.17), S2N2, S2 [ALL]",640.279999999999973
+UT,Trust Lands Administration,Subsurface,387 Stat. 107-110 (1894),Other Minerals,417558,12,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,388 Stat. 107-110 (1894),Other Minerals,417559,12,21,32,Uintah,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,389 Stat. 107-110 (1894),Other Minerals,417560,12,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,390 Stat. 107-110 (1894),Other Minerals,417561,12,22,2,Uintah,10,SCH,"LOTS 1(40.01), 2(40.05), 3(40.07), 4(40.11), S2N2, S2 [ALL]",640.240000000000009
+UT,Trust Lands Administration,Subsurface,391 Stat. 107-110 (1894),Other Minerals,417562,12,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,392 Stat. 107-110 (1894),Other Minerals,417563,12,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,393 Stat. 107-110 (1894),Other Minerals,417564,12,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,394 Stat. 107-110 (1894),Other Minerals,417565,12,23,2,Uintah,10,SCH,"LOTS 1(39.63), 2(39.68), 3(39.74), 4(39.79), S2N2, S2 [ALL]",638.840000000000032
+UT,Trust Lands Administration,Subsurface,395 Stat. 107-110 (1894),Other Minerals,417566,12,23,16,Uintah,10,SCH,"N2, NW4SW4",360.000000000000000
+UT,Trust Lands Administration,Subsurface,396 Stat. 107-110 (1894),Other Minerals,417567,12,23,16,Uintah,10,SCH,"N2NE4SW4, SW4NE4SW4, N2SE4NE4SW4, NW4NW4SW4SW4, N2NE4SE4, SE4NE4SE4, N2NW4SE4, N2SW4NW4SE4, NW4SE4NW4SE4, NE4SE4SE4, N2SE4SE4SE4, SE4SE4SE4SE4
+",112.500000000000000
+UT,Trust Lands Administration,Subsurface,397 Stat. 107-110 (1894),Other Minerals,417568,12,23,32,Uintah,10,SCH,"W2W2, SE4SW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,398 Stat. 107-110 (1894),Other Minerals,417569,12,23,32,Uintah,10,SCH,"W2W2NE4NW4, SE4SW4NE4NW4, W2SE4NW4, SW4SE4SE4NW4, W2E2NE4SW4, W2NE4SW4, S2S2SW4SE4, SW4SW4SE4SE4",77.500000000000000
+UT,Trust Lands Administration,Subsurface,399 Stat. 107-110 (1894),Other Minerals,417570,12,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,400 Stat. 107-110 (1894),Other Minerals,417571,12,24,2,Uintah,10,SCH,"LOTS 1(40.04), 2(40.04), 3(40.04), 4(40.04), S2N2, S2 [ALL]",640.159999999999968
+UT,Trust Lands Administration,Subsurface,401 Stat. 107-110 (1894),Other Minerals,417572,12,24,11,Uintah,10,SCH,S2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,402 Stat. 107-110 (1894),Other Minerals,417573,12,24,12,Uintah,10,SCH,S2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,403 Stat. 107-110 (1894),Other Minerals,417574,12,24,13,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,404 Stat. 107-110 (1894),Other Minerals,417575,12,24,14,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,405 Stat. 107-110 (1894),Other Minerals,417576,12,24,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,406 Stat. 107-110 (1894),Other Minerals,417577,12,24,23,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,407 Stat. 107-110 (1894),Other Minerals,417578,12,24,24,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,408 Stat. 107-110 (1894),Other Minerals,417579,12,24,25,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,409 Stat. 107-110 (1894),Other Minerals,417580,12,24,26,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,410 Stat. 107-110 (1894),Other Minerals,417581,12,24,28,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,411 Stat. 107-110 (1894),Other Minerals,417582,12,24,29,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,412 Stat. 107-110 (1894),Other Minerals,417583,12,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,413 Stat. 107-110 (1894),Other Minerals,417584,12,24,33,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,414 Stat. 107-110 (1894),Other Minerals,417585,12,24,34,Uintah,10,SCH,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,415 Stat. 107-110 (1894),Other Minerals,417586,12,24,34,Uintah,107,X111,"W2, W2SE4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,416 Stat. 107-110 (1894),Other Minerals,417587,12,24,35,Uintah,10,SCH,NW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,417 Stat. 107-110 (1894),Other Minerals,417588,12,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,418 Stat. 107-110 (1894),Other Minerals,417589,12,25,2,Uintah,10,SCH,"LOTS 1(40.10), 2(40.07), 3(40.03), 4(40.00), S2N2, S2 [ALL]",640.200000000000045
+UT,Trust Lands Administration,Subsurface,419 Stat. 107-110 (1894),Other Minerals,417590,12,25,7,Uintah,10,SCH,S2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,420 Stat. 107-110 (1894),Other Minerals,417591,12,25,8,Uintah,10,SCH,S2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,421 Stat. 107-110 (1894),Other Minerals,417592,12,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,422 Stat. 107-110 (1894),Other Minerals,417593,12,25,17,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,423 Stat. 107-110 (1894),Other Minerals,417594,12,25,18,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,424 Stat. 107-110 (1894),Other Minerals,417595,12,25,19,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,425 Stat. 107-110 (1894),Other Minerals,417596,12,25,20,Uintah,10,SCH,"W2NE4, W2",400.000000000000000
+UT,Trust Lands Administration,Subsurface,426 Stat. 107-110 (1894),Other Minerals,417597,12,25,29,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,427 Stat. 107-110 (1894),Other Minerals,417598,12,25,29,Uintah,10,SCH,W2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,428 Stat. 107-110 (1894),Other Minerals,417599,12,25,30,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,429 Stat. 107-110 (1894),Other Minerals,417600,12,25,31,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,430 Stat. 107-110 (1894),Other Minerals,417601,12,25,31,Uintah,107,X111,W2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,431 Stat. 107-110 (1894),Other Minerals,417602,12,25,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,432 Stat. 107-110 (1894),Other Minerals,417603,12,25,36,Uintah,10,SCH,"LOTS 1(56.78), 2(40.00), 3(40.00), 4(40.00), 5(40.00), 6(56.74), 7(56.70), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(56.66), W2 [ALL]",866.879999999999995
+UT,Trust Lands Administration,Subsurface,433 Stat. 107-110 (1894),Other Minerals,417844,13,16,36,Carbon,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,434 Stat. 107-110 (1894),Other Minerals,417845,13,19,36,Uintah,10,SCH,"NE4, W2SE4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,435 Stat. 107-110 (1894),Other Minerals,417846,13,20,2,Uintah,10,SCH,"LOTS 1(40.15), 2(40.23), 3(40.29), 4(40.37), S2N2, S2 [ALL]",641.039999999999964
+UT,Trust Lands Administration,Subsurface,436 Stat. 107-110 (1894),Other Minerals,417847,13,20,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,437 Stat. 107-110 (1894),Other Minerals,417848,13,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,438 Stat. 107-110 (1894),Other Minerals,417849,13,20,35,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,439 Stat. 107-110 (1894),Other Minerals,417850,13,20,36,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,440 Stat. 107-110 (1894),Other Minerals,417851,13,21,2,Uintah,10,SCH,"LOTS 1(40.60), 2(40.59), 3(40.59), 4(40.58), S2N2, S2 [ALL]",642.360000000000014
+UT,Trust Lands Administration,Subsurface,441 Stat. 107-110 (1894),Other Minerals,417852,13,21,16,Uintah,10,SCH,E2E2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,442 Stat. 107-110 (1894),Other Minerals,417853,13,21,31,Uintah,107,X111,"LOTS 3(36.99), 4(37.22), E2, E2SW4 [LOTS AKA W2SW4]",474.209999999999980
+UT,Trust Lands Administration,Subsurface,443 Stat. 107-110 (1894),Other Minerals,417854,13,21,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,444 Stat. 107-110 (1894),Other Minerals,417855,13,21,33,Uintah,107,X111,"S2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,445 Stat. 107-110 (1894),Other Minerals,417856,13,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,446 Stat. 107-110 (1894),Other Minerals,417857,13,22,2,Uintah,10,SCH,"LOTS 1(40.08), 2(40.18), 3(40.26), 4(40.36), S2N2, S2 [ALL]",640.879999999999995
+UT,Trust Lands Administration,Subsurface,447 Stat. 107-110 (1894),Other Minerals,417858,13,22,12,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,448 Stat. 107-110 (1894),Other Minerals,417859,13,22,13,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,449 Stat. 107-110 (1894),Other Minerals,417860,13,22,24,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,450 Stat. 107-110 (1894),Other Minerals,417861,13,22,25,Uintah,10,SCH,"NE4, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,451 Stat. 107-110 (1894),Other Minerals,417862,13,22,26,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,452 Stat. 107-110 (1894),Other Minerals,417863,13,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,453 Stat. 107-110 (1894),Other Minerals,417864,13,22,35,Uintah,10,SCH,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,454 Stat. 107-110 (1894),Other Minerals,417865,13,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,455 Stat. 107-110 (1894),Other Minerals,417866,13,23,2,Uintah,10,SCH,"LOTS 1(37.33), 2(37.51), 5(8.82), 6(1.93), S2NE4, SE4NE4NW4, N2NE4SE4NW4, SE4NE4SE4NW4, E2SE4SE4NW4, E2NE4NE4SW4, N2N2NE4SE4, N2NE4NW4SE4, W2NW4SE4, W2SW4SE4 [LOTS AKA N2NE4, NE4NE4NW4, NE4NW4NE4NW4]",248.090000000000003
+UT,Trust Lands Administration,Subsurface,456 Stat. 107-110 (1894),Other Minerals,417867,13,23,5,Uintah,107,X111,"LOTS 2(39.02), 3(39.28), 4(39.53), 7(4.72), W2SW4NE4NE4, SW4NE4, W2NW4SE4NE4, SW4SE4NE4, S2NW4, SW4, W2NE4SE4, SW4SE4NE4SE4, W2SE4, W2NE4SE4SE4, W2SE4SE4, SE4SE4SE4 [LOTS AKA W2NW4NE4NE4, NW4NE4, N2NW4]",560.049999999999955
+UT,Trust Lands Administration,Subsurface,457 Stat. 107-110 (1894),Other Minerals,417868,13,23,6,Uintah,107,X111,"LOTS 1(39.70), 6(35.52), 7(35.65), S2NE4, E2SW4, SE4 [LOTS AKA NE4NE4, W2SW4]",430.870000000000005
+UT,Trust Lands Administration,Subsurface,458 Stat. 107-110 (1894),Other Minerals,417869,13,23,7,Uintah,107,X111,"LOTS 1(35.78), 2(35.88), 3(36.00), 4(36.10), E2, E2W2 [ALL]",623.759999999999991
+UT,Trust Lands Administration,Subsurface,459 Stat. 107-110 (1894),Other Minerals,417870,13,23,8,Uintah,107,X111,"N2NE4, SW4NE4, N2SE4NE4, N2S2SE4NE4, NW4, NW4NE4NE4SW4, N2NW4NE4SW4, N2NE4NW4SW4, W2W2SW4, SW4NE4SW4SW4, W2SE4SW4SW4",370.000000000000000
+UT,Trust Lands Administration,Subsurface,460 Stat. 107-110 (1894),Other Minerals,417871,13,23,9,Uintah,107,X111,"SW4SW4NW4NW4, W2NW4SW4NW4, NW4SW4SW4NW4",10.000000000000000
+UT,Trust Lands Administration,Subsurface,461 Stat. 107-110 (1894),Other Minerals,417872,13,23,10,Uintah,107,X111,"NE4NE4SE4SE4	",2.500000000000000
+UT,Trust Lands Administration,Subsurface,462 Stat. 107-110 (1894),Other Minerals,417873,13,23,11,Uintah,107,X111,"S2SW4NE4SW4, S2SE4NW4SW4, SW4SW4, W2SE4SW4",70.000000000000000
+UT,Trust Lands Administration,Subsurface,463 Stat. 107-110 (1894),Other Minerals,417874,13,23,12,Uintah,10,SCH,S2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,464 Stat. 107-110 (1894),Other Minerals,417875,13,23,13,Uintah,107,X111,"NE4, E2E2NW4, NE4NE4SW4, S2NW4NE4SW4, S2NE4SW4, S2N2NW4SW4, S2NW4SW4, S2SW4, W2SE4",425.000000000000000
+UT,Trust Lands Administration,Subsurface,465 Stat. 107-110 (1894),Other Minerals,417876,13,23,14,Uintah,107,X111,"W2NE4NW4, NW4NW4, NE4SW4NW4, E2NW4SW4NW4, E2SW4SW4NW4, SE4SW4NW4, W2SE4NW4, S2NE4NE4SW4, NW4NE4SW4, S2NE4SW4, E2NW4SW4, E2E2SW4SW4, SE4SW4, S2N2N2SE4, S2N2SE4, S2SE4",355.000000000000000
+UT,Trust Lands Administration,Subsurface,466 Stat. 107-110 (1894),Other Minerals,417877,13,23,16,Uintah,10,SCH,"S2S2SW4SW4, NE4SE4SW4SW4, SW4SE4SW4, W2SE4SE4SW4",27.500000000000000
+UT,Trust Lands Administration,Subsurface,467 Stat. 107-110 (1894),Other Minerals,417878,13,23,17,Uintah,107,X111,"NW4NE4NW4NW4, N2NW4NW4NW4, SW4NW4NW4NW4",10.000000000000000
+UT,Trust Lands Administration,Subsurface,468 Stat. 107-110 (1894),Other Minerals,417879,13,23,17,Uintah,107,X111,SE4SE4SE4SE4,2.500000000000000
+UT,Trust Lands Administration,Subsurface,469 Stat. 107-110 (1894),Other Minerals,417880,13,23,18,Uintah,107,X111,"LOTS 1(36.23), 2(36.36), 3(36.50), 5(29.91), N2NE4NE4, N2SW4NE4NE4, W2NE4, E2NW4, NE4SW4, N2SE4SW4, SW4SE4SW4, NW4SE4SE4SW4, SW4NW4NE4SE4, W2SW4NE4SE4, N2NW4SE4, NW4SW4NW4SE4, W2NW4SE4SE4, SW4SE4SE4 [LOTS AKA W2NW4, NW4SW4, PART OF SW4SW4]",441.500000000000000
+UT,Trust Lands Administration,Subsurface,470 Stat. 107-110 (1894),Other Minerals,417881,13,23,19,Uintah,10,SCH,SW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,471 Stat. 107-110 (1894),Other Minerals,417882,13,23,19,Uintah,10,SCH,"LOTS 1(36.75), 2(36.85), 3(36.95), 4(37.05), W2NE4NE4, W2SE4NE4NE4, NW4NE4, W2NE4SE4NE4, W2SE4NE4, SE4SE4NE4, E2W2, SE4 [LOTS AKA W2W2]",567.600000000000023
+UT,Trust Lands Administration,Subsurface,472 Stat. 107-110 (1894),Other Minerals,417883,13,23,20,Uintah,10,SCH,"SW4SW4NW4SW4, W2W2SW4SW4",12.500000000000000
+UT,Trust Lands Administration,Subsurface,473 Stat. 107-110 (1894),Other Minerals,417884,13,23,20,Uintah,107,X111,"E2E2NE4NE4, NE4NE4SE4NE4, NE4NE4SW4SE4, S2NE4SW4SE4, SE4NW4SW4SE4, E2SW4SW4SE4, SE4SW4SE4, SE4SE4",77.500000000000000
+UT,Trust Lands Administration,Subsurface,474 Stat. 107-110 (1894),Other Minerals,417885,13,23,21,Uintah,107,X111,"S2N2SW4NE4, S2SW4NE4, NE4SE4NE4, NE4NW4SE4NE4, S2NW4SE4NE4, S2SE4NE4, W2E2NE4NW4, W2NE4NW4, W2NW4, SE4NW4, NE4SW4, E2NW4SW4, N2NW4NW4SW4, SE4NW4NW4SW4, NE4SW4NW4SW4, S2SW4NW4SW4, S2SW4, SE4",532.500000000000000
+UT,Trust Lands Administration,Subsurface,475 Stat. 107-110 (1894),Other Minerals,417886,13,23,22,Uintah,107,X111,"NE4NE4NE4NE4, S2NE4NE4NE4, S2NW4NE4NE4, S2NE4NE4, S2NE4NW4NE4, S2NW4NE4, S2NE4, NE4SW4NE4NW4, S2SW4NE4NW4, SE4NE4NW4, S2SE4NW4NW4, S2NW4, S2",560.000000000000000
+UT,Trust Lands Administration,Subsurface,476 Stat. 107-110 (1894),Other Minerals,417887,13,23,23,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,477 Stat. 107-110 (1894),Other Minerals,417888,13,23,29,Uintah,10,SCH,"NW4NW4NW4, S2NW4NW4, SW4NW4",70.000000000000000
+UT,Trust Lands Administration,Subsurface,478 Stat. 107-110 (1894),Other Minerals,417889,13,23,29,Uintah,107,X111,"NE4NE4, NE4NW4NE4, NE4NW4NW4NE4, S2NW4NW4NE4, S2NW4NE4, S2NE4, S2NE4NE4NW4, S2NE4NW4, SE4NW4, S2",542.500000000000000
+UT,Trust Lands Administration,Subsurface,479 Stat. 107-110 (1894),Other Minerals,417890,13,23,30,Uintah,10,SCH,"LOTS 1(37.12), 2(37.15), 3(37.19), 4(37.22), E2, E2W2 [ALL]",628.679999999999950
+UT,Trust Lands Administration,Subsurface,480 Stat. 107-110 (1894),Other Minerals,417891,13,23,31,Uintah,107,X111,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,481 Stat. 107-110 (1894),Other Minerals,417892,13,23,31,Uintah,107,X111,"LOTS 1(37.26), 2(37.28), 3(37.32), 4(37.34), NE4, E2W2, N2SE4, SW4SE4 [LOTS AKA W2W2]",589.200000000000045
+UT,Trust Lands Administration,Subsurface,482 Stat. 107-110 (1894),Other Minerals,417893,13,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,483 Stat. 107-110 (1894),Other Minerals,417894,13,24,2,Uintah,10,SCH,"LOTS 1(14.65), 2(14.35), 3(14.05), 4(13.75), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, S2 [ALL]",696.799999999999955
+UT,Trust Lands Administration,Subsurface,484 Stat. 107-110 (1894),Other Minerals,417895,13,24,3,Uintah,107,X111,"LOTS 1(13.56), 2(13.47), 3(13.39), 4(13.30), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, SE4 [LOTS AKA N2N2]
+",533.720000000000027
+UT,Trust Lands Administration,Subsurface,485 Stat. 107-110 (1894),Other Minerals,417896,13,24,18,Uintah,10,SCH,"LOT 1(39.13), SW4NE4, NE4NW4, NW4SE4 [LOT AKA NW4NW4]",159.129999999999995
+UT,Trust Lands Administration,Subsurface,486 Stat. 107-110 (1894),Other Minerals,417897,13,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,487 Stat. 107-110 (1894),Other Minerals,417898,13,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,488 Stat. 107-110 (1894),Other Minerals,417899,13,25,2,Uintah,10,SCH,"LOTS 1(17.59), 2(17.72), 3(17.86), 4(17.99), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, S2 [ALL]",711.159999999999968
+UT,Trust Lands Administration,Subsurface,489 Stat. 107-110 (1894),Other Minerals,417900,13,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,490 Stat. 107-110 (1894),Other Minerals,417901,13,25,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,491 Stat. 107-110 (1894),Other Minerals,417902,13,25,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,492 Stat. 107-110 (1894),Other Minerals,418138,14,16,36,Carbon,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,493 Stat. 107-110 (1894),Other Minerals,418139,14,19,2,Uintah,10,SCH,"LOTS 1(40.14), 2(40.21), 3(40.29), 4(40.36), S2N2, S2 [ALL]",641.000000000000000
+UT,Trust Lands Administration,Subsurface,494 Stat. 107-110 (1894),Other Minerals,418140,14,19,7,Uintah,10,SCH,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,495 Stat. 107-110 (1894),Other Minerals,418141,14,19,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,496 Stat. 107-110 (1894),Other Minerals,418142,14,19,29,Uintah,10,SCH,NW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,497 Stat. 107-110 (1894),Other Minerals,418143,14,19,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,498 Stat. 107-110 (1894),Other Minerals,418144,14,19,36,Uintah,10,SCH,"LOTS 1(39.62), 2(1.32), 4(14.09), 5(20.53), 6(38.93), NE4, N2NW4, SW4NW4, W2SW4, N2SE4, SE4SE4 [LOTS AKA SE4NW4, NE4E2E2NE4SW4, W2E2SW4, SW4SE4]",594.490000000000009
+UT,Trust Lands Administration,Subsurface,499 Stat. 107-110 (1894),Other Minerals,418145,14,20,2,Uintah,10,SCH,"LOTS 1(39.99), 2(39.98), 3(39.98), 4(39.96), S2N2, S2 [ALL]",639.909999999999968
+UT,Trust Lands Administration,Subsurface,500 Stat. 107-110 (1894),Other Minerals,418146,14,20,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,501 Stat. 107-110 (1894),Other Minerals,418147,14,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,502 Stat. 107-110 (1894),Other Minerals,418148,14,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,503 Stat. 107-110 (1894),Other Minerals,418149,14,21,2,Uintah,10,SCH,"LOTS 1(40.18), 2(40.30), 3(40.42), 4(40.54), S2N2, S2 [ALL]",641.440000000000055
+UT,Trust Lands Administration,Subsurface,504 Stat. 107-110 (1894),Other Minerals,418150,14,21,4,Uintah,107,X111,"LOTS 1(40.78), 2(40.82), 3(40.86), 4(40.90), S2N2, SW4, N2SE4, SW4SE4 [LOTS AKA N2N2]",603.360000000000014
+UT,Trust Lands Administration,Subsurface,505 Stat. 107-110 (1894),Other Minerals,418151,14,21,5,Uintah,107,X111,"LOTS 3(40.51), 4(40.34), S2NW4, SW4 [LOTS AKA N2NW4]",320.850000000000023
+UT,Trust Lands Administration,Subsurface,506 Stat. 107-110 (1894),Other Minerals,418152,14,21,5,Uintah,107,X111,"LOTS 1(40.84), 2(40.67), S2NE4, SE4 [LOTS AKA N2NE4]",321.509999999999991
+UT,Trust Lands Administration,Subsurface,507 Stat. 107-110 (1894),Other Minerals,418153,14,21,6,Uintah,107,X111,"LOTS 1(40.21), 2(40.13), 3(40.04), 4(37.43), 5(37.74), 6(37.57), 7(37.28), S2NE4, SE4NW4, E2SW4, SE4 [ALL]",630.399999999999977
+UT,Trust Lands Administration,Subsurface,508 Stat. 107-110 (1894),Other Minerals,418154,14,21,7,Uintah,107,X111,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,509 Stat. 107-110 (1894),Other Minerals,418155,14,21,7,Uintah,107,X111,"LOTS 1(37.35), 2(37.48), 3(37.62), 4(37.75), W2NE4, E2W2, SE4 [LOTS AKA W2W2]",550.200000000000045
+UT,Trust Lands Administration,Subsurface,510 Stat. 107-110 (1894),Other Minerals,418156,14,21,8,Uintah,107,X111,W2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,511 Stat. 107-110 (1894),Other Minerals,418157,14,21,8,Uintah,107,X111,"NE4, E2NW4, S2",560.000000000000000
+UT,Trust Lands Administration,Subsurface,512 Stat. 107-110 (1894),Other Minerals,418158,14,21,10,Uintah,107,X111,NW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,513 Stat. 107-110 (1894),Other Minerals,418159,14,21,10,Uintah,107,X111,NW4SW4NW4 [BITUMINOUS ONLY],10.000000000000000
+UT,Trust Lands Administration,Subsurface,514 Stat. 107-110 (1894),Other Minerals,418160,14,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,515 Stat. 107-110 (1894),Other Minerals,418161,14,21,17,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,516 Stat. 107-110 (1894),Other Minerals,418162,14,21,18,Uintah,107,X111,"LOTS 1(37.85), 2(37.91), 3(37.97), 4(38.03), 5(38.92), 6(31.10), 9(31.75), 10(29.42), 13(13.47), NE4, NE4NW4, E2SE4 [LOTS AKA W2NW4, PART OF SE4NW4, PART OF E2SW4, W2SW4, PART OF W2SE4]",576.419999999999959
+UT,Trust Lands Administration,Subsurface,517 Stat. 107-110 (1894),Other Minerals,418163,14,21,19,Uintah,107,X111,"LOTS 1(37.97), 5(22.35), 8(6.37), 9(26.49), 11(14.84), NE4NW4 [LOTS AKA PART OF NE4NE4, PART OF NW4NE4, NW4NW4, PART OF S2NW4]",148.020000000000010
+UT,Trust Lands Administration,Subsurface,518 Stat. 107-110 (1894),Other Minerals,418164,14,21,20,Uintah,107,X111,"LOTS 1(20.95), 3(19.30), 5(25.05), 7(15.43) [AKA PART OF N2N2, PART OF SE4NW4]",80.730000000000004
+UT,Trust Lands Administration,Subsurface,519 Stat. 107-110 (1894),Other Minerals,418165,14,21,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,520 Stat. 107-110 (1894),Other Minerals,418166,14,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,521 Stat. 107-110 (1894),Other Minerals,418167,14,22,1,Uintah,107,X111,"LOTS 1(36.19), 2(36.14), 3(36.08), 4(36.03), S2N2, S2 [ALL]",624.440000000000055
+UT,Trust Lands Administration,Subsurface,522 Stat. 107-110 (1894),Other Minerals,418168,14,22,2,Uintah,10,SCH,"LOTS 1(36.02), 2(36.05), 3(36.09), 4(36.12), S2N2, S2 [ALL]",624.279999999999973
+UT,Trust Lands Administration,Subsurface,523 Stat. 107-110 (1894),Other Minerals,418169,14,22,10,Uintah,10,SCH,"SE4NW4, NW4SW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,524 Stat. 107-110 (1894),Other Minerals,418170,14,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,525 Stat. 107-110 (1894),Other Minerals,418171,14,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,526 Stat. 107-110 (1894),Other Minerals,418172,14,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,527 Stat. 107-110 (1894),Other Minerals,418173,14,23,2,Uintah,10,SCH,"LOTS 1(39.24), 2(39.08), 3(38.92), 4(38.76), S2N2, S2 [ALL]",636.000000000000000
+UT,Trust Lands Administration,Subsurface,528 Stat. 107-110 (1894),Other Minerals,418174,14,23,6,Uintah,107,X111,"LOTS 3(36.27), 4(33.84), 5(37.34) [AKA N2NW4, SW4NW4]",107.450000000000003
+UT,Trust Lands Administration,Subsurface,529 Stat. 107-110 (1894),Other Minerals,418175,14,23,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,530 Stat. 107-110 (1894),Other Minerals,418176,14,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,531 Stat. 107-110 (1894),Other Minerals,418177,14,23,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,532 Stat. 107-110 (1894),Other Minerals,418178,14,24,2,Uintah,10,SCH,"LOTS 1(39.52), 3(39.99), 4(40.22), SE4NE4, S2NW4, SW4, SW4SE4 [LOTS AKA NE4NE4, N2NW4]",439.730000000000018
+UT,Trust Lands Administration,Subsurface,533 Stat. 107-110 (1894),Other Minerals,418179,14,24,5,Uintah,10,SCH,NW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,534 Stat. 107-110 (1894),Other Minerals,418180,14,24,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,535 Stat. 107-110 (1894),Other Minerals,418181,14,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,536 Stat. 107-110 (1894),Other Minerals,418182,14,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,537 Stat. 107-110 (1894),Other Minerals,418183,14,25,2,Uintah,10,SCH,"LOTS 1(39.87), 2(39.83), 3(39.81), 4(39.77), S2N2, S2 [ALL]",639.279999999999973
+UT,Trust Lands Administration,Subsurface,538 Stat. 107-110 (1894),Other Minerals,418184,14,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,539 Stat. 107-110 (1894),Other Minerals,418185,14,25,27,Uintah,10,SCH,SW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,540 Stat. 107-110 (1894),Other Minerals,418186,14,25,32,Uintah,10,SCH,"LOTS 1(39.39), 2(39.51), 3(30.00), 4(29.17), 5(40.98), 6(17.59), E2, N2NW4 [ALL, LESS ALLOTMENT 445]",596.639999999999986
+UT,Trust Lands Administration,Subsurface,541 Stat. 107-110 (1894),Other Minerals,418187,14,25,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,542 Stat. 107-110 (1894),Other Minerals,418439,15,16,36,Carbon,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,543 Stat. 107-110 (1894),Other Minerals,418440,15,19,1,Uintah,10,SCH,"LOT 7(29.54), SE4NW4, W2SE4 [LOT AKA PART OF NE4NW4]",149.539999999999992
+UT,Trust Lands Administration,Subsurface,544 Stat. 107-110 (1894),Other Minerals,418441,15,19,2,Uintah,10,SCH,"LOTS 1(39.82), 2(39.70), 3(39.58), 4(39.46), S2N2, S2 [ALL]",638.559999999999945
+UT,Trust Lands Administration,Subsurface,545 Stat. 107-110 (1894),Other Minerals,418442,15,19,12,Uintah,10,SCH,W2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,546 Stat. 107-110 (1894),Other Minerals,418443,15,19,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,547 Stat. 107-110 (1894),Other Minerals,418444,15,19,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,548 Stat. 107-110 (1894),Other Minerals,418445,15,19,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,549 Stat. 107-110 (1894),Other Minerals,418446,15,20,2,Uintah,10,SCH,"LOTS 1(40.05), 2(40.15), 3(40.25), 4(40.35), S2N2, S2 [ALL]",640.799999999999955
+UT,Trust Lands Administration,Subsurface,550 Stat. 107-110 (1894),Other Minerals,418447,15,20,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,551 Stat. 107-110 (1894),Other Minerals,418448,15,20,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,552 Stat. 107-110 (1894),Other Minerals,418449,15,20,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,553 Stat. 107-110 (1894),Other Minerals,418450,15,21,2,Uintah,10,SCH,"LOTS 1(36.20), 2(36.22), 3(36.22), 4)36.24), S2N2, S2 [ALL]",624.879999999999995
+UT,Trust Lands Administration,Subsurface,554 Stat. 107-110 (1894),Other Minerals,418451,15,21,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,555 Stat. 107-110 (1894),Other Minerals,418452,15,21,25,Uintah,107,X111,"LOTS 2(29.28), 4(13.69), 6(1.25), 8(29.61), 9(37.81), SW4, S2SE4 [LOTS AKA PART OF SW4SW4NE4, PART OF S2NW4, PART OF N2SE4]	",351.639999999999986
+UT,Trust Lands Administration,Subsurface,556 Stat. 107-110 (1894),Other Minerals,418453,15,21,26,Uintah,107,X111,"LOTS 2(5.54), 4(25.89), 6(39.84), 7(39.89), SW4NE4, W2NW4, SE4NW4, S2 [LOTS AKA PART OF N2NE4, PART OF SE4NE4, PART OF NE4NW4]",591.159999999999968
+UT,Trust Lands Administration,Subsurface,557 Stat. 107-110 (1894),Other Minerals,418454,15,21,27,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,558 Stat. 107-110 (1894),Other Minerals,418455,15,21,31,Uintah,10,SCH,"S2NE4, E2W2, SE4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,559 Stat. 107-110 (1894),Other Minerals,418456,15,21,32,Uintah,10,SCH,"N2N2, S2",480.000000000000000
+UT,Trust Lands Administration,Subsurface,560 Stat. 107-110 (1894),Other Minerals,418457,15,21,33,Uintah,10,SCH,"N2SW4, SW4SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,561 Stat. 107-110 (1894),Other Minerals,418458,15,21,33,Uintah,10,SCH,"SE4SW4, S2SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,562 Stat. 107-110 (1894),Other Minerals,418459,15,21,34,Uintah,107,X111,"N2, NE4SW4, N2SE4, SE4SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,563 Stat. 107-110 (1894),Other Minerals,418460,15,21,34,Uintah,107,X111,"SE4SW4, SW4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,564 Stat. 107-110 (1894),Other Minerals,418461,15,21,35,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,565 Stat. 107-110 (1894),Other Minerals,418462,15,21,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,566 Stat. 107-110 (1894),Other Minerals,418463,15,22,2,Uintah,10,SCH,"LOTS 1(39.98), 2(39.92), 3(39.88), 4(39.82), S2N2, S2 [ALL]",639.600000000000023
+UT,Trust Lands Administration,Subsurface,567 Stat. 107-110 (1894),Other Minerals,418464,15,22,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,568 Stat. 107-110 (1894),Other Minerals,418465,15,22,29,Uintah,107,X111,LOT 2(0.83) [AKA PART OF SW4SW4SW4],0.83
+UT,Trust Lands Administration,Subsurface,569 Stat. 107-110 (1894),Other Minerals,418466,15,22,30,Uintah,107,X111,"LOTS 4(39.91), 6(2.29), 8(17.11), 10(23.66), 11(32.34), 14(11.80), SE4SW4 [LOTS AKA PART OF N2SW4, SW4SW4, PART OF W2SE4, PART OF SE4SE4]",167.110000000000014
+UT,Trust Lands Administration,Subsurface,570 Stat. 107-110 (1894),Other Minerals,418467,15,22,31,Uintah,107,X111,"LOTS 1(39.95), 2(39.96), 3(39.98), 4(39.99), E2, E2W2 [ALL]",639.879999999999995
+UT,Trust Lands Administration,Subsurface,571 Stat. 107-110 (1894),Other Minerals,418468,15,22,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,572 Stat. 107-110 (1894),Other Minerals,418469,15,22,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,573 Stat. 107-110 (1894),Other Minerals,418470,15,23,2,Uintah,10,SCH,"LOTS 1(40.58), 2(40.51), 3(40.43), 4(40.36), S2N2, S2 [ALL]",641.879999999999995
+UT,Trust Lands Administration,Subsurface,574 Stat. 107-110 (1894),Other Minerals,418471,15,23,12,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,575 Stat. 107-110 (1894),Other Minerals,418472,15,23,13,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,576 Stat. 107-110 (1894),Other Minerals,418473,15,23,14,Uintah,107,X111,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,577 Stat. 107-110 (1894),Other Minerals,418474,15,23,16,Uintah,10,SCH,"NE4, NE4NW4, S2NW4, S2",600.000000000000000
+UT,Trust Lands Administration,Subsurface,578 Stat. 107-110 (1894),Other Minerals,418475,15,23,21,Uintah,99,MULT,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,579 Stat. 107-110 (1894),Other Minerals,418476,15,23,22,Uintah,99,MULT,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,580 Stat. 107-110 (1894),Other Minerals,418477,15,23,23,Uintah,107,X111,E2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,581 Stat. 107-110 (1894),Other Minerals,418478,15,23,24,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,582 Stat. 107-110 (1894),Other Minerals,418479,15,23,25,Uintah,107,X111,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,583 Stat. 107-110 (1894),Other Minerals,418480,15,23,26,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,584 Stat. 107-110 (1894),Other Minerals,418481,15,23,27,Uintah,10,SCH,"NE4, N2NW4, SE4NW4, S2",600.000000000000000
+UT,Trust Lands Administration,Subsurface,585 Stat. 107-110 (1894),Other Minerals,418482,15,23,27,Uintah,99,MULT,SW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,586 Stat. 107-110 (1894),Other Minerals,418483,15,23,28,Uintah,10,SCH,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,587 Stat. 107-110 (1894),Other Minerals,418484,15,23,28,Uintah,10,SCH,"NW4SE4, S2SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,588 Stat. 107-110 (1894),Other Minerals,418485,15,23,28,Uintah,99,MULT,"N2, SW4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,589 Stat. 107-110 (1894),Other Minerals,418486,15,23,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,590 Stat. 107-110 (1894),Other Minerals,418487,15,23,33,Uintah,10,SCH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,591 Stat. 107-110 (1894),Other Minerals,418488,15,23,33,Uintah,99,MULT,"W2, SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,592 Stat. 107-110 (1894),Other Minerals,418489,15,23,34,Uintah,10,SCH,"W2, SW4SE4",360.000000000000000
+UT,Trust Lands Administration,Subsurface,593 Stat. 107-110 (1894),Other Minerals,418490,15,23,34,Uintah,10,SCH,"NE4, N2SE4, SE4SE4",280.000000000000000
+UT,Trust Lands Administration,Subsurface,594 Stat. 107-110 (1894),Other Minerals,418491,15,23,35,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,595 Stat. 107-110 (1894),Other Minerals,418492,15,23,36,Uintah,10,SCH,"N2, SW4, N2SE4, SW4SE4",600.000000000000000
+UT,Trust Lands Administration,Subsurface,596 Stat. 107-110 (1894),Other Minerals,418493,15,24,2,Uintah,10,SCH,"LOTS 1(40.65), 2(40.57), 3(40.51), 4(40.43), S2N2, S2 [ALL]",642.159999999999968
+UT,Trust Lands Administration,Subsurface,597 Stat. 107-110 (1894),Other Minerals,418494,15,24,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,598 Stat. 107-110 (1894),Other Minerals,418495,15,24,18,Uintah,10,SCH,SE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,599 Stat. 107-110 (1894),Other Minerals,418496,15,24,19,Uintah,107,X111,"LOTS 1(39.92), 2(39.91), 3(39.91), 4(39.90), NE4, SE4SW4, NE4SE4, S2SE4 [LOTS AKA W2W2]",479.639999999999986
+UT,Trust Lands Administration,Subsurface,600 Stat. 107-110 (1894),Other Minerals,418497,15,24,19,Uintah,107,X111,"E2NW4, NE4SW4, NW4SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,601 Stat. 107-110 (1894),Other Minerals,418498,15,24,27,Uintah,10,SCH,SE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,602 Stat. 107-110 (1894),Other Minerals,418499,15,24,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,603 Stat. 107-110 (1894),Other Minerals,418500,15,24,36,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,604 Stat. 107-110 (1894),Other Minerals,418501,15,25,2,Uintah,10,SCH,"LOTS 1(40.26), 2(40.38), 3(40.50), 4(40.62), S2N2, S2 [ALL]",641.759999999999991
+UT,Trust Lands Administration,Subsurface,605 Stat. 107-110 (1894),Other Minerals,418502,15,25,16,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,606 Stat. 107-110 (1894),Other Minerals,418503,15,25,32,Uintah,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,607 Stat. 107-110 (1894),Other Minerals,418504,15,25,33,Uintah,10,SCH,SW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,608 Stat. 107-110 (1894),Other Minerals,418505,15,25,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,609 Stat. 107-110 (1894),Other Minerals,418506,15.500000000000000,21,32,Grand,10,SCH,"LOTS 1(32.80), 2(32.34), 3(31.84), 4(31.24), S2 [ALL]",448.220000000000027
+UT,Trust Lands Administration,Subsurface,610 Stat. 107-110 (1894),Other Minerals,418508,15.500000000000000,21,33,Grand,10,SCH,"LOT 2(33.04), SE4 [LOT AKA SW4NE4]",193.039999999999992
+UT,Trust Lands Administration,Subsurface,611 Stat. 107-110 (1894),Other Minerals,418511,15.500000000000000,21,34,Grand,10,SCH,"LOT 1(33.70), SE4 [LOT AKA SE4NE4]",193.699999999999989
+UT,Trust Lands Administration,Subsurface,612 Stat. 107-110 (1894),Other Minerals,418512,15.500000000000000,21,35,Grand,10,SCH,"LOTS 1(33.76), 2(33.77), 3(33.77), 4(33.78), S2 [ALL]",455.079999999999984
+UT,Trust Lands Administration,Subsurface,613 Stat. 107-110 (1894),Other Minerals,418513,15.500000000000000,21,36,Grand,10,SCH,"LOTS 3(33.85), 4(33.79), SW4, W2SE4 [LOTS AKA S2NW4]",307.639999999999986
+UT,Trust Lands Administration,Subsurface,614 Stat. 107-110 (1894),Other Minerals,418514,15.500000000000000,22,31,Grand,10,SCH,"LOTS 2(34.18), 3(34.10), 4(28.98), 5(33.85), 6(33.62), E2SW4, SE4 [LOTS AKA SW4NE4, S2NW4, W2SW4]",404.730000000000018
+UT,Trust Lands Administration,Subsurface,615 Stat. 107-110 (1894),Other Minerals,418515,15.500000000000000,22,31,Grand,10,SCH,LOT 1 [SE4NE4],34.259999999999998
+UT,Trust Lands Administration,Subsurface,616 Stat. 107-110 (1894),Other Minerals,418516,15.500000000000000,22,32,Grand,10,SCH,"LOTS 1(34.26), 2(34.28), 3(34.28), 4(34.30), S2 [ALL]",457.120000000000005
+UT,Trust Lands Administration,Subsurface,617 Stat. 107-110 (1894),Other Minerals,418517,15.500000000000000,22,33,Grand,10,SCH,"LOTS 1(34.57), 2(34.49), 3(34.39), 4(34.31), S2 [ALL]",457.759999999999991
+UT,Trust Lands Administration,Subsurface,618 Stat. 107-110 (1894),Other Minerals,418531,15.500000000000000,25,32,Grand,10,SCH,"LOTS 1(31.84), 2(31.97), 3(32.09), 4(32.22), S2 [ALL]",448.120000000000005
+UT,Trust Lands Administration,Subsurface,619 Stat. 107-110 (1894),Other Minerals,418532,15.500000000000000,25,36,Grand,10,SCH,"LOTS 1(29.99), 2(30.09), 3(30.19), 4(30.29), S2 [ALL]",440.560000000000002
+UT,Trust Lands Administration,Subsurface,620 Stat. 107-110 (1894),Other Minerals,418533,15.500000000000000,26,32,Grand,10,SCH,"LOTS 1(28.99), 2(29.13), 3(29.27), 4(29.41), S2 [ALL]",436.800000000000011
+UT,Trust Lands Administration,Subsurface,621 Stat. 107-110 (1894),Other Minerals,418777,16,18,32,Grand,10,SCH,"LOTS 1(46.02), 2(45.99), 3(45.95), 4(45.92), E2 [ALL]",503.879999999999995
+UT,Trust Lands Administration,Subsurface,622 Stat. 107-110 (1894),Other Minerals,418778,16,18,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,623 Stat. 107-110 (1894),Other Minerals,418779,16,19,2,Grand,10,SCH,"LOTS 1(20.08), 2(20.22), 3(20.38), 4(20.52), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), 13(40.00), 14(40.00), 15(40.00), 16(40.00), 17(40.00), 18(40.00), 19(40.00), 20(40.00), S2 [ALL]",1041.200000000000045
+UT,Trust Lands Administration,Subsurface,624 Stat. 107-110 (1894),Other Minerals,418780,16,19,8,Grand,10,SCH,"SE4NW4, NE4SW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,625 Stat. 107-110 (1894),Other Minerals,418781,16,19,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,626 Stat. 107-110 (1894),Other Minerals,418782,16,19,18,Grand,10,SCH,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,627 Stat. 107-110 (1894),Other Minerals,418783,16,19,26,Grand,10,SCH,"SW4NE4, SE4NW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,628 Stat. 107-110 (1894),Other Minerals,418784,16,19,32,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,629 Stat. 107-110 (1894),Other Minerals,418785,16,19,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,630 Stat. 107-110 (1894),Other Minerals,418786,16,20,2,Grand,10,SCH,"LOTS 1(21.17), 2(21.21), 3(21.23), 4(21.27), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), 13(40.00), 14(40.00), 15(40.00), 16(40.00), 17(40.00), 18(40.00), 19(40.00), 20(40.00), S2 [ALL]",1044.880000000000109
+UT,Trust Lands Administration,Subsurface,631 Stat. 107-110 (1894),Other Minerals,418787,16,20,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,632 Stat. 107-110 (1894),Other Minerals,418788,16,20,32,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,633 Stat. 107-110 (1894),Other Minerals,418789,16,20,35,Grand,10,SCH,"S2SW4, N2SE4, SW4SE4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,634 Stat. 107-110 (1894),Other Minerals,418790,16,20,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,635 Stat. 107-110 (1894),Other Minerals,418794,16,21,4,Grand,10,SCH,"LOTS 1(40.74), 2(40.78), S2NE4, SE4 [LOTS AKA N2NE4]",321.519999999999982
+UT,Trust Lands Administration,Subsurface,636 Stat. 107-110 (1894),Other Minerals,418795,16,21,5,Grand,10,SCH,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,637 Stat. 107-110 (1894),Other Minerals,418796,16,21,5,Grand,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,638 Stat. 107-110 (1894),Other Minerals,418797,16,21,8,Grand,10,SCH,"NE4NE4, S2NE4, NW4SE4, S2SE4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,639 Stat. 107-110 (1894),Other Minerals,418798,16,21,8,Grand,10,SCH,"NW4NE4, NE4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,640 Stat. 107-110 (1894),Other Minerals,418803,16,21,17,Grand,10,SCH,"W2NE4, SE4NE4, SE4",280.000000000000000
+UT,Trust Lands Administration,Subsurface,641 Stat. 107-110 (1894),Other Minerals,419032,17,17,2,Grand,10,SCH,"LOTS 1(40.23), 2(40.28), 3(40.34), 4(40.39), S2NW4, S2 [AKA N2N2]",561.240000000000009
+UT,Trust Lands Administration,Subsurface,642 Stat. 107-110 (1894),Other Minerals,419033,17,17,16,Grand,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,643 Stat. 107-110 (1894),Other Minerals,419034,17,17,32,Grand,10,SCH,E2E2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,644 Stat. 107-110 (1894),Other Minerals,419035,17,19,2,Grand,10,SCH,"LOTS 1(39.72), 2(39.62), 3(39.54), 4(39.44), S2N2, S2 [ALL]",638.320000000000050
+UT,Trust Lands Administration,Subsurface,645 Stat. 107-110 (1894),Other Minerals,419036,17,19,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,646 Stat. 107-110 (1894),Other Minerals,419037,17,19,31,Grand,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,647 Stat. 107-110 (1894),Other Minerals,419038,17,19,32,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,648 Stat. 107-110 (1894),Other Minerals,419039,17,19,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,649 Stat. 107-110 (1894),Other Minerals,419040,17,20,2,Grand,10,SCH,"LOTS 1(40.16), 2(40.08), 3(40.00), 4(39.92), S2N2, S2 [ALL]",640.159999999999968
+UT,Trust Lands Administration,Subsurface,650 Stat. 107-110 (1894),Other Minerals,419041,17,20,3,Grand,10,SCH,"LOT 2(39.93), N2SW4 [LOT AKA NW4NE4]",119.930000000000007
+UT,Trust Lands Administration,Subsurface,651 Stat. 107-110 (1894),Other Minerals,419042,17,20,3,Grand,10,SCH,LOT 1 [NE4NE4],39.890000000000001
+UT,Trust Lands Administration,Subsurface,652 Stat. 107-110 (1894),Other Minerals,419043,17,20,3,Grand,10,SCH,SW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,653 Stat. 107-110 (1894),Other Minerals,419044,17,20,4,Grand,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,654 Stat. 107-110 (1894),Other Minerals,419045,17,20,9,Grand,10,SCH,"E2NE4, NW4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,655 Stat. 107-110 (1894),Other Minerals,419046,17,20,9,Grand,10,SCH,"SW4NE4, SW4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,656 Stat. 107-110 (1894),Other Minerals,419052,17,20,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,657 Stat. 107-110 (1894),Other Minerals,419053,17,20,19,Grand,10,SCH,E2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,658 Stat. 107-110 (1894),Other Minerals,419054,17,20,20,Grand,10,SCH,"NE4NW4, SW4NW4, NW4SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,659 Stat. 107-110 (1894),Other Minerals,419055,17,20,21,Grand,10,SCH,"E2NW4, W2SW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,660 Stat. 107-110 (1894),Other Minerals,419062,17,20,32,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,661 Stat. 107-110 (1894),Other Minerals,419069,17,21,6,Grand,10,SCH,"LOTS 4(26.98), 5(31.66), 6(47.47), 7(40.00), 8(40.00), 9(47.66), 10(47.51), 11(40.00) [AKA W2W2 OF THE FAR W2, W2W2]",321.279999999999973
+UT,Trust Lands Administration,Subsurface,662 Stat. 107-110 (1894),Other Minerals,419278,18,17,2,Grand,10,SCH,"LOTS 1(40.79), 2(40.72), 3(40.66), 4(40.59), S2N2, S2 [ALL]",642.759999999999991
+UT,Trust Lands Administration,Subsurface,663 Stat. 107-110 (1894),Other Minerals,419279,18,17,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,664 Stat. 107-110 (1894),Other Minerals,419282,18,18,16,Grand,10,SCH,"LOTS 1(11.69), 2(9.28), 3(18.15), 4(16.75) [ALL]",55.869999999999997
+UT,Trust Lands Administration,Subsurface,665 Stat. 107-110 (1894),Other Minerals,419285,18,19,2,Grand,10,SCH,"LOTS 1(39.43), 2(39.49), 3(39.55), 4(39.61), S2N2, S2 [ALL]",638.080000000000041
+UT,Trust Lands Administration,Subsurface,666 Stat. 107-110 (1894),Other Minerals,419286,18,19,10,Grand,10,SCH,SE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,667 Stat. 107-110 (1894),Other Minerals,419287,18,19,10,Grand,10,SCH,SE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,668 Stat. 107-110 (1894),Other Minerals,419288,18,19,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,669 Stat. 107-110 (1894),Other Minerals,419289,18,19,22,Grand,10,SCH,SE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,670 Stat. 107-110 (1894),Other Minerals,419290,18,19,23,Grand,10,SCH,"S2NW4, NW4SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,671 Stat. 107-110 (1894),Other Minerals,419291,18,19,24,Grand,10,SCH,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,672 Stat. 107-110 (1894),Other Minerals,419292,18,19,25,Grand,10,SCH,SW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,673 Stat. 107-110 (1894),Other Minerals,419294,18,19,36,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,674 Stat. 107-110 (1894),Other Minerals,419298,18,20,6,Grand,10,SCH,SW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,675 Stat. 107-110 (1894),Other Minerals,419306,18,20,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,676 Stat. 107-110 (1894),Other Minerals,419307,18,20,18,Grand,10,SCH,"N2NE4, SW4NE4, SE4NW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,677 Stat. 107-110 (1894),Other Minerals,419308,18,20,18,Grand,10,SCH,NE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,678 Stat. 107-110 (1894),Other Minerals,419309,18,20,19,Grand,10,SCH,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,679 Stat. 107-110 (1894),Other Minerals,419320,18,20,28,Grand,10,SCH,"S2SW4, SE4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,680 Stat. 107-110 (1894),Other Minerals,419321,18,20,30,Grand,10,SCH,"LOTS 3(39.72), 4(39.78) [AKA W2SW4]",79.500000000000000
+UT,Trust Lands Administration,Subsurface,681 Stat. 107-110 (1894),Other Minerals,419322,18,20,32,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,682 Stat. 107-110 (1894),Other Minerals,419324,18,20,33,Grand,10,SCH,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,683 Stat. 107-110 (1894),Other Minerals,419552,19,19,2,Grand,10,SCH,"LOTS 1(16.71), 2(17.01), 3(17.31), 4(17.61), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), S2N2, S2 [ALL]",868.639999999999986
+UT,Trust Lands Administration,Subsurface,684 Stat. 107-110 (1894),Other Minerals,419560,19,20,9,Grand,10,SCH,SE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,685 Stat. 107-110 (1894),Other Minerals,419568,19,20,15,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,686 Stat. 107-110 (1894),Other Minerals,419569,19,20,16,Grand,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,687 Stat. 107-110 (1894),Other Minerals,419570,19,20,21,Grand,10,SCH,"N2, NE4SW4, NW4SE4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,688 Stat. 107-110 (1894),Other Minerals,422093,1,1,22,Uintah,10,SCH,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,689 Stat. 107-110 (1894),Other Minerals,422094,1,1,22,Uintah,10,SCH,"NW4NE4, N2NW4, SE4NW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,690 Stat. 107-110 (1894),Other Minerals,422095,1,1,22,Uintah,10,SCH,"S2NE4, N2SW4, SE4SW4, N2NE4SE4, NW4SE4",260.000000000000000
+UT,Trust Lands Administration,Subsurface,691 Stat. 107-110 (1894),Other Minerals,422096,1,1,22,Uintah,10,SCH,"S2NE4SE4, SE4SE4",60.000000000000000
+UT,Trust Lands Administration,Subsurface,692 Stat. 107-110 (1894),Other Minerals,422097,1,1,35,Uintah,10,SCH,NE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,693 Stat. 107-110 (1894),Other Minerals,422098,1,1,36,Uintah,12,UNIV,PART OF SW4 [METES & BOUNDS],108.000000000000000
+UT,Trust Lands Administration,Subsurface,694 Stat. 107-110 (1894),Other Minerals,422099,1,1,36,Uintah,12,UNIV,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,695 Stat. 107-110 (1894),Other Minerals,422100,1,1,19,Duchesne,1,USU,"SE4NE4, NE4SW4, N2SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,696 Stat. 107-110 (1894),Other Minerals,422101,2,4,15,Duchesne,10,SCH,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,697 Stat. 107-110 (1894),Other Minerals,422102,2,4,22,Duchesne,10,SCH,"NW4NE4, E2NW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,698 Stat. 107-110 (1894),Other Minerals,422103,1,1,12,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,699 Stat. 107-110 (1894),Other Minerals,422104,1,1,15,Duchesne,6,NS,"NW4SW4, SW4NW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,700 Stat. 107-110 (1894),Other Minerals,422105,1,1,18,Duchesne,10,SCH,"LOTS 1(40.32), 2(40.32), 3(40.50), E2NW4, NE4SW4, W2SE4, PART OF N2N2SW4SW4 [METES & BOUNDS] [AKA W2NW4, NW4SW4]",323.139999999999986
+UT,Trust Lands Administration,Subsurface,701 Stat. 107-110 (1894),Other Minerals,422106,1,1,19,Duchesne,10,SCH,"W2SE4, SW4NE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,702 Stat. 107-110 (1894),Other Minerals,422107,1,1,35,Uintah,10,SCH,"S2NE4, N2SE4, SE4SE4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,703 Stat. 107-110 (1894),Other Minerals,422108,1,1,35,Uintah,12,UNIV,E2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,704 Stat. 107-110 (1894),Other Minerals,422109,1,2,10,Duchesne,5,MH,"SW4NE4, E2NW4, SW4NW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,705 Stat. 107-110 (1894),Other Minerals,422110,1,2,10,Duchesne,10,SCH,"SE4NE4, NE4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,706 Stat. 107-110 (1894),Other Minerals,422111,1,2,11,Duchesne,10,SCH,SW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,707 Stat. 107-110 (1894),Other Minerals,422112,1,2,22,Duchesne,10,SCH,S2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,708 Stat. 107-110 (1894),Other Minerals,422113,1,2,23,Duchesne,10,SCH,"NE4SW4, PART OF SE4SW4, NW4SE4 [METES & BOUNDS]",115.000000000000000
+UT,Trust Lands Administration,Subsurface,709 Stat. 107-110 (1894),Other Minerals,422114,1,2,24,Duchesne,5,MH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,710 Stat. 107-110 (1894),Other Minerals,422115,1,2,27,Duchesne,1,USU,N2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,711 Stat. 107-110 (1894),Other Minerals,422116,1,2,27,Duchesne,10,SCH,PART OF N2NE4 [METES & BOUNDS],76.000000000000000
+UT,Trust Lands Administration,Subsurface,712 Stat. 107-110 (1894),Other Minerals,422117,1,2,35,Duchesne,8,SYDC,E2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,713 Stat. 107-110 (1894),Other Minerals,422118,1,2,35,Duchesne,11,SM,N2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,714 Stat. 107-110 (1894),Other Minerals,422119,1,3,8,Duchesne,12,UNIV,"SW4NE4, PART OF NE4SW4 [METES & BOUNDS]",77.000000000000000
+UT,Trust Lands Administration,Subsurface,715 Stat. 107-110 (1894),Other Minerals,422120,1,4,3,Duchesne,10,SCH,SE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,716 Stat. 107-110 (1894),Other Minerals,422121,1,4,3,Duchesne,10,SCH,SW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,717 Stat. 107-110 (1894),Other Minerals,422122,1,4,7,Duchesne,10,SCH,"LOTS 1(36.60), 2(36.36) [AKA W2NW4]",72.959999999999994
+UT,Trust Lands Administration,Subsurface,718 Stat. 107-110 (1894),Other Minerals,422123,1,4,17,Duchesne,10,SCH,W2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,719 Stat. 107-110 (1894),Other Minerals,422124,1,4,18,Duchesne,4,IB,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,720 Stat. 107-110 (1894),Other Minerals,422125,1,4,19,Duchesne,4,IB,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,721 Stat. 107-110 (1894),Other Minerals,422126,1,4,20,Duchesne,10,SCH,"E2SW4, W2SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,722 Stat. 107-110 (1894),Other Minerals,422127,1,4,30,Duchesne,10,SCH,"LOTS 1(36.81), 2(36.86), SE4NW4 [LOTS AKA W2NW4]",113.670000000000002
+UT,Trust Lands Administration,Subsurface,723 Stat. 107-110 (1894),Other Minerals,422128,1,4,31,Duchesne,10,SCH,"N2NE4, NE4NW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,724 Stat. 107-110 (1894),Other Minerals,422129,1,4,33,Duchesne,10,SCH,"SW4NE4, SE4NW4, NE4SW4, NW4SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,725 Stat. 107-110 (1894),Other Minerals,422130,1,5,10,Duchesne,3,USH,W2W2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,726 Stat. 107-110 (1894),Other Minerals,422131,1,5,12,Duchesne,10,SCH,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,727 Stat. 107-110 (1894),Other Minerals,422132,1,5,23,Duchesne,12,UNIV,E2W2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,728 Stat. 107-110 (1894),Other Minerals,422133,1,5,25,Duchesne,10,SCH,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,729 Stat. 107-110 (1894),Other Minerals,422134,1,7,32,Duchesne,4,IB,"PART OF SE4NW4, PART OF NE4SW4 [METES & BOUNDS]",58.000000000000000
+UT,Trust Lands Administration,Subsurface,730 Stat. 107-110 (1894),Other Minerals,422135,2,1,2,Uintah,4,IB,SW4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,731 Stat. 107-110 (1894),Other Minerals,422136,2,1,2,Uintah,4,IB,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,732 Stat. 107-110 (1894),Other Minerals,422137,2,1,3,Duchesne,2,DEAF,"LOTS 3(40.82), 4(40.99), S2NW4 [LOTS AKA N2NW4]",161.810000000000002
+UT,Trust Lands Administration,Subsurface,733 Stat. 107-110 (1894),Other Minerals,422138,2,1,3,Duchesne,3,USH,W2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,734 Stat. 107-110 (1894),Other Minerals,422139,2,1,3,Duchesne,12,UNIV,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,735 Stat. 107-110 (1894),Other Minerals,422140,2,1,5,Duchesne,3,USH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,736 Stat. 107-110 (1894),Other Minerals,422141,2,1,6,Duchesne,4,IB,S2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,737 Stat. 107-110 (1894),Other Minerals,422142,2,1,7,Duchesne,4,IB,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,738 Stat. 107-110 (1894),Other Minerals,422143,2,1,7,Duchesne,6,NS,"N2SE4, NE4SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,739 Stat. 107-110 (1894),Other Minerals,422144,2,1,8,Duchesne,3,USH,"E2NE4, NE4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,740 Stat. 107-110 (1894),Other Minerals,422145,2,1,9,Duchesne,7,PB,NE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,741 Stat. 107-110 (1894),Other Minerals,422146,2,1,10,Duchesne,10,SCH,W2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,742 Stat. 107-110 (1894),Other Minerals,422147,2,1,10,Duchesne,12,UNIV,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,743 Stat. 107-110 (1894),Other Minerals,422148,2,1,10,Uintah,1,USU,E2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,744 Stat. 107-110 (1894),Other Minerals,422149,2,1,10,Uintah,10,SCH,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,745 Stat. 107-110 (1894),Other Minerals,422150,2,1,11,Uintah,1,USU,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,746 Stat. 107-110 (1894),Other Minerals,422151,2,1,11,Uintah,6,NS,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,747 Stat. 107-110 (1894),Other Minerals,422152,2,1,12,Uintah,10,SCH,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,748 Stat. 107-110 (1894),Other Minerals,422153,2,1,14,Uintah,12,UNIV,"E2NE4NW4, S2S2SW4NW4, PART OF SW4NW4, SE4NW4 [METES & BOUNDS]",94.000000000000000
+UT,Trust Lands Administration,Subsurface,749 Stat. 107-110 (1894),Other Minerals,422154,2,1,16,Duchesne,10,SCH,PART OF SW4 [LESS 11 ACRES - METES & BOUNDS],149.000000000000000
+UT,Trust Lands Administration,Subsurface,750 Stat. 107-110 (1894),Other Minerals,422155,2,1,16,Duchesne,10,SCH,N2N2NE4SW4 [METES & BOUNDS],10.000000000000000
+UT,Trust Lands Administration,Subsurface,751 Stat. 107-110 (1894),Other Minerals,422156,2,1,17,Duchesne,10,SCH,"PART OF SE4NE4, PART OF NE4SE4 [METES & BOUNDS]",77.000000000000000
+UT,Trust Lands Administration,Subsurface,752 Stat. 107-110 (1894),Other Minerals,422157,2,1,17,Duchesne,11,SM,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,753 Stat. 107-110 (1894),Other Minerals,422158,2,1,17,Duchesne,12,UNIV,PART OF SE4SW4 [METES & BOUNDS],39.000000000000000
+UT,Trust Lands Administration,Subsurface,754 Stat. 107-110 (1894),Other Minerals,422159,2,1,18,Duchesne,1,USU,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,755 Stat. 107-110 (1894),Other Minerals,422160,2,1,19,Duchesne,1,USU,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,756 Stat. 107-110 (1894),Other Minerals,422161,2,1,19,Duchesne,3,USH,"LOTS 3(39.37), 4(39.38), E2SW4 [LOTS AKA W2SW4]",158.750000000000000
+UT,Trust Lands Administration,Subsurface,757 Stat. 107-110 (1894),Other Minerals,422162,2,1,19,Duchesne,10,SCH,PART OF W2W2NW4 [METES & BOUNDS],52.159999999999997
+UT,Trust Lands Administration,Subsurface,758 Stat. 107-110 (1894),Other Minerals,422163,2,1,19,Duchesne,10,SCH,"E2NW4, PART OF E2W2NW4 [METES & BOUNDS]",106.670000000000002
+UT,Trust Lands Administration,Subsurface,759 Stat. 107-110 (1894),Other Minerals,422164,2,1,20,Duchesne,10,SCH,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,760 Stat. 107-110 (1894),Other Minerals,422165,2,1,21,Duchesne,10,SCH,PART OF NE4NW4 [LESS METES & BOUNDS],20.190000000000001
+UT,Trust Lands Administration,Subsurface,761 Stat. 107-110 (1894),Other Minerals,422166,2,1,22,Duchesne,9,RES,"PART OF S2N2SW4, PART OF N2N2S2SW4, PART OF SW4SE4SW4SW4 [METES & BOUNDS]",31.920000000000002
+UT,Trust Lands Administration,Subsurface,762 Stat. 107-110 (1894),Other Minerals,422167,2,1,22,Duchesne,9,RES,PART OF N2N2SW4 [METES & BOUNDS],26.250000000000000
+UT,Trust Lands Administration,Subsurface,763 Stat. 107-110 (1894),Other Minerals,422168,2,1,22,Duchesne,9,RES,PART OF S2SW4 [METES & BOUNDS] [MINERALS BELOW 400 FEET],46.829999999999998
+UT,Trust Lands Administration,Subsurface,764 Stat. 107-110 (1894),Other Minerals,422169,2,1,24,Uintah,8,SYDC,E2SW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,765 Stat. 107-110 (1894),Other Minerals,422170,2,1,24,Uintah,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,766 Stat. 107-110 (1894),Other Minerals,422171,2,1,27,Duchesne,10,SCH,"PART NW4SW4, SE4SW4 [METES & BOUNDS]",78.890000000000001
+UT,Trust Lands Administration,Subsurface,767 Stat. 107-110 (1894),Other Minerals,422172,2,1,28,Duchesne,10,SCH,"PART NE4, PART N2N2SE4 [METES & BOUNDS]",141.500000000000000
+UT,Trust Lands Administration,Subsurface,768 Stat. 107-110 (1894),Other Minerals,422173,2,1,28,Duchesne,12,UNIV,PART SE4 [METES & BOUNDS],141.500000000000000
+UT,Trust Lands Administration,Subsurface,769 Stat. 107-110 (1894),Other Minerals,422174,2,1,32,Duchesne,12,UNIV,PART OF S2NW4 [METES & BOUNDS],79.000000000000000
+UT,Trust Lands Administration,Subsurface,770 Stat. 107-110 (1894),Other Minerals,422175,2,1,33,Duchesne,10,SCH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,771 Stat. 107-110 (1894),Other Minerals,422176,2,1,34,Duchesne,10,SCH,"N2SW4, NW4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,772 Stat. 107-110 (1894),Other Minerals,422177,2,1,34,Duchesne,10,SCH,W2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,773 Stat. 107-110 (1894),Other Minerals,422178,2,1,34,Duchesne,10,SCH,"SE4SW4, SW4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,774 Stat. 107-110 (1894),Other Minerals,422179,2,1,34,Uintah,10,SCH,NE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,775 Stat. 107-110 (1894),Other Minerals,422180,2,1,34,Uintah,10,SCH,E2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,776 Stat. 107-110 (1894),Other Minerals,422181,2,1,34,Uintah,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,777 Stat. 107-110 (1894),Other Minerals,422182,2,1,36,Uintah,2,DEAF,SE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,778 Stat. 107-110 (1894),Other Minerals,422183,2,1,36,Uintah,2,DEAF,SW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,779 Stat. 107-110 (1894),Other Minerals,422184,2,2,1,Duchesne,10,SCH,"LOT 4(40.08), SW4NW4, SW4, W2SE4 [LOT AKA NW4NW4]",320.769999999999982
+UT,Trust Lands Administration,Subsurface,780 Stat. 107-110 (1894),Other Minerals,422185,2,2,13,Duchesne,1,USU,M&B IN S2SE4,53.329999999999998
+UT,Trust Lands Administration,Subsurface,781 Stat. 107-110 (1894),Other Minerals,422186,2,2,13,Duchesne,10,SCH,M&B IN SE4,53.329999999999998
+UT,Trust Lands Administration,Subsurface,782 Stat. 107-110 (1894),Other Minerals,422187,2,2,23,Duchesne,5,MH,"NE4NE4, N2SE4NE4",60.000000000000000
+UT,Trust Lands Administration,Subsurface,783 Stat. 107-110 (1894),Other Minerals,422188,2,2,23,Duchesne,10,SCH,"SE4SW4, SE4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,784 Stat. 107-110 (1894),Other Minerals,422189,2,2,24,Duchesne,8,SYDC,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,785 Stat. 107-110 (1894),Other Minerals,422190,2,2,26,Duchesne,10,SCH,N2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,786 Stat. 107-110 (1894),Other Minerals,422191,2,2,36,Duchesne,4,IB,PART OF N2NE4 [METES & BOUNDS],50.000000000000000
+UT,Trust Lands Administration,Subsurface,787 Stat. 107-110 (1894),Other Minerals,422192,2,3,25,Duchesne,10,SCH,"SW4NE4, N2SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,788 Stat. 107-110 (1894),Other Minerals,422193,2,3,26,Duchesne,1,USU,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,789 Stat. 107-110 (1894),Other Minerals,422194,2,5,20,Duchesne,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,790 Stat. 107-110 (1894),Other Minerals,422195,2,5,21,Duchesne,10,SCH,SW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,791 Stat. 107-110 (1894),Other Minerals,422196,2,5,28,Duchesne,10,SCH,PART OF NW4 [METES & BOUNDS],116.700000000000003
+UT,Trust Lands Administration,Subsurface,792 Stat. 107-110 (1894),Other Minerals,422197,2,7,10,Duchesne,10,SCH,"NE4, E2NW4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,793 Stat. 107-110 (1894),Other Minerals,422198,2,7,11,Duchesne,10,SCH,N2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,794 Stat. 107-110 (1894),Other Minerals,422199,3,1,3,Duchesne,4,IB,LOT 4 [NW4NW4],39.320000000000000
+UT,Trust Lands Administration,Subsurface,795 Stat. 107-110 (1894),Other Minerals,422200,3,1,3,Duchesne,10,SCH,LOT 3 [NE4NW4],39.399999999999999
+UT,Trust Lands Administration,Subsurface,796 Stat. 107-110 (1894),Other Minerals,422201,3,1,4,Duchesne,10,SCH,"S2NW4, N2SW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,797 Stat. 107-110 (1894),Other Minerals,422202,3,1,5,Duchesne,10,SCH,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,798 Stat. 107-110 (1894),Other Minerals,422203,3,1,11,Uintah,12,UNIV,S2N2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,799 Stat. 107-110 (1894),Other Minerals,422204,3,1,17,Duchesne,1,USU,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,800 Stat. 107-110 (1894),Other Minerals,422205,3,1,18,Duchesne,8,SYDC,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,801 Stat. 107-110 (1894),Other Minerals,422206,3,1,26,Uintah,10,SCH,"NE4, N2SE4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,802 Stat. 107-110 (1894),Other Minerals,422207,3,1,27,Duchesne,3,USH,LOT 5 [SW4NW4],39.829999999999998
+UT,Trust Lands Administration,Subsurface,803 Stat. 107-110 (1894),Other Minerals,422208,3,1,28,Duchesne,1,USU,"SE4NW4, NE4SW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,804 Stat. 107-110 (1894),Other Minerals,422209,3,1,28,Duchesne,3,USH,"LOT 2(40.56), S2NE4 [LOT AKA NW4NE4]",120.560000000000002
+UT,Trust Lands Administration,Subsurface,805 Stat. 107-110 (1894),Other Minerals,422210,3,1,33,Duchesne,1,USU,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,806 Stat. 107-110 (1894),Other Minerals,422211,3,2,1,Duchesne,8,SYDC,"LOTS 2(40.41), 3(40.65), 4(40.89), SW4NW4 [AKA NW4NE4, N2NW4]",161.949999999999989
+UT,Trust Lands Administration,Subsurface,807 Stat. 107-110 (1894),Other Minerals,422212,3,2,1,Duchesne,10,SCH,SW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,808 Stat. 107-110 (1894),Other Minerals,422213,3,2,3,Duchesne,3,USH,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,809 Stat. 107-110 (1894),Other Minerals,422214,3,2,5,Duchesne,10,SCH,"LOTS 1(40.55), 2(40.84), S2NE4 [LOTS AKA N2NE4]",161.389999999999986
+UT,Trust Lands Administration,Subsurface,810 Stat. 107-110 (1894),Other Minerals,422215,3,2,11,Duchesne,2,DEAF,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,811 Stat. 107-110 (1894),Other Minerals,422216,3,2,11,Duchesne,10,SCH,"S2NE4, N2SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,812 Stat. 107-110 (1894),Other Minerals,422217,3,2,12,Duchesne,10,SCH,NW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,813 Stat. 107-110 (1894),Other Minerals,422218,3,2,19,Duchesne,10,SCH,"LOT 1(38.80), 2(38.95) [AKA W2NW4]",77.750000000000000
+UT,Trust Lands Administration,Subsurface,814 Stat. 107-110 (1894),Other Minerals,422219,3,2,19,Duchesne,10,SCH,"LOT 3(38.77), 4(39.18) [AKA W2SW4]",77.950000000000003
+UT,Trust Lands Administration,Subsurface,815 Stat. 107-110 (1894),Other Minerals,422220,3,3,1,Duchesne,10,SCH,SW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,816 Stat. 107-110 (1894),Other Minerals,422221,3,3,2,Duchesne,10,SCH,"SE4SW4, S2SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,817 Stat. 107-110 (1894),Other Minerals,422222,3,3,7,Duchesne,10,SCH,"LOTS 1(37.05), 2(37.04) [AKA W2NW4]",74.090000000000003
+UT,Trust Lands Administration,Subsurface,818 Stat. 107-110 (1894),Other Minerals,422223,3,3,7,Duchesne,10,SCH,"N2NE4, SE4NE4, NE4NW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,819 Stat. 107-110 (1894),Other Minerals,422224,3,3,11,Duchesne,10,SCH,N2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,820 Stat. 107-110 (1894),Other Minerals,422225,3,3,12,Duchesne,10,SCH,W2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,821 Stat. 107-110 (1894),Other Minerals,422226,3,3,34,Duchesne,10,SCH,"SW4NW4, E2SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,822 Stat. 107-110 (1894),Other Minerals,422227,3,4,36,Duchesne,10,SCH,"LOTS 2(36.10), 3(27.77), N2SW4 [LOTS AKA PART OF S2SW4]",143.870000000000005
+UT,Trust Lands Administration,Subsurface,823 Stat. 107-110 (1894),Other Minerals,422228,3,5,26,Duchesne,10,SCH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,824 Stat. 107-110 (1894),Other Minerals,422229,3,5,35,Duchesne,10,SCH,PART OF E2 [METES & BOUNDS],167.849999999999994
+UT,Trust Lands Administration,Subsurface,825 Stat. 107-110 (1894),Other Minerals,422230,3,9,24,Duchesne,10,SCH,"S2SW4, SW4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,826 Stat. 107-110 (1894),Other Minerals,422231,3,9,25,Duchesne,10,SCH,S2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,827 Stat. 107-110 (1894),Other Minerals,422232,3,9,25,Duchesne,10,SCH,N2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,828 Stat. 107-110 (1894),Other Minerals,422233,3,9,26,Duchesne,10,SCH,N2S2,160.000000000000000
+UT,Trust Lands Administration,Subsurface,829 Stat. 107-110 (1894),Other Minerals,422234,3,9,26,Duchesne,10,SCH,"NE4, S2NW4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,830 Stat. 107-110 (1894),Other Minerals,422235,3,9,27,Duchesne,10,SCH,S2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,831 Stat. 107-110 (1894),Other Minerals,422236,4,2,1,Duchesne,3,USH,"S2N2SW4SW4, S2SW4SW4",30.000000000000000
+UT,Trust Lands Administration,Subsurface,832 Stat. 107-110 (1894),Other Minerals,422237,4,2,12,Duchesne,3,USH,NW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,833 Stat. 107-110 (1894),Other Minerals,422238,4,2,19,Duchesne,10,SCH,"LOTS 1(40.11), 2(40.09), 3(40.07), 4(40.05), W2NE4, E2W2, SE4 [LOTS AKA W2W2]",560.320000000000050
+UT,Trust Lands Administration,Subsurface,834 Stat. 107-110 (1894),Other Minerals,422239,4,3,10,Duchesne,10,SCH,"S2SW4, LESS THE PORTION OF THE SE4SW4 LYING NORTH AND EAST OF THE GRAY MOUNTAIN CANAL",70.000000000000000
+UT,Trust Lands Administration,Subsurface,835 Stat. 107-110 (1894),Other Minerals,422240,4,3,10,Duchesne,10,SCH,PART OF N2N2SE4SW4 [THAT PORTION LYING NORTH AND EAST OF THE GRAY MOUNTAIN CANAL],10.000000000000000
+UT,Trust Lands Administration,Subsurface,836 Stat. 107-110 (1894),Other Minerals,422241,4,3,10,Duchesne,10,SCH,W2NE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,837 Stat. 107-110 (1894),Other Minerals,422242,4,3,13,Duchesne,10,SCH,"SW4NE4, W2, W2SE4, SE4SE4",480.000000000000000
+UT,Trust Lands Administration,Subsurface,838 Stat. 107-110 (1894),Other Minerals,422243,4,3,14,Duchesne,10,SCH,"NE4NE4, NW4NW4, S2N2, S2",560.000000000000000
+UT,Trust Lands Administration,Subsurface,839 Stat. 107-110 (1894),Other Minerals,422244,4,3,15,Duchesne,10,SCH,N2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,840 Stat. 107-110 (1894),Other Minerals,422245,4,3,15,Duchesne,10,SCH,"NE4, SE4NW4, S2",520.000000000000000
+UT,Trust Lands Administration,Subsurface,841 Stat. 107-110 (1894),Other Minerals,422246,4,3,16,Duchesne,10,SCH,SE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,842 Stat. 107-110 (1894),Other Minerals,422247,4,3,16,Duchesne,10,SCH,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,843 Stat. 107-110 (1894),Other Minerals,422248,4,3,21,Duchesne,10,SCH,"NE4, NE4NW4, S2NW4, S2",600.000000000000000
+UT,Trust Lands Administration,Subsurface,844 Stat. 107-110 (1894),Other Minerals,422249,4,3,22,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,845 Stat. 107-110 (1894),Other Minerals,422250,4,3,23,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,846 Stat. 107-110 (1894),Other Minerals,422251,4,3,24,Duchesne,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,847 Stat. 107-110 (1894),Other Minerals,422252,4,3,29,Duchesne,11,SM,"NE4SW4, SW4SW4, NW4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,848 Stat. 107-110 (1894),Other Minerals,422253,4,3,29,Duchesne,11,SM,SE4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,849 Stat. 107-110 (1894),Other Minerals,422254,4,3,31,Duchesne,10,SCH,"NE4NE4, S2NE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,850 Stat. 107-110 (1894),Other Minerals,422255,4,3,32,Duchesne,10,SCH,NW4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,851 Stat. 107-110 (1894),Other Minerals,422256,4,4,1,Duchesne,10,SCH,"LOTS 3(8.78), 4(22.81) [AKA PART OF NE4NW4]",31.590000000000000
+UT,Trust Lands Administration,Subsurface,852 Stat. 107-110 (1894),Other Minerals,422257,4,6,3,Duchesne,10,SCH,NW4SW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,853 Stat. 107-110 (1894),Other Minerals,422258,4,6,3,Duchesne,10,SCH,PART OF SW4SW4 [METES & BOUNDS],29.000000000000000
+UT,Trust Lands Administration,Subsurface,854 Stat. 107-110 (1894),Other Minerals,422259,4,6,4,Duchesne,10,SCH,N2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,855 Stat. 107-110 (1894),Other Minerals,422260,4,6,4,Duchesne,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,856 Stat. 107-110 (1894),Other Minerals,422261,4,6,9,Duchesne,10,SCH,"S2NW4, N2SW4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,857 Stat. 107-110 (1894),Other Minerals,422262,4,6,10,Duchesne,10,SCH,LOT 2 [NW4NW4],30.520000000000000
+UT,Trust Lands Administration,Subsurface,858 Stat. 107-110 (1894),Other Minerals,422263,4,6,10,Duchesne,10,SCH,W2SW4SE4,20.000000000000000
+UT,Trust Lands Administration,Subsurface,859 Stat. 107-110 (1894),Other Minerals,422264,4,6,14,Duchesne,10,SCH,SE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,860 Stat. 107-110 (1894),Other Minerals,422265,4,6,35,Duchesne,10,SCH,S2,320.000000000000000
+UT,Trust Lands Administration,Subsurface,861 Stat. 107-110 (1894),Other Minerals,422266,4,8,1,Duchesne,10,SCH,"SE4SW4, W2W2NE4SE4, W2SE4, N2SE4SE4, SE4SE4SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,862 Stat. 107-110 (1894),Other Minerals,422267,5,3,6,Duchesne,10,SCH,SW4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,863 Stat. 107-110 (1894),Other Minerals,422268,5,3,6,Duchesne,10,SCH,"LOT 10(40.00), NE4SE4, W2SE4 [LOT AKA SW4NE4]",160.000000000000000
+UT,Trust Lands Administration,Subsurface,864 Stat. 107-110 (1894),Other Minerals,422269,5,3,7,Duchesne,10,SCH,N2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,865 Stat. 107-110 (1894),Other Minerals,422270,1,1,1,Uintah,11,SM,"E2SW4SE4, SE4SE4",60.000000000000000
+UT,Trust Lands Administration,Subsurface,866 Stat. 107-110 (1894),Other Minerals,422271,1,1,2,Uintah,1,USU,SE4NW4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,867 Stat. 107-110 (1894),Other Minerals,422272,1,2,8,Uintah,10,SCH,"SW4NW4, N2NW4SW4",60.000000000000000
+UT,Trust Lands Administration,Subsurface,868 Stat. 107-110 (1894),Other Minerals,422273,1,2,8,Uintah,10,SCH,"S2NW4SW4, PART OF SW4SW4 [METES & BOUNDS]",59.140000000000001
+UT,Trust Lands Administration,Subsurface,869 Stat. 107-110 (1894),Other Minerals,422274,2,1,1,Uintah,12,UNIV,W2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,870 Stat. 107-110 (1894),Other Minerals,422275,2,1,4,Uintah,10,SCH,"SW4NW4, W2SW4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,871 Stat. 107-110 (1894),Other Minerals,422276,2,1,6,Uintah,6,NS,PART OF NW4 [METES & BOUNDS],82.980000000000004
+UT,Trust Lands Administration,Subsurface,872 Stat. 107-110 (1894),Other Minerals,422277,2,1,7,Uintah,10,SCH,"W2SE4, SE4SE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,873 Stat. 107-110 (1894),Other Minerals,422278,2,1,18,Uintah,10,SCH,"LOTS 3(39.78), 4(39.86), E2SW4 [LESS 3.2 ACRES ROW FOR U. S. HWY 40] [LOTS AKA W2SW4]",156.439999999999998
+UT,Trust Lands Administration,Subsurface,874 Stat. 107-110 (1894),Other Minerals,422279,2,1,20,Uintah,11,SM,"LOTS 2(39.31), 7(39.33), W2NE4 [LOTS AKA W2SE4]",158.639999999999986
+UT,Trust Lands Administration,Subsurface,875 Stat. 107-110 (1894),Other Minerals,422280,2,1,29,Uintah,11,SM,NW4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,876 Stat. 107-110 (1894),Other Minerals,422281,3,1,4,Uintah,10,SCH,"LOT 3(42.23), SE4NW4, E2SW4 [LOTS AKA NE4NW4]",162.229999999999990
+UT,Trust Lands Administration,Subsurface,877 Stat. 107-110 (1894),Other Minerals,422282,3,1,10,Uintah,10,SCH,NE4,160.000000000000000
+UT,Trust Lands Administration,Subsurface,878 Stat. 107-110 (1894),Other Minerals,422283,3,2,14,Uintah,10,SCH,W2SW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,879 Stat. 107-110 (1894),Other Minerals,422284,3,2,15,Uintah,10,SCH,"NE4, N2SE4",240.000000000000000
+UT,Trust Lands Administration,Subsurface,880 Stat. 107-110 (1894),Other Minerals,422285,3,2,25,Uintah,11,SM,"LOTS 1(16.14), 2(32.74), NW4SW4 [LOTS AKA PART OF W2NW4]",88.879999999999995
+UT,Trust Lands Administration,Subsurface,881 Stat. 107-110 (1894),Other Minerals,422286,3,2,26,Uintah,11,SM,NE4NE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,882 Stat. 107-110 (1894),Other Minerals,413909,29,18,16,Beaver,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,883 Stat. 107-110 (1894),Other Minerals,413910,29,18,17,Beaver,10,SCH,SE4SE4,40.000000000000000
+UT,Trust Lands Administration,Subsurface,884 Stat. 107-110 (1894),Other Minerals,413914,29,18,32,Beaver,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,885 Stat. 107-110 (1894),Other Minerals,413915,29,18,36,Beaver,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,886 Stat. 107-110 (1894),Other Minerals,414107,30,18,2,Beaver,10,SCH,"LOTS 1(40.12), 2(39.93), 3(39.73), 4(39.54), S2N2, S2 [ALL]",639.320000000000050
+UT,Trust Lands Administration,Subsurface,887 Stat. 107-110 (1894),Other Minerals,414988,37,12,12,Iron,10,SCH,"LOT 10(40.46), NW4SW4 [LOT AKA SW4SW4]",80.459999999999994
+UT,Trust Lands Administration,Subsurface,888 Stat. 107-110 (1894),Other Minerals,414989,37,12,13,Iron,10,SCH,"LOT 4(40.47), SW4NW4 [LOT AKA NW4NW4]",80.469999999999999
+UT,Trust Lands Administration,Subsurface,889 Stat. 107-110 (1894),Other Minerals,413444,27,1,16,Piute,10,SCH,"W2W2, SE4NW4",200.000000000000000
+UT,Trust Lands Administration,Subsurface,890 Stat. 107-110 (1894),Other Minerals,412905,22,5,36,Millard,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,891 Stat. 107-110 (1894),Other Minerals,413038,23,5,2,Millard,10,SCH,"LOTS 1(40.13), 2(39.98), S2NE4, SE4NW4, S2 [LOTS AKA N2NE4]",520.110000000000014
+UT,Trust Lands Administration,Subsurface,892 Stat. 107-110 (1894),Other Minerals,413039,23,5,2,Millard,10,SCH,"LOTS 3(39.83), 4(39.68), SW4NW4 [LOTS AKA N2NW4]",119.510000000000005
+UT,Trust Lands Administration,Subsurface,893 Stat. 107-110 (1894),Other Minerals,421870,38,23,27,San Juan,10,SCH,S2SE4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,894 Stat. 107-110 (1894),Other Minerals,421871,38,23,32,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,895 Stat. 107-110 (1894),Other Minerals,421874,38,24,29,San Juan,10,SCH,S2NW4,80.000000000000000
+UT,Trust Lands Administration,Subsurface,896 Stat. 107-110 (1894),Other Minerals,421876,38,24,36,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,897 Stat. 107-110 (1894),Other Minerals,421879,38,25,32,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,898 Stat. 107-110 (1894),Other Minerals,421926,39,22,36,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,899 Stat. 107-110 (1894),Other Minerals,421927,39,23,32,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,900 Stat. 107-110 (1894),Other Minerals,421983,40,23,36,San Juan,10,SCH,"LOTS 3(39.99), 4(13.85), 5(6.87), 6(36.03), W2NW4 [LOTS AKA PART OF E2NW4, PART OF N2SW4]",176.740000000000009
+UT,Trust Lands Administration,Subsurface,901 Stat. 107-110 (1894),Other Minerals,421984,40,24,32,San Juan,10,SCH,"SW4NW4, N2SE4, SW4SE4",160.000000000000000
+UT,Trust Lands Administration,Subsurface,902 Stat. 107-110 (1894),Other Minerals,421667,35,21,32,San Juan,10,SCH,"W2NE4, SE4NE4",120.000000000000000
+UT,Trust Lands Administration,Subsurface,903 Stat. 107-110 (1894),Other Minerals,421722,36,20,36,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,904 Stat. 107-110 (1894),Other Minerals,421724,36,21,16,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,905 Stat. 107-110 (1894),Other Minerals,421725,36,21,32,San Juan,10,SCH,"E2, S2SW4",400.000000000000000
+UT,Trust Lands Administration,Subsurface,906 Stat. 107-110 (1894),Other Minerals,421795,37,20,36,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,907 Stat. 107-110 (1894),Other Minerals,421802,37,22,3,San Juan,1,USU,"PART OF W2SE4NE4, PART OF W2E2SE4 [METES & BOUNDS]",48.439999999999998
+UT,Trust Lands Administration,Subsurface,908 Stat. 107-110 (1894),Other Minerals,421803,37,22,3,San Juan,4,IB,"SE4SW4, SW4SE4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,909 Stat. 107-110 (1894),Other Minerals,421804,37,22,3,San Juan,10,SCH,PART OF E2E2NE4 [METES & BOUNDS],50.920000000000002
+UT,Trust Lands Administration,Subsurface,910 Stat. 107-110 (1894),Other Minerals,421805,37,22,10,San Juan,4,IB,"NW4NE4, NE4NW4",80.000000000000000
+UT,Trust Lands Administration,Subsurface,911 Stat. 107-110 (1894),Other Minerals,421865,38,22,16,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,912 Stat. 107-110 (1894),Other Minerals,421867,38,22,36,San Juan,10,SCH,ALL,640.000000000000000
+UT,Trust Lands Administration,Subsurface,913 Stat. 107-110 (1894),Other Minerals,421882,38,26,32,San Juan,10,SCH,ALL,640.000000000000000

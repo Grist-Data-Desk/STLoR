@@ -1,0 +1,46 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.32.0-Lima">
+  <identifier>SchoolLands_Public_Use_20200116_NAD83_CATA</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>SchoolLands_Public_Use_20200116_NAD83_CATA</title>
+  <abstract>The California State Lands Commission (CSLC) was created by the California Legislature in 1938 and given the authority and responsibility to manage certain public lands within the state. The public lands under the Commission’s jurisdiction are of two distinct types—sovereign lands acquired upon California’s admission into the Union in 1850; and certain federally granted lands including school lands, and swamp and overflowed lands. For purposes of this GIS data, sovereign lands are considered to be further divided into two general categories—fixed-boundary sovereign lands and ambulatory-boundary sovereign lands. 
+The following lands are included in this data:
+School lands: These are what remain of the nearly 5.5 million acres throughout the state originally granted to California by Congress in 1853 to benefit public education. 
+NOT INCLUDED IN THIS DATA: 
+Ambulatory-boundary state sovereign lands, which include the beds of California’s naturally navigable rivers, streams and lakes. Swamp and overflowed lands: These are what remain of federal lands granted to California by Congress in 1850 to encourage reclamation and development of agricultural lands. 
+Fixed-boundary sovereign lands: These are sovereign, public trust lands having fixed boundaries as the result of land exchanges, boundary line agreements or court orders. 
+ALSO NOT INCLUDED IN THIS DATA: Ownership details within the U.S. Government meanders of Owens Lake.
+THIS DATA SUPERSEDES all previously published GIS information with respect to the above described state-owned lands under the jurisdiction of the CSLC.
+
+This data was created to depict state-owned School Lands that are under the jurisdiction of the California State Lands Commission. This data covers the entire State of California. Attention is directed to the “Description (Abstract)” section of this metadata for further discussion of the state-owned lands included in this data.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>School Lands</keyword>
+    <keyword>CSLC</keyword>
+    <keyword>SLC</keyword>
+    <keyword>California State Lands Commission</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitations of use">Use of this data is limited to preliminary regional research and planning; it is not to be used for local or project-level research, planning, analysis or development purposes. This data is not appropriate for authoritative determination of the boundaries of state-owned or mineral rights lands under the jurisdiction of the CSLC. The data provided herein is not a substitute for surveys. Users are advised to seek their own independent survey and title determination prior to any investments, project-level planning, analysis or development. This data is not to be used for obtaining permits or other entitlements from any federal, state, or local agencies.</constraints>
+  <rights>California State Lands Commission, Land Management Division</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / California Albers",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["California Albers",METHOD["Albers Equal Area",ID["EPSG",9822]],PARAMETER["Latitude of false origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-120,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",34,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",40.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",-4000000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["State-wide spatial data management."],AREA["United States (USA) - California."],BBOX[32.53,-124.45,42.01,-114.12]],ID["EPSG",3310]]</wkt>
+      <proj4>+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-4000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1268</srsid>
+      <srid>3310</srid>
+      <authid>EPSG:3310</authid>
+      <description>NAD83 / California Albers</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="37.44965400000000244" minz="0" crs="EPSG:3310" dimensions="2" maxx="-114.0126199999999983" minx="-119.04714400000000296" miny="32.46134200000000192" maxz="0"/>
+  </extent>
+</qgis>

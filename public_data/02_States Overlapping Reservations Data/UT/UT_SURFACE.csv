@@ -1,0 +1,781 @@
+gis_acres,state,managing_agency,rights_type,township,range,section,county,bene_cd,bene_abrev,aliquot,acres,state_enabling_act,object_id
+643.571,UT,Trust Lands Administration,Surface,9,19,32,Tooele,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),1
+234.35,UT,Trust Lands Administration,Surface,10,20,36,Tooele,10,Public Schools,"LOTS 1, 2 (ALL)",238.159999999999997,28 Stat. 107-110 (1894),2
+651.771,UT,Trust Lands Administration,Surface,7,20,2,Uintah,10,Public Schools,"LOTS 1-4, S2N2, S2 (ALL)",642.879999999999995,28 Stat. 107-110 (1894),3
+637.423,UT,Trust Lands Administration,Surface,9,25,21,Uintah,10,Public Schools,"LOTS 1, 2, S2NE4, NW4, S2 (ALL)",638.590000000000032,28 Stat. 107-110 (1894),4
+641.369,UT,Trust Lands Administration,Surface,15,23,13,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),5
+634.446,UT,Trust Lands Administration,Surface,12,20,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),6
+647.656,UT,Trust Lands Administration,Surface,7,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),7
+159.9,UT,Trust Lands Administration,Surface,9,25,19,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),8
+639.613,UT,Trust Lands Administration,Surface,13,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),9
+638.804,UT,Trust Lands Administration,Surface,11,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),10
+618.963,UT,Trust Lands Administration,Surface,11,25,32,Uintah,10,Public Schools,"LOTS 7(40.00), 8(26.82), 9(40.00), 10(40.00), 11(36.75), 12(30.54), 13(40.00), NE4, NE4NW4, S2SW4, E2SE4 [ALL, EXCEPT MINING CLAIM]",614.110000000000014,28 Stat. 107-110 (1894),11
+201.59,UT,Trust Lands Administration,Surface,7,19,2,Uintah,10,Public Schools,"LOTS 1(41.92), 2(47.42), 3(28.65), SE4NE4 [LOTS AKA N2NE4, PART OF SW4NE4]",157.990000000000009,28 Stat. 107-110 (1894),12
+439.628,UT,Trust Lands Administration,Surface,5,20,36,Uintah,10,Public Schools,"LOTS 1(40.77), 2(40.55), 3(40.33), 4(40.11), NW4, N2SW4, NW4SE4 [LOTS AKA S2S2]",441.759999999999991,28 Stat. 107-110 (1894),13
+477.337,UT,Trust Lands Administration,Surface,12,17,2,Carbon,10,Public Schools,"LOTS 1-4, S2 (ALL)",476.959999999999980,28 Stat. 107-110 (1894),14
+640.23,UT,Trust Lands Administration,Surface,12,24,29,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),15
+639.627,UT,Trust Lands Administration,Surface,12,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),16
+443.894,UT,Trust Lands Administration,Surface,7,21,2,Uintah,10,Public Schools,"LOTS 4(20.50), 5(4.90), 6(39.40), 7(35.00), 8(30.50), SW4NW4, S2 [LOTS AKA PART OF S2NE4, PART OF S2N2NW4, PART OF SE4NW4]",490.300000000000011,28 Stat. 107-110 (1894),17
+882.007,UT,Trust Lands Administration,Surface,7,23,2,Uintah,10,Public Schools,"LOTS 1(20.80), 2(20.82), 3(20.86), 4(20.88), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(40.00), S2N2, S2 [ALL]",883.360000000000014,28 Stat. 107-110 (1894),18
+639.558,UT,Trust Lands Administration,Surface,15,23,2,Uintah,10,Public Schools,"LOTS 1(40.58), 2(40.51), 3(40.43), 4(40.36), S2N2, S2 [ALL]",641.879999999999995,28 Stat. 107-110 (1894),19
+642.266,UT,Trust Lands Administration,Surface,7,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),20
+629.112,UT,Trust Lands Administration,Surface,13,23,30,Uintah,10,Public Schools,"LOTS 1(37.12), 2(37.15), 3(37.19), 4(37.22), E2, E2W2 [ALL]",628.679999999999950,28 Stat. 107-110 (1894),21
+642.629,UT,Trust Lands Administration,Surface,12,25,2,Uintah,10,Public Schools,"LOTS 1(40.10), 2(40.07), 3(40.03), 4(40.00), S2N2, S2 [ALL]",640.200000000000045,28 Stat. 107-110 (1894),22
+639.543,UT,Trust Lands Administration,Surface,15,16,36,Carbon,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),23
+73.657,UT,Trust Lands Administration,Surface,6,24,6,Uintah,10,Public Schools,"LOTS 6(36.87), 7(35.62), W2W2SW4SE4SW4 [LOTS AKA W2SW4]",74.989999999999995,28 Stat. 107-110 (1894),24
+544.377,UT,Trust Lands Administration,Surface,13,23,29,Uintah,10,Public Schools,"NE4NE4, NE4NW4NE4, NE4NW4NW4NE4, S2NW4NW4NE4, S2NW4NE4, S2NE4, S2NE4NE4NW4, S2NE4NW4, SE4NW4, S2",542.500000000000000,28 Stat. 107-110 (1894),25
+634.963,UT,Trust Lands Administration,Surface,13,20,2,Uintah,10,Public Schools,ALL,641.039999999999964,28 Stat. 107-110 (1894),26
+159.88,UT,Trust Lands Administration,Surface,10,25,16,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),27
+318.722,UT,Trust Lands Administration,Surface,12,24,26,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),28
+191.562,UT,Trust Lands Administration,Surface,9,25,36,Uintah,10,Public Schools,"LOTS 1-4, W2SW4",200.900000000000006,28 Stat. 107-110 (1894),29
+642.776,UT,Trust Lands Administration,Surface,15,23,12,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),30
+107.85,UT,Trust Lands Administration,Surface,14,23,6,Uintah,10,Public Schools,"LOTS 3(36.27), 4(33.84), 5(37.34) [AKA N2NW4, SW4NW4]",107.450000000000003,28 Stat. 107-110 (1894),31
+640.007,UT,Trust Lands Administration,Surface,14,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),32
+650.655,UT,Trust Lands Administration,Surface,10,21,21,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),33
+639.497,UT,Trust Lands Administration,Surface,12,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),34
+639.063,UT,Trust Lands Administration,Surface,10,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),35
+159.292,UT,Trust Lands Administration,Surface,12,24,12,Uintah,10,Public Schools,S2S2,160.000000000000000,28 Stat. 107-110 (1894),36
+650.103,UT,Trust Lands Administration,Surface,10,21,29,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),37
+650.849,UT,Trust Lands Administration,Surface,10,21,33,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),38
+324.398,UT,Trust Lands Administration,Surface,9,25,15,Uintah,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),39
+160.302,UT,Trust Lands Administration,Surface,9,25,19,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),40
+640.05,UT,Trust Lands Administration,Surface,12,24,28,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),41
+641.245,UT,Trust Lands Administration,Surface,13,22,12,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),42
+247.516,UT,Trust Lands Administration,Surface,13,23,2,Uintah,10,Public Schools,"LOTS 1, 2, 5, 6, SE4NE4NW4, N2NE4SE4NW4, SE4NE4SE4NW4, E2SE4SE4NW4, E2NE4NE4SW4, W2W2SE4, N2NE4NW4SE4, N2N2NE4SE4, S2NE4
+",248.090000000000003,28 Stat. 107-110 (1894),43
+640.556,UT,Trust Lands Administration,Surface,13,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),44
+121.185,UT,Trust Lands Administration,Surface,10,11,36,Duchesne,10,Public Schools,ALL,121.189999999999998,28 Stat. 107-110 (1894),45
+639.571,UT,Trust Lands Administration,Surface,11,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),46
+638.731,UT,Trust Lands Administration,Surface,12,24,33,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),47
+637.147,UT,Trust Lands Administration,Surface,15,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),48
+473.452,UT,Trust Lands Administration,Surface,13,21,31,Uintah,10,Public Schools,"LOTS 3(36.99), 4(37.22), E2, E2SW4 [LOTS AKA W2SW4]",474.209999999999980,28 Stat. 107-110 (1894),49
+638.984,UT,Trust Lands Administration,Surface,15,21,27,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),50
+615.341,UT,Trust Lands Administration,Surface,11,19,2,Uintah,10,Public Schools,ALL,625.620000000000005,28 Stat. 107-110 (1894),51
+482.539,UT,Trust Lands Administration,Surface,9,25,9,Uintah,10,Public Schools,"S2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),52
+625.665,UT,Trust Lands Administration,Surface,13,20,35,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),53
+319.744,UT,Trust Lands Administration,Surface,12,25,31,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),54
+559.201,UT,Trust Lands Administration,Surface,13,23,22,Uintah,10,Public Schools,"NE4NE4NE4NE4, S2NE4NE4NE4, S2NW4NE4NE4, S2NE4NE4, S2NE4NW4NE4, S2NW4NE4, S2NE4, NE4SW4NE4NW4, S2SW4NE4NW4, SE4NE4NW4, S2SE4NW4NW4, S2NW4, S2",560.000000000000000,28 Stat. 107-110 (1894),55
+86.642,UT,Trust Lands Administration,Surface,10,13,32,Duchesne,10,Public Schools,LOTS 1-4 (ALL),85.760000000000005,28 Stat. 107-110 (1894),56
+641.787,UT,Trust Lands Administration,Surface,12,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),57
+632.991,UT,Trust Lands Administration,Surface,11,20,2,Uintah,10,Public Schools,ALL,638.500000000000000,28 Stat. 107-110 (1894),58
+625.317,UT,Trust Lands Administration,Surface,13,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),59
+636.064,UT,Trust Lands Administration,Surface,15,22,31,Uintah,10,Public Schools,"LOTS 1(39.95), 2(39.96), 3(39.98), 4(39.99), E2, E2W2 [ALL]",639.879999999999995,28 Stat. 107-110 (1894),60
+641.123,UT,Trust Lands Administration,Surface,12,25,17,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),61
+550.757,UT,Trust Lands Administration,Surface,14,21,7,Uintah,10,Public Schools,"LOTS 1(37.35), 2(37.48), 3(37.62), 4(37.75), W2NE4, E2W2, SE4 [LOTS AKA W2W2]",550.200000000000045,28 Stat. 107-110 (1894),62
+639.577,UT,Trust Lands Administration,Surface,14,25,2,Uintah,10,Public Schools,ALL,639.279999999999973,28 Stat. 107-110 (1894),63
+641.106,UT,Trust Lands Administration,Surface,14,25,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),64
+478.518,UT,Trust Lands Administration,Surface,15,21,34,Uintah,10,Public Schools,"N2, NE4SW4, N2SE4, SE4SE4",480.000000000000000,28 Stat. 107-110 (1894),65
+635.753,UT,Trust Lands Administration,Surface,11,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),66
+638.234,UT,Trust Lands Administration,Surface,7,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),67
+438.745,UT,Trust Lands Administration,Surface,15,26,32,Grand,10,Public Schools,"LOTS 1(28.99), 2(29.13), 3(29.27), 4(29.41), S2 [ALL]",436.800000000000011,28 Stat. 107-110 (1894),68
+620.043,UT,Trust Lands Administration,Surface,18,20,16,Grand,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),69
+623.781,UT,Trust Lands Administration,Surface,14,22,1,Uintah,10,Public Schools,"LOTS 1(36.19), 2(36.14), 3(36.08), 4(36.03), S2N2, S2 [ALL]",624.440000000000055,28 Stat. 107-110 (1894),70
+560.696,UT,Trust Lands Administration,Surface,11,24,32,Uintah,10,Public Schools,"N2NE4, SE4NE4, W2, W2SE4, SE4SE4",560.000000000000000,28 Stat. 107-110 (1894),71
+323.628,UT,Trust Lands Administration,Surface,10,19,16,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),72
+456.743,UT,Trust Lands Administration,Surface,15,21,35,Grand,10,Public Schools,"LOTS 1(33.76), 2(33.77), 3(33.77), 4(33.78), S2 [ALL]",455.079999999999984,28 Stat. 107-110 (1894),73
+307.292,UT,Trust Lands Administration,Surface,15,21,36,Grand,10,Public Schools,"LOTS 3(33.85), 4(33.79), SW4, W2SE4 [LOTS AKA S2NW4]",307.639999999999986,28 Stat. 107-110 (1894),74
+639.499,UT,Trust Lands Administration,Surface,11,24,2,Uintah,10,Public Schools,"LOTS 1(39.92), 2(39.94), 3(39.94), 4(39.96), S2N2, S2 [ALL]",639.759999999999991,28 Stat. 107-110 (1894),75
+640.006,UT,Trust Lands Administration,Surface,12,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),76
+640.69,UT,Trust Lands Administration,Surface,12,22,2,Uintah,10,Public Schools,"LOTS 1(40.01), 2(40.05), 3(40.07), 4(40.11), S2N2, S2 [ALL]",640.240000000000009,28 Stat. 107-110 (1894),77
+39.842,UT,Trust Lands Administration,Surface,16,21,8,Grand,10,Public Schools,NW4NE4,40.000000000000000,28 Stat. 107-110 (1894),78
+157.773,UT,Trust Lands Administration,Surface,12,25,19,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),79
+559.951,UT,Trust Lands Administration,Surface,14,21,8,Uintah,10,Public Schools,"NE4, E2NW4, S2",560.000000000000000,28 Stat. 107-110 (1894),80
+712.173,UT,Trust Lands Administration,Surface,13,25,2,Uintah,10,Public Schools,ALL,711.159999999999968,28 Stat. 107-110 (1894),81
+640.368,UT,Trust Lands Administration,Surface,7,24,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),82
+638.667,UT,Trust Lands Administration,Surface,12,24,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),83
+641.954,UT,Trust Lands Administration,Surface,13,22,2,Uintah,10,Public Schools,"LOTS 1(40.08), 2(40.18), 3(40.26), 4(40.36), S2N2, S2 [ALL]",640.879999999999995,28 Stat. 107-110 (1894),84
+39.893,UT,Trust Lands Administration,Surface,14,24,5,Uintah,10,Public Schools,NW4SW4,40.000000000000000,28 Stat. 107-110 (1894),85
+479.869,UT,Trust Lands Administration,Surface,15,24,19,Uintah,10,Public Schools,"LOTS 1(39.92), 2(39.91), 3(39.91), 4(39.90), NE4, SE4SW4, NE4SE4, S2SE4 [LOTS AKA W2W2]",479.639999999999986,28 Stat. 107-110 (1894),86
+637.031,UT,Trust Lands Administration,Surface,15,21,35,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),87
+628.508,UT,Trust Lands Administration,Surface,14,21,6,Uintah,10,Public Schools,"LOTS 1(40.21), 2(40.13), 3(40.04), 4(37.43), 5(37.74), 6(37.57), 7(37.28), S2NE4, SE4NW4, E2SW4, SE4 [ALL]",630.399999999999977,28 Stat. 107-110 (1894),88
+640.863,UT,Trust Lands Administration,Surface,11,17,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),89
+40.022,UT,Trust Lands Administration,Surface,10,18,18,Uintah,10,Public Schools,NW4NE4,40.000000000000000,28 Stat. 107-110 (1894),90
+589.098,UT,Trust Lands Administration,Surface,13,23,31,Uintah,10,Public Schools,"LOTS 1(37.26), 2(37.28), 3(37.32), 4(37.34), NE4, E2W2, N2SE4, SW4SE4 [LOTS AKA W2W2]",589.200000000000045,28 Stat. 107-110 (1894),91
+630.612,UT,Trust Lands Administration,Surface,8,18,36,Uintah,10,Public Schools,ALL,630.320000000000050,28 Stat. 107-110 (1894),92
+734.365,UT,Trust Lands Administration,Surface,7,22,2,Uintah,10,Public Schools,ALL,736.039999999999964,28 Stat. 107-110 (1894),93
+624.292,UT,Trust Lands Administration,Surface,13,23,7,Uintah,10,Public Schools,"LOTS 1(35.78), 2(35.88), 3(36.00), 4(36.10), E2, E2W2 [ALL]",623.759999999999991,28 Stat. 107-110 (1894),94
+639.601,UT,Trust Lands Administration,Surface,13,23,23,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),95
+7.236,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,LOT 1 [S2NE4NE4],7.310000000000000,28 Stat. 107-110 (1894),96
+641.587,UT,Trust Lands Administration,Surface,10,18,2,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),97
+371.296,UT,Trust Lands Administration,Surface,13,23,8,Uintah,10,Public Schools,"N2NE4, SW4NE4, N2SE4NE4, N2S2SE4NE4, NW4, NW4NE4NE4SW4, N2NW4NE4SW4, N2NE4NW4SW4, W2W2SW4, SW4NE4SW4SW4, W2SE4SW4SW4",370.000000000000000,28 Stat. 107-110 (1894),98
+478.806,UT,Trust Lands Administration,Surface,9,19,32,Uintah,10,Public Schools,ALL,476.290000000000020,28 Stat. 107-110 (1894),99
+470.435,UT,Trust Lands Administration,Surface,9,25,11,Uintah,10,Public Schools,"S2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),100
+639.606,UT,Trust Lands Administration,Surface,9,18,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),101
+55.859,UT,Trust Lands Administration,Surface,18,18,16,Grand,10,Public Schools,"LOTS 1, 2, 3, 4",55.869999999999997,28 Stat. 107-110 (1894),102
+79.795,UT,Trust Lands Administration,Surface,12,25,18,Uintah,10,Public Schools,E2NE4,80.000000000000000,28 Stat. 107-110 (1894),103
+2.51,UT,Trust Lands Administration,Surface,13,23,17,Uintah,10,Public Schools,SE4SE4SE4SE4,2.500000000000000,28 Stat. 107-110 (1894),104
+34.528,UT,Trust Lands Administration,Surface,6,21,27,Uintah,10,Public Schools,LOT 4 [PART OF SW4NE4],34.000000000000000,28 Stat. 107-110 (1894),105
+878.543,UT,Trust Lands Administration,Surface,7,25,2,Uintah,10,Public Schools,ALL,882.019999999999982,28 Stat. 107-110 (1894),106
+640.173,UT,Trust Lands Administration,Surface,7,25,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),107
+639.074,UT,Trust Lands Administration,Surface,6,24,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),108
+7.387,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,LOT 2 [S2NW4NE4],7.530000000000000,28 Stat. 107-110 (1894),109
+35.076,UT,Trust Lands Administration,Surface,6,21,25,Uintah,10,Public Schools,LOT 5 [PART OF SW4SE4],36.700000000000003,28 Stat. 107-110 (1894),110
+640.089,UT,Trust Lands Administration,Surface,8,24,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),111
+625.736,UT,Trust Lands Administration,Surface,9,15,2,Duchesne,10,Public Schools,"LOTS 1(40.28), 2(40.35), 3(40.43), 4(23.68), 5(36.33), S2NE4, SE4NW4, S2 [ALL]",621.070000000000050,28 Stat. 107-110 (1894),112
+632.005,UT,Trust Lands Administration,Surface,9,22,2,Uintah,10,Public Schools,"LOTS 1(38.30), 2(38.50), 3(38.70), 4(38.90), S2N2, S2 [ALL]",634.399999999999977,28 Stat. 107-110 (1894),113
+558.429,UT,Trust Lands Administration,Surface,6,19,36,Uintah,10,Public Schools,"N2, SW4, N2SE4",560.000000000000000,28 Stat. 107-110 (1894),114
+7.644,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,LOT 4 [S2NW4NW4],7.970000000000000,28 Stat. 107-110 (1894),115
+9.004,UT,Trust Lands Administration,Surface,13,23,9,Uintah,10,Public Schools,"SW4SW4NW4NW4, W2NW4SW4NW4, NW4SW4SW4NW4",10.000000000000000,28 Stat. 107-110 (1894),116
+640.249,UT,Trust Lands Administration,Surface,12,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),117
+79.355,UT,Trust Lands Administration,Surface,12,25,18,Uintah,10,Public Schools,N2NW4,80.000000000000000,28 Stat. 107-110 (1894),118
+39.878,UT,Trust Lands Administration,Surface,9,23,13,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),119
+7.535,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,LOT 3 [S2NE4NW4],7.750000000000000,28 Stat. 107-110 (1894),120
+631.428,UT,Trust Lands Administration,Surface,1,9,19,Wasatch,10,Public Schools,"LOTS 1-4, E2, E2W2 (ALL)",628.480000000000018,28 Stat. 107-110 (1894),121
+645.746,UT,Trust Lands Administration,Surface,1,8,17,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),122
+706.769,UT,Trust Lands Administration,Surface,11,23,2,Uintah,10,Public Schools,"LOTS 1(18.11), 2(18.17), 3(18.23), 4(18.29), 5(40.00), 6(40.00), 7(40.00), 8(40.00), 9(38.60), 10(32.81), SW4NE4, S2NW4, SW4, W2SE4, SE4SE4 [ALL]",704.210000000000036,28 Stat. 107-110 (1894),123
+397.694,UT,Trust Lands Administration,Surface,1,10,11,Wasatch,10,Public Schools,"S2NW4, S2",400.000000000000000,28 Stat. 107-110 (1894),124
+639.182,UT,Trust Lands Administration,Surface,7,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),125
+642.746,UT,Trust Lands Administration,Surface,9,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),126
+473.227,UT,Trust Lands Administration,Surface,1,10,22,Wasatch,10,Public Schools,"N2, SE4",480.000000000000000,28 Stat. 107-110 (1894),127
+320.121,UT,Trust Lands Administration,Surface,16,21,4,Grand,10,Public Schools,E2,321.519999999999982,28 Stat. 107-110 (1894),128
+34.108,UT,Trust Lands Administration,Surface,15,22,31,Grand,10,Public Schools,LOT 1 (SE4NE4),34.259999999999998,28 Stat. 107-110 (1894),129
+642.481,UT,Trust Lands Administration,Surface,15,24,2,Uintah,10,Public Schools,"LOTS 1(40.65), 2(40.57), 3(40.51), 4(40.43), S2N2, S2 [ALL]",642.159999999999968,28 Stat. 107-110 (1894),130
+159.291,UT,Trust Lands Administration,Surface,12,25,18,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),131
+641.939,UT,Trust Lands Administration,Surface,6,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),132
+867.176,UT,Trust Lands Administration,Surface,11,25,36,Uintah,10,Public Schools,"LOTS 1(16.26), 2(40.00), 3(40.00), 4(40.00), 5(40.00), 6(40.00), 7(40.00), 8(15.78), 9(15.65), 10(40.00), 11(40.00), 12(40.00), 13(40.00), 14(40.00), 15(40.00), 16(15.71), W2 [ALL]",863.399999999999977,28 Stat. 107-110 (1894),133
+317.498,UT,Trust Lands Administration,Surface,9,25,14,Uintah,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),134
+15.996,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 5 (S2SW4SW4),14.520000000000000,28 Stat. 107-110 (1894),135
+637.342,UT,Trust Lands Administration,Surface,10,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),136
+636.457,UT,Trust Lands Administration,Surface,1,9,30,Wasatch,10,Public Schools,"LOTS 1-4, E2, E2W2 (ALL)",629.279999999999973,28 Stat. 107-110 (1894),137
+2.477,UT,Trust Lands Administration,Surface,13,23,10,Uintah,10,Public Schools,"NE4NE4SE4SE4	",2.500000000000000,28 Stat. 107-110 (1894),138
+631.292,UT,Trust Lands Administration,Surface,1,9,32,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),139
+678.755,UT,Trust Lands Administration,Surface,9,21,32,Uintah,10,Public Schools,"LOTS 2(46.78), 3(47.62), 4(48.48), N2, N2S2 [LOTS AKA S2SW4, SW4SE4]",668.799999999999955,28 Stat. 107-110 (1894),140
+639.857,UT,Trust Lands Administration,Surface,14,25,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),141
+657.792,UT,Trust Lands Administration,Surface,5,20,32,Uintah,10,Public Schools,"LOTS 1(45.11), 2(44.84), 3(44.58), 4(44.31), N2, N2S2 [ALL]",658.840000000000032,28 Stat. 107-110 (1894),142
+653.587,UT,Trust Lands Administration,Surface,9,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),143
+240.847,UT,Trust Lands Administration,Surface,1,10,12,Wasatch,10,Public Schools,"SW4, S2SE4",240.000000000000000,28 Stat. 107-110 (1894),144
+51.382,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 3 (NW4SW4),50.469999999999999,28 Stat. 107-110 (1894),145
+39.82,UT,Trust Lands Administration,Surface,16,21,5,Grand,10,Public Schools,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),146
+35.176,UT,Trust Lands Administration,Surface,1,8,18,Duchesne,10,Public Schools,LOT 4 [SW4SW4],35.090000000000003,28 Stat. 107-110 (1894),147
+277.94,UT,Trust Lands Administration,Surface,1,10,10,Wasatch,10,Public Schools,"S2SW4, SE4, SE4NE4",280.000000000000000,28 Stat. 107-110 (1894),148
+883.086,UT,Trust Lands Administration,Surface,7,24,2,Uintah,10,Public Schools,ALL,884.399999999999977,28 Stat. 107-110 (1894),149
+79.533,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),150
+586.317,UT,Trust Lands Administration,Surface,1,8,18,Duchesne,10,Public Schools,"LOTS 1(35.01), 2(35.04), 3(35.06), E2, E2W2 [LOTS AKA W2NW4, NW4SW4]",585.110000000000014,28 Stat. 107-110 (1894),151
+640.425,UT,Trust Lands Administration,Surface,9,17,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),152
+641.36,UT,Trust Lands Administration,Surface,14,16,36,Carbon,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),153
+651.082,UT,Trust Lands Administration,Surface,1,9,27,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),154
+631.427,UT,Trust Lands Administration,Surface,1,9,31,Wasatch,10,Public Schools,"LOTS 1-4, E2, E2W2 (ALL)",630.080000000000041,28 Stat. 107-110 (1894),155
+664.911,UT,Trust Lands Administration,Surface,6,22,10,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),156
+79.869,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),157
+7.51,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,LOT 3 (S2S2NE4NW4),7.560000000000000,28 Stat. 107-110 (1894),158
+159.978,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),159
+80.215,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),160
+659.106,UT,Trust Lands Administration,Surface,5,22,34,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),161
+644.966,UT,Trust Lands Administration,Surface,8,25,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),162
+638.532,UT,Trust Lands Administration,Surface,6,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),163
+454.647,UT,Trust Lands Administration,Surface,15,22,32,Grand,10,Public Schools,"LOTS 1(34.26), 2(34.28), 3(34.28), 4(34.30), S2 [ALL]",457.120000000000005,28 Stat. 107-110 (1894),164
+643.754,UT,Trust Lands Administration,Surface,5,21,32,Uintah,10,Public Schools,"LOTS 1(40.06), 2(40.69), 3(41.36), 4(41.51), N2, N2S2 [ALL]",643.620000000000005,28 Stat. 107-110 (1894),165
+39.795,UT,Trust Lands Administration,Surface,9,22,30,Uintah,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),166
+640.873,UT,Trust Lands Administration,Surface,8,16,36,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),167
+40.041,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),168
+40.868,UT,Trust Lands Administration,Surface,10,21,4,Uintah,10,Public Schools,LOT 2 (NW4NE4),42.280000000000001,28 Stat. 107-110 (1894),169
+479.879,UT,Trust Lands Administration,Surface,9,25,10,Uintah,10,Public Schools,"S2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),170
+40.968,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,SE4SW4,40.000000000000000,28 Stat. 107-110 (1894),171
+639.51,UT,Trust Lands Administration,Surface,10,17,32,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),172
+161.483,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),173
+40.412,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),174
+159.825,UT,Trust Lands Administration,Surface,10,22,12,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),175
+41.283,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,LOT 3 (SE4SW4),41.130000000000003,28 Stat. 107-110 (1894),176
+640.001,UT,Trust Lands Administration,Surface,6,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),177
+658.492,UT,Trust Lands Administration,Surface,9,21,34,Uintah,10,Public Schools,"LOTS 1(42.45), 2(42.91), 3(43.33), 4(43.70), N2, N2S2 [ALL]",652.389999999999986,28 Stat. 107-110 (1894),178
+40.027,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),179
+640.364,UT,Trust Lands Administration,Surface,10,18,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),180
+638.501,UT,Trust Lands Administration,Surface,14,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),181
+26.279,UT,Trust Lands Administration,Surface,8,19,32,Uintah,10,Public Schools,ALL,26.120000000000001,28 Stat. 107-110 (1894),182
+638.94,UT,Trust Lands Administration,Surface,9,25,20,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),183
+639.684,UT,Trust Lands Administration,Surface,9,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),184
+639.508,UT,Trust Lands Administration,Surface,14,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),185
+40.453,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,NW4SW4,40.000000000000000,28 Stat. 107-110 (1894),186
+81.491,UT,Trust Lands Administration,Surface,10,21,4,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),187
+641.788,UT,Trust Lands Administration,Surface,11,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),188
+638.141,UT,Trust Lands Administration,Surface,10,17,16,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),189
+40.782,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 7 (SW4SW4),40.000000000000000,28 Stat. 107-110 (1894),190
+656.322,UT,Trust Lands Administration,Surface,10,21,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),191
+80.074,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),192
+491.862,UT,Trust Lands Administration,Surface,6,21,2,Uintah,10,Public Schools,"LOTS 1(44.91), 2(45.46), 3(46.00), 4(38.49), 5(36.09), 6(38.84), E2SW4, SE4 [ALL]",489.790000000000020,28 Stat. 107-110 (1894),193
+640.318,UT,Trust Lands Administration,Surface,15,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),194
+42.215,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 6 (NW4SW4),40.000000000000000,28 Stat. 107-110 (1894),195
+80.889,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),196
+158.126,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),197
+654.55,UT,Trust Lands Administration,Surface,6,20,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),198
+639.235,UT,Trust Lands Administration,Surface,8,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),199
+44.235,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,LOT 2,40.680000000000000,28 Stat. 107-110 (1894),200
+647.025,UT,Trust Lands Administration,Surface,10,21,20,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),201
+640.302,UT,Trust Lands Administration,Surface,9,18,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),202
+161.922,UT,Trust Lands Administration,Surface,5,22,33,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),203
+28.595,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,LOT 3,28.059999999999999,28 Stat. 107-110 (1894),204
+81.905,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,W2NE4,80.000000000000000,28 Stat. 107-110 (1894),205
+41.4,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,SE4NE4,40.000000000000000,28 Stat. 107-110 (1894),206
+39.564,UT,Trust Lands Administration,Surface,1,10,9,Wasatch,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),207
+39.652,UT,Trust Lands Administration,Surface,10,22,10,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),208
+80.522,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,N2NW4,80.000000000000000,28 Stat. 107-110 (1894),209
+44.738,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,LOT 1 (NE4NE4),42.520000000000003,28 Stat. 107-110 (1894),210
+639.415,UT,Trust Lands Administration,Surface,15,25,36,Grand,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),211
+640.965,UT,Trust Lands Administration,Surface,10,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),212
+641.787,UT,Trust Lands Administration,Surface,9,18,2,Uintah,10,Public Schools,ALL,640.399999999999977,28 Stat. 107-110 (1894),213
+16.762,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 14 (S2SE4SE4),16.890000000000001,28 Stat. 107-110 (1894),214
+161.025,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),215
+80.456,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),216
+7.524,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,LOT 2 (S2S2NW4NE4),7.560000000000000,28 Stat. 107-110 (1894),217
+281.017,UT,Trust Lands Administration,Surface,10,15,16,Duchesne,10,Public Schools,ALL,283.389999999999986,28 Stat. 107-110 (1894),218
+159.66,UT,Trust Lands Administration,Surface,9,25,31,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),219
+638.682,UT,Trust Lands Administration,Surface,12,24,24,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),220
+26.265,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 7 (S2NE4SE4),26.250000000000000,28 Stat. 107-110 (1894),221
+80.726,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),222
+650.219,UT,Trust Lands Administration,Surface,10,21,17,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),223
+27.861,UT,Trust Lands Administration,Surface,10,22,7,Uintah,10,Public Schools,LOT 1 (NW4NW4),27.190000000000001,28 Stat. 107-110 (1894),224
+639.664,UT,Trust Lands Administration,Surface,13,21,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),225
+320.232,UT,Trust Lands Administration,Surface,12,21,32,Uintah,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),226
+320.106,UT,Trust Lands Administration,Surface,13,22,35,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),227
+36.356,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,LOT 1 (NE4SW4),35.649999999999999,28 Stat. 107-110 (1894),228
+32.271,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 5 (SW4NE4),32.350000000000001,28 Stat. 107-110 (1894),229
+325.397,UT,Trust Lands Administration,Surface,6,22,11,Uintah,10,Public Schools,W2,320.000000000000000,28 Stat. 107-110 (1894),230
+8.957,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 4 (S2S2NW4NW4),8.750000000000000,28 Stat. 107-110 (1894),231
+638.392,UT,Trust Lands Administration,Surface,1,10,15,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),232
+160.698,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),233
+81.2,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),234
+646.15,UT,Trust Lands Administration,Surface,6,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),235
+560.447,UT,Trust Lands Administration,Surface,13,23,5,Uintah,10,Public Schools,"LOTS 2(39.02), 3(39.28), 4(39.53), 7(4.72), W2SW4NE4NE4, SW4NE4, W2NW4SE4NE4, SW4SE4NE4, S2NW4, SW4, W2NE4SE4, SW4SE4NE4SE4, W2SE4, W2NE4SE4SE4, W2SE4SE4, SE4SE4SE4 [LOTS AKA W2NW4NE4NE4, NW4NE4, N2NW4]",560.049999999999955,28 Stat. 107-110 (1894),236
+40.403,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),237
+80.194,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,N2SW4,80.000000000000000,28 Stat. 107-110 (1894),238
+39.731,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),239
+95.897,UT,Trust Lands Administration,Surface,9,25,22,Uintah,10,Public Schools,"LOTS 2-3, SW4NW4",98.069999999999993,28 Stat. 107-110 (1894),240
+80.534,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),241
+639.435,UT,Trust Lands Administration,Surface,9,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),242
+547.364,UT,Trust Lands Administration,Surface,10,18,36,Uintah,10,Public Schools,ALL,546.730000000000018,28 Stat. 107-110 (1894),243
+322.55,UT,Trust Lands Administration,Surface,9,25,28,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),244
+639.731,UT,Trust Lands Administration,Surface,10,18,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),245
+164.216,UT,Trust Lands Administration,Surface,10,21,13,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),246
+39.866,UT,Trust Lands Administration,Surface,15,21,33,Uintah,10,Public Schools,SE4SW4,40.000000000000000,28 Stat. 107-110 (1894),247
+51.774,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 7 (SW4SE4),49.990000000000002,28 Stat. 107-110 (1894),248
+598.849,UT,Trust Lands Administration,Surface,14,25,32,Uintah,10,Public Schools,"LOTS 1-6, E2, N2NW4",596.639999999999986,28 Stat. 107-110 (1894),249
+34.007,UT,Trust Lands Administration,Surface,15,21,34,Grand,10,Public Schools,LOT 1 (SE4NE4),33.700000000000003,28 Stat. 107-110 (1894),250
+161.185,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),251
+160.422,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),252
+39.261,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),253
+637.67,UT,Trust Lands Administration,Surface,10,25,2,Uintah,10,Public Schools,ALL,642.120000000000005,28 Stat. 107-110 (1894),254
+80.027,UT,Trust Lands Administration,Surface,15,23,27,Uintah,10,Public Schools,E2NW4,80.000000000000000,28 Stat. 107-110 (1894),255
+633.554,UT,Trust Lands Administration,Surface,11,20,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),256
+643.933,UT,Trust Lands Administration,Surface,11,21,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),257
+640.412,UT,Trust Lands Administration,Surface,10,16,36,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),258
+630.352,UT,Trust Lands Administration,Surface,12,25,30,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),259
+641.596,UT,Trust Lands Administration,Surface,13,21,2,Uintah,10,Public Schools,"LOTS 1(40.60), 2(40.59), 3(40.59), 4(40.58), S2N2, S2 [ALL]",642.360000000000014,28 Stat. 107-110 (1894),260
+636.168,UT,Trust Lands Administration,Surface,13,20,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),261
+40.344,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),262
+311.523,UT,Trust Lands Administration,Surface,12,25,29,Uintah,10,Public Schools,W2,320.000000000000000,28 Stat. 107-110 (1894),263
+33.278,UT,Trust Lands Administration,Surface,15,21,33,Grand,10,Public Schools,LOT 2 (SW4NE4),33.039999999999999,28 Stat. 107-110 (1894),264
+324.803,UT,Trust Lands Administration,Surface,10,21,28,Uintah,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),265
+641.642,UT,Trust Lands Administration,Surface,15,25,2,Uintah,10,Public Schools,ALL,641.759999999999991,28 Stat. 107-110 (1894),266
+40.412,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,SW4NE4,40.000000000000000,28 Stat. 107-110 (1894),267
+27.656,UT,Trust Lands Administration,Surface,10,22,7,Uintah,10,Public Schools,LOT 2 (SW4NW4),27.030000000000001,28 Stat. 107-110 (1894),268
+158.525,UT,Trust Lands Administration,Surface,12,25,7,Uintah,10,Public Schools,S2S2,160.000000000000000,28 Stat. 107-110 (1894),269
+7.684,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,LOT 4 (S2S2NW4NW4),7.690000000000000,28 Stat. 107-110 (1894),270
+720.881,UT,Trust Lands Administration,Surface,5,21,36,Uintah,10,Public Schools,"LOTS 1(19.27), 2(40.00), 3(40.00), 4(20.17), 5(21.07), 6(40.00), 7(40.00), 8(21.97), W2E2, W2 [ALL]",722.480000000000018,28 Stat. 107-110 (1894),271
+480.395,UT,Trust Lands Administration,Surface,13,22,25,Uintah,10,Public Schools,"S2, NE4",480.000000000000000,28 Stat. 107-110 (1894),272
+40.114,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,NW4NE4,40.000000000000000,28 Stat. 107-110 (1894),273
+41.182,UT,Trust Lands Administration,Surface,6,22,11,Uintah,10,Public Schools,SW4NE4,40.000000000000000,28 Stat. 107-110 (1894),274
+80.346,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,N2SW4,80.000000000000000,28 Stat. 107-110 (1894),275
+7.916,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 3 (S2S2NE4NW4),8.750000000000000,28 Stat. 107-110 (1894),276
+39.906,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,LOT 2 (NW4SW4),40.469999999999999,28 Stat. 107-110 (1894),277
+450.178,UT,Trust Lands Administration,Surface,15,25,32,Grand,10,Public Schools,ALL,448.120000000000005,28 Stat. 107-110 (1894),278
+39.019,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,LOT 1 (SW4NW4),39.000000000000000,28 Stat. 107-110 (1894),279
+29.267,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 8 (NW4SE4),29.230000000000000,28 Stat. 107-110 (1894),280
+640.627,UT,Trust Lands Administration,Surface,9,16,36,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),281
+642.317,UT,Trust Lands Administration,Surface,1,9,36,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),282
+80.439,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),283
+639.301,UT,Trust Lands Administration,Surface,9,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),284
+276.967,UT,Trust Lands Administration,Surface,11,18,16,Uintah,10,Public Schools,"NW4, N2SW4, SW4SW4",280.000000000000000,28 Stat. 107-110 (1894),285
+27.348,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,LOT 2,28.020000000000000,28 Stat. 107-110 (1894),286
+640.033,UT,Trust Lands Administration,Surface,13,25,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),287
+642.961,UT,Trust Lands Administration,Surface,10,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),288
+291.565,UT,Trust Lands Administration,Surface,10,25,36,Uintah,10,Public Schools,"LOTS 1(35.91), 2(35.94), 3(35.96), 4(35.99), W2W2 [ALL]",303.800000000000011,28 Stat. 107-110 (1894),289
+159.976,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,E2E2,160.000000000000000,28 Stat. 107-110 (1894),290
+361.385,UT,Trust Lands Administration,Surface,6,25,36,Uintah,10,Public Schools,ALL,362.410000000000025,28 Stat. 107-110 (1894),291
+164.848,UT,Trust Lands Administration,Surface,10,21,13,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),292
+639.61,UT,Trust Lands Administration,Surface,1,9,29,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),293
+638.772,UT,Trust Lands Administration,Surface,8,17,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),294
+639.9,UT,Trust Lands Administration,Surface,8,24,2,Uintah,10,Public Schools,ALL,639.840000000000032,28 Stat. 107-110 (1894),295
+638.226,UT,Trust Lands Administration,Surface,9,21,36,Uintah,10,Public Schools,ALL,639.200000000000045,28 Stat. 107-110 (1894),296
+40.078,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NW4SW4,40.000000000000000,28 Stat. 107-110 (1894),297
+160.568,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),298
+104.173,UT,Trust Lands Administration,Surface,6,22,7,Uintah,10,Public Schools,"LOT 3(24.00), SW4NW4, NW4SW4 [LOT AKA PART OF SE4NW4]",104.000000000000000,28 Stat. 107-110 (1894),299
+624.469,UT,Trust Lands Administration,Surface,8,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),300
+81.455,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),301
+157.031,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),302
+639.691,UT,Trust Lands Administration,Surface,13,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),303
+636.411,UT,Trust Lands Administration,Surface,10,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),304
+40.129,UT,Trust Lands Administration,Surface,11,10,18,Duchesne,10,Public Schools,LOT 2 (NW4NW4),40.770000000000003,28 Stat. 107-110 (1894),305
+30.316,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 11 (SW4SW4),30.910000000000000,28 Stat. 107-110 (1894),306
+696.597,UT,Trust Lands Administration,Surface,13,24,2,Uintah,10,Public Schools,"LOTS 1(14.65), 2(14.35), 3(14.05), 4(13.75), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, S2 [ALL]",696.799999999999955,28 Stat. 107-110 (1894),307
+115.689,UT,Trust Lands Administration,Surface,6,22,7,Uintah,10,Public Schools,"PART OF NW4NE4, N2NW4 [LESS 4.09 ACRES SOLD VIA C-27004] [METES & BOUNDS]",115.909999999999997,28 Stat. 107-110 (1894),308
+639.277,UT,Trust Lands Administration,Surface,12,25,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),309
+638.885,UT,Trust Lands Administration,Surface,12,24,2,Uintah,10,Public Schools,"LOTS 1(40.04), 2(40.04), 3(40.04), 4(40.04), S2N2, S2 [ALL]",640.159999999999968,28 Stat. 107-110 (1894),310
+637.208,UT,Trust Lands Administration,Surface,11,19,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),311
+80.846,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),312
+640.155,UT,Trust Lands Administration,Surface,10,23,2,Uintah,10,Public Schools,ALL,642.320000000000050,28 Stat. 107-110 (1894),313
+158.678,UT,Trust Lands Administration,Surface,10,22,14,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),314
+74.83,UT,Trust Lands Administration,Surface,1,8,31,Duchesne,10,Public Schools,"LOT 2(35.75), NE4NW4 [LOTS AKA SW4NW4]",75.750000000000000,28 Stat. 107-110 (1894),315
+636.159,UT,Trust Lands Administration,Surface,1,10,23,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),316
+43.283,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 10 (NW4SW4),42.439999999999998,28 Stat. 107-110 (1894),317
+41.334,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,LOT 1,40.939999999999998,28 Stat. 107-110 (1894),318
+200.06,UT,Trust Lands Administration,Surface,12,23,32,Uintah,10,Public Schools,"W2W2, SE4SW4",200.000000000000000,28 Stat. 107-110 (1894),319
+156.105,UT,Trust Lands Administration,Surface,12,25,29,Uintah,10,Public Schools,W2E2,160.000000000000000,28 Stat. 107-110 (1894),320
+55.317,UT,Trust Lands Administration,Surface,1,8,19,Duchesne,10,Public Schools,"LOT 3(35.30), N2NE4NW4 [LOT AKA NW4SW4]",55.299999999999997,28 Stat. 107-110 (1894),321
+639.739,UT,Trust Lands Administration,Surface,15,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),322
+34.032,UT,Trust Lands Administration,Surface,15,22,31,Grand,10,Public Schools,LOT 2 (SW4NE4),34.180000000000000,28 Stat. 107-110 (1894),323
+7.477,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,LOT 4 (S2S2NW4NW4),7.560000000000000,28 Stat. 107-110 (1894),324
+7.704,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,LOT 2 (S2S2NW4NE4),7.890000000000000,28 Stat. 107-110 (1894),325
+160.425,UT,Trust Lands Administration,Surface,10,22,19,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),326
+82.432,UT,Trust Lands Administration,Surface,10,21,12,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),327
+317.613,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),328
+639.068,UT,Trust Lands Administration,Surface,13,24,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),329
+70.275,UT,Trust Lands Administration,Surface,13,23,29,Uintah,10,Public Schools,"NW4NW4NW4, S2NW4NW4, SW4NW4",70.000000000000000,28 Stat. 107-110 (1894),330
+161.212,UT,Trust Lands Administration,Surface,10,22,20,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),331
+640.325,UT,Trust Lands Administration,Surface,11,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),332
+40.421,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),333
+40.543,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,NW4SE4,40.000000000000000,28 Stat. 107-110 (1894),334
+40.196,UT,Trust Lands Administration,Surface,1,8,16,Duchesne,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),335
+119.018,UT,Trust Lands Administration,Surface,1,10,27,Wasatch,10,Public Schools,"N2NE4, SE4NE4",120.000000000000000,28 Stat. 107-110 (1894),336
+640.494,UT,Trust Lands Administration,Surface,12,24,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),337
+322.888,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),338
+639.359,UT,Trust Lands Administration,Surface,12,24,25,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),339
+371.792,UT,Trust Lands Administration,Surface,19,20,21,Grand,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),340
+638.999,UT,Trust Lands Administration,Surface,9,17,16,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),341
+160.676,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),342
+640.804,UT,Trust Lands Administration,Surface,14,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),343
+641.681,UT,Trust Lands Administration,Surface,1,9,21,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),344
+651.442,UT,Trust Lands Administration,Surface,10,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),345
+41.088,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,LOT 4,40.539999999999999,28 Stat. 107-110 (1894),346
+41.984,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,LOT 4 (SW4SW4),41.840000000000003,28 Stat. 107-110 (1894),347
+40.053,UT,Trust Lands Administration,Surface,15,23,28,Uintah,10,Public Schools,NW4SE4,40.000000000000000,28 Stat. 107-110 (1894),348
+80.218,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),349
+7.567,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,LOT 1 (S2S2NE4NE4),7.560000000000000,28 Stat. 107-110 (1894),350
+645.92,UT,Trust Lands Administration,Surface,6,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),351
+39.877,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),352
+320.929,UT,Trust Lands Administration,Surface,15,23,34,Uintah,10,Public Schools,W2,320.000000000000000,28 Stat. 107-110 (1894),353
+484.188,UT,Trust Lands Administration,Surface,10,19,36,Uintah,10,Public Schools,"N2, SW4",480.000000000000000,28 Stat. 107-110 (1894),354
+82.42,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),355
+163.544,UT,Trust Lands Administration,Surface,10,21,18,Uintah,10,Public Schools,"LOTS 3(40.20), 4(40.42), E2SW4 [LOTS AKA W2SW4]",160.620000000000005,28 Stat. 107-110 (1894),356
+38.331,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 9 (in E2SW4),38.219999999999999,28 Stat. 107-110 (1894),357
+40.396,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),358
+40.106,UT,Trust Lands Administration,Surface,15,23,34,Uintah,10,Public Schools,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),359
+39.813,UT,Trust Lands Administration,Surface,12,25,18,Uintah,10,Public Schools,NW4NE4,40.000000000000000,28 Stat. 107-110 (1894),360
+40.013,UT,Trust Lands Administration,Surface,15,23,27,Uintah,10,Public Schools,SW4NW4,40.000000000000000,28 Stat. 107-110 (1894),361
+7.718,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,LOT 1 (S2S2NE4NE4),7.990000000000000,28 Stat. 107-110 (1894),362
+639.149,UT,Trust Lands Administration,Surface,15,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),363
+40.004,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),364
+159.337,UT,Trust Lands Administration,Surface,5,21,35,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),365
+27.075,UT,Trust Lands Administration,Surface,2,1,15,Duchesne,10,Public Schools,M&B (Portion of SW4NE4),27.010000000000002,28 Stat. 107-110 (1894),366
+80.469,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),367
+212.946,UT,Trust Lands Administration,Surface,9,25,12,Uintah,10,Public Schools,"LOTS 2-4, SW4NW4, W2SW4",207.020000000000010,28 Stat. 107-110 (1894),368
+325.843,UT,Trust Lands Administration,Surface,5,22,33,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),369
+672.764,UT,Trust Lands Administration,Surface,19,20,15,Grand,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),370
+641.088,UT,Trust Lands Administration,Surface,1,10,24,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),371
+522.242,UT,Trust Lands Administration,Surface,6,23,1,Uintah,10,Public Schools,"LOTS 1(8.44), 2(8.32), 3(8.20), 4(8.08), S2N2, S2 [ALL]",513.039999999999964,28 Stat. 107-110 (1894),372
+629.986,UT,Trust Lands Administration,Surface,6,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),373
+160.976,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),374
+623.86,UT,Trust Lands Administration,Surface,15,21,2,Uintah,10,Public Schools,"LOTS 1-4, S2N2, S2 (ALL)",624.879999999999995,28 Stat. 107-110 (1894),375
+39.738,UT,Trust Lands Administration,Surface,5,21,35,Uintah,10,Public Schools,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),376
+160.677,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),377
+631.49,UT,Trust Lands Administration,Surface,11,11,2,Duchesne,10,Public Schools,"LOTS 1-4, S2N2, S2 (ALL)",629.940000000000055,28 Stat. 107-110 (1894),378
+41.736,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,LOT 2 (SW4NW4),40.969999999999999,28 Stat. 107-110 (1894),379
+39.927,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,LOT 1 (SE4SE4),39.890000000000001,28 Stat. 107-110 (1894),380
+44.021,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,LOT 1 (SW4SW4),44.060000000000002,28 Stat. 107-110 (1894),381
+40.052,UT,Trust Lands Administration,Surface,15,23,28,Uintah,10,Public Schools,NE4SE4,40.000000000000000,28 Stat. 107-110 (1894),382
+41.818,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,LOT 3 (NW4SW4),41.020000000000003,28 Stat. 107-110 (1894),383
+481.678,UT,Trust Lands Administration,Surface,15,23,33,Uintah,10,Public Schools,"W2, SE4",480.000000000000000,28 Stat. 107-110 (1894),384
+160.228,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),385
+28.86,UT,Trust Lands Administration,Surface,15,22,31,Grand,10,Public Schools,LOT 4 (SW4NW4),28.980000000000000,28 Stat. 107-110 (1894),386
+257.333,UT,Trust Lands Administration,Surface,7,25,36,Uintah,10,Public Schools,ALL,257.759999999999991,28 Stat. 107-110 (1894),387
+637.869,UT,Trust Lands Administration,Surface,8,23,2,Uintah,10,Public Schools,ALL,638.159999999999968,28 Stat. 107-110 (1894),388
+40.536,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),389
+620.34,UT,Trust Lands Administration,Surface,10,24,1,Uintah,10,Public Schools,"LOTS 1(40.62), 2(40.61), 3(40.61), 4(40.60), 5(38.86), S2NE4, SE4NW4, N2SW4, N2S2SW4, SW4SW4SW4, W2SE4SW4SW4, SE4SE4SW4, SE4 [AKA N2N2, SW4NW4]",626.299999999999955,28 Stat. 107-110 (1894),390
+624.587,UT,Trust Lands Administration,Surface,14,22,2,Uintah,10,Public Schools,"LOTS 1(36.02), 2(36.05), 3(36.09), 4(36.12), S2N2, S2 [ALL]",624.279999999999973,28 Stat. 107-110 (1894),391
+320.176,UT,Trust Lands Administration,Surface,15,23,27,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),392
+625.357,UT,Trust Lands Administration,Surface,10,22,2,Uintah,10,Public Schools,"LOTS 1(40.77), 2(40.70), 3(40.64), 4(40.57), 5(39.92), 6(2.28), 7(15.45), 8(39.92), S2N2, N2S2, SE4SE4 [ALL]",620.250000000000000,28 Stat. 107-110 (1894),393
+79.231,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,E2SW4,80.000000000000000,28 Stat. 107-110 (1894),394
+79.747,UT,Trust Lands Administration,Surface,15,21,33,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),395
+35.314,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 13 (SW4SE4),35.380000000000003,28 Stat. 107-110 (1894),396
+325.13,UT,Trust Lands Administration,Surface,10,21,28,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),397
+639.439,UT,Trust Lands Administration,Surface,14,24,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),398
+637.796,UT,Trust Lands Administration,Surface,14,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),399
+641.474,UT,Trust Lands Administration,Surface,15,23,25,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),400
+81.368,UT,Trust Lands Administration,Surface,10,22,7,Uintah,10,Public Schools,E2NW4,80.000000000000000,28 Stat. 107-110 (1894),401
+202,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,"N2N2, SW4NW4",200.000000000000000,28 Stat. 107-110 (1894),402
+40.012,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),403
+510.296,UT,Trust Lands Administration,Surface,6,23,2,Uintah,10,Public Schools,"LOTS 1(7.90), 2(7.74), 3(7.58), 4(7.42), S2N2, S2 [ALL]",510.639999999999986,28 Stat. 107-110 (1894),404
+41.881,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,LOT 2,40.939999999999998,28 Stat. 107-110 (1894),405
+160.083,UT,Trust Lands Administration,Surface,15,23,27,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),406
+430.61,UT,Trust Lands Administration,Surface,10,17,2,Uintah,10,Public Schools,"LOTS 1, 2, PART OF LOT 3, S2NE4, PART OF SE4NW4, PART OF E2SW4, SE4",455.649999999999977,28 Stat. 107-110 (1894),407
+636.804,UT,Trust Lands Administration,Surface,15,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),408
+77.938,UT,Trust Lands Administration,Surface,18,20,28,Grand,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),409
+639.197,UT,Trust Lands Administration,Surface,7,24,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),410
+645.928,UT,Trust Lands Administration,Surface,1,9,17,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),411
+40.43,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,NE4NW4,40.000000000000000,28 Stat. 107-110 (1894),412
+40.539,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),413
+41.545,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,LOT 3,40.960000000000001,28 Stat. 107-110 (1894),414
+164.424,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),415
+137.581,UT,Trust Lands Administration,Surface,6,20,2,Uintah,10,Public Schools,"LOTS 1(6.61), 2(6.71), SE4NE4, E2SE4 [LOTS AKA N2NE4]",133.319999999999993,28 Stat. 107-110 (1894),416
+164.175,UT,Trust Lands Administration,Surface,10,21,13,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),417
+598.843,UT,Trust Lands Administration,Surface,1,10,26,Wasatch,10,Public Schools,"N2, N2SW4, SE4SW4, SE4",600.000000000000000,28 Stat. 107-110 (1894),418
+638.026,UT,Trust Lands Administration,Surface,1,10,14,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),419
+119.431,UT,Trust Lands Administration,Surface,1,10,16,Wasatch,10,Public Schools,"E2NE4, NE4SE4",120.000000000000000,28 Stat. 107-110 (1894),420
+159.866,UT,Trust Lands Administration,Surface,12,25,8,Uintah,10,Public Schools,S2S2,160.000000000000000,28 Stat. 107-110 (1894),421
+639.483,UT,Trust Lands Administration,Surface,11,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),422
+31,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,LOT 5 (SW4SE4),30.399999999999999,28 Stat. 107-110 (1894),423
+640.369,UT,Trust Lands Administration,Surface,12,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),424
+639.754,UT,Trust Lands Administration,Surface,11,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),425
+26.66,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,LOT 4 (NW4SE4),27.149999999999999,28 Stat. 107-110 (1894),426
+43.643,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 5 (SW4NW4),40.000000000000000,28 Stat. 107-110 (1894),427
+628.411,UT,Trust Lands Administration,Surface,14,20,2,Uintah,10,Public Schools,"LOTS 1(39.99), 2(39.98), 3(39.98), 4(39.96), S2N2, S2 [ALL]",639.909999999999968,28 Stat. 107-110 (1894),428
+641.327,UT,Trust Lands Administration,Surface,15,23,35,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),429
+41.295,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),430
+640.987,UT,Trust Lands Administration,Surface,11,17,16,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),431
+39.83,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),432
+39.87,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,5,Miners Hospital,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),433
+410.506,UT,Trust Lands Administration,Surface,15,23,28,Uintah,10,Public Schools,"N2, N2SW4, NW4SW4SW4",410.000000000000000,28 Stat. 107-110 (1894),434
+40.015,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,SE4NE4,40.000000000000000,28 Stat. 107-110 (1894),435
+319.282,UT,Trust Lands Administration,Surface,12,24,14,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),436
+636.016,UT,Trust Lands Administration,Surface,10,19,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),437
+40.952,UT,Trust Lands Administration,Surface,6,22,15,Uintah,10,Public Schools,NW4NW4,40.000000000000000,28 Stat. 107-110 (1894),438
+82.621,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),439
+639.008,UT,Trust Lands Administration,Surface,14,22,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),440
+80.244,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),441
+246.087,UT,Trust Lands Administration,Surface,1,8,19,Duchesne,10,Public Schools,"LOTS 1(35.14), 2(35.22), 4(35.38), S2NE4NW4, SE4NW4, E2SW4 [LOTS AKA W2NW4, SW4SW4]",245.740000000000009,28 Stat. 107-110 (1894),442
+582.283,UT,Trust Lands Administration,Surface,11,14,2,Duchesne,10,Public Schools,ALL,581.500000000000000,28 Stat. 107-110 (1894),443
+34.579,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,LOT 1 (NE4NW4),34.490000000000002,28 Stat. 107-110 (1894),444
+27.296,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,LOT 1,27.980000000000000,28 Stat. 107-110 (1894),445
+39.976,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,NW4SW4,40.000000000000000,28 Stat. 107-110 (1894),446
+31.974,UT,Trust Lands Administration,Surface,17,21,6,Grand,10,Public Schools,LOT 5 (W of NW4NW4),31.660000000000000,28 Stat. 107-110 (1894),447
+40.422,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),448
+40.005,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),449
+26.476,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,LOT 3,26.390000000000001,28 Stat. 107-110 (1894),450
+80.066,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),451
+159.723,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),452
+33.273,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,LOT 3 (NE4SW4),33.820000000000000,28 Stat. 107-110 (1894),453
+41.653,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,NW4SW4,40.000000000000000,28 Stat. 107-110 (1894),454
+318.65,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,6,Teaching Colleges at Public Universities,W2,320.000000000000000,28 Stat. 107-110 (1894),455
+638.272,UT,Trust Lands Administration,Surface,13,25,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),456
+638.58,UT,Trust Lands Administration,Surface,12,23,2,Uintah,10,Public Schools,"LOTS 1(39.63), 2(39.68), 3(39.74), 4(39.79), S2N2, S2 [ALL]",638.840000000000032,28 Stat. 107-110 (1894),457
+162.567,UT,Trust Lands Administration,Surface,6,22,3,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),458
+639.757,UT,Trust Lands Administration,Surface,10,25,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),459
+159.099,UT,Trust Lands Administration,Surface,6,22,5,Uintah,10,Public Schools,S2N2,160.000000000000000,28 Stat. 107-110 (1894),460
+639.178,UT,Trust Lands Administration,Surface,14,21,2,Uintah,10,Public Schools,ALL,641.440000000000055,28 Stat. 107-110 (1894),461
+40.909,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),462
+40.056,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NW4NW4,40.000000000000000,28 Stat. 107-110 (1894),463
+80.119,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),464
+80.163,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,5,Miners Hospital,W2NE4,80.000000000000000,28 Stat. 107-110 (1894),465
+79.087,UT,Trust Lands Administration,Surface,10,22,10,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),466
+159.47,UT,Trust Lands Administration,Surface,10,22,12,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),467
+627.462,UT,Trust Lands Administration,Surface,9,23,2,Uintah,10,Public Schools,"LOTS 1(36.11), 2(36.14), 3(36.16), 4(36.19), S2N2, S2 [ALL]",624.600000000000023,28 Stat. 107-110 (1894),468
+650.907,UT,Trust Lands Administration,Surface,8,21,2,Uintah,10,Public Schools,"LOTS 1(40.58), 2(40.52), 3(40.48), 4(40.42), S2N2, S2 [ALL]",642.000000000000000,28 Stat. 107-110 (1894),469
+80.681,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,E2SW4,80.000000000000000,28 Stat. 107-110 (1894),470
+79.77,UT,Trust Lands Administration,Surface,9,22,29,Uintah,10,Public Schools,W2NW4,80.000000000000000,28 Stat. 107-110 (1894),471
+161.971,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),472
+211.468,UT,Trust Lands Administration,Surface,11,13,2,Duchesne,10,Public Schools,"LOTS 1(16.91), 2(8.57), 3(30.53), 4(41.47), 5(34.64), S2SW4 [ALL]",212.120000000000005,28 Stat. 107-110 (1894),473
+42.601,UT,Trust Lands Administration,Surface,10,21,31,Uintah,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),474
+40.23,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,NW4NW4,40.000000000000000,28 Stat. 107-110 (1894),475
+637.487,UT,Trust Lands Administration,Surface,1,9,23,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),476
+79.36,UT,Trust Lands Administration,Surface,12,25,20,Uintah,10,Public Schools,W2NE4,80.000000000000000,28 Stat. 107-110 (1894),477
+157.651,UT,Trust Lands Administration,Surface,12,25,19,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),478
+40.587,UT,Trust Lands Administration,Surface,9,21,35,Uintah,10,Public Schools,LOT 2 (SW4SE4),40.479999999999997,28 Stat. 107-110 (1894),479
+45.443,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,LOT 2 (NW4NE4),42.719999999999999,28 Stat. 107-110 (1894),480
+480.87,UT,Trust Lands Administration,Surface,10,24,2,Uintah,10,Public Schools,"LOTS 1-4, LOT 6, S2NW4, SW4, S2SE4",489.060000000000002,28 Stat. 107-110 (1894),481
+20.026,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,LOT 5 (N2NE4SE4),20.489999999999998,28 Stat. 107-110 (1894),482
+39.984,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,SE4NE4,40.000000000000000,28 Stat. 107-110 (1894),483
+160.063,UT,Trust Lands Administration,Surface,13,21,16,Uintah,10,Public Schools,E2E2,160.000000000000000,28 Stat. 107-110 (1894),484
+326.078,UT,Trust Lands Administration,Surface,12,25,31,Uintah,10,Public Schools,W2,320.000000000000000,28 Stat. 107-110 (1894),485
+39.925,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,SW4NE4,40.000000000000000,28 Stat. 107-110 (1894),486
+640.544,UT,Trust Lands Administration,Surface,15,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),487
+81.136,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),488
+159.572,UT,Trust Lands Administration,Surface,10,22,24,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),489
+638.182,UT,Trust Lands Administration,Surface,12,25,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),490
+41.123,UT,Trust Lands Administration,Surface,10,22,24,Uintah,10,Public Schools,NE4SE4,40.000000000000000,28 Stat. 107-110 (1894),491
+160.035,UT,Trust Lands Administration,Surface,13,22,26,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),492
+50.724,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 8 (SE4SE4),49.270000000000003,28 Stat. 107-110 (1894),493
+7.678,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 2 (S2S2NW4NE4),8.750000000000000,28 Stat. 107-110 (1894),494
+39.839,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NE4NE4,40.000000000000000,28 Stat. 107-110 (1894),495
+159.984,UT,Trust Lands Administration,Surface,10,22,19,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),496
+663.907,UT,Trust Lands Administration,Surface,10,21,2,Uintah,10,Public Schools,"LOTS 1(42.90), 2(42.62), 3(42.34), 4(42.06), S2N2, S2 [ALL]",649.919999999999959,28 Stat. 107-110 (1894),497
+640.228,UT,Trust Lands Administration,Surface,10,20,25,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),498
+161.104,UT,Trust Lands Administration,Surface,15,21,33,Grand,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),499
+860.461,UT,Trust Lands Administration,Surface,19,19,2,Grand,10,Public Schools,"LOTS 1-12, S2N2, S2 (ALL)",868.639999999999986,28 Stat. 107-110 (1894),500
+160.016,UT,Trust Lands Administration,Surface,9,22,31,Uintah,10,Public Schools,W2E2,160.000000000000000,28 Stat. 107-110 (1894),501
+141.173,UT,Trust Lands Administration,Surface,9,25,13,Uintah,10,Public Schools,"LOTS 1-2, W2NW4",138.360000000000014,28 Stat. 107-110 (1894),502
+79.936,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),503
+80.068,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),504
+40.099,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,NE4NE4,40.000000000000000,28 Stat. 107-110 (1894),505
+40.85,UT,Trust Lands Administration,Surface,6,22,11,Uintah,10,Public Schools,NW4SE4,40.000000000000000,28 Stat. 107-110 (1894),506
+79.394,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,9,Reservoirs,W2SE4,80.000000000000000,28 Stat. 107-110 (1894),507
+631.795,UT,Trust Lands Administration,Surface,14,23,2,Uintah,10,Public Schools,ALL,636.000000000000000,28 Stat. 107-110 (1894),508
+7.495,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,LOT 1 (S2S2NE4NE4),8.730000000000000,28 Stat. 107-110 (1894),509
+315.587,UT,Trust Lands Administration,Surface,1,8,21,Duchesne,9,Reservoirs,S2,320.000000000000000,28 Stat. 107-110 (1894),510
+160.117,UT,Trust Lands Administration,Surface,15,23,22,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),511
+35.564,UT,Trust Lands Administration,Surface,1,8,30,Duchesne,5,Miners Hospital,SW4NW4 (LOT 2),35.479999999999997,28 Stat. 107-110 (1894),512
+34.186,UT,Trust Lands Administration,Surface,15,22,33,Grand,10,Public Schools,LOT 3 (SE4NW4),34.390000000000001,28 Stat. 107-110 (1894),513
+654.602,UT,Trust Lands Administration,Surface,10,20,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),514
+637.136,UT,Trust Lands Administration,Surface,13,25,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),515
+638.397,UT,Trust Lands Administration,Surface,1,9,26,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),516
+359.659,UT,Trust Lands Administration,Surface,12,23,16,Uintah,10,Public Schools,"N2, NW4SW4",360.000000000000000,28 Stat. 107-110 (1894),517
+40.061,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),518
+160.415,UT,Trust Lands Administration,Surface,10,22,12,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),519
+640.137,UT,Trust Lands Administration,Surface,14,24,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),520
+644.972,UT,Trust Lands Administration,Surface,14,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),521
+39.876,UT,Trust Lands Administration,Surface,15,21,33,Uintah,10,Public Schools,SW4SW4,40.000000000000000,28 Stat. 107-110 (1894),522
+161.503,UT,Trust Lands Administration,Surface,10,20,24,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),523
+40.01,UT,Trust Lands Administration,Surface,15,23,27,Uintah,10,Public Schools,NW4NW4,40.000000000000000,28 Stat. 107-110 (1894),524
+80.955,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,E2SW4,80.000000000000000,28 Stat. 107-110 (1894),525
+81.309,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,E2SE4,80.000000000000000,28 Stat. 107-110 (1894),526
+161.947,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),527
+26.576,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,LOT 1,26.609999999999999,28 Stat. 107-110 (1894),528
+41.313,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,NE4SW4,40.000000000000000,28 Stat. 107-110 (1894),529
+319.099,UT,Trust Lands Administration,Surface,1,8,19,Duchesne,11,College of Mines and Earth Sciences,E2,320.000000000000000,28 Stat. 107-110 (1894),530
+640.846,UT,Trust Lands Administration,Surface,12,17,16,Carbon,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),531
+635.191,UT,Trust Lands Administration,Surface,12,20,2,Uintah,10,Public Schools,ALL,639.919999999999959,28 Stat. 107-110 (1894),532
+39.889,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NW4NE4,40.000000000000000,28 Stat. 107-110 (1894),533
+80,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,E2SW4,80.000000000000000,28 Stat. 107-110 (1894),534
+326.576,UT,Trust Lands Administration,Surface,5,22,35,Uintah,10,Public Schools,S2,320.000000000000000,28 Stat. 107-110 (1894),535
+40.082,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,10,Public Schools,NE4NE4,40.000000000000000,28 Stat. 107-110 (1894),536
+44.376,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,LOT 4 (NW4NW4),43.119999999999997,28 Stat. 107-110 (1894),537
+10.445,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 12 (S2SE4SW4),10.779999999999999,28 Stat. 107-110 (1894),538
+395.713,UT,Trust Lands Administration,Surface,11,17,2,Duchesne,10,Public Schools,"PART OF LOT 2, LOTS 3, 4, PART OF SW4NE4, S2NW4, SW4, PART OF W2SE4",368.750000000000000,28 Stat. 107-110 (1894),539
+80.359,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),540
+50.39,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 4 (SW4SW4),50.469999999999999,28 Stat. 107-110 (1894),541
+80.549,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,N2SW4,80.000000000000000,28 Stat. 107-110 (1894),542
+80.095,UT,Trust Lands Administration,Surface,15,23,28,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),543
+209.434,UT,Trust Lands Administration,Surface,10,17,2,Duchesne,10,Public Schools,"PART OF LOT 3, LOT 4, SW4NW4, PART OF SE4NW4, PART OF E2SW4, W2SW4",184.150000000000006,28 Stat. 107-110 (1894),544
+160.65,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),545
+241.993,UT,Trust Lands Administration,Surface,11,17,2,Uintah,10,Public Schools,"LOT 1, PART OF LOT 2, PART OF SW4NE4, SE4NE4, PART OF W2SE4, E2SE4",269.250000000000000,28 Stat. 107-110 (1894),546
+80.165,UT,Trust Lands Administration,Surface,15,23,34,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),547
+586.412,UT,Trust Lands Administration,Surface,1,8,30,Duchesne,10,Public Schools,"LOTS 1, 3, 4, E2W2, E2",586.549999999999955,28 Stat. 107-110 (1894),548
+494.692,UT,Trust Lands Administration,Surface,10,21,18,Uintah,10,Public Schools,"LOTS 5(42.55), 6(42.45), E2, E2NW4 [LOTS AKA W2NW4]",485.000000000000000,28 Stat. 107-110 (1894),549
+317.688,UT,Trust Lands Administration,Surface,1,8,21,Duchesne,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),550
+34.32,UT,Trust Lands Administration,Surface,15,22,33,Grand,10,Public Schools,LOT 1 (SE4NE4),34.570000000000000,28 Stat. 107-110 (1894),551
+80.21,UT,Trust Lands Administration,Surface,9,25,33,Uintah,10,Public Schools,N2NW4,80.000000000000000,28 Stat. 107-110 (1894),552
+279.291,UT,Trust Lands Administration,Surface,11,18,2,Uintah,10,Public Schools,"LOT 3(39.80), SW4NW4, SW4, SW4SE4 [LOT AKA NW4NW4]",279.800000000000011,28 Stat. 107-110 (1894),553
+80.534,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),554
+51.993,UT,Trust Lands Administration,Surface,9,21,31,Uintah,10,Public Schools,LOT 6 (SE4SW4),50.700000000000003,28 Stat. 107-110 (1894),555
+160.747,UT,Trust Lands Administration,Surface,10,22,7,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),556
+160.255,UT,Trust Lands Administration,Surface,15,23,34,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),557
+641.682,UT,Trust Lands Administration,Surface,12,21,2,Uintah,10,Public Schools,ALL,640.279999999999973,28 Stat. 107-110 (1894),558
+39.788,UT,Trust Lands Administration,Surface,5,21,35,Uintah,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),559
+633.763,UT,Trust Lands Administration,Surface,1,8,32,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),560
+80.361,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),561
+639.162,UT,Trust Lands Administration,Surface,1,8,20,Duchesne,9,Reservoirs,ALL,640.000000000000000,28 Stat. 107-110 (1894),562
+636.467,UT,Trust Lands Administration,Surface,1,9,33,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),563
+41.059,UT,Trust Lands Administration,Surface,10,21,4,Uintah,10,Public Schools,LOT 1 (NE4NE4),42.280000000000001,28 Stat. 107-110 (1894),564
+164.817,UT,Trust Lands Administration,Surface,10,21,13,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),565
+41.485,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,LOT 1 (NW4NW4),40.750000000000000,28 Stat. 107-110 (1894),566
+632.144,UT,Trust Lands Administration,Surface,1,8,28,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),567
+164.917,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),568
+640.721,UT,Trust Lands Administration,Surface,15,23,26,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),569
+40.601,UT,Trust Lands Administration,Surface,10,22,11,Uintah,10,Public Schools,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),570
+26.876,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,LOT 2 (NW4SW4),26.600000000000001,28 Stat. 107-110 (1894),571
+634.77,UT,Trust Lands Administration,Surface,1,9,14,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),572
+45.245,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,LOT 3 (NE4NW4),42.920000000000002,28 Stat. 107-110 (1894),573
+39.423,UT,Trust Lands Administration,Surface,15,23,34,Uintah,10,Public Schools,SE4SE4,40.000000000000000,28 Stat. 107-110 (1894),574
+80.371,UT,Trust Lands Administration,Surface,9,21,27,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),575
+24.488,UT,Trust Lands Administration,Surface,5,19,29,Uintah,10,Public Schools,LOT 4,24.719999999999999,28 Stat. 107-110 (1894),576
+70.187,UT,Trust Lands Administration,Surface,15,23,28,Uintah,10,Public Schools,"SE4SW4, S2SW4SW4, NE4SW4SW4",70.000000000000000,28 Stat. 107-110 (1894),577
+160.541,UT,Trust Lands Administration,Surface,15,23,33,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),578
+637.067,UT,Trust Lands Administration,Surface,15,22,2,Uintah,10,Public Schools,ALL,639.600000000000023,28 Stat. 107-110 (1894),579
+648.651,UT,Trust Lands Administration,Surface,8,18,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),580
+41.42,UT,Trust Lands Administration,Surface,6,22,9,Uintah,10,Public Schools,NE4NE4,40.000000000000000,28 Stat. 107-110 (1894),581
+640.395,UT,Trust Lands Administration,Surface,10,17,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),582
+42.241,UT,Trust Lands Administration,Surface,5,19,29,Uintah,10,Public Schools,LOT 3,41.850000000000001,28 Stat. 107-110 (1894),583
+160.28,UT,Trust Lands Administration,Surface,10,22,12,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),584
+80.139,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),585
+39.831,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NE4SE4,40.000000000000000,28 Stat. 107-110 (1894),586
+82.578,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,S2NW4,80.000000000000000,28 Stat. 107-110 (1894),587
+45.806,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,LOT 3 (SW4SE4),44.880000000000003,28 Stat. 107-110 (1894),588
+82.538,UT,Trust Lands Administration,Surface,10,21,1,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),589
+71.175,UT,Trust Lands Administration,Surface,13,23,11,Uintah,10,Public Schools,"S2SW4NE4SW4, S2SE4NW4SW4, SW4SW4, W2SE4SW4",70.000000000000000,28 Stat. 107-110 (1894),590
+9.996,UT,Trust Lands Administration,Surface,10,24,1,Uintah,10,Public Schools,SW4SE4SW4,10.000000000000000,28 Stat. 107-110 (1894),591
+80.778,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),592
+639.755,UT,Trust Lands Administration,Surface,13,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),593
+645.329,UT,Trust Lands Administration,Surface,9,18,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),594
+721.686,UT,Trust Lands Administration,Surface,8,22,2,Uintah,10,Public Schools,ALL,722.200000000000045,28 Stat. 107-110 (1894),595
+642.714,UT,Trust Lands Administration,Surface,12,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),596
+851.717,UT,Trust Lands Administration,Surface,12,25,36,Uintah,10,Public Schools,"LOTS 1(56.78), 2(40.00), 3(40.00), 4(40.00), 5(40.00), 6(56.74), 7(56.70), 8(40.00), 9(40.00), 10(40.00), 11(40.00), 12(56.66), W2 [ALL]",866.879999999999995,28 Stat. 107-110 (1894),597
+160.751,UT,Trust Lands Administration,Surface,10,22,20,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),598
+314.258,UT,Trust Lands Administration,Surface,12,25,19,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),599
+316.033,UT,Trust Lands Administration,Surface,12,25,20,Uintah,10,Public Schools,W2,320.000000000000000,28 Stat. 107-110 (1894),600
+638.189,UT,Trust Lands Administration,Surface,8,25,2,Uintah,10,Public Schools,"LOTS 1(39.31), 2(39.44), 3(39.58), 4(39.71), S2N2, S2 [ALL]",638.039999999999964,28 Stat. 107-110 (1894),601
+642.465,UT,Trust Lands Administration,Surface,1,9,34,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),602
+79.964,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),603
+15.986,UT,Trust Lands Administration,Surface,9,25,30,Uintah,10,Public Schools,LOT 6 (N2NE4SE4),16.090000000000000,28 Stat. 107-110 (1894),604
+80.34,UT,Trust Lands Administration,Surface,6,22,6,Uintah,10,Public Schools,E2SW4,80.000000000000000,28 Stat. 107-110 (1894),605
+161.451,UT,Trust Lands Administration,Surface,10,22,13,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),606
+644.365,UT,Trust Lands Administration,Surface,1,9,25,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),607
+39.851,UT,Trust Lands Administration,Surface,10,22,25,Uintah,10,Public Schools,NW4SE4,40.000000000000000,28 Stat. 107-110 (1894),608
+637.834,UT,Trust Lands Administration,Surface,1,10,25,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),609
+26.355,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,LOT 4,26.270000000000000,28 Stat. 107-110 (1894),610
+651.3,UT,Trust Lands Administration,Surface,7,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),611
+482.751,UT,Trust Lands Administration,Surface,5,22,32,Uintah,10,Public Schools,"N2, SE4",480.000000000000000,28 Stat. 107-110 (1894),612
+79.952,UT,Trust Lands Administration,Surface,1,8,33,Duchesne,10,Public Schools,"SE4NE4, NE4SE4",80.000000000000000,28 Stat. 107-110 (1894),613
+640.187,UT,Trust Lands Administration,Surface,13,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),614
+80.561,UT,Trust Lands Administration,Surface,9,21,26,Uintah,10,Public Schools,S2SW4,80.000000000000000,28 Stat. 107-110 (1894),615
+639.04,UT,Trust Lands Administration,Surface,6,23,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),616
+7.69,UT,Trust Lands Administration,Surface,6,22,4,Uintah,10,Public Schools,LOT 3 (S2S2NE4NW4),7.790000000000000,28 Stat. 107-110 (1894),617
+640.197,UT,Trust Lands Administration,Surface,15,23,21,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),618
+46.597,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,LOT 4 (SE4SE4),45.289999999999999,28 Stat. 107-110 (1894),619
+641.616,UT,Trust Lands Administration,Surface,12,20,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),620
+638.368,UT,Trust Lands Administration,Surface,11,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),621
+653.709,UT,Trust Lands Administration,Surface,10,20,13,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),622
+646.547,UT,Trust Lands Administration,Surface,1,9,35,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),623
+600.844,UT,Trust Lands Administration,Surface,14,21,4,Uintah,10,Public Schools,"LOTS 1(40.78), 2(40.82), 3(40.86), 4(40.90), S2N2, SW4, N2SE4, SW4SE4 [LOTS AKA N2N2]",603.360000000000014,28 Stat. 107-110 (1894),624
+525.776,UT,Trust Lands Administration,Surface,7,20,36,Uintah,10,Public Schools,"N2, SW4, NW4SE4",520.000000000000000,28 Stat. 107-110 (1894),625
+600.905,UT,Trust Lands Administration,Surface,15,23,36,Uintah,10,Public Schools,"N2, SW4, N2SE4, SW4SE4",600.000000000000000,28 Stat. 107-110 (1894),626
+39.878,UT,Trust Lands Administration,Surface,5,22,31,Uintah,10,Public Schools,LOT 4 (SW4SW4),39.969999999999999,28 Stat. 107-110 (1894),627
+33.958,UT,Trust Lands Administration,Surface,15,22,31,Grand,10,Public Schools,LOT 3 (SE4NW4),34.100000000000001,28 Stat. 107-110 (1894),628
+639.757,UT,Trust Lands Administration,Surface,14,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),629
+159.536,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),630
+270.68,UT,Trust Lands Administration,Surface,6,22,2,Uintah,10,Public Schools,"LOTS 1(7.08), 2(7.09), 3(7.10), 4(7.12), S2NW4, SW4 [LOTS AKA N2N2]",268.389999999999986,28 Stat. 107-110 (1894),631
+156.069,UT,Trust Lands Administration,Surface,12,25,29,Uintah,10,Public Schools,E2E2,160.000000000000000,28 Stat. 107-110 (1894),632
+164.106,UT,Trust Lands Administration,Surface,10,22,14,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),633
+40.751,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,LOT 4,41.159999999999997,28 Stat. 107-110 (1894),634
+41.6,UT,Trust Lands Administration,Surface,10,21,19,Uintah,10,Public Schools,LOT 4 (SW4SW4),40.759999999999998,28 Stat. 107-110 (1894),635
+645.265,UT,Trust Lands Administration,Surface,1,9,24,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),636
+641.971,UT,Trust Lands Administration,Surface,5,19,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),637
+639.403,UT,Trust Lands Administration,Surface,1,9,13,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),638
+26.463,UT,Trust Lands Administration,Surface,10,22,18,Uintah,10,Public Schools,LOT 2,26.489999999999998,28 Stat. 107-110 (1894),639
+79.788,UT,Trust Lands Administration,Surface,12,24,11,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),640
+641.864,UT,Trust Lands Administration,Surface,7,25,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),641
+41.708,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,LOT 1,40.859999999999999,28 Stat. 107-110 (1894),642
+40.702,UT,Trust Lands Administration,Surface,10,21,30,Uintah,10,Public Schools,LOT 3,40.880000000000003,28 Stat. 107-110 (1894),643
+642.202,UT,Trust Lands Administration,Surface,1,8,29,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),644
+167.992,UT,Trust Lands Administration,Surface,4,19,2,Uintah,10,Public Schools,"LOTS 1(48.76), 2(44.13), 3(39.51), 4(34.90) [ALL]",167.300000000000011,28 Stat. 107-110 (1894),645
+598.268,UT,Trust Lands Administration,Surface,15,23,16,Uintah,10,Public Schools,"NE4, NE4NW4, S2NW4, S2",600.000000000000000,28 Stat. 107-110 (1894),646
+319.053,UT,Trust Lands Administration,Surface,12,24,23,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),647
+639.707,UT,Trust Lands Administration,Surface,14,21,17,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),648
+81.921,UT,Trust Lands Administration,Surface,6,22,15,Uintah,10,Public Schools,N2NE4,80.000000000000000,28 Stat. 107-110 (1894),649
+639.195,UT,Trust Lands Administration,Surface,7,24,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),650
+320.415,UT,Trust Lands Administration,Surface,14,21,5,Uintah,10,Public Schools,"LOTS 1(40.84), 2(40.67), S2NE4, SE4 [LOTS AKA N2NE4]",321.509999999999991,28 Stat. 107-110 (1894),651
+640.354,UT,Trust Lands Administration,Surface,13,16,36,Carbon,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),652
+657.576,UT,Trust Lands Administration,Surface,10,21,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),653
+79.765,UT,Trust Lands Administration,Surface,15,21,33,Uintah,10,Public Schools,N2SW4,80.000000000000000,28 Stat. 107-110 (1894),654
+80.36,UT,Trust Lands Administration,Surface,1,8,16,Duchesne,6,Teaching Colleges at Public Universities,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),655
+158.987,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),656
+640.864,UT,Trust Lands Administration,Surface,1,10,13,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),657
+40.242,UT,Trust Lands Administration,Surface,9,23,23,Uintah,10,Public Schools,SW4NW4,40.000000000000000,28 Stat. 107-110 (1894),658
+34.252,UT,Trust Lands Administration,Surface,15,22,33,Grand,10,Public Schools,LOT 2 (SW4NE4),34.490000000000002,28 Stat. 107-110 (1894),659
+79.767,UT,Trust Lands Administration,Surface,16,21,17,Grand,10,Public Schools,W2NE4,80.000000000000000,28 Stat. 107-110 (1894),660
+642.072,UT,Trust Lands Administration,Surface,9,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),661
+79.885,UT,Trust Lands Administration,Surface,11,24,21,Uintah,10,Public Schools,E2NW4,80.000000000000000,28 Stat. 107-110 (1894),662
+44.829,UT,Trust Lands Administration,Surface,9,21,33,Uintah,10,Public Schools,LOT 2 (SE4SW4),44.469999999999999,28 Stat. 107-110 (1894),663
+241.134,UT,Trust Lands Administration,Surface,1,10,36,Wasatch,10,Public Schools,"NE4, E2SE4",240.000000000000000,28 Stat. 107-110 (1894),664
+530.89,UT,Trust Lands Administration,Surface,13,23,21,Uintah,10,Public Schools,"S2N2SW4NE4, S2SW4NE4, NE4SE4NE4, NE4NW4SE4NE4, S2NW4SE4NE4, S2SE4NE4, W2E2NE4NW4, W2NE4NW4, W2NW4, SE4NW4, NE4SW4, E2NW4SW4, N2NW4NW4SW4, SE4NW4NW4SW4, NE4SW4NW4SW4, S2SW4NW4SW4, S2SW4, SE4",532.500000000000000,28 Stat. 107-110 (1894),665
+636.774,UT,Trust Lands Administration,Surface,7,22,36,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),666
+639.861,UT,Trust Lands Administration,Surface,9,17,32,Duchesne,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),667
+12.455,UT,Trust Lands Administration,Surface,13,23,20,Uintah,10,Public Schools,"SW4SW4NW4SW4, W2W2SW4SW4",12.500000000000000,28 Stat. 107-110 (1894),668
+639.208,UT,Trust Lands Administration,Surface,11,18,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),669
+622.035,UT,Trust Lands Administration,Surface,11,19,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),670
+161.288,UT,Trust Lands Administration,Surface,10,24,36,Uintah,10,Public Schools,E2E2,160.000000000000000,28 Stat. 107-110 (1894),671
+629.013,UT,Trust Lands Administration,Surface,1,9,18,Wasatch,10,Public Schools,"LOTS 1-4, E2, E2W2 (ALL)",627.799999999999955,28 Stat. 107-110 (1894),672
+641.193,UT,Trust Lands Administration,Surface,11,23,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),673
+40.25,UT,Trust Lands Administration,Surface,1,8,16,Duchesne,6,Teaching Colleges at Public Universities,SW4SE4,40.000000000000000,28 Stat. 107-110 (1894),674
+10.012,UT,Trust Lands Administration,Surface,13,23,17,Uintah,10,Public Schools,"NW4NE4NW4NW4, N2NW4NW4NW4, SW4NW4NW4NW4",10.000000000000000,28 Stat. 107-110 (1894),675
+510.314,UT,Trust Lands Administration,Surface,6,19,2,Uintah,10,Public Schools,"LOTS 1(7.54), 2(7.50), 3(7.46), 4(7.42), S2N2, S2 [ALL] [ALSO KNOWN AS TRACT 37]",509.920000000000016,28 Stat. 107-110 (1894),676
+321.319,UT,Trust Lands Administration,Surface,1,8,16,Duchesne,6,Teaching Colleges at Public Universities,N2,320.000000000000000,28 Stat. 107-110 (1894),677
+638.392,UT,Trust Lands Administration,Surface,15,24,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),678
+439.144,UT,Trust Lands Administration,Surface,15,25,36,Grand,10,Public Schools,ALL,440.560000000000002,28 Stat. 107-110 (1894),679
+160.313,UT,Trust Lands Administration,Surface,15,21,31,Uintah,10,Public Schools,E2W2,160.000000000000000,28 Stat. 107-110 (1894),680
+641.175,UT,Trust Lands Administration,Surface,11,21,16,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),681
+79.867,UT,Trust Lands Administration,Surface,9,22,29,Uintah,10,Public Schools,E2NW4,80.000000000000000,28 Stat. 107-110 (1894),682
+160.087,UT,Trust Lands Administration,Surface,9,22,29,Uintah,10,Public Schools,NE4,160.000000000000000,28 Stat. 107-110 (1894),683
+647.971,UT,Trust Lands Administration,Surface,1,9,20,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),684
+635.189,UT,Trust Lands Administration,Surface,1,9,28,Wasatch,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),685
+619.217,UT,Trust Lands Administration,Surface,9,25,29,Uintah,10,Public Schools,"LOTS 1(42.47), 2(24.58), 3(0.60), 4(30.27), N2, NE4SW4, SE4 [LOTS AKA PART W2SW4, PART SE4SW4, LESS MINING CLAIMS]",617.919999999999959,28 Stat. 107-110 (1894),686
+160.291,UT,Trust Lands Administration,Surface,15,21,31,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),687
+159.569,UT,Trust Lands Administration,Surface,12,24,13,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),688
+320.913,UT,Trust Lands Administration,Surface,1,9,16,Wasatch,9,Reservoirs,N2,320.000000000000000,28 Stat. 107-110 (1894),689
+39.882,UT,Trust Lands Administration,Surface,12,24,13,Uintah,10,Public Schools,SW4NW4,40.000000000000000,28 Stat. 107-110 (1894),690
+3.054,UT,Trust Lands Administration,Surface,10,12,32,Duchesne,10,Public Schools,ALL,3.060000000000000,28 Stat. 107-110 (1894),691
+638.619,UT,Trust Lands Administration,Surface,7,23,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),692
+159.747,UT,Trust Lands Administration,Surface,9,22,29,Uintah,10,Public Schools,SW4,160.000000000000000,28 Stat. 107-110 (1894),693
+80.178,UT,Trust Lands Administration,Surface,15,21,31,Uintah,10,Public Schools,S2NE4,80.000000000000000,28 Stat. 107-110 (1894),694
+156.229,UT,Trust Lands Administration,Surface,18,20,33,Grand,10,Public Schools,NW4,160.000000000000000,28 Stat. 107-110 (1894),695
+482.417,UT,Trust Lands Administration,Surface,1,9,15,Duchesne,10,Public Schools,"N2, N2S2",480.000000000000000,28 Stat. 107-110 (1894),696
+34.122,UT,Trust Lands Administration,Surface,15,22,33,Grand,10,Public Schools,LOT 4 (SW4NW4),34.310000000000002,28 Stat. 107-110 (1894),697
+159.937,UT,Trust Lands Administration,Surface,9,22,29,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),698
+27.469,UT,Trust Lands Administration,Surface,13,23,16,Uintah,10,Public Schools,Part S2S2SW4,27.500000000000000,28 Stat. 107-110 (1894),699
+444.98,UT,Trust Lands Administration,Surface,9,17,2,Uintah,10,Public Schools,"LOTS 1(40.07), 2 (40.06), PART LOT 3 (33.11), S2NE4, PART SE4NW4 (34.51), PART NE4SW4 (34.27), PART SE4SW4 (34.19), SE4",456.209999999999980,28 Stat. 107-110 (1894),700
+624.636,UT,Trust Lands Administration,Surface,8,20,2,Uintah,10,Public Schools,"LOTS 1-7, S2N2, SW4, W2SE4",619.860000000000014,28 Stat. 107-110 (1894),701
+197.259,UT,Trust Lands Administration,Surface,9,17,2,Duchesne,10,Public Schools,"PART LOT 3 (6.93), LOT 4 (40.03), SW4NW4, PART SE4NW4 (5.49), PART NE4SW4 (5.73), W2SW4, PART SE4SW4 (5.81)",183.990000000000009,28 Stat. 107-110 (1894),702
+585.624,UT,Trust Lands Administration,Surface,9,24,2,Uintah,10,Public Schools,"LOTS 1-12, SE4NW4, SW4SW4, S2NE4 (ALL)",586.470000000000027,28 Stat. 107-110 (1894),703
+211.134,UT,Trust Lands Administration,Surface,9,24,24,Uintah,10,Public Schools,"LOTS 1, 4, 5, 6, 7, 10, N2SE4",209.039999999999992,28 Stat. 107-110 (1894),704
+583.202,UT,Trust Lands Administration,Surface,9,25,32,Uintah,10,Public Schools,"LOTS 1(47.72), 2(20.51), 3(35.58), 4(36.04), 5(38.69), 6(49.21), 7(21.76), 8(10.61), 9(37.58), 10(4.64), SE4NW4, SW4, N2SE4 [ALL, EXCEPT MINING CLAIMS]",582.340000000000032,28 Stat. 107-110 (1894),705
+391.828,UT,Trust Lands Administration,Surface,6,21,36,Uintah,10,Public Schools,"LOTS 2(16.62), 3(39.88), 4(31.50), 7(49.00), 8(26.00), SE4NE4, W2NW4, NE4SE4, S2SE4 [LOTS AKA PART OF NW4NE4, PART OF E2NW4, PART OF N2SW4, PART OF SW4SW4]",403.000000000000000,28 Stat. 107-110 (1894),706
+603.173,UT,Trust Lands Administration,Surface,8,17,32,Duchesne,10,Public Schools,"LOTS 1-11, NE4, NE4NW4, W2SW4, SE4SW4, NE4SE4 (ALL)",598.669999999999959,28 Stat. 107-110 (1894),707
+480.794,UT,Trust Lands Administration,Surface,11,16,36,Duchesne,10,Public Schools,"N2, N2SW4, SW4SW4, SE4SE4",480.000000000000000,28 Stat. 107-110 (1894),708
+480.873,UT,Trust Lands Administration,Surface,11,17,32,Duchesne,10,Public Schools,"N2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),709
+466.47,UT,Trust Lands Administration,Surface,11,24,16,Uintah,10,Public Schools,"LOTS 1(29.20), 2(37.71), S2NE4, N2NW4, SE4NW4, W2SW4, SE4SW4, NE4SE4, SW4SE4 [LOTS AKA PART OF N2NE4]",466.910000000000025,28 Stat. 107-110 (1894),710
+439.11,UT,Trust Lands Administration,Surface,14,21,16,Uintah,10,Public Schools,"E2E2, NW4, N2SW4, SW4SW4",440.000000000000000,28 Stat. 107-110 (1894),711
+79.519,UT,Trust Lands Administration,Surface,9,21,25,Uintah,10,Public Schools,N2SE4,80.000000000000000,28 Stat. 107-110 (1894),712
+161.233,UT,Trust Lands Administration,Surface,1,8,16,Duchesne,6,Teaching Colleges at Public Universities,SW4,160.000000000000000,28 Stat. 107-110 (1894),713
+79.722,UT,Trust Lands Administration,Surface,12,24,13,Uintah,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),714
+280.279,UT,Trust Lands Administration,Surface,9,24,16,Uintah,10,Public Schools,"N2N2, SE4NW4, S2SW4",280.000000000000000,28 Stat. 107-110 (1894),715
+538.825,UT,Trust Lands Administration,Surface,1,8,31,Duchesne,10,Public Schools,"LOTS 1(35.65), 3(35.85), 4(35.95), E2, SE4NW4, E2SW4 [LOTS AKA NW4NW4, W2SW4]",547.450000000000045,28 Stat. 107-110 (1894),716
+321.863,UT,Trust Lands Administration,Surface,1,9,22,Duchesne,10,Public Schools,"NW4, SE4",320.000000000000000,28 Stat. 107-110 (1894),717
+439.5,UT,Trust Lands Administration,Surface,14,24,2,Uintah,10,Public Schools,"LOTS 1, 3, 4, SE4NE4, S2NW4, SW4, SW4SE4",439.730000000000018,28 Stat. 107-110 (1894),718
+160.278,UT,Trust Lands Administration,Surface,13,22,24,Uintah,10,Public Schools,SE4,160.000000000000000,28 Stat. 107-110 (1894),719
+352.689,UT,Trust Lands Administration,Surface,13,23,14,Uintah,10,Public Schools,"W2NE4NW4, NW4NW4, NE4SW4NW4, E2NW4SW4NW4, E2SW4SW4NW4, SE4SW4NW4, W2SE4NW4, S2NE4NE4SW4, NW4NE4SW4, S2NE4SW4, E2NW4SW4, E2E2SW4SW4, SE4SW4, S2N2N2SE4, S2N2SE4, S2SE4",355.000000000000000,28 Stat. 107-110 (1894),720
+398.229,UT,Trust Lands Administration,Surface,6,22,16,Uintah,10,Public Schools,"S2NW4, S2",400.000000000000000,28 Stat. 107-110 (1894),721
+638.891,UT,Trust Lands Administration,Surface,6,25,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),722
+626.878,UT,Trust Lands Administration,Surface,6,22,36,Uintah,10,Public Schools,ALL (LESS 12.22 ACRES CONVEYED FOR ROW 875) (SEE METES & BOUNDS),627.779999999999973,28 Stat. 107-110 (1894),723
+469.704,UT,Trust Lands Administration,Surface,9,25,8,Uintah,10,Public Schools,"LOTS 1(33.81), 3(0.67), S2N2, N2SW4, SE4SW4, SE4 [LOTS AKA SW4SW4]",474.480000000000018,28 Stat. 107-110 (1894),724
+635.361,UT,Trust Lands Administration,Surface,5,19,2,Uintah,10,Public Schools,ALL,637.370000000000005,28 Stat. 107-110 (1894),725
+580.853,UT,Trust Lands Administration,Surface,9,24,25,Uintah,10,Public Schools,"LOTS 1-12, NW4SW4, S2S2",577.970000000000027,28 Stat. 107-110 (1894),726
+441.714,UT,Trust Lands Administration,Surface,9,24,36,Uintah,10,Public Schools,"N2, N2SE4, SW4SW4",440.000000000000000,28 Stat. 107-110 (1894),727
+480.999,UT,Trust Lands Administration,Surface,15,21,32,Uintah,10,Public Schools,"N2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),728
+607.526,UT,Trust Lands Administration,Surface,8,20,16,Uintah,10,Public Schools,"LOTS 3, 4, 5, E2, E2W2, NW4NW4 (LESS M&B FOR ROW CONVEYANCE NO. 522 - QCD001617)",587.740000000000009,28 Stat. 107-110 (1894),729
+0.586,UT,Trust Lands Administration,Surface,15,22,29,Uintah,10,Public Schools,LOT 2(0.83) [AKA PART OF SW4SW4SW4],0.83,28 Stat. 107-110 (1894),730
+337.356,UT,Trust Lands Administration,Surface,15,21,25,Uintah,10,Public Schools,"LOTS 2(29.28), 4(13.69), 6(1.25), 8(29.61), 9(37.81), SW4, S2SE4 [LOTS AKA PART OF SW4SW4NE4, PART OF S2NW4, PART OF N2SE4]	",351.639999999999986,28 Stat. 107-110 (1894),731
+640.689,UT,Trust Lands Administration,Surface,15,23,24,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),732
+638.65,UT,Trust Lands Administration,Surface,15,22,32,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),733
+319.496,UT,Trust Lands Administration,Surface,15,23,23,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),734
+257.801,UT,Trust Lands Administration,Surface,12,25,18,Uintah,10,Public Schools,"SW4NE4, S2SW4NW4, SE4NW4, SW4",260.000000000000000,28 Stat. 107-110 (1894),735
+159.955,UT,Trust Lands Administration,Surface,15,22,30,Uintah,10,Public Schools,"LOTS 4(39.91), 6(2.29), 8(17.11), 10(23.66), 11(32.34), 14(11.80), SE4SW4 [LOTS AKA PART OF N2SW4, SW4SW4, PART OF W2SE4, PART OF SE4SE4]",167.110000000000014,28 Stat. 107-110 (1894),736
+580.116,UT,Trust Lands Administration,Surface,15,21,26,Uintah,10,Public Schools,"LOTS 2(5.54), 4(25.89), 6(39.84), 7(39.89), SW4NE4, W2NW4, SE4NW4, S2 [LOTS AKA PART OF N2NE4, PART OF SE4NE4, PART OF NE4NW4]",591.159999999999968,28 Stat. 107-110 (1894),737
+641.519,UT,Trust Lands Administration,Surface,13,22,13,Uintah,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),738
+318.303,UT,Trust Lands Administration,Surface,15,23,14,Uintah,10,Public Schools,E2,320.000000000000000,28 Stat. 107-110 (1894),739
+423.015,UT,Trust Lands Administration,Surface,13,23,13,Uintah,10,Public Schools,"NE4, E2E2NW4, NE4NE4SW4, S2NW4NE4SW4, S2NE4SW4, S2N2NW4SW4, S2NW4SW4, S2SW4, W2SE4",425.000000000000000,28 Stat. 107-110 (1894),740
+441.557,UT,Trust Lands Administration,Surface,13,23,18,Uintah,10,Public Schools,"LOTS 1(36.23), 2(36.36), 3(36.50), 5(29.91), N2NE4NE4, N2SW4NE4NE4, W2NE4, E2NW4, NE4SW4, N2SE4SW4, SW4SE4SW4, NW4SE4SE4SW4, SW4NW4NE4SE4, W2SW4NE4SE4, N2NW4SE4, NW4SW4NW4SE4, W2NW4SE4SE4, SW4SE4SE4 [LOTS AKA W2NW4, NW4SW4, PART OF SW4SW4]",441.500000000000000,28 Stat. 107-110 (1894),741
+567.636,UT,Trust Lands Administration,Surface,13,23,19,Uintah,10,Public Schools,"LOTS 1(36.75), 2(36.85), 3(36.95), 4(37.05), W2NE4NE4, W2SE4NE4NE4, NW4NE4, W2NE4SE4NE4, W2SE4NE4, SE4SE4NE4, E2W2, SE4 [AKA W2W2]",567.600000000000023,28 Stat. 107-110 (1894),742
+159.362,UT,Trust Lands Administration,Surface,12,24,13,Uintah,10,Public Schools,N2N2,160.000000000000000,28 Stat. 107-110 (1894),743
+77.775,UT,Trust Lands Administration,Surface,13,23,20,Uintah,10,Public Schools,"E2E2NE4NE4, NE4NE4SE4NE4, NE4NE4SW4SE4, S2NE4SW4SE4, SE4NW4SW4SE4, E2SW4SW4SE4, SE4SW4SE4, SE4SE4",77.500000000000000,28 Stat. 107-110 (1894),744
+81.703,UT,Trust Lands Administration,Surface,14,21,20,Uintah,10,Public Schools,"LOTS 1(20.95), 3(19.30), 5(25.05), 7(15.43) [AKA PART OF N2N2, PART OF SE4NW4]",80.730000000000004,28 Stat. 107-110 (1894),745
+400.023,UT,Trust Lands Administration,Surface,12,24,34,Uintah,10,Public Schools,"W2, W2SE4",400.000000000000000,28 Stat. 107-110 (1894),746
+533.977,UT,Trust Lands Administration,Surface,13,24,3,Uintah,10,Public Schools,"LOTS 1(13.56), 2(13.47), 3(13.39), 4(13.30), 5(40.00), 6(40.00), 7(40.00), 8(40.00), S2N2, SE4 [LOTS AKA N2N2]
+",533.720000000000027,28 Stat. 107-110 (1894),747
+194.242,UT,Trust Lands Administration,Surface,12,24,13,Uintah,10,Public Schools,"SW4NE4, W2NE4SE4NE4, W2SE4NE4, SE4SE4NE4, SE4NW4, N2SE4 
+",195.000000000000000,28 Stat. 107-110 (1894),748
+479.773,UT,Trust Lands Administration,Surface,13,21,33,Uintah,10,Public Schools,"S2N2, S2",480.000000000000000,28 Stat. 107-110 (1894),749
+430.282,UT,Trust Lands Administration,Surface,13,23,6,Uintah,10,Public Schools,"LOTS 1(39.70), 6(35.52), 7(35.65), S2NE4, E2SW4, SE4 [LOTS AKA NE4NE4, W2SW4]",430.870000000000005,28 Stat. 107-110 (1894),750
+144.317,UT,Trust Lands Administration,Surface,14,21,19,Uintah,10,Public Schools,"LOTS 1(37.97), 5(22.35), 8(6.37), 9(26.49), 11(14.84), NE4NW4 [LOTS AKA PART OF NE4NE4, PART OF NW4NE4, NW4NW4, PART OF S2NW4]",148.020000000000010,28 Stat. 107-110 (1894),751
+648.367,UT,Trust Lands Administration,Surface,5,23,36,Uintah,10,Public Schools,"ALL [LESS 5.18 ACRES CONVEYED VIA ROW664, QCD001736]",634.820000000000050,28 Stat. 107-110 (1894),752
+574.832,UT,Trust Lands Administration,Surface,14,21,18,Uintah,10,Public Schools,"LOTS 1(37.85), 2(37.91), 3(37.97), 4(38.03), 5(38.92), 6(31.10), 9(31.75), 10(29.42), 13(13.47), NE4, NE4NW4, E2SE4 [LOTS AKA W2NW4, PART OF SE4NW4, PART OF E2SW4, W2SW4, PART OF W2SE4]",576.419999999999959,28 Stat. 107-110 (1894),753
+438.868,UT,Trust Lands Administration,Surface,9,25,31,Uintah,10,Public Schools,"LOT 2, 3, SW4NE4, S2",437.740000000000009,28 Stat. 107-110 (1894),754
+24.674,UT,Trust Lands Administration,Surface,9,25,31,Uintah,11,College of Mines and Earth Sciences,LOT 1,24.430000000000000,28 Stat. 107-110 (1894),755
+324.447,UT,Trust Lands Administration,Surface,6,21,32,Uintah,10,Public Schools,"NE4, N2NW4, SE4NW4, NE4SE4",320.000000000000000,28 Stat. 107-110 (1894),756
+5.667,UT,Trust Lands Administration,Surface,6,21,32,Uintah,10,Public Schools,"LOTS 8(1.50), 9(3.50) [LOTS AKA PART OF SE4SE4]",5.000000000000000,28 Stat. 107-110 (1894),757
+544.717,UT,Trust Lands Administration,Surface,9,25,17,Uintah,10,Public Schools,"LOTS 1(36.38), 3(34.16), 4(53.89), 5(44.19), 7(17.80), SW4NW4, S2 [LOTS AKA W2NE4, N2NW4, SE4NW4]",546.419999999999959,28 Stat. 107-110 (1894),758
+57.731,UT,Trust Lands Administration,Surface,9,25,17,Uintah,9,Reservoirs,"LOT 6(18.85), NE4NE4 [LOT AKA N2SE4NE4]",58.850000000000001,28 Stat. 107-110 (1894),759
+323.443,UT,Trust Lands Administration,Surface,10,19,16,Uintah,10,Public Schools,N2,320.000000000000000,28 Stat. 107-110 (1894),760
+112.399,UT,Trust Lands Administration,Surface,12,23,16,Uintah,10,Public Schools,"N2NE4SW4, SW4NE4SW4, N2SE4NE4SW4, NW4NW4SW4SW4, N2NE4SE4, SE4NE4SE4, N2NW4SE4, N2SW4NW4SE4, NW4SE4NW4SE4, NE4SE4SE4, N2SE4SE4SE4, SE4SE4SE4SE4",112.500000000000000,28 Stat. 107-110 (1894),761
+77.871,UT,Trust Lands Administration,Surface,12,23,32,Uintah,10,Public Schools,"W2W2NE4NW4, SE4SW4NE4NW4, W2SE4NW4, SW4SE4SE4NW4, W2E2NE4SW4, W2NE4SW4, S2S2SW4SE4, SW4SW4SE4SE4
+",77.500000000000000,28 Stat. 107-110 (1894),762
+2.525,UT,Trust Lands Administration,Surface,4,8,1,Duchesne,10,Public Schools,SW4NW4NE4SE4,2.500000000000000,28 Stat. 107-110 (1894),763
+640.614,UT,Trust Lands Administration,Surface,30,18,2,Beaver,10,Public Schools,"LOTS 1-4, S2N2, S2 (ALL)",639.320000000000050,28 Stat. 107-110 (1894),764
+79.999,UT,Trust Lands Administration,Surface,38,23,27,San Juan,10,Public Schools,S2SE4,80.000000000000000,28 Stat. 107-110 (1894),765
+39.942,UT,Trust Lands Administration,Surface,38,24,29,San Juan,10,Public Schools,SE4NW4,40.000000000000000,28 Stat. 107-110 (1894),766
+639.433,UT,Trust Lands Administration,Surface,38,25,32,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),767
+640.835,UT,Trust Lands Administration,Surface,38,24,36,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),768
+640.852,UT,Trust Lands Administration,Surface,38,23,32,San Juan,10,Public Schools,"ALL, LESS CONVEYED ROW (SEE M&B)",639.730000000000018,28 Stat. 107-110 (1894),769
+45.167,UT,Trust Lands Administration,Surface,40,24,32,San Juan,10,Public Schools,"NE4SE4, PART OF W2SE4 [LESS METES & BOUNDS]",44.890000000000001,28 Stat. 107-110 (1894),770
+640.314,UT,Trust Lands Administration,Surface,38,26,32,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),771
+640.72,UT,Trust Lands Administration,Surface,36,20,36,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),772
+638.808,UT,Trust Lands Administration,Surface,36,21,16,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),773
+398.995,UT,Trust Lands Administration,Surface,36,21,32,San Juan,10,Public Schools,"E2, S2SW4",400.000000000000000,28 Stat. 107-110 (1894),774
+638.359,UT,Trust Lands Administration,Surface,38,22,36,San Juan,10,Public Schools,ALL,640.000000000000000,28 Stat. 107-110 (1894),775
+119.838,UT,Trust Lands Administration,Surface,35,21,32,San Juan,10,Public Schools,"W2NE4, SE4NE4",120.000000000000000,28 Stat. 107-110 (1894),776
