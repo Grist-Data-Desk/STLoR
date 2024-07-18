@@ -496,6 +496,9 @@ def match_all_activities(stl_comparison_base_dir, states_data=None, grist_data=N
                         ACTIVITY_INFO_UPDATE[row_idx].add(activity_info)
 
 
+def remove_timber_rows(gdf):
+    return gdf[gdf[RIGHTS_TYPE].str.lower() != 'timber']
+
 def main(stl_comparison_base_dir, stl_path: Path, the_out_dir: Path):
     if not the_out_dir.exists():
         the_out_dir.mkdir(parents=True, exist_ok=True)
@@ -534,8 +537,11 @@ def main(stl_comparison_base_dir, stl_path: Path, the_out_dir: Path):
 
     # reorder/select only cols from the spec
     gdf = gdf[cols]
-
     log.info(f'final grist_data row_count: {gdf.shape[0]}')
+
+    gdf = remove_timber_rows(gdf)
+    log.info(f'final grist_data row_count after removing timber rows: {gdf.shape[0]}')
+    
     gdf.to_csv(str(the_out_dir / 'stl_dataset_extra_activities.csv'), index=False)
     gdf.to_file(str(the_out_dir / 'stl_dataset_extra_activities.geojson'), driver='GeoJSON')
 
