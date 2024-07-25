@@ -1,9 +1,30 @@
+import argparse
+import logging
 from pathlib import Path
+from typing import Tuple
 
 import pandas as pd
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
-def normalize_activity(df1, df2):
+
+def normalize_activity(df1: pd.DataFrame, df2: pd.DataFrame) -> Tuple[pd.DataFrame]:
+    """Normalize the activity column in source and generated dataframes to
+    account for differently-ordered activity strings.
+
+    For example, the value 'Mineral Lease,Timber Sale' should be equivalent to
+    'Timber Sale,Mineral Lease' even though the two strings aren't identical.
+
+    Arguments:
+    df1 {pd.DataFrame} -- The source DataFrame.
+    df2 {pd.DataFrame} -- The generated DataFrame.
+
+    Returns:
+    Tuple[pd.DataFrame] -- The normalized DataFrames.
+    """
     # Replace NaN with the empty string.
     df1["activity"] = df1["activity"].fillna("")
     df2["activity"] = df2["activity"].fillna("")
@@ -19,7 +40,19 @@ def normalize_activity(df1, df2):
     return df1, df2
 
 
-def normalize_activity_info(df1, df2):
+def normalize_activity_info(
+    df1: pd.DataFrame, df2: pd.DataFrame
+) -> Tuple[pd.DataFrame]:
+    """Normalize the activity_info column in source and generated dataframes to
+    account for differently-formatted activity_info strings.
+
+    Arguments:
+    df1 {pd.DataFrame} -- The source DataFrame.
+    df2 {pd.DataFrame} -- The generated DataFrame.
+
+    Returns:
+    Tuple[pd.DataFrame] -- The normalized DataFrames.
+    """
     # Replace \n with space.
     df1["activity_info"] = df1["activity_info"].str.replace("\n", " ")
     df2["activity_info"] = df2["activity_info"].str.replace("\n", " ")
@@ -27,46 +60,65 @@ def normalize_activity_info(df1, df2):
     return df1, df2
 
 
-def semantic_compare():
-    df_original = pd.read_csv(Path("public_data/04_All States/3ebf200d.csv").resolve())
-    df_new = pd.read_csv(
-        Path("public_data/04_All States/stl_dataset_extra_activities.csv").resolve()
-    )
+def semantic_compare(src_df_path: str, gen_df_path: str) -> bool:
+    """Determine whether two DataFrames are semantically equivalent, accounting
+    for differences in row and column order, as well as differences in the for-
+    matting and ordering of strings in the activity and activity_info columns.
 
-    # Filter rows to those with state == 'WA'.
-    df_original = df_original[df_original["state"] == "WA"]
-    df_new = df_new[df_new["state"] == "WA"]
+    Arguments:
+    src_df_path {str} -- The path to the source DataFrame.
+    gen_df_path {str} -- The path to the most recently generated DataFrame, to
+    be compared against the source DataFrame.
 
-    df_3 = df_new[(df_new["state"] == "WA") & (df_new["rights_type"] == "timber")]
-    print(df_3)
+    Returns:
+    bool -- True if the DataFrames are semantically equivalent, False otherwise.
+    """
+    df_original = pd.read_csv(Path(src_df_path).resolve())
+    df_new = pd.read_csv(Path(gen_df_path).resolve())
 
     # Normalize the activity and activity_info columns.
     df_original, df_new = normalize_activity(df_original, df_new)
     df_original, df_new = normalize_activity_info(df_original, df_new)
 
+    # Check if the two DataFrames share the same columns.
     if set(df_original.columns) != set(df_new.columns):
         return False
 
-    # Sort and reset index
+    # Sort the two DataFrames to ensure a stable row order.
     df_original_sorted = df_original.sort_values(list(df_original.columns)).reset_index(
         drop=True
     )
     df_new_sorted = df_new.sort_values(list(df_new.columns)).reset_index(drop=True)
 
-    # Reorder columns
+    # Reorder the columns to ensure a stable column order.
     columns = sorted(df_original.columns)
     df_original_sorted = df_original_sorted[columns]
     df_new_sorted = df_new_sorted[columns]
 
-    # Use compare
-    diff = df_original_sorted.compare(df_new_sorted, keep_equal=True)
+    # Compare the two DataFrames to generate a diff.
+    diff = df_original_sorted.compare(df_new_sorted)
 
     if not diff.empty:
         print(diff)
-        diff.to_csv("diff.csv", index=False)
 
     return diff.empty
 
 
 if __name__ == "__main__":
-    print("Are dataframes equal: ", semantic_compare())
+    parser = argparse.ArgumentParser(
+        description="Compare two STLoR DataFrames for semantic equivalence."
+    )
+    parser.add_argument(
+        "src_df_path",
+        type=str,
+        help="The path to the source DataFrame.",
+    )
+    parser.add_argument(
+        "gen_df_path",
+        type=str,
+        help="The path to the most recently generated DataFrame.",
+    )
+    args = parser.parse_args()
+    logger.info(
+        f"Are dataframes equal: {semantic_compare(args.src_df_path, args.gen_df_path)}"
+    )
