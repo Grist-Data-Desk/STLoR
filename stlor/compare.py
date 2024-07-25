@@ -6,9 +6,7 @@ from typing import Tuple
 import pandas as pd
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
 
 
 def normalize_activity(df1: pd.DataFrame, df2: pd.DataFrame) -> Tuple[pd.DataFrame]:
@@ -82,6 +80,7 @@ def semantic_compare(src_df_path: str, gen_df_path: str) -> bool:
 
     # Check if the two DataFrames share the same columns.
     if set(df_original.columns) != set(df_new.columns):
+        logger.error("DataFrame columns do not match.")
         return False
 
     # Sort the two DataFrames to ensure a stable row order.
@@ -119,6 +118,6 @@ if __name__ == "__main__":
         help="The path to the most recently generated DataFrame.",
     )
     args = parser.parse_args()
-    logger.info(
+    print(
         f"Are dataframes equal: {semantic_compare(args.src_df_path, args.gen_df_path)}"
     )

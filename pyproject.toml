@@ -8,13 +8,14 @@ authors = [
 ]
 readme = "README.md"
 dependencies = [
-  "geopandas",
-  "shapely",
-  "numpy",
-  "tqdm",
-  "dask[bag]",
-  "ruff",
-  "pandas",
+  "geopandas==1.0.1",
+  "shapely==2.0.5",
+  "numpy==2.0.0",
+  "tqdm==4.66.4",
+  "dask[bag]==2024.7.0",
+  "ruff==0.5.2",
+  "pandas==2.2.2",
+  "openpyxl==3.1.5",
 ]
 
 [build-system]
