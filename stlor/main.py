@@ -115,6 +115,7 @@ def match_activities(
         results = in_parallel(
             state_activities.activities,
             partial(process_state_activity, activities_dir, stl_gdf, state),
+            desc="process_state_activity",
         )
         logger.info(f"Activity match for {state} took {datetime.now() - start_time}")
 
@@ -199,7 +200,7 @@ def run():
     """Run the activity match process."""
     logger.info("Running activity match.")
 
-    activities_dir = Path("data/stl_dataset").resolve()
+    activities_dir = Path("data/stl_activity_layers").resolve()
     stl_path = Path(
         "public_data/04_All States/02_SendtoActivityMatch.geojson"
     ).resolve()

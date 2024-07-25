@@ -152,6 +152,7 @@ def tree_based_proximity(
             match_dist_threshold,
         ),
         scheduler="threads",
+        desc="tree_based_proximity",
     )
 
     return itertools.chain.from_iterable(matches)

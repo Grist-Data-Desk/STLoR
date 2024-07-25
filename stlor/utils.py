@@ -13,14 +13,10 @@ def batch_iterable(work_items, batch_size, generator=False):
     )
 
 
-def in_parallel(
-    work_items,
-    a_callable,
-    scheduler="processes",
-):
+def in_parallel(work_items, a_callable, scheduler="processes", desc="compute"):
     all_results = []
     with dask.config.set(scheduler=scheduler):
-        with TqdmCallback(desc="compute"):
+        with TqdmCallback(desc=desc):
             all_results = dask.bag.from_sequence(work_items).map(a_callable).compute()
             return all_results
 
