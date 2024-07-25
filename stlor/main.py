@@ -15,7 +15,7 @@ from stlor.activity import (
     capture_lessee_and_lease_type,
 )
 from stlor.config import STATE_ACTIVITIES
-from stlor.constants import ACTIVITY_INFO, WGS_84, RIGHTS_TYPE, ACTIVITY
+from stlor.constants import ACTIVITY_INFO, RIGHTS_TYPE, ACTIVITY
 from stlor.entities import StateActivityDataSource
 from stlor.overlap import tree_based_proximity
 from stlor.utils import in_parallel, combine_delim_list
@@ -183,17 +183,11 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     # Reorder and select columns from the original STL dataset.
     stl_gdf = stl_gdf[cols]
 
+    # Write the output of the activity match process to disk.
     logger.info(f"Final STLOR row count: {stl_gdf.shape[0]}")
-    stl_gdf.to_csv(output_dir / "03_ActivityMatch_test.csv", index=False)
-    stl_gdf.to_excel(output_dir / "03_ActivityMatch_test.xlsx", index=False)
-    stl_gdf.to_file(output_dir / "03_ActivityMatch_test.geojson", driver="GeoJSON")
-
-    # Additionally, create a version of the dataset in WGS84 for visualization.
-    stl_gdf_wgs84 = stl_gdf.to_crs(WGS_84)
-    stl_gdf_wgs84.to_file(
-        output_dir / "03_ActivityMatch_WGS84_test.geojson",
-        driver="GeoJSON",
-    )
+    stl_gdf.to_csv(output_dir / "03_ActivityMatch.csv", index=False)
+    stl_gdf.to_excel(output_dir / "03_ActivityMatch.xlsx", index=False)
+    stl_gdf.to_file(output_dir / "03_ActivityMatch.geojson", driver="GeoJSON")
 
 
 def run():

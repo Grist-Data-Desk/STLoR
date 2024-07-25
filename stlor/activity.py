@@ -6,6 +6,7 @@ from stlor.config import (
     ACTIVITY_REWRITE_RULES,
     ACTIVITY_RIGHTS_TYPE,
 )
+from stlor.constants import STATE, RIGHTS_TYPE, ACTIVITY
 from stlor.entities import StateActivityDataSource, RightsType
 
 
@@ -56,7 +57,7 @@ def get_activity_column(
     return [
         original_col
         for original_col, output_column, in activity_rewrite_rules.items()
-        if output_column.lower() == "activity"
+        if output_column.lower() == ACTIVITY
     ]
 
 
@@ -138,10 +139,10 @@ def is_compatible_activity(
     IS_COMPATIBLE = True
     NOT_COMPATIBLE = False
 
-    if parcel["state"].lower() != state.lower():
+    if parcel[STATE].lower() != state.lower():
         return NOT_COMPATIBLE
 
-    if parcel["state"] == "WA" and parcel["rights_type"].lower() == "timber":
+    if parcel[STATE] == "WA" and parcel[RIGHTS_TYPE].lower() == "timber":
         return NOT_COMPATIBLE
 
     activity_rights_type = (
@@ -153,7 +154,7 @@ def is_compatible_activity(
     if activity_rights_type == RightsType.UNIVERSAL:
         return IS_COMPATIBLE
 
-    if RightsType(parcel["rights_type"].lower()) != activity_rights_type:
+    if RightsType(parcel[RIGHTS_TYPE].lower()) != activity_rights_type:
         return NOT_COMPATIBLE
 
     return IS_COMPATIBLE

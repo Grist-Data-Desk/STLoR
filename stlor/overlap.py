@@ -5,6 +5,7 @@ import geopandas
 import numpy as np
 from shapely import STRtree
 
+from stlor.constants import GEOMETRY
 from stlor.utils import batch_iterable, in_parallel
 
 
@@ -53,19 +54,19 @@ def smart_distance(g, batch, i) -> float:
     """
     dists = []
     try:
-        d = g["geometry"].envelope.distance(batch[i]["geometry"].envelope)
+        d = g[GEOMETRY].envelope.distance(batch[i][GEOMETRY].envelope)
         dists.append(d)
     except Exception:
         pass
 
     try:
-        d = g["geometry"].boundary.distance(batch[i]["geometry"].boundary)
+        d = g[GEOMETRY].boundary.distance(batch[i][GEOMETRY].boundary)
         dists.append(d)
     except Exception:
         pass
 
     try:
-        d = g["geometry"].boundary.distance(batch[i]["geometry"].envelope)
+        d = g[GEOMETRY].boundary.distance(batch[i][GEOMETRY].envelope)
         dists.append(d)
     except Exception:
         pass
@@ -87,19 +88,17 @@ def _tree_based_proximity_batch(bounds, records, match_dist_threshold, batch):
     records -- a dictionary of GeoDataFrame records
     match_dist_threshold -- the maximum distance threshold for a match
     batch -- a list of features to build the R-tree index"""
-    envelopes = [
-        None if g["geometry"] is None else g["geometry"].envelope for g in batch
-    ]
+    envelopes = [None if g[GEOMETRY] is None else g[GEOMETRY].envelope for g in batch]
     indices = STRtree(envelopes).nearest(bounds)
 
     pairs = sorted(
         [
             (
-                g["geometry"].boundary.distance(batch[i]["geometry"].envelope),
+                g[GEOMETRY].boundary.distance(batch[i][GEOMETRY].envelope),
                 idx,
                 g,
                 batch[i],
-                check_spatial_predicates(g["geometry"], batch[i]["geometry"]),
+                check_spatial_predicates(g[GEOMETRY], batch[i][GEOMETRY]),
                 i,
             )
             for idx, (g, i) in enumerate(zip(records, indices))
@@ -128,9 +127,7 @@ def tree_based_proximity(
     max_records_in_batch = 10_000
 
     build_gdf_dict = build_gdf.to_dict(orient="records")
-    bounds = [
-        g["geometry"].boundary for g in build_gdf_dict if g["geometry"] is not None
-    ]
+    bounds = [g[GEOMETRY].boundary for g in build_gdf_dict if g[GEOMETRY] is not None]
 
     probe_gdf = (
         probe_gdf.set_crs(crs, allow_override=True).to_crs(crs)

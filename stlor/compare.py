@@ -5,6 +5,8 @@ from typing import Tuple
 
 import pandas as pd
 
+from stlor.config import ACTIVITY, ACTIVITY_INFO
+
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
 
@@ -24,16 +26,16 @@ def normalize_activity(df1: pd.DataFrame, df2: pd.DataFrame) -> Tuple[pd.DataFra
     Tuple[pd.DataFrame] -- The normalized DataFrames.
     """
     # Replace NaN with the empty string.
-    df1["activity"] = df1["activity"].fillna("")
-    df2["activity"] = df2["activity"].fillna("")
+    df1[ACTIVITY] = df1[ACTIVITY].fillna("")
+    df2[ACTIVITY] = df2[ACTIVITY].fillna("")
 
     # Split the activity column into a list of activities and sort.
-    df1["activity"] = df1["activity"].str.split(",").apply(sorted)
-    df2["activity"] = df2["activity"].str.split(",").apply(sorted)
+    df1[ACTIVITY] = df1[ACTIVITY].str.split(",").apply(sorted)
+    df2[ACTIVITY] = df2[ACTIVITY].str.split(",").apply(sorted)
 
     # Re-join the activity column.
-    df1["activity"] = df1["activity"].apply(lambda x: ",".join(x))
-    df2["activity"] = df2["activity"].apply(lambda x: ",".join(x))
+    df1[ACTIVITY] = df1[ACTIVITY].apply(lambda x: ",".join(x))
+    df2[ACTIVITY] = df2[ACTIVITY].apply(lambda x: ",".join(x))
 
     return df1, df2
 
@@ -52,8 +54,8 @@ def normalize_activity_info(
     Tuple[pd.DataFrame] -- The normalized DataFrames.
     """
     # Replace \n with space.
-    df1["activity_info"] = df1["activity_info"].str.replace("\n", " ")
-    df2["activity_info"] = df2["activity_info"].str.replace("\n", " ")
+    df1[ACTIVITY_INFO] = df1[ACTIVITY_INFO].str.replace("\n", " ")
+    df2[ACTIVITY_INFO] = df2[ACTIVITY_INFO].str.replace("\n", " ")
 
     return df1, df2
 
