@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
@@ -22,10 +24,6 @@ jobs:
         run: |
           git checkout origin/main -- public_data/04_All\ States/03_ActivityMatch.csv
           mv public_data/04_All\ States/03_ActivityMatch.csv main_ActivityMatch.csv
-      - name: List files
-        run: |
-          ls
-          ls public_data/04_All\ States
       - name: Build dataset
         run: python stlor/main.py
       - name: Compare datasets
