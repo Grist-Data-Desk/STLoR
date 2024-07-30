@@ -38,7 +38,7 @@ def process_state_activity(
 
     Arguments:
     activities_dir -- the directory containing state activity layers
-    stl_gdf -- the state trust lands dataset
+    stl_gdf -- the state trust lands GeoDataFrame
     state -- the activity's associated state abbreviation
     activity -- the activity data source
 
@@ -94,7 +94,7 @@ def match_activities(
 
     Arguments:
     activities_dir -- the directory containing state activity layers
-    stl_gdf -- the state trust lands dataset
+    stl_gdf -- the state trust lands GeoDataFrame
 
     Returns:
     tuple[dict, dict] -- a tuple containing (1) a dictionary of STL parcel row
@@ -115,7 +115,6 @@ def match_activities(
         results = in_parallel(
             state_activities.activities,
             partial(process_state_activity, activities_dir, stl_gdf, state),
-            desc="process_state_activity",
         )
         logger.info(f"Activity match for {state} took {datetime.now() - start_time}")
 
@@ -133,6 +132,18 @@ def match_activities(
     return stl_data_update, activity_info_update
 
 
+def remove_timber_rows(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Remove STLs with timber rights from the dataset.
+
+    Arguments:
+    gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with timber parcels
+    removed"""
+    return gdf[gdf[RIGHTS_TYPE].str.lower() != "timber"]
+
+
 def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     """Match state trust lands parcels to land use activities.
 
@@ -147,27 +158,29 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     Side effects:
     Writes the output of the activity match process to output_dir
     """
-    logger.info(f"Reading STLOR data from: {stl_path}")
+    logger.info(f"Reading STLoR data from: {stl_path}")
     stl_gdf = gpd.read_file(stl_path)
+    logger.info(f"Initial STLoR row count: {stl_gdf.shape[0]}")
 
-    # Obtain the initial columns from the STL dataset.
+    # Obtain the initial columns from the STL GeoDataFrame.
     cols = stl_gdf.columns.tolist()
 
-    # Add the activity info column to the list of STL dataset columns.
+    # Add the activity info column to the list of STL GeoDataFrame columns.
     rights_type_idx = cols.index(RIGHTS_TYPE)
     cols.insert(rights_type_idx + 2, ACTIVITY_INFO)
 
     # Run the primary matching process.
     stl_data_update, activity_info_update = match_activities(activities_dir, stl_gdf)
 
-    # Push updates from the matching process to the STL dataset.
+    # Push updates from the matching process to the STL GeoDataFrame.
     for row_idx, activity_list in stl_data_update.items():
         if not activity_list:
             continue
         new_activity = ",".join([x for x in activity_list if x is not None])
         existing_activity = stl_gdf.loc[row_idx, ACTIVITY] or ""
         stl_gdf.loc[row_idx, ACTIVITY] = combine_delim_list(
-            existing_activity, new_activity, sep=","
+            existing_activity,
+            new_activity,
         )
 
     stl_gdf[ACTIVITY_INFO] = ""
@@ -180,11 +193,15 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
             existing_activity_info, new_activity_info, sep="\n"
         )
 
-    # Reorder and select columns from the original STL dataset.
+    # Reorder and select columns from the original STL GeoDataFrame.
     stl_gdf = stl_gdf[cols]
 
+    # Remove timber parcels from the dataset.
+    stl_gdf = remove_timber_rows(stl_gdf)
+    logger.info(f"STLoR row count after removing timber parcels: {stl_gdf.shape[0]}")
+
     # Write the output of the activity match process to disk.
-    logger.info(f"Final STLOR row count: {stl_gdf.shape[0]}")
+    logger.info(f"Final STLoR row count: {stl_gdf.shape[0]}")
     stl_gdf.to_csv(output_dir / "03_ActivityMatch.csv", index=False)
     stl_gdf.to_excel(output_dir / "03_ActivityMatch.xlsx", index=False)
     stl_gdf.to_file(output_dir / "03_ActivityMatch.geojson", driver="GeoJSON")

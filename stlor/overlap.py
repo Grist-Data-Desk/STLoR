@@ -138,7 +138,7 @@ def tree_based_proximity(
 
     batches = [probe_gdf_dicts]
     if len(probe_gdf_dicts) > max_records_in_batch:
-        batches = batch_iterable(probe_gdf_dicts, max_records_in_batch)
+        batches = batch_iterable(probe_gdf_dicts, max_records_in_batch, generator=True)
 
     matches = in_parallel(
         batches,
@@ -148,8 +148,6 @@ def tree_based_proximity(
             build_gdf_dict,
             match_dist_threshold,
         ),
-        scheduler="threads",
-        desc="tree_based_proximity",
     )
 
     return itertools.chain.from_iterable(matches)

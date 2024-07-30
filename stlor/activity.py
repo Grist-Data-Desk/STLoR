@@ -1,5 +1,5 @@
 import pandas as pd
-from typing import Union, Optional, TypedDict
+from typing import Optional, TypedDict
 
 from stlor.config import (
     STATE_ACTIVITY_CODES,
@@ -10,9 +10,7 @@ from stlor.constants import STATE, RIGHTS_TYPE, ACTIVITY
 from stlor.entities import StateActivityDataSource, RightsType
 
 
-def translate_state_activity_code(
-    state: str, activity_code: Union[float, int, str]
-) -> str:
+def translate_state_activity_code(state: str, activity_code: float | int | str) -> str:
     """Translate a state's activity code to a human-readable activity name.
 
     Arguments:

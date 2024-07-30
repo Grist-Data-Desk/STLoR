@@ -1,42 +1,67 @@
-import dask.bag
-from tqdm.dask import TqdmCallback
+from typing import Any, Iterator
+
+import dask.bag as db
+from dask.diagnostics import ProgressBar
 
 
-def batch_iterable(work_items, batch_size, generator=False):
+def batch_iterable(
+    items: list[Any], batch_size: int, generator=False
+) -> list[list[Any]] | Iterator[list[Any]]:
+    """Create batches of batch_size from an iterable.
+
+    Arguments:
+    items {iterable} -- the iterable to batch
+    batch_size {int} -- the size of each batch
+    generator {bool} -- whether to use a generator as the iterator, in lieu of a
+    list comprehension
+
+    Returns:
+    list[list[Any]] | Iterator[list[Any]] -- the batches of items either as a
+    list or an iterator
+    """
     return (
-        [work_items[i : i + batch_size] for i in range(0, len(work_items), batch_size)]
+        [items[i : i + batch_size] for i in range(0, len(items), batch_size)]
         if not generator
-        else (
-            work_items[i : i + batch_size]
-            for i in range(0, len(work_items), batch_size)
-        )
+        else (items[i : i + batch_size] for i in range(0, len(items), batch_size))
     )
 
 
-def in_parallel(work_items, a_callable, scheduler="processes", desc="compute"):
-    all_results = []
-    with dask.config.set(scheduler=scheduler):
-        with TqdmCallback(desc=desc):
-            all_results = dask.bag.from_sequence(work_items).map(a_callable).compute()
-            return all_results
+def in_parallel(items: list[Any], fn) -> list[Any]:
+    """Execute a function on a list of items in parallel using dask.
+
+    Arguments:
+    items {list[Any]} -- a list of items to process
+    fn {Any} -- a function to apply over each item
+    """
+    with ProgressBar():
+        return db.from_sequence(items).map(fn).compute()
 
 
-def combine_delim_list(old_val, update_val, sep="+", do_sort=True):
-    old_val = str(old_val)
-    if old_val == "nan":
-        old_val = ""
+def _clean_and_split(s: str, sep: str) -> list[str]:
+    """Remove NaN values, trim whitespace, and split a string on a delimiter.
 
-    update_val = str(update_val)
-    if update_val == "nan":
-        update_val = ""
+    Arguments:
+    s {str} -- the string to clean and split
+    sep {str} -- the delimiter to split on
 
-    update_vals = [v.strip() for v in update_val.split(sep) if v.strip()]
-    old_vals = [v.strip() for v in old_val.split(sep) if v.strip()]
+    Returns:
+    list[str] -- the cleaned and split list of strings
+    """
+    return [v.strip() for v in s.replace("nan", "").split(sep) if v.strip()]
 
-    new_val = (
-        sep.join(sorted(list(set(update_vals + old_vals))))
-        if do_sort
-        else sep.join(list(set(update_vals + old_vals)))
-    )
 
-    return new_val
+def combine_delim_list(existing: str, update: str, sep=",") -> str:
+    """Combine two delimited lists of strings, removing duplicates and sorting.
+
+    Arguments:
+    existing {str} -- the existing list of strings
+    update {str} -- the new list of strings
+
+    Returns:
+    str -- The combined list of strings
+    """
+    existing_vals = _clean_and_split(existing, sep)
+    update_vals = _clean_and_split(update, sep)
+
+    combined = set(existing_vals + update_vals)
+    return sep.join(sorted(combined))
