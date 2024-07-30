@@ -5,7 +5,7 @@ from typing import Tuple
 
 import pandas as pd
 
-from stlor.config import ACTIVITY, ACTIVITY_INFO
+from stlor.constants import ACTIVITY, ACTIVITY_INFO
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
