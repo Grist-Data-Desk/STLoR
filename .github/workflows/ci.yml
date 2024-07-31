@@ -37,9 +37,11 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: main_ActivityMatch.csv
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: Install dependencies
         run: pip install .
       - name: Build dataset
         run: python stlor/main.py
       - name: Compare datasets
-        run: python stlor/compare.py "main_ActivityMatch.csv" "public_data/04_All States/03_ActivityMatch.csv"
+        run: python stlor/compare.py main_ActivityMatch.csv public_data/04_All\ States/03_ActivityMatch.csv
