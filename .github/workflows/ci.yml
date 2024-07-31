@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-          name: main_ActivityMatch.csv
+          name: 03_ActivityMatch.csv
           path: public_data/04_All\ States/03_ActivityMatch.csv
           retention-days: 1
   compare:
@@ -36,7 +36,7 @@ jobs:
           python-version: "3.10"
       - uses: actions/download-artifact@v4
         with:
-          name: main_ActivityMatch.csv
+          name: 03_ActivityMatch.csv
       - name: Display structure of downloaded files
         run: ls -R
       - name: Install dependencies
@@ -44,4 +44,4 @@ jobs:
       - name: Build dataset
         run: python stlor/main.py
       - name: Compare datasets
-        run: python stlor/compare.py main_ActivityMatch.csv public_data/04_All\ States/03_ActivityMatch.csv
+        run: python stlor/compare.py 03_ActivityMatch.csv public_data/04_All\ States/03_ActivityMatch.csv
