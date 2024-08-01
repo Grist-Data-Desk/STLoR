@@ -236,7 +236,7 @@ def concatenate_activity_info(row: dict) -> str:
     join the two strings.
 
     Arguments:
-    row -- a single activity record, represented as a dictionary
+    row -- a single parcel record, represented as a dictionary
 
     Returns:
     str -- the concatenated activity information string

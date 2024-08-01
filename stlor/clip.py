@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def clip_to_reservation_boundaries(stl_gdf: gpd.GeoDataFrame):
+def clip_to_reservation_boundaries(stl_gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     """Clip state trust lands to reservation boundaries.
 
     Arguments:
@@ -37,22 +37,21 @@ def clip_to_reservation_boundaries(stl_gdf: gpd.GeoDataFrame):
     reservations_gdf = reservations_gdf.to_crs(NAD_83_CONUS_ALBERS)
     supp_reservations_gdf = supp_reservations_gdf.to_crs(NAD_83_CONUS_ALBERS)
 
-    # Union the reservations_gdf and supp_reservations_gdf.
+    # Union the reservations_gdf and supp_reservations_gdf to a single layer in
+    # prepartion for the clipping operation.
     logger.info("Unioning the BIA_AIAN primary and supplemental GeoDataFrames.")
-    reservations_gdf = gpd.overlay(reservations_gdf, supp_reservations_gdf, how="union")
+    reservations_gdf = reservations_gdf.overlay(supp_reservations_gdf, how="union")
 
-    # Clip the state trust lands to the reservation boundaries.
     logger.info("Clipping the STL GeoDataFrame to reservation boundaries.")
     stl_gdf = stl_gdf.clip(reservations_gdf)
 
     logger.info("Calculating the area of the clipped state trust lands.")
-    # Compute the area of the clipped state trust lands.
     stl_gdf[CLIPPED_ACRES] = (stl_gdf.area / SQUARE_METERS_PER_ACRE).round(2)
 
     return stl_gdf
 
 
-def filter_parcels_by_acreage(stl_gdf: gpd.GeoDataFrame):
+def filter_parcels_by_acreage(stl_gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     """Filter parcels with either of the following characteristics:
 
         1. "clipped_acres" < 10.0
