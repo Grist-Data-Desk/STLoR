@@ -26,10 +26,6 @@ class StateActivityDataSource:
     def query_data(self, activity_dir: Path) -> gpd.GeoDataFrame:
         loc_path = activity_dir / self.location
 
-        if self.location.endswith(".shp"):
-            if self.location.startswith("/"):
-                print("++++ EDGE CASE ++++")
-
         return gpd.read_file(loc_path)
 
 
