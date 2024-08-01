@@ -45,3 +45,9 @@ jobs:
         run: python stlor/main.py
       - name: Compare datasets
         run: python stlor/compare.py 03_ActivityMatch.csv public_data/04_All\ States/03_ActivityMatch.csv
+      - name: Upload latest built dataset
+        uses: actions/upload-artifact@v4
+        with:
+          name: 03_ActivityMatch.csv
+          path: public_data/04_All\ States/03_ActivityMatch.csv
+          retention-days: 1
