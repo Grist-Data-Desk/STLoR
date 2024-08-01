@@ -13,9 +13,18 @@ from stlor.activity import (
     is_compatible_activity,
     exclude_inactive,
     capture_lessee_and_lease_type,
+    concatenate_activity_info,
 )
+from stlor.clip import clip_to_reservation_boundaries, filter_parcels_by_acreage
 from stlor.config import STATE_ACTIVITIES
-from stlor.constants import ACTIVITY_INFO, RIGHTS_TYPE, ACTIVITY
+from stlor.constants import (
+    ACTIVITY_INFO,
+    ACTIVITY_INFO_2,
+    ACTIVITY,
+    FINAL_DATASET_COLUMNS,
+    OBJECT_ID,
+    RIGHTS_TYPE,
+)
 from stlor.entities import StateActivityDataSource
 from stlor.overlap import tree_based_proximity
 from stlor.utils import in_parallel, combine_delim_list
@@ -144,6 +153,22 @@ def remove_timber_rows(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf[gdf[RIGHTS_TYPE].str.lower() != "timber"]
 
 
+def join_activity_info(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Join the activity_info and activity_info_2 columns into a single column.
+
+    Arguments:
+    gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with a cleaned
+    activity_info column
+    """
+    gdf[ACTIVITY_INFO] = gdf.apply(concatenate_activity_info, axis=1)
+    gdf = gdf.drop(ACTIVITY_INFO_2, axis=1)
+
+    return gdf
+
+
 def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     """Match state trust lands parcels to land use activities.
 
@@ -201,10 +226,51 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     logger.info(f"STLoR row count after removing timber parcels: {stl_gdf.shape[0]}")
 
     # Write the output of the activity match process to disk.
-    logger.info(f"Final STLoR row count: {stl_gdf.shape[0]}")
+    logger.info("Writing activity match output to 03_ActivityMatch.{csv,xlsx,geojson}")
     stl_gdf.to_csv(output_dir / "03_ActivityMatch.csv", index=False)
     stl_gdf.to_excel(output_dir / "03_ActivityMatch.xlsx", index=False)
     stl_gdf.to_file(output_dir / "03_ActivityMatch.geojson", driver="GeoJSON")
+
+    # Clip the state trust lands to reservation boundaries.
+    logger.info("Clipping state trust lands to reservation boundaries.")
+    start_time = datetime.now()
+    stl_gdf = clip_to_reservation_boundaries(stl_gdf)
+    logger.info(
+        f"Clipping state trust lands to reservation boundaries took {datetime.now() - start_time}"
+    )
+
+    # Write the clipped state trust lands to disk.
+    logger.info("Writing clipped state trust lands to 04_Clipped.{csv,xlsx,geojson}")
+    stl_gdf.to_csv(output_dir / "04_Clipped.csv", index=False)
+    stl_gdf.to_excel(output_dir / "04_Clipped.xlsx", index=False)
+    stl_gdf.to_file(output_dir / "04_Clipped.geojson", driver="GeoJSON")
+
+    # Filter parcels by acreage.
+    logger.info("Filtering parcels to those with acreage greater than 10.")
+    stl_gdf = filter_parcels_by_acreage(stl_gdf)
+
+    # Write the filtered state trust lands to disk.
+    logger.info(
+        "Writing filtered state trust lands to 05_AcreageGreaterThan10.{csv,xlsx,geojson}"
+    )
+    stl_gdf.to_csv(output_dir / "05_AcreageGreaterThan10.csv", index=False)
+    stl_gdf.to_excel(output_dir / "05_AcreageGreaterThan10.xlsx", index=False)
+    stl_gdf.to_file(output_dir / "05_AcreageGreaterThan10.geojson", driver="GeoJSON")
+
+    # Clean up the activity_info and object_id columns and select a subset of
+    # columns for the final dataset.
+    logger.info("Cleaning up activity_info and object_id columns.")
+    stl_gdf = join_activity_info(stl_gdf)
+    stl_gdf[OBJECT_ID] = stl_gdf["object_id_LAST"]
+    stl_gdf = stl_gdf[FINAL_DATASET_COLUMNS]
+
+    # Write the final dataset to disk.
+    logger.info("Writing final dataset to 06_STLoRs.{csv,xlsx,geojson}")
+    stl_gdf.to_csv(output_dir / "06_STLoRs.csv", index=False)
+    stl_gdf.to_excel(output_dir / "06_STLoRs.xlsx", index=False)
+    stl_gdf.to_file(output_dir / "06_STLoRs.geojson", driver="GeoJSON")
+
+    logger.info(f"Final STLoR row count: {stl_gdf.shape[0]}")
 
 
 def run():
