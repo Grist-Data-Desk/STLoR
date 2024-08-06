@@ -100,6 +100,7 @@ def semantic_compare(src_df_path: str, gen_df_path: str) -> bool:
     diff = df_original_sorted.compare(df_new_sorted)
 
     if not diff.empty:
+        diff.to_csv("03_ActivityMatch_diff.csv", index=False)
         print(diff)
 
     return diff.empty

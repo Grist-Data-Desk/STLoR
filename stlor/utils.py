@@ -34,7 +34,7 @@ def in_parallel(items: list[Any], fn) -> list[Any]:
     fn {Any} -- a function to apply over each item
     """
     with ProgressBar():
-        return db.from_sequence(items).map(fn).compute()
+        return db.from_sequence(items).map(fn).compute(scheduler="processes")
 
 
 def _clean_and_split(s: str, sep: str) -> list[str]:
@@ -47,7 +47,9 @@ def _clean_and_split(s: str, sep: str) -> list[str]:
     Returns:
     list[str] -- the cleaned and split list of strings
     """
-    return [v.strip() for v in s.replace("nan", "").split(sep) if v.strip()]
+    if s == "nan":
+        return []
+    return [v.strip() for v in s.split(sep) if v.strip()]
 
 
 def combine_delim_list(existing: str, update: str, sep=",") -> str:
