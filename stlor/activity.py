@@ -6,7 +6,7 @@ from stlor.config import (
     ACTIVITY_REWRITE_RULES,
     ACTIVITY_RIGHTS_TYPE,
 )
-from stlor.constants import STATE, RIGHTS_TYPE, ACTIVITY
+from stlor.constants import STATE, RIGHTS_TYPE, ACTIVITY, ACTIVITY_INFO, ACTIVITY_INFO_2
 from stlor.entities import StateActivityDataSource, RightsType
 
 
@@ -229,3 +229,26 @@ def capture_lessee_and_lease_type(
             activity_info["lease_status"] = activity_row[key]
 
     return fmt_single_activity_info(activity_info)
+
+
+def concatenate_activity_info(row: dict) -> str:
+    """Concatenate the activity_info and activity_info_2 columns, using \n to
+    join the two strings.
+
+    Arguments:
+    row -- a single parcel record, represented as a dictionary
+
+    Returns:
+    str -- the concatenated activity information string
+    """
+    activity_info = row[ACTIVITY_INFO].strip()
+    activity_info_2 = row[ACTIVITY_INFO_2].strip()
+
+    if activity_info and activity_info_2:
+        return f"{activity_info}\n{activity_info_2}"
+    elif activity_info:
+        return activity_info
+    elif activity_info_2:
+        return activity_info_2
+    else:
+        return ""
