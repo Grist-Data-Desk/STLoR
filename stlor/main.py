@@ -169,6 +169,29 @@ def join_activity_info(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf
 
 
+def write_gdf_to_disk(gdf: gpd.GeoDataFrame, output_dir: Path, filename: str):
+    """Write a GeoDataFrame to disk on GeoJSON (EPSG:5070), GeoJSON (EPSG:4326),
+    CSV, and XLSX formats.
+
+    Arguments:
+    gdf -- the GeoDataFrame to write to disk
+    output_dir -- the directory for the output files
+    filename -- the name of the output file
+
+    Returns:
+    None
+
+    Side effects:
+    Writes the GeoDataFrame to disk
+    """
+    gdf.to_file(output_dir / f"{filename}.geojson", driver="GeoJSON")
+    gdf.to_crs("EPSG:4326").to_file(
+        output_dir / f"{filename}_WGS84.geojson", driver="GeoJSON"
+    )
+    gdf.to_csv(output_dir / f"{filename}.csv", index=False)
+    gdf.to_excel(output_dir / f"{filename}.xlsx", index=False)
+
+
 def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     """Match state trust lands parcels to land use activities.
 
@@ -227,9 +250,7 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
 
     # Write the output of the activity match process to disk.
     logger.info("Writing activity match output to 03_ActivityMatch.{csv,xlsx,geojson}")
-    stl_gdf.to_csv(output_dir / "03_ActivityMatch.csv", index=False)
-    stl_gdf.to_excel(output_dir / "03_ActivityMatch.xlsx", index=False)
-    stl_gdf.to_file(output_dir / "03_ActivityMatch.geojson", driver="GeoJSON")
+    write_gdf_to_disk(stl_gdf, output_dir, filename="03_ActivityMatch")
 
     # Clip the state trust lands to reservation boundaries.
     logger.info("Clipping state trust lands to reservation boundaries.")
@@ -241,9 +262,7 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
 
     # Write the clipped state trust lands to disk.
     logger.info("Writing clipped state trust lands to 04_Clipped.{csv,xlsx,geojson}")
-    stl_gdf.to_csv(output_dir / "04_Clipped.csv", index=False)
-    stl_gdf.to_excel(output_dir / "04_Clipped.xlsx", index=False)
-    stl_gdf.to_file(output_dir / "04_Clipped.geojson", driver="GeoJSON")
+    write_gdf_to_disk(stl_gdf, output_dir, filename="04_Clipped")
 
     # Filter parcels by acreage.
     logger.info("Filtering parcels to those with acreage greater than 10.")
@@ -253,9 +272,7 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     logger.info(
         "Writing filtered state trust lands to 05_AcreageGreaterThan10.{csv,xlsx,geojson}"
     )
-    stl_gdf.to_csv(output_dir / "05_AcreageGreaterThan10.csv", index=False)
-    stl_gdf.to_excel(output_dir / "05_AcreageGreaterThan10.xlsx", index=False)
-    stl_gdf.to_file(output_dir / "05_AcreageGreaterThan10.geojson", driver="GeoJSON")
+    write_gdf_to_disk(stl_gdf, output_dir, filename="05_AcreageGreaterThan10")
 
     # Clean up the activity_info and object_id columns and select a subset of
     # columns for the final dataset.
@@ -265,10 +282,20 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     stl_gdf = stl_gdf[FINAL_DATASET_COLUMNS]
 
     # Write the final dataset to disk.
-    logger.info("Writing final dataset to 06_STLoRs.{csv,xlsx,geojson}")
-    stl_gdf.to_csv(output_dir / "06_STLoRs.csv", index=False)
-    stl_gdf.to_excel(output_dir / "06_STLoRs.xlsx", index=False)
-    stl_gdf.to_file(output_dir / "06_STLoRs.geojson", driver="GeoJSON")
+    logger.info(
+        "Writing final dataset to 06_All-STLs-on-Reservations-Final.{csv,xlsx,geojson}"
+    )
+    write_gdf_to_disk(stl_gdf, output_dir, filename="06_All-STLs-on-Reservations-Final")
+
+    # Copy the final dataset to 05_Final-Dataset.
+    logger.info(
+        "Copying final dataset to public_data/05_Final-Dataset/02_All-STLs-on-Reservations.{csv,xlsx,geojson}"
+    )
+    write_gdf_to_disk(
+        stl_gdf,
+        Path("public_data/05_Final-Dataset").resolve(),
+        filename="02_All-STLs-on-Reservations",
+    )
 
     logger.info(f"Final STLoR row count: {stl_gdf.shape[0]}")
 

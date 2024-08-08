@@ -28,7 +28,7 @@ def clip_to_reservation_boundaries(stl_gdf: gpd.GeoDataFrame) -> gpd.GeoDataFram
         Path("public_data/00_Reservation Layer/BIA_AIAN+OK_Fixed.geojson").resolve()
     )
     supp_reservations_gdf = gpd.read_file(
-        Path("public_data/00_Reservation Layer/BIA-supp.geojson").resolve()
+        Path("public_data/00_Reservation Layer/BIA_Supplemental.geojson").resolve()
     )
 
     # Reproject all GeoDataFrames to NAD83 Conus Albers.
