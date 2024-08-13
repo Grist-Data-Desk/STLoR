@@ -23,7 +23,7 @@ NET_ACRES = "net_acres"
 GIS_ACRES = "gis_acres"
 LAYER = "layer"
 LEASE_STATUS = "lease_status"
-LESSEE = "LESSEE"
+LESSEE = "lessee"
 DATA_SOURCE = "data_source"
 
 # Column values
@@ -59,5 +59,7 @@ FINAL_DATASET_COLUMNS = [
     RANGE,
     SECTION,
     ALIQUOT,
+    LEASE_STATUS,
+    LESSEE,
     GEOMETRY,
 ]

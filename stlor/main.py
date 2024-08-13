@@ -37,6 +37,15 @@ logger = logging.getLogger(__name__)
 def concatenate_main_and_supplemental_stls(
     stl_gdf: gpd.GeoDataFrame,
 ) -> gpd.GeoDataFrame:
+    """Concatenate the main and supplemental state trust lands datasets.
+
+    Arguments:
+    stl_gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the concatenation of the state trust lands GeoDataFrame
+    with state trust lands identified from the BIA-AIAN supplemental dataset
+    """
     supplemental_stl_gdf = gpd.read_file(
         Path("public_data/04_All States/01d_Supplemental.geojson").resolve()
     )
@@ -221,11 +230,13 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     """
     logger.info(f"Reading STLoR data from: {stl_path}")
     stl_gdf = gpd.read_file(stl_path)
-    logger.info(f"Initial STLoR row count: {stl_gdf.shape[0]}")
 
     # Concatenate this dataframe with the supplemental STLs derived from
     # supplemental.py.
+    logger.info("Concatenating main and supplemental state trust lands datasets.")
     stl_gdf = concatenate_main_and_supplemental_stls(stl_gdf)
+
+    logger.info(f"Initial STLoR row count: {stl_gdf.shape[0]}")
 
     # Obtain the initial columns from the STL GeoDataFrame.
     cols = stl_gdf.columns.tolist()

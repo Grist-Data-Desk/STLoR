@@ -260,8 +260,7 @@ def main():
     gdf = concatenate_supplemental_stls(gdfs)
 
     logger.info(
-        "Writing supplemental layer processing output to 01d_Supplemental.geojson.",
-        driver="GeoJSON",
+        "Writing supplemental layer processing output to 01d_Supplemental.geojson."
     )
     gdf.to_file("public_data/04_All States/01d_Supplemental.geojson", driver="GeoJSON")
 
