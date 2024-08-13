@@ -24,6 +24,7 @@ from stlor.constants import (
     FINAL_DATASET_COLUMNS,
     OBJECT_ID,
     RIGHTS_TYPE,
+    WGS_84,
 )
 from stlor.entities import StateActivityDataSource
 from stlor.overlap import tree_based_proximity
@@ -31,6 +32,27 @@ from stlor.utils import in_parallel, combine_delim_list
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+def concatenate_main_and_supplemental_stls(
+    stl_gdf: gpd.GeoDataFrame,
+) -> gpd.GeoDataFrame:
+    """Concatenate the main and supplemental state trust lands datasets.
+
+    Arguments:
+    stl_gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the concatenation of the state trust lands GeoDataFrame
+    with state trust lands identified from the BIA-AIAN supplemental dataset
+    """
+    supplemental_stl_gdf = gpd.read_file(
+        Path("public_data/04_All States/01d_Supplemental.geojson").resolve()
+    )
+
+    return gpd.GeoDataFrame(
+        pd.concat([stl_gdf, supplemental_stl_gdf], ignore_index=True)
+    )
 
 
 def process_state_activity(
@@ -185,7 +207,7 @@ def write_gdf_to_disk(gdf: gpd.GeoDataFrame, output_dir: Path, filename: str):
     Writes the GeoDataFrame to disk
     """
     gdf.to_file(output_dir / f"{filename}.geojson", driver="GeoJSON")
-    gdf.to_crs("EPSG:4326").to_file(
+    gdf.to_crs(WGS_84).to_file(
         output_dir / f"{filename}_WGS84.geojson", driver="GeoJSON"
     )
     gdf.to_csv(output_dir / f"{filename}.csv", index=False)
@@ -208,6 +230,12 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     """
     logger.info(f"Reading STLoR data from: {stl_path}")
     stl_gdf = gpd.read_file(stl_path)
+
+    # Concatenate this dataframe with the supplemental STLs derived from
+    # supplemental.py.
+    logger.info("Concatenating main and supplemental state trust lands datasets.")
+    stl_gdf = concatenate_main_and_supplemental_stls(stl_gdf)
+
     logger.info(f"Initial STLoR row count: {stl_gdf.shape[0]}")
 
     # Obtain the initial columns from the STL GeoDataFrame.
