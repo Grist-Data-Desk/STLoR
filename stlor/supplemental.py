@@ -100,7 +100,7 @@ def filter_by_intersection(stl_gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
 
 def locate_supplemental_stls(
-    state: Literal["CO"] | Literal["NM"],
+    state: Literal["CO"] | Literal["NM"] | Literal["ND"],
     rights_type: Literal["surface"] | Literal["subsurface"],
 ) -> gpd.GeoDataFrame:
     """Locate STLs that intersect with the BIA-AIAN supplemental layer.
@@ -119,7 +119,7 @@ def locate_supplemental_stls(
 
 def clean_supplemental_stls(
     stl_gdf: gpd.GeoDataFrame,
-    state: Literal["CO"] | Literal["NM"],
+    state: Literal["CO"] | Literal["NM"] | Literal["ND"],
     rights_type: Literal["surface"] | Literal["subsurface"],
 ) -> gpd.GeoDataFrame:
     # Apply all column-level transformations.
