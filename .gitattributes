@@ -1,2 +1,8 @@
-*.dbf filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text
+data/stl_activity_layers/Minnesota_All/Z-OLD/shp_plan_stateland_dnrcounty/stateland_interest_feesurface.dbf filter=lfs diff=lfs merge=lfs -text
+data/stl_activity_layers/Minnesota_All/shp_plan_stateland_dnrcounty/stateland_interest_feesurface.dbf filter=lfs diff=lfs merge=lfs -text
+public_data/01_States[[:space]]Raw[[:space]]Data/NM/NMSLO_Surf_SubSurf_Ownership/slo_SurfaceSTLStatus.dbf filter=lfs diff=lfs merge=lfs -text
+public_data/02_States[[:space]]Overlapping[[:space]]Reservations[[:space]]Data/NM/NMSLO_Surf_SubSurf_Ownership/slo_SurfaceSTLStatus.dbf filter=lfs diff=lfs merge=lfs -text
+public_data/01_States[[:space]]Raw[[:space]]Data/NM/NMSLO_Surf_SubSurf_Ownership/slo_SubsurfaceSTLStatus.dbf filter=lfs diff=lfs merge=lfs -text
+public_data/02_States[[:space]]Overlapping[[:space]]Reservations[[:space]]Data/NM/NMSLO_Surf_SubSurf_Ownership/slo_SubsurfaceSTLStatus.dbf filter=lfs diff=lfs merge=lfs -text
+data/stl_activity_layers/Wyoming_All/WSGS_OilGasWells.dbf filter=lfs diff=lfs merge=lfs -text
