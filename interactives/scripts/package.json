@@ -1,0 +1,27 @@
+{
+  "name": "@grist/stlor-interactives",
+  "version": "0.1.0",
+  "description": "Scripts for generating, storing, and deploying the data and code used by interactives in STLoR.",
+  "private": true,
+  "scripts": {
+    "compute:reservation-stats": "tsc && node dist/compute-reservation-stats.js",
+    "compute:land-use": "tsc && node dist/compute-land-use.js",
+    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js"
+  },
+  "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/geojson": "^7946.0.14",
+    "@types/node": "^22.1.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@turf/bbox": "^7.1.0",
+    "@turf/helpers": "^7.0.0"
+  }
+}
