@@ -144,3 +144,6 @@ data/stl_dataset/step_3/output/
 data/stl_dataset/step_4/output/
 data/cache/
 ignored_files/
+
+node_modules
+.svelte-kit/
