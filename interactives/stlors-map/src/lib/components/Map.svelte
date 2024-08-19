@@ -3,6 +3,7 @@
 	import { onDestroy, onMount, getContext } from 'svelte';
 	import * as pmtiles from 'pmtiles';
 
+	import Menu from '$lib/components/Menu.svelte';
 	import { SOURCE_CONFIG, LAYER_CONFIG } from '$lib/utils/config';
 	import { BASEMAP_STYLE } from '$lib/utils/style';
 	import { reservation } from '$lib/stores/reservation';
@@ -36,7 +37,9 @@
 		// );
 
 		map.on('load', () => {
-			map.fitBounds(data.reservationStats[$reservation].bounds);
+			map.fitBounds(data.reservationStats[$reservation].bounds, {
+				padding: { top: 50, bottom: 50, left: 350, right: 0 }
+			});
 
 			Object.values(SOURCE_CONFIG).forEach(({ id, config }) => {
 				map.addSource(id, config);
@@ -58,6 +61,18 @@
 				reservation.set(clickedRez);
 			}
 		});
+
+		map.on('click', LAYER_CONFIG.stlors.id, (e) => {
+			const features = map.queryRenderedFeatures(e.point, {
+				layers: ['stlors']
+			});
+
+			if (features.length > 0) {
+				for (const feature of features) {
+					console.log(feature.properties);
+				}
+			}
+		});
 	});
 
 	$: if (map) {
@@ -72,4 +87,7 @@
 
 <div class="h-screen w-screen flex-col font-sans">
 	<div id="stlor-map" class="w-full grow md:h-full" />
+	{#if map}
+		<Menu {map} />
+	{/if}
 </div>

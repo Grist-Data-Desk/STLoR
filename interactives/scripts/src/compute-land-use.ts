@@ -2,20 +2,84 @@ import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import * as url from "node:url";
 
-import type { FeatureCollection, Feature, Polygon } from "geojson";
 import { featureCollection } from "@turf/helpers";
+import type { FeatureCollection, Feature, Polygon } from "geojson";
+import groupBy from "lodash.groupby";
+
+type OutputParcelProperties = Omit<ParcelProperties, "rights_type"> & {
+  rights_type: ("subsurface" | "surface")[];
+};
 
 import type { LandUse, ParcelProperties, LandUseMapping } from "./types";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
+
+function deduplicateParcelGeometries(
+  parcels: Feature<Polygon, ParcelProperties>[]
+): Feature<Polygon, OutputParcelProperties>[] {
+  const parcelsByGeometryAndReservationName = groupBy(
+    parcels,
+    (parcel) =>
+      `${
+        parcel.properties.reservation_name
+      } - ${parcel.geometry.coordinates.toString()}`
+  );
+
+  console.log(parcels);
+
+  const deduplicatedParcels = Object.values(
+    parcelsByGeometryAndReservationName
+    // @ts-ignore
+  ).reduce<Feature<Polygon, OutputParcelProperties>[]>((acc, parcels) => {
+    const baseParcel: Feature<Polygon, OutputParcelProperties> = {
+      ...parcels[0],
+      properties: {
+        ...parcels[0].properties,
+        rights_type: [
+          parcels[0].properties.rights_type.toLowerCase() as
+            | "subsurface"
+            | "surface",
+        ],
+      },
+    };
+
+    if (parcels.length === 1) {
+      return [...acc, baseParcel];
+    }
+
+    // Merge the rights_type properties of all parcels with the same geometry.
+    const deduplicatedParcel = parcels.slice(1).reduce((accum, parcel) => {
+      return {
+        ...accum,
+        properties: {
+          ...accum.properties,
+          rights_type: Array.from(
+            new Set([
+              ...accum.properties.rights_type,
+              parcel.properties.rights_type.toLowerCase() as
+                | "subsurface"
+                | "surface",
+            ])
+          ),
+        },
+      };
+    }, baseParcel);
+
+    return [...acc, deduplicatedParcel];
+  }, []);
+  console.log(deduplicatedParcels);
+
+  // @ts-ignore
+  return deduplicatedParcels;
+}
 
 /**
  * Enrich a parcel with information on the activity's land use category.
  *
  * @param {Feature<Polygon, ParcelProperties>} parcel – The parcel to add land
  * use category information to.
- * @param {LandUseMapping[]} landUseMappings – The list of mappings from raw activity strings to their
- * land use categories.
+ * @param {LandUseMapping[]} landUseMappings – The list of mappings from raw
+ * activity strings to their land use categories.
  * @returns – The parcel with land use category information added.
  */
 function enrichParcelWithLandUse(
@@ -79,9 +143,12 @@ const main = async (): Promise<void> => {
     enrichParcelWithLandUse(parcel, landUseMappings)
   );
 
+  // @ts-ignore
+  const deduplicatedParcels = deduplicateParcelGeometries(parcelsWithCategory);
+
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/stlors.geojson"),
-    JSON.stringify(featureCollection(parcelsWithCategory))
+    JSON.stringify(featureCollection(deduplicatedParcels))
   );
 };
 

@@ -13,6 +13,8 @@
     "@eslint/js": "^9.8.0",
     "@types/eslint__js": "^8.42.3",
     "@types/geojson": "^7946.0.14",
+    "@types/lodash.groupby": "^4.6.9",
+    "@types/lodash.round": "^4.0.9",
     "@types/node": "^22.1.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
@@ -22,6 +24,8 @@
   "type": "module",
   "dependencies": {
     "@turf/bbox": "^7.1.0",
-    "@turf/helpers": "^7.0.0"
+    "@turf/helpers": "^7.0.0",
+    "lodash.groupby": "^4.6.0",
+    "lodash.round": "^4.0.4"
   }
 }

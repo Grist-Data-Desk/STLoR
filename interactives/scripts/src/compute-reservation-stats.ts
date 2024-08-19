@@ -3,8 +3,10 @@ import * as path from "node:path";
 import * as url from "node:url";
 
 import { bbox } from "@turf/bbox";
+import groupBy from "lodash.groupby";
+import round from "lodash.round";
 
-import type { Feature, FeatureCollection, Polygon } from "geojson";
+import type { BBox, Feature, FeatureCollection, Polygon } from "geojson";
 import type {
   ParcelWithLandUseProperties,
   LandUse,
@@ -17,7 +19,7 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 function computeLandUseAcreageForReservation(
   reservation: string,
   stlors: FeatureCollection<Polygon, ParcelWithLandUseProperties>
-) {
+): ReservationStats["land_uses"] {
   const features = stlors.features.filter(
     (feature) => feature.properties.reservation_name === reservation
   );
@@ -50,17 +52,64 @@ function computeLandUseAcreageForReservation(
   );
 
   const topLandUses = Object.entries(landUseToAcreage)
-    .map(([landUse, acreage]) => ({ land_use: landUse, acreage }))
+    .filter(([landUse]) => landUse !== "Uncategorized")
+    .map(([landUse, acreage]) => ({
+      land_use: landUse,
+      acreage: round(acreage, 2),
+    }))
     .sort((a, b) => b.acreage - a.acreage)
     .slice(0, 5) as { land_use: LandUse; acreage: number }[];
 
-  return topLandUses;
+  return {
+    top_land_uses: topLandUses,
+    uncategorized_acreage: round(landUseToAcreage.Uncategorized, 2),
+  };
 }
 
 function computeBoundsForReservation(
   feature: Feature<Polygon, ReservationProperties>
-) {
+): BBox {
   return bbox(feature);
+}
+
+function computeSTLAcreageForReservation(
+  reservation: string,
+  stlors: FeatureCollection<Polygon, ParcelWithLandUseProperties>
+): {
+  stl_total_acres: number;
+  stl_surface_acres: number;
+  stl_subsurface_acres: number;
+} {
+  const features = stlors.features.filter(
+    (feature) => feature.properties.reservation_name === reservation
+  );
+
+  const totalAcres = features.reduce(
+    (acc, feature) => acc + feature.properties.clipped_acres,
+    0
+  );
+
+  const featuresByRightsType = groupBy(features, (feature) =>
+    feature.properties.rights_type.toLowerCase()
+  );
+
+  return {
+    stl_total_acres: round(totalAcres, 2),
+    stl_surface_acres: round(
+      featuresByRightsType.surface?.reduce(
+        (acc, feature) => acc + feature.properties.clipped_acres,
+        0
+      ) ?? 0,
+      2
+    ),
+    stl_subsurface_acres: round(
+      featuresByRightsType.subsurface?.reduce(
+        (acc, feature) => acc + feature.properties.clipped_acres,
+        0
+      ) ?? 0,
+      2
+    ),
+  };
 }
 
 async function main() {
@@ -86,11 +135,17 @@ async function main() {
       stlors
     );
     const bounds = computeBoundsForReservation(reservation);
+    const stlAcreage = computeSTLAcreageForReservation(
+      reservation.properties.reservation_name,
+      stlors
+    );
 
     acc[reservation.properties.reservation_name] = {
       reservation_name: reservation.properties.reservation_name,
+      acres: reservation.properties.acres,
       land_uses: landUses,
       bounds,
+      ...stlAcreage,
     };
 
     return acc;

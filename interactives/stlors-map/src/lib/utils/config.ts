@@ -69,7 +69,8 @@ export const LAYER_CONFIG: Record<string, AddLayerObject> = {
 		},
 		paint: {
 			'fill-color': '#ec6c37',
-			'fill-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0.5]
+			'fill-color-transition': { duration: 500 },
+			'fill-opacity': 0.75
 		}
 	},
 	stlorOutlines: {
@@ -82,7 +83,7 @@ export const LAYER_CONFIG: Record<string, AddLayerObject> = {
 		},
 		paint: {
 			'line-color': '#ec6c37',
-			'line-width': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0.5]
+			'line-color-transition': { duration: 200 }
 		}
 	}
 };
