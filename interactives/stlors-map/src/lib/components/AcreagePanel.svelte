@@ -8,7 +8,7 @@
 	const data = getContext<Data>('data');
 
 	$: stats = data.reservationStats[$reservation];
-	$: pctCoverage = (stats.stl_total_acres / stats.acres) * 2 * 100;
+	$: pctCoverage = (stats.stl_total_acres / (stats.acres * 2)) * 100;
 </script>
 
 <ReservationHeader />
