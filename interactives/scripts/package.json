@@ -1,12 +1,14 @@
 {
-  "name": "@grist/stlor-interactives",
+  "name": "@grist/stlor-interactives-scripts",
   "version": "0.1.0",
   "description": "Scripts for generating, storing, and deploying the data and code used by interactives in STLoR.",
   "private": true,
   "scripts": {
-    "compute:reservation-stats": "tsc && node dist/compute-reservation-stats.js",
-    "compute:land-use": "tsc && node dist/compute-land-use.js",
-    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js"
+    "build": "pnpm run process:parcels && pnpm run process:reservations && pnpm run gen:patterns && pnpm run gen:pmtiles",
+    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js",
+    "gen:patterns": "tsc && node dist/generate-patterns.js",
+    "process:parcels": "tsc && node dist/process-parcels.js",
+    "process:reservations": "tsc && node dist/process-reservations.js"
   },
   "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
   "devDependencies": {
@@ -25,6 +27,7 @@
   "dependencies": {
     "@turf/bbox": "^7.1.0",
     "@turf/helpers": "^7.0.0",
+    "canvas": "^2.11.2",
     "lodash.groupby": "^4.6.0",
     "lodash.round": "^4.0.4"
   }

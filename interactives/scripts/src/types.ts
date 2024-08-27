@@ -1,5 +1,9 @@
 import type { BBox } from "geojson";
 
+/**
+ * Represents the higher-level land use categorizations for activities permitted
+ * on parcels.
+ */
 export type LandUse =
   | "Grazing"
   | "Agriculture"
@@ -15,6 +19,9 @@ export type LandUse =
   | "Federal Government"
   | "Water";
 
+/**
+ * Represents the GeoJSON Feature properties associated with a parcel.
+ */
 export interface ParcelProperties {
   object_id: number;
   state: string;
@@ -22,7 +29,7 @@ export interface ParcelProperties {
   state_enabling_act: string;
   trust_name: string;
   reservation_name: string;
-  rights_type: "surface" | "subsurface" | "Surface" | "Subsurface";
+  rights_type: "surface" | "subsurface";
   rights_type_info: string;
   acres: string;
   gis_acres: number;
@@ -38,20 +45,47 @@ export interface ParcelProperties {
   aliquot: string;
 }
 
+/**
+ * Represents the GeoJSON Feature properties associated with a parcel after
+ * processing.
+ */
+export interface ProcessedParcelProperties extends ParcelProperties {
+  land_use: LandUse[];
+  has_rights_type_dual: boolean;
+}
+
+/**
+ * Represents a mapping from a parcel's specific activity string to an array
+ * of land uses.
+ */
 export interface LandUseMapping {
   activity: string;
   land_use: LandUse[];
 }
 
-export interface ParcelWithLandUseProperties extends ParcelProperties {
-  land_use: LandUse[];
-}
-
+/**
+ * Represents the GeoJSON feature properties associated with a reservation.
+ */
 export interface ReservationProperties {
   reservation_name: string;
   acres: number;
 }
 
+/**
+ * Represents the GeoJSON feature properties associated with records from the
+ * reservation aggregation in public_data/05_Final-Dataset/01_STLs-on-Reservations-by-Reservation.geojson.
+ */
+export interface ReservationAggProperties {
+  reservation_name: string;
+  clipped_acres: number;
+  surface_clipped_acres: number;
+  subsurface_clipped_acres: number;
+}
+
+/**
+ * Represents the aggregated acreage, land use, and rights type properties
+ * associated with a reservation.
+ */
 export interface ReservationStats {
   reservation_name: string;
   acres: number;

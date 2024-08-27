@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { setContext } from 'svelte';
 
-	import Map from '$lib/components/Map.svelte';
+	import Map from '$lib/components/map/Map.svelte';
 
 	export let data;
 

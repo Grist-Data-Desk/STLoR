@@ -1,31 +1,16 @@
-export function createHatchPattern(
-	baseColor: string,
-	stripeColor: string,
-	size = 20,
-	lineWidth = 6
-): ImageData {
+export function convertDataURLToImageData(dataUrl: string): Promise<ImageData> {
 	const canvas = document.createElement('canvas');
-	canvas.width = size;
-	canvas.height = size;
 	const ctx = canvas.getContext('2d');
+	const image = new Image();
 
-	if (!ctx) {
-		return new ImageData(0, 0);
-	}
+	return new Promise((resolve) => {
+		image.onload = () => {
+			canvas.width = image.width;
+			canvas.height = image.height;
+			ctx?.drawImage(image, 0, 0);
+			resolve(ctx?.getImageData(0, 0, canvas.width, canvas.height) ?? new ImageData(0, 0));
+		};
 
-	// Fill background with baseColor.
-	ctx.fillStyle = baseColor;
-	ctx.fillRect(0, 0, size, size);
-
-	// Draw diagonal lines with stripeColor.
-	ctx.strokeStyle = stripeColor;
-	ctx.lineWidth = lineWidth;
-
-	// First diagonal line.
-	ctx.beginPath();
-	ctx.moveTo(0, 0);
-	ctx.lineTo(size, size);
-	ctx.stroke();
-
-	return ctx.getImageData(0, 0, size, size);
+		image.src = dataUrl;
+	});
 }

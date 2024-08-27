@@ -4,4 +4,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div id="stlor-map-root">
+	<slot />
+</div>
