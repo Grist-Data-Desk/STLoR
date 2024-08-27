@@ -28,8 +28,6 @@ def dissolve_by_reservation_name(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
         "state": "first",
         "trust_name": lambda trust: trust.unique(),
         "rights_type": lambda rights: rights.unique(),
-        "gis_acres": "sum",
-        "clipped_acres": "sum",
         "object_id": "count",  # Use object_id as a unique field to count parcels.
     }
 
@@ -57,31 +55,24 @@ def filter_by_rights_type(
     return stl_gdf[stl_gdf["rights_type"].str.lower() == rights_type]
 
 
-def rename_columns_by_rights_type(
+def compute_area_by_rights_type(
     gdf: gpd.GeoDataFrame,
     rights_type: Literal[
         "surface",
         "subsurface",
     ],
 ) -> gpd.GeoDataFrame:
-    """Rename gis_acres and clipped_acres columns in a GeoDataFrame to their
-    rights_type-specific equivalents.
+    """Compute the area of parcels in the GeoDataFrame by rights_type.
 
     Arguments:
     gdf {gpd.GeoDataFrame} -- the GeoDataFrame
-    rights_type {Literal["surface", "subsurface"]} --
-    the rights_type to use for column renaming
+    rights_type {Literal["surface", "subsurface"]} -- the rights_type to use for
+    column renaming
 
     Returns:
-    gpd.GeoDataFrame -- the GeoDataFrame with columns renamed to rights_type-
-    specific equivalents
+    gpd.GeoDataFrame -- the GeoDataFrame with rights_type acreage computed
     """
-    gdf = gdf.rename(
-        columns={
-            "gis_acres": f"{rights_type}_gis_acres",
-            "clipped_acres": f"{rights_type}_clipped_acres",
-        }
-    )
+    gdf[f"{rights_type}_acres"] = (gdf.area / SQUARE_METERS_PER_ACRE).round(2)
 
     return gdf
 
@@ -104,8 +95,7 @@ def subset_columns_by_rights_type(
     return gdf[
         [
             "reservation_name",
-            f"{rights_type}_gis_acres",
-            f"{rights_type}_clipped_acres",
+            f"{rights_type}_acres",
             "object_id",
             "geometry",
         ]
@@ -147,7 +137,7 @@ def compute_rights_type_aggregate_gdf(
     """
     gdf = filter_by_rights_type(stl_gdf, rights_type)
     gdf = dissolve_by_reservation_name(gdf)
-    gdf = rename_columns_by_rights_type(gdf, rights_type)
+    gdf = compute_area_by_rights_type(gdf, rights_type)
     gdf = subset_columns_by_rights_type(gdf, rights_type)
     gdf = add_parcel_count(gdf, rights_type)
 
@@ -223,8 +213,7 @@ def main():
     )
     reservations_agg_gdf = reservations_agg_gdf.fillna(
         value={
-            "surface_gis_acres": 0,
-            "surface_clipped_acres": 0,
+            "surface_acres": 0,
             "surface_parcel_count": 0,
         }
     ).astype({"surface_parcel_count": int})
@@ -235,11 +224,15 @@ def main():
     )
     reservations_agg_gdf = reservations_agg_gdf.fillna(
         value={
-            "subsurface_gis_acres": 0,
-            "subsurface_clipped_acres": 0,
+            "subsurface_acres": 0,
             "subsurface_parcel_count": 0,
         }
     ).astype({"subsurface_parcel_count": int})
+
+    # Compute total acres by summing surface and subsurface acres.
+    reservations_agg_gdf["total_acres"] = (
+        reservations_agg_gdf["surface_acres"] + reservations_agg_gdf["subsurface_acres"]
+    )
 
     # Join data on reservation area.
     reservations_agg_gdf = reservations_agg_gdf.merge(
