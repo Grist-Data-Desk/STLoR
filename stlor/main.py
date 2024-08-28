@@ -24,9 +24,11 @@ from stlor.constants import (
     FINAL_DATASET_COLUMNS,
     OBJECT_ID,
     RIGHTS_TYPE,
+    LESSEE,
     WGS_84,
 )
 from stlor.entities import StateActivityDataSource
+from stlor.lessee import parse_lessee
 from stlor.overlap import tree_based_proximity
 from stlor.utils import in_parallel, combine_delim_list
 
@@ -306,6 +308,7 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     # columns for the final dataset.
     logger.info("Cleaning up activity_info and object_id columns.")
     stl_gdf = join_activity_info(stl_gdf)
+    stl_gdf[LESSEE] = stl_gdf[ACTIVITY_INFO].apply(parse_lessee)
     stl_gdf[OBJECT_ID] = stl_gdf["object_id_LAST"]
     stl_gdf = stl_gdf[FINAL_DATASET_COLUMNS]
 
@@ -329,8 +332,10 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
 
 
 def run():
-    """Run the activity match process."""
-    logger.info("Running activity match.")
+    """Run the activity match, parcel clipping, and parcel filtering processes."""
+    logger.info(
+        "Running activity match, parcel clipping, and parcel filtering processes."
+    )
 
     activities_dir = Path("data/stl_activity_layers").resolve()
     stl_path = Path(
@@ -340,7 +345,7 @@ def run():
 
     main(activities_dir, stl_path, output_dir)
 
-    logger.info("Activity match complete.")
+    logger.info("All processes complete.")
 
 
 if __name__ == "__main__":
