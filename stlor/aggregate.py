@@ -26,8 +26,8 @@ def dissolve_by_reservation_name(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     agg_funcs = {
         "reservation_name": "first",
         "state": "first",
-        "trust_name": lambda trust: trust.unique(),
-        "rights_type": lambda rights: rights.unique(),
+        "trust_name": lambda trust: ", ".join(trust.unique()),
+        "rights_type": lambda rights: ", ".join(rights.unique()),
         "object_id": "count",  # Use object_id as a unique field to count parcels.
     }
 
