@@ -10,6 +10,8 @@
     "gen:patterns": "tsc && node dist/generate-patterns.js && cp data/processed/land-use-patterns.json ../stlor-map/static/land-use-patterns.json && cp data/processed/rights-type-pattern.json ../stlor-map/static/rights-type-pattern.json && cp data/processed/uncategorized-pattern.json ../stlor-map/static/uncategorized-pattern.json",
     "process:parcels": "tsc && node dist/process-parcels.js",
     "process:reservations": "tsc && node dist/process-reservations.js && cp data/processed/reservation-stats.json ../stlor-map/static/reservation-stats.json",
+    "store:csv": "tsc && node --env-file=.env dist/store-csv.js",
+    "store:png": "tsc && node --env-file=.env dist/store-png.js",
     "store:pmtiles": "tsc && node --env-file=.env dist/store-pmtiles.js"
   },
   "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
