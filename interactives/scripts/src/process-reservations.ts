@@ -49,7 +49,6 @@ function computeLandUseAcreageForReservation(
       Commercial: 0,
       Uncategorized: 0,
       Recreation: 0,
-      "Federal Government": 0,
       Water: 0,
     }
   );
@@ -100,7 +99,6 @@ async function main() {
         reservation.properties.reservation_name
     )
   );
-  console.log(reservations.features.length);
 
   const reservationsWithStatistics = reservations.features.reduce<
     Record<string, ReservationStats>
@@ -123,9 +121,9 @@ async function main() {
       acres: reservation.properties.acres,
       land_uses: landUses,
       bounds: bbox(reservation),
-      stl_total_acres: reservationAggStats.clipped_acres,
-      stl_subsurface_acres: reservationAggStats.subsurface_clipped_acres,
-      stl_surface_acres: reservationAggStats.surface_clipped_acres,
+      stl_total_acres: reservationAggStats.total_acres,
+      stl_subsurface_acres: reservationAggStats.subsurface_acres,
+      stl_surface_acres: reservationAggStats.surface_acres,
     };
 
     return acc;

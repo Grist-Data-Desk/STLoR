@@ -16,7 +16,6 @@ export type LandUse =
   | "Commercial"
   | "Uncategorized"
   | "Recreation"
-  | "Federal Government"
   | "Water";
 
 /**
@@ -77,9 +76,9 @@ export interface ReservationProperties {
  */
 export interface ReservationAggProperties {
   reservation_name: string;
-  clipped_acres: number;
-  surface_clipped_acres: number;
-  subsurface_clipped_acres: number;
+  total_acres: number;
+  surface_acres: number;
+  subsurface_acres: number;
 }
 
 /**

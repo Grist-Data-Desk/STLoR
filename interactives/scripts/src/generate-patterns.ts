@@ -37,16 +37,15 @@ const schemePaired = [
 const LAND_USE_TO_COLORS: Record<LandUse, string> = {
   Grazing: COLORS.PALE_GREEN,
   Agriculture: schemePaired[3],
-  Infrastructure: COLORS.GRAY,
+  Infrastructure: "#64748b",
   Renewables: COLORS.ORANGE,
   Conservation: schemePaired[2],
   "Fossil Fuels": COLORS.EARTH,
   Mining: COLORS.GOLD,
   Timber: COLORS.GREEN,
   Commercial: schemePaired[9],
-  Uncategorized: "gray",
+  Uncategorized: COLORS.GRAY,
   Recreation: schemePaired[4],
-  "Federal Government": schemePaired[5],
   Water: schemePaired[0],
 };
 
@@ -59,13 +58,12 @@ const LAND_USE_TO_COLORS: Record<LandUse, string> = {
  * used to draw stripes.
  * @param size — The size of the canvas, drawn as a square.
  * @param lineWidth — The width of lines in the hatch pattern.
- * @returns — The dataUrl of the hatch pattern.
+ * @returns — The data URL of the hatch pattern.
  */
 function createDualColorHatchPattern(
   primaryColor: string,
   secondaryColor: string,
-  size = 32,
-  lineWidth = 8
+  size = 32
 ) {
   const canvas = createCanvas(size, size);
   canvas.width = size;
@@ -80,38 +78,43 @@ function createDualColorHatchPattern(
   ctx.fillStyle = primaryColor;
   ctx.fillRect(0, 0, size, size);
 
-  // Draw a diagonal line with secondaryColor.
+  // Draw four equally-spaced, equally-sized lines with secondaryColor.
+  ctx.lineWidth = size / 8;
   ctx.strokeStyle = secondaryColor;
-  ctx.lineWidth = lineWidth;
 
-  ctx.beginPath();
-  ctx.moveTo(0, 0);
-  ctx.lineTo(size, size);
+  ctx.moveTo(-1, size * (3 / 4) - 1);
+  ctx.lineTo(size * (1 / 4) + 1, size + 1);
   ctx.stroke();
 
-  // Add triangles to fill gaps at tiling edge.
-  ctx.fillStyle = secondaryColor;
-  ctx.beginPath();
-  ctx.moveTo(0, size);
-  ctx.lineTo(0, size - lineWidth / 2 - 1);
-  ctx.lineTo(lineWidth / 2 + 1, size);
-  ctx.fill();
+  ctx.moveTo(-1, size * (1 / 4) - 1);
+  ctx.lineTo(size * (3 / 4) + 1, size + 1);
+  ctx.stroke();
 
-  ctx.beginPath();
-  ctx.moveTo(size, 0);
-  ctx.lineTo(size - lineWidth / 2 - 1, 0);
-  ctx.lineTo(size, lineWidth / 2 + 1);
-  ctx.fill();
+  ctx.moveTo(size * (1 / 4) - 1, -1);
+  ctx.lineTo(size + 1, size * (3 / 4) + 1);
+  ctx.stroke();
+
+  ctx.moveTo(size * (3 / 4) - 1, -1);
+  ctx.lineTo(size + 1, size * (1 / 4) + 1);
+  ctx.stroke();
 
   return canvas.toDataURL("image/png");
 }
 
-function createTriColorHatchPattern(
+/**
+ * Create a tri-color line pattern in canvas.
+ *
+ * @param primaryColor – The primary color of the line pattern.
+ * @param secondaryColor – The secondary color of the line pattern.
+ * @param tertiaryColor – The tertiary color of the line pattern.
+ * @param size – The size of the canvas, drawn as a square.
+ * @returns – The data URL of the line pattern.
+ */
+function createTriColorLinePattern(
   primaryColor: string,
   secondaryColor: string,
   tertiaryColor: string,
-  size = 32,
-  lineWidth = 12
+  size = 32
 ): string {
   const canvas = createCanvas(size, size);
   canvas.width = size;
@@ -122,12 +125,54 @@ function createTriColorHatchPattern(
     return "";
   }
 
-  // Fill background with primaryColor.
   ctx.fillStyle = primaryColor;
+  ctx.fillRect(0, 0, size, size / 6);
+
+  ctx.fillStyle = secondaryColor;
+  ctx.fillRect(0, size / 6, size, size / 3);
+
+  ctx.fillStyle = tertiaryColor;
+  ctx.fillRect(0, size / 6 + size / 3, size, size / 3);
+
+  ctx.fillStyle = primaryColor;
+  ctx.fillRect(0, size / 6 + 2 * (size / 3), size, size / 6);
+
+  return canvas.toDataURL("image/png");
+}
+
+function createUncategorizedPattern(size = 32): string {
+  const canvas = createCanvas(size, size);
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d");
+
+  if (!ctx) {
+    return "";
+  }
+
+  ctx.fillStyle = "white";
   ctx.fillRect(0, 0, size, size);
 
-  // Draw a diagonal line with secondaryColor.
-  ctx.strokeStyle = secondaryColor;
+  ctx.lineWidth = size / 16;
+  ctx.strokeStyle = "gray";
+
+  ctx.moveTo(size * (1 / 8), size * (1 / 8));
+  ctx.lineTo(size * (5 / 8), size * (1 / 8));
+  ctx.stroke();
+
+  ctx.moveTo(size * (3 / 8), size * (3 / 8));
+  ctx.lineTo(size * (7 / 8), size * (3 / 8));
+  ctx.stroke();
+
+  ctx.moveTo(size * (1 / 8), size * (5 / 8));
+  ctx.lineTo(size * (5 / 8), size * (5 / 8));
+  ctx.stroke();
+
+  ctx.moveTo(size * (3 / 8), size * (7 / 8));
+  ctx.lineTo(size * (7 / 8), size * (7 / 8));
+  ctx.stroke();
+
+  return canvas.toDataURL("image/png");
 }
 
 /**
@@ -166,6 +211,15 @@ async function main() {
 
   const combinations = identifyLandUseCombinations(stlors);
 
+  combinations
+    .filter(
+      (combo) =>
+        combo.split(", ").length === 1 && !combo.includes("Uncategorized")
+    )
+    .forEach((combo) => {
+      console.log(combo);
+    });
+
   const dualPatterns = combinations
     .filter(
       (combo) =>
@@ -194,7 +248,7 @@ async function main() {
 
       return {
         combo,
-        pattern: createTriColorDotsPattern(colors[0], colors[1], colors[2]),
+        pattern: createTriColorLinePattern(colors[0], colors[1], colors[2]),
       };
     });
 
@@ -203,6 +257,13 @@ async function main() {
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/land-use-patterns.json"),
     JSON.stringify(patterns, null, 2)
+  );
+
+  const uncategorizedPattern = createUncategorizedPattern();
+
+  await fs.writeFile(
+    path.resolve(__dirname, "../data/processed/uncategorized-pattern.json"),
+    JSON.stringify(uncategorizedPattern, null, 2)
   );
 
   const rightsTypePattern = createDualColorHatchPattern("#3877f3", "#3c3830");
