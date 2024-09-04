@@ -4254,15 +4254,13 @@
     "activity": "Agricultural Lease,OVERHEAD ELECTRIC TRANSMISSION LINE - WIND",
     "land_use": [
       "Agriculture",
-      "Infrastructure",
-      "Renewables"
+      "Infrastructure"
     ]
   },
   {
     "activity": "1.7\" UNDERGROUND 34.5 KV ELECTRIC COLLECTION LINE & DATA FIBER OPTICS - WIND,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Renewables",
       "Mining"
     ]
   },
@@ -4305,15 +4303,13 @@
     "activity": "FIRE HYDRANT AND ROADWAY,Long Term Commercial Lease,PUBLIC ROAD AND UTILITIES - 8\" WATER & SEWER PIPELINE,SEWER MANHOLE COVER",
     "land_use": [
       "Infrastructure",
-      "Commercial",
-      "Water"
+      "Commercial"
     ]
   },
   {
     "activity": "FIRE HYDRANT AND ROADWAY,PUBLIC ROAD AND UTILITIES - 8\" WATER & SEWER PIPELINE,SEWER MANHOLE COVER,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Water",
       "Mining"
     ]
   },
@@ -4335,7 +4331,6 @@
     "activity": "140' TALL,15' DIAMETER,50'X50' RURAL WATER STANDPIPE SITE,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Water",
       "Mining"
     ]
   },
@@ -4343,7 +4338,6 @@
     "activity": "18\" HYDROCARBONS PIPELINE,Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
       "Mining"
     ]
   },
@@ -4371,16 +4365,13 @@
   {
     "activity": "WELLSITE ROADWAY",
     "land_use": [
-      "Infrastructure",
-      "Fossil Fuels"
+      "Infrastructure"
     ]
   },
   {
     "activity": "12\" CRUDE OIL,16\" FRESH WATER,16\" NATURAL GAS,2 75'x75' SITES,4 PIPELINES - 12\" SALT WATER,Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
-      "Water",
       "Mining"
     ]
   },
@@ -4394,7 +4385,6 @@
   {
     "activity": "SCHOOL,Unleased Minerals",
     "land_use": [
-      "Infrastructure",
       "Mining"
     ]
   },
@@ -4402,7 +4392,6 @@
     "activity": "(2) 8\" SEWER LINES,12\" SEWER LINE & WASTE WATER TREATMENT PLANT SITE,Minerals",
     "land_use": [
       "Infrastructure",
-      "Water",
       "Mining"
     ]
   },
@@ -4410,7 +4399,6 @@
     "activity": "2 SEWER LINES,Minerals",
     "land_use": [
       "Infrastructure",
-      "Water",
       "Mining"
     ]
   },
@@ -4460,7 +4448,6 @@
     "activity": "15' DRAINAGE EASEMENT,Minerals",
     "land_use": [
       "Infrastructure",
-      "Water",
       "Mining"
     ]
   },
@@ -4482,7 +4469,6 @@
     "activity": "2 PIPELINES 4\" & 8-12\" NATURAL GAS & 30'X50' VALVE SITE,Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
       "Mining"
     ]
   },
@@ -4503,7 +4489,6 @@
     "activity": "24\" CRUDE OIL PIPELINE,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
       "Mining"
     ]
   },
@@ -4518,7 +4503,6 @@
     "activity": "345 KV OVERHEAD ELECTRIC COLLECITON LINE - WIND,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Renewables",
       "Mining"
     ]
   },
@@ -4526,7 +4510,6 @@
     "activity": "345 KV ELECTRIC TRANSMISSION LINE - WIND,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Renewables",
       "Mining"
     ]
   },
@@ -4534,7 +4517,6 @@
     "activity": "345 KV OVERHEAD ELECTRIC COLLECITON LINE - WIND,Agricultural Lease",
     "land_use": [
       "Infrastructure",
-      "Renewables",
       "Agriculture"
     ]
   },
@@ -4542,7 +4524,6 @@
     "activity": "345 KV ELECTRIC TRANSMISSION LINE - WIND,Minerals",
     "land_use": [
       "Infrastructure",
-      "Renewables",
       "Mining"
     ]
   },
@@ -4564,7 +4545,6 @@
     "activity": "6\" & 2 - 1\" NATURAL GAS PIPELINES,Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
       "Mining"
     ]
   },
@@ -4595,7 +4575,6 @@
     "activity": "4\" NATURAL GAS PIPELINE,Unleased Minerals",
     "land_use": [
       "Infrastructure",
-      "Fossil Fuels",
       "Mining"
     ]
   },
@@ -4609,23 +4588,21 @@
   {
     "activity": "Non-utility - 2 acres, Grassland - 38 acres",
     "land_use": [
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
     "activity": "Enhanced for livestock - 1 acre, Grassland - 639 acres",
     "land_use": [
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "Pivot irrigated cropland - 11 acres, Non-utility - 2 acres, Grassland - 147 acres",
     "land_use": [
       "Agriculture",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -4633,22 +4610,21 @@
     "land_use": [
       "Agriculture",
       "Grazing",
-      "Water"
+      "Conservation"
     ]
   },
   {
     "activity": "Dryland cropground - 3.5 acres, Special class - 163.2 acres, Grassland - 457.8 acres, Non-utility - 4 acres",
     "land_use": [
       "Agriculture",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
     "activity": "Enhanced for livestock - 1 acre, Grassland - 558 acres, Real estate taxes - 1 acre",
     "land_use": [
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -4673,9 +4649,7 @@
   {
     "activity": "Aquatic Management Area,State Forest",
     "land_use": [
-      "Water",
-      "Conservation",
-      "Timber"
+      "Conservation"
     ]
   },
   {
@@ -4693,15 +4667,13 @@
   {
     "activity": "State Forest,Wildlife Management Area",
     "land_use": [
-      "Timber",
       "Conservation"
     ]
   },
   {
     "activity": "Scientific and Natural Area,State Forest",
     "land_use": [
-      "Conservation",
-      "Timber"
+      "Conservation"
     ]
   },
   {
@@ -4725,22 +4697,19 @@
   {
     "activity": "Oil and Gas Permit,Unleased Parcels",
     "land_use": [
-      "Fossil Fuels",
-      "Uncategorized"
+      "Fossil Fuels"
     ]
   },
   {
     "activity": "Agriculture,Unleased Parcels",
     "land_use": [
-      "Agriculture",
-      "Uncategorized"
+      "Agriculture"
     ]
   },
   {
     "activity": "Commercial Lease,Unleased Parcels",
     "land_use": [
-      "Commercial",
-      "Uncategorized"
+      "Commercial"
     ]
   },
   {
@@ -4785,7 +4754,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -4836,21 +4805,20 @@
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -",
     "land_use": [
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "EASEMENT,Range improvement project contract -",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing Lease,Unleased Parcels",
     "land_use": [
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -4894,7 +4862,7 @@
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Twin Knolls Water Well",
     "land_use": [
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -4903,15 +4871,14 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
     "activity": "RIGHT OF WAY,Range improvement project contract -",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -4943,7 +4910,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -4957,8 +4924,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
@@ -4977,8 +4943,7 @@
     "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -5000,7 +4965,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5020,7 +4985,7 @@
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
     "land_use": [
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5028,7 +4993,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5041,14 +5006,14 @@
     "activity": "EASEMENT,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "RIGHT OF WAY,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5068,7 +5033,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5082,8 +5047,7 @@
     "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -5104,8 +5068,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
@@ -5165,7 +5128,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Convservation"
     ]
   },
   {
@@ -5197,9 +5160,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
@@ -5207,18 +5168,15 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Renewables",
-      "Uncategorized"
+      "Conservation",
+      "Renewables"
     ]
   },
   {
     "activity": "EASEMENT (COUNTY ROADS),Solar zone,Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5260,8 +5218,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5275,8 +5232,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5284,9 +5240,7 @@
     "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
@@ -5300,8 +5254,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
@@ -5315,8 +5268,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
@@ -5324,42 +5276,36 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
     "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Desert Springs Corral",
     "land_use": [
       "Infrastructure",
-      "Grazing",
-      "Agriculture"
+      "Conservation",
+      "Grazing"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pleasant Valley Guzzlers,Solar zone",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5367,8 +5313,7 @@
     "activity": "RIGHT OF WAY,Solar zone,Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5383,8 +5328,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5392,8 +5336,8 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Renewables"
+      "Renewables",
+      "Conservation"
     ]
   },
   {
@@ -5401,8 +5345,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5411,8 +5354,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
@@ -5439,7 +5381,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5456,7 +5398,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5464,7 +5406,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5484,14 +5426,14 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Bottom Canyon Bullhog P/J Removal Phase II,Solar zone",
     "land_use": [
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5500,7 +5442,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
+      "Conservation",
       "Water",
       "Renewables"
     ]
@@ -5510,7 +5452,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5530,7 +5472,7 @@
     "activity": "EASEMENT (SPECIAL),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5551,7 +5493,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5572,7 +5514,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5587,7 +5529,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5595,14 +5537,14 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
     "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Atchee ridge Lop & Scatter",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5610,7 +5552,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5625,7 +5567,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -5648,9 +5590,8 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Fossil Fuels"
+      "Fossil Fuels",
+      "Mining"
     ]
   },
   {
@@ -5664,8 +5605,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
@@ -5673,7 +5613,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -5689,9 +5629,8 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation",
+      "Water"
     ]
   },
   {
@@ -5699,7 +5638,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -5714,7 +5653,7 @@
     "activity": "Grazing contract -  - GRAZING (STANDARD),Phase 4,Range improvement project contract -  - White River Enhancement",
     "land_use": [
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -5723,7 +5662,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
+      "Conservation",
       "Water"
     ]
   },
@@ -5732,18 +5671,15 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
-      "Renewables",
-      "Uncategorized"
+      "Conservation",
+      "Renewables"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5752,8 +5688,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5762,8 +5697,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5778,16 +5712,14 @@
     "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
   {
     "activity": "Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
     "land_use": [
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5795,15 +5727,13 @@
     "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
     "activity": "Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
     "land_use": [
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
@@ -5811,8 +5741,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5825,24 +5754,21 @@
     "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
-      "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Special use contract -",
     "land_use": [
       "Grazing",
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Raven Ridge Harrow,Solar zone",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5878,7 +5804,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5887,8 +5813,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5897,7 +5822,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5906,16 +5831,14 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5930,8 +5853,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5939,8 +5861,7 @@
     "activity": "EASEMENT,Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
     "land_use": [
       "Infrastructure",
-      "Agriculture",
-      "Water",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5948,7 +5869,7 @@
     "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Walker Hollow,Solar zone",
     "land_use": [
       "Grazing",
-      "Agriculture",
+      "Conservation",
       "Renewables"
     ]
   },
@@ -5962,8 +5883,7 @@
     "activity": "EASEMENT,Solar zone,Special use contract -",
     "land_use": [
       "Infrastructure",
-      "Renewables",
-      "Uncategorized"
+      "Renewables"
     ]
   },
   {
@@ -5971,7 +5891,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -5999,7 +5919,7 @@
     "activity": "RIGHT OF WAY,Range improvement project contract -  - FENCE",
     "land_use": [
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -6007,7 +5927,7 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture"
+      "Conservation"
     ]
   },
   {
@@ -6015,8 +5935,8 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
-      "Water"
+      "Water",
+      "Conservation"
     ]
   },
   {
@@ -6049,24 +5969,24 @@
     "activity": "Grazing contract -  - GRAZING (BLOCK),RIGHT OF WAY,Special use contract -",
     "land_use": [
       "Grazing",
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (BLOCK),Range improvement project contract -  - pipeline and troughs - Tabby Mountain",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Infrastructure",
+      "Water",
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (BLOCK),Range improvement project contract -  - Rock Springs Pipe Line",
     "land_use": [
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Infrastructure",
+      "Conservation"
     ]
   },
   {
@@ -6081,8 +6001,8 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
-      "Water"
+      "Water",
+      "Conservation"
     ]
   },
   {
@@ -6090,8 +6010,8 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Agriculture",
-      "Water"
+      "Water",
+      "Conservation"
     ]
   },
   {
@@ -6099,16 +6019,14 @@
     "land_use": [
       "Grazing",
       "Infrastructure",
-      "Agriculture",
       "Water",
-      "Uncategorized"
+      "Conservation"
     ]
   },
   {
     "activity": "Grazing contract -  - GRAZING (BLOCK),TRAVEL DESIGNATION (PRED)",
     "land_use": [
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -6149,14 +6067,12 @@
   {
     "activity": "Land Use Permit,Mineral Lease",
     "land_use": [
-      "Uncategorized",
       "Mining"
     ]
   },
   {
     "activity": "Land Use Permit,Mineral Lease,Oil & Gas",
     "land_use": [
-      "Uncategorized",
       "Mining",
       "Fossil Fuels"
     ]
@@ -6227,9 +6143,7 @@
   {
     "activity": "Communication,Easement Purpose:Ditch,Easement Purpose:Sewer Pipeline,Miscellaneous,Temporary Permit",
     "land_use": [
-      "Infrastructure",
-      "Water",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
@@ -6257,16 +6171,14 @@
     "activity": "Communication,Easement Purpose:UNKNOWN,Land Use Permit,Timber Sale",
     "land_use": [
       "Infrastructure",
-      "Timber",
-      "Uncategorized"
+      "Timber"
     ]
   },
   {
     "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Land Use Permit",
     "land_use": [
       "Infrastructure",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
@@ -6279,22 +6191,19 @@
     "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Temporary Permit",
     "land_use": [
       "Infrastructure",
-      "Grazing",
-      "Uncategorized"
+      "Grazing"
     ]
   },
   {
     "activity": "Communication,Easement Purpose:Pole Line,Land Use Permit,Temporary Permit",
     "land_use": [
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Communication,Land Use Permit,Temporary Permit",
     "land_use": [
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
@@ -6324,34 +6233,32 @@
   {
     "activity": "Easement Purpose:Telephone Line,Miscellaneous",
     "land_use": [
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Permit Range",
     "land_use": [
-      "Grazing"
+      "Uncategorized"
     ]
   },
   {
     "activity": "Easement/Permit Granted by DNR,Permit Range",
     "land_use": [
-      "Grazing",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Communication,Miscellaneous",
     "land_use": [
-      "Infrastructure",
-      "Uncategorized"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Spill Site -  - Oil",
     "land_use": [
-      "Fossil Fuels"
+      "Fossil Fuels",
+      "Mining"
     ]
   },
   {
@@ -6462,21 +6369,19 @@
   {
     "activity": "Direct Sale,Timber Sale",
     "land_use": [
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
     "activity": "Direct Sale",
     "land_use": [
-      "Commercial"
+      "Uncategorized"
     ]
   },
   {
     "activity": "Salvage Sale,Timber Sale",
     "land_use": [
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
@@ -6497,8 +6402,7 @@
     "activity": "Direct Sale,Easement Purpose:Road,Temporary Permit,Timber Sale",
     "land_use": [
       "Infrastructure",
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
@@ -6520,8 +6424,7 @@
   {
     "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Temporary Permit",
     "land_use": [
-      "Infrastructure",
-      "Commercial"
+      "Infrastructure"
     ]
   },
   {
@@ -6529,38 +6432,33 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
     "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Timber Sale",
     "land_use": [
       "Infrastructure",
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
     "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road",
     "land_use": [
-      "Infrastructure",
-      "Commercial"
+      "Infrastructure"
     ]
   },
   {
     "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Salvage Sale,Timber Sale",
     "land_use": [
       "Infrastructure",
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
     "activity": "Direct Sale,Salvage Sale,Timber Sale",
     "land_use": [
-      "Timber",
-      "Commercial"
+      "Timber"
     ]
   },
   {
@@ -6579,7 +6477,7 @@
   {
     "activity": "Submerged Land Lease",
     "land_use": [
-      "Water"
+      "Uncategorized"
     ]
   },
   {

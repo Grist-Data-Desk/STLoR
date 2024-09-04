@@ -33,16 +33,17 @@
 			minZoom: 2
 		});
 
-		// map.scrollZoom.disable();
-		// map.addControl(new maplibregl.NavigationControl());
-		// map.addControl(
-		// 	new maplibregl.GeolocateControl({
-		// 		positionOptions: {
-		// 			enableHighAccuracy: true
-		// 		},
-		// 		trackUserLocation: true
-		// 	})
-		// );
+		map.scrollZoom.disable();
+		map.addControl(new maplibregl.NavigationControl(), 'top-right');
+		map.addControl(
+			new maplibregl.GeolocateControl({
+				positionOptions: {
+					enableHighAccuracy: true
+				},
+				trackUserLocation: true
+			}),
+			'top-left'
+		);
 
 		map.on('load', async () => {
 			map.fitBounds(tabletOrAbove ? INITIAL_BOUNDS.desktop : INITIAL_BOUNDS.mobile);
@@ -64,9 +65,6 @@
 				map.addImage(pattern.combo, imageData, { pixelRatio: devicePixelRatio });
 			});
 
-			const uncategorizedImageData = await convertDataURLToImageData(data.uncategorizedPattern);
-			map.addImage('uncategorized', uncategorizedImageData, { pixelRatio: devicePixelRatio });
-
 			const rightsTypeImageData = await convertDataURLToImageData(data.rightsTypePattern);
 			map.addImage('rights-type', rightsTypeImageData, { pixelRatio: devicePixelRatio });
 		});
@@ -80,22 +78,6 @@
 				const clickedReservation = features[0].properties.reservation_name;
 
 				reservation.set(clickedReservation);
-			}
-		});
-
-		map.on('click', ACREAGE_LAYER_CONFIG.stlors.id, (e) => {
-			const features = map.queryRenderedFeatures(e.point, {
-				layers: ['stlors']
-			});
-
-			if (features.length > 0) {
-				for (const feature of features) {
-					console.log(
-						feature.properties.clipped_acres,
-						feature.properties.land_use,
-						feature.properties.rights_type
-					);
-				}
 			}
 		});
 	});
@@ -117,15 +99,8 @@
 
 <svelte:window bind:innerWidth bind:innerHeight />
 <div class="h-screen w-screen font-sans">
-	<div id="stlor-map" class="h-full w-full grow" />
+	<div id="stlor-map" class="h-full w-full" />
 	{#if map}
-		<!-- {#if innerWidth <= 640}
-			<h1
-				class="border-earth absolute left-[3%] top-0 w-[94%] rounded-b border-x border-b bg-gray-100/75 px-4 py-2 font-serif shadow-xl backdrop-blur"
-			>
-				State trust lands on reservations
-			</h1>
-		{/if} -->
 		<Menu {map} />
 		<Legend />
 		<Search {map} />

@@ -18,7 +18,7 @@
 		.range([0, 450]);
 	$: yScale = scaleBand()
 		.domain(landUses.map((d) => d.land_use))
-		.range([0, landUses.length * 40])
+		.range([0, landUses.length * 45])
 		.padding(0.1);
 </script>
 
@@ -56,13 +56,13 @@
 		{/if}
 	</Description>
 	<svg
-		viewBox="0 0 450 {landUses.length * 40}"
+		viewBox="0 0 450 {displayedLandUses.length * 45}"
 		width="450"
-		height={landUses.length * 40}
+		height={displayedLandUses.length * 45}
 		style="max-width: 100%; height: auto; height: intrinsic;"
 	>
 		<g>
-			{#each landUses as { land_use, acreage }, i}
+			{#each displayedLandUses as { land_use, acreage }, i}
 				<rect
 					x="0"
 					y={yScale(land_use)}
@@ -76,7 +76,7 @@
 						x={xScale(acreage) > 350 ? xScale(acreage) - 10 : xScale(acreage) + 10}
 						y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
 						dy="1.2em"
-						font-size="12"
+						font-size="14"
 						font-family="Basis Grotesque Pro"
 						font-weight="bold"
 						fill={xScale(acreage) > 350 ? 'white' : 'black'}
@@ -87,8 +87,8 @@
 					<text
 						x={xScale(acreage) > 350 ? xScale(acreage) - 10 : xScale(acreage) + 10}
 						y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
-						dy="2.75em"
-						font-size="10"
+						dy="2.6em"
+						font-size="12"
 						font-family="Basis Grotesque Pro"
 						font-style="italic"
 						fill={xScale(acreage) > 350 ? 'white' : 'black'}

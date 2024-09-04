@@ -1,7 +1,6 @@
 export interface Data {
 	reservationStats: Record<string, ReservationStats>;
 	landUsePatterns: { combo: string; pattern: string }[];
-	uncategorizedPattern: string;
 	rightsTypePattern: string;
 }
 

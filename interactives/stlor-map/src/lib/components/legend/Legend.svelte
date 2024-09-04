@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="border-earth bg-smog/75 absolute right-[3%] top-4 grid grid-cols-2 gap-y-2 rounded border p-2 shadow-xl backdrop-blur sm:right-8 sm:top-8"
+	class="border-earth bg-smog/75 absolute left-[6.25rem] top-4 grid grid-cols-2 gap-y-2 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8"
 >
 	{#if $view === 'Acreage'}
 		<div class="stack-h stack-h-xs items-center">

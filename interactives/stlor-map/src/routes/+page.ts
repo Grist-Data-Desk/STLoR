@@ -7,9 +7,6 @@ export async function load({ fetch }) {
 	const landUsePatterns = await fetch('/land-use-patterns.json').then(
 		(r) => r.json() as Promise<{ combo: string; pattern: string }[]>
 	);
-	const uncategorizedPattern = await fetch('/uncategorized-pattern.json').then(
-		(r) => r.json() as Promise<string>
-	);
 	const rightsTypePattern = await fetch('/rights-type-pattern.json').then(
 		(r) => r.json() as Promise<string>
 	);
@@ -17,7 +14,6 @@ export async function load({ fetch }) {
 	return {
 		reservationStats,
 		landUsePatterns,
-		uncategorizedPattern,
 		rightsTypePattern
 	};
 }

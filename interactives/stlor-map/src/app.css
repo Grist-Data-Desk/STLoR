@@ -73,3 +73,22 @@
 		margin-inline-start: 0;
 	}
 }
+
+#stlor-map .maplibregl-ctrl-top-left {
+	@apply left-14 right-auto top-4 sm:bottom-8 sm:left-[336px] sm:top-auto;
+}
+
+#stlor-map .maplibregl-ctrl.maplibregl-ctrl-group {
+	@apply m-0 rounded border border-solid border-earth bg-smog/75 shadow backdrop-blur;
+}
+
+#stlor-map .maplibregl-ctrl-geolocate,
+#stlor-map .maplibregl-ctrl-zoom-in,
+#stlor-map .maplibregl-ctrl-zoom-out,
+#stlor-map .maplibregl-ctrl-compass {
+	@apply h-8 w-8;
+}
+
+#stlor-map .maplibregl-ctrl-top-right {
+	@apply bottom-auto right-[3%] top-4 sm:bottom-10 sm:right-8 sm:top-auto;
+}

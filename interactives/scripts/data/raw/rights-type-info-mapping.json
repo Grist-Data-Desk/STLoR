@@ -1,0 +1,88 @@
+[
+  {
+    "rights_type_info": "Mineral Rights: Oil and gas, Coal, and Other minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Oil and gas and Other minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Oil and gas only",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal and Other minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal,Oil & Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Oil & Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal,Oil & gas,Other Min",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal,Other Min",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Oil & gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal,Oil & gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Other Min",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Oil & gas,Other Min",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "rights_type_info": "Mineral Rights: Coal",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  }
+]

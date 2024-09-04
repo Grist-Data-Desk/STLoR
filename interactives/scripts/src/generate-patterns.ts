@@ -140,41 +140,6 @@ function createTriColorLinePattern(
   return canvas.toDataURL("image/png");
 }
 
-function createUncategorizedPattern(size = 32): string {
-  const canvas = createCanvas(size, size);
-  canvas.width = size;
-  canvas.height = size;
-  const ctx = canvas.getContext("2d");
-
-  if (!ctx) {
-    return "";
-  }
-
-  ctx.fillStyle = "white";
-  ctx.fillRect(0, 0, size, size);
-
-  ctx.lineWidth = size / 16;
-  ctx.strokeStyle = "gray";
-
-  ctx.moveTo(size * (1 / 8), size * (1 / 8));
-  ctx.lineTo(size * (5 / 8), size * (1 / 8));
-  ctx.stroke();
-
-  ctx.moveTo(size * (3 / 8), size * (3 / 8));
-  ctx.lineTo(size * (7 / 8), size * (3 / 8));
-  ctx.stroke();
-
-  ctx.moveTo(size * (1 / 8), size * (5 / 8));
-  ctx.lineTo(size * (5 / 8), size * (5 / 8));
-  ctx.stroke();
-
-  ctx.moveTo(size * (3 / 8), size * (7 / 8));
-  ctx.lineTo(size * (7 / 8), size * (7 / 8));
-  ctx.stroke();
-
-  return canvas.toDataURL("image/png");
-}
-
 /**
  * Identify the unique combinations of land uses present in the dataset.
  *
@@ -210,15 +175,6 @@ async function main() {
   ) as FeatureCollection<Polygon, ProcessedParcelProperties>;
 
   const combinations = identifyLandUseCombinations(stlors);
-
-  combinations
-    .filter(
-      (combo) =>
-        combo.split(", ").length === 1 && !combo.includes("Uncategorized")
-    )
-    .forEach((combo) => {
-      console.log(combo);
-    });
 
   const dualPatterns = combinations
     .filter(
@@ -257,13 +213,6 @@ async function main() {
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/land-use-patterns.json"),
     JSON.stringify(patterns, null, 2)
-  );
-
-  const uncategorizedPattern = createUncategorizedPattern();
-
-  await fs.writeFile(
-    path.resolve(__dirname, "../data/processed/uncategorized-pattern.json"),
-    JSON.stringify(uncategorizedPattern, null, 2)
   );
 
   const rightsTypePattern = createDualColorHatchPattern("#3877f3", "#3c3830");

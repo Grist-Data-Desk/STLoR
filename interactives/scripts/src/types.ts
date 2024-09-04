@@ -63,6 +63,15 @@ export interface LandUseMapping {
 }
 
 /**
+ * Represents a mapping from a parcel's rights type info string to an array of
+ * land uses.
+ */
+export interface RightsTypeInfoMapping {
+  rights_type_info: string;
+  land_use: LandUse[];
+}
+
+/**
  * Represents the GeoJSON feature properties associated with a reservation.
  */
 export interface ReservationProperties {

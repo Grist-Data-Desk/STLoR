@@ -6,8 +6,8 @@
   "scripts": {
     "build": "pnpm run process:parcels && pnpm run process:reservations && pnpm run gen:patterns && pnpm run gen:pmtiles",
     "deploy:stlor-map": "tsc && node --env-file=.env dist/deploy-stlor-map.js",
-    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js && cp data/processed/stlors.pmtiles ../stlor-map/static/stlors.pmtiles && cp data/processed/reservations.pmtiles ../stlor-map/static/reservations.pmtiles",
-    "gen:patterns": "tsc && node dist/generate-patterns.js && cp data/processed/land-use-patterns.json ../stlor-map/static/land-use-patterns.json && cp data/processed/rights-type-pattern.json ../stlor-map/static/rights-type-pattern.json && cp data/processed/uncategorized-pattern.json ../stlor-map/static/uncategorized-pattern.json",
+    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js",
+    "gen:patterns": "tsc && node dist/generate-patterns.js && cp data/processed/land-use-patterns.json ../stlor-map/static/land-use-patterns.json && cp data/processed/rights-type-pattern.json ../stlor-map/static/rights-type-pattern.json",
     "process:parcels": "tsc && node dist/process-parcels.js",
     "process:reservations": "tsc && node dist/process-reservations.js && cp data/processed/reservation-stats.json ../stlor-map/static/reservation-stats.json",
     "store:csv": "tsc && node --env-file=.env dist/store-csv.js",

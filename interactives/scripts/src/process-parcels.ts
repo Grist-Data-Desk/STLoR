@@ -6,7 +6,12 @@ import { featureCollection } from "@turf/helpers";
 import type { FeatureCollection, Feature, Polygon } from "geojson";
 import groupBy from "lodash.groupby";
 
-import type { LandUse, ParcelProperties, LandUseMapping } from "./types";
+import type {
+  LandUse,
+  ParcelProperties,
+  LandUseMapping,
+  RightsTypeInfoMapping,
+} from "./types";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -38,16 +43,20 @@ function normalizeParcelRightsType(
  * @param parcel – STLoR parcels.
  * @param landUseMappings – The list of mappings from raw activity strings to
  * land uses.
+ * @param rightsTypeInfoMappings – The list of mappings from raw rights_type_info
+ * strings to land uses.
  * @returns – STLoR parcels with land use information added.
  */
 function enrichParcelsWithLandUse(
   parcels: Feature<Polygon, ParcelProperties>[],
-  landUseMappings: LandUseMapping[]
+  landUseMappings: LandUseMapping[],
+  rightsTypeInfoMappings: RightsTypeInfoMapping[]
 ): Feature<Polygon, ParcelProperties & { land_use: LandUse[] }>[] {
   return parcels.map((parcel) => {
     const activity = parcel.properties.activity;
+    const rightsTypeInfo = parcel.properties.rights_type_info;
 
-    if (!activity) {
+    if (!activity && !rightsTypeInfo) {
       return {
         ...parcel,
         properties: {
@@ -57,10 +66,17 @@ function enrichParcelsWithLandUse(
       };
     }
 
-    const match = landUseMappings.find((entry) => entry.activity === activity);
+    const activityMatch = landUseMappings.find(
+      (entry) => entry.activity === activity
+    );
+    const rightsTypeInfoMatch = rightsTypeInfoMappings.find(
+      (entry) => entry.rights_type_info === rightsTypeInfo
+    );
 
-    if (!match) {
-      console.warn(`No land use found for activity: ${activity}`);
+    if (!activityMatch && !rightsTypeInfoMatch) {
+      console.warn(
+        `No land use found for activity: ${activity} and rights_type_info: ${rightsTypeInfo}`
+      );
 
       return {
         ...parcel,
@@ -69,13 +85,23 @@ function enrichParcelsWithLandUse(
           land_use: ["Uncategorized"],
         },
       };
+    }
+
+    const landUses = new Set<LandUse>();
+
+    if (activityMatch) {
+      activityMatch.land_use.forEach((landUse) => landUses.add(landUse));
+    }
+
+    if (rightsTypeInfoMatch) {
+      rightsTypeInfoMatch.land_use.forEach((landUse) => landUses.add(landUse));
     }
 
     return {
       ...parcel,
       properties: {
         ...parcel.properties,
-        land_use: match.land_use.sort(),
+        land_use: Array.from(landUses).sort(),
       },
     };
   });
@@ -139,13 +165,21 @@ const main = async (): Promise<void> => {
     )
   ) as LandUseMapping[];
 
+  const rightsTypeInfoMappings = JSON.parse(
+    await fs.readFile(
+      path.resolve(__dirname, "../data/raw/rights-type-info-mapping.json"),
+      "utf-8"
+    )
+  ) as RightsTypeInfoMapping[];
+
   const parcelsWithNormalizedRightsType = normalizeParcelRightsType(
     parcels.features
   );
 
   const parcelsWithLandUse = enrichParcelsWithLandUse(
     parcelsWithNormalizedRightsType,
-    landUseMappings
+    landUseMappings,
+    rightsTypeInfoMappings
   );
 
   const parcelsWithRightsTypeDual =
