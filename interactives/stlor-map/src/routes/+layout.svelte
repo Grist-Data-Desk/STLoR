@@ -4,6 +4,6 @@
 	import '../app.css';
 </script>
 
-<div id="stlor-map-root" class="absolute inset-0">
+<div id="stlor-map-root">
 	<slot />
 </div>

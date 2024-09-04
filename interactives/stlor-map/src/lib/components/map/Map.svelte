@@ -98,7 +98,7 @@
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
-<div class="h-screen w-screen font-sans">
+<div class="absolute inset-0 font-sans">
 	<div id="stlor-map" class="h-full w-full" />
 	{#if map}
 		<Menu {map} />
