@@ -51,4 +51,4 @@ export const INITIAL_BOUNDS = {
 	)
 };
 
-export const DO_SPACES_URL = 'https://grist.nyc3.cdn.digitaloceanspaces.com/stlor/data';
+export const DO_SPACES_URL = 'https://grist.nyc3.cdn.digitaloceanspaces.com/stlor';

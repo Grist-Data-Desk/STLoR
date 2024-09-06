@@ -12,14 +12,14 @@ export const SOURCE_CONFIG: Record<string, { id: string; config: SourceSpecifica
 		id: 'stlors',
 		config: {
 			type: 'vector',
-			url: `pmtiles://${DO_SPACES_URL}/pmtiles/stlors.pmtiles`
+			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/stlors.pmtiles`
 		}
 	},
 	reservations: {
 		id: 'reservations',
 		config: {
 			type: 'vector',
-			url: `pmtiles://${DO_SPACES_URL}/pmtiles/reservations.pmtiles`
+			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/reservations.pmtiles`
 		}
 	}
 };

@@ -93,15 +93,17 @@ function enrichParcelsWithLandUse(
       activityMatch.land_use.forEach((landUse) => landUses.add(landUse));
     }
 
-    if (rightsTypeInfoMatch) {
-      rightsTypeInfoMatch.land_use.forEach((landUse) => landUses.add(landUse));
-    }
+    // if (rightsTypeInfoMatch) {
+    //   rightsTypeInfoMatch.land_use.forEach((landUse) => landUses.add(landUse));
+    // }
 
     return {
       ...parcel,
       properties: {
         ...parcel.properties,
-        land_use: Array.from(landUses).sort(),
+        land_use: Array.from(landUses)
+          .filter((landUse) => landUse !== "Uncategorized")
+          .sort(),
       },
     };
   });

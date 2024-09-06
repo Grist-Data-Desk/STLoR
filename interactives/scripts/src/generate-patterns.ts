@@ -6,6 +6,7 @@ import { createCanvas } from "canvas";
 
 import type { FeatureCollection, Polygon } from "geojson";
 import type { ProcessedParcelProperties, LandUse } from "./types";
+import groupBy from "lodash.groupby";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -141,6 +142,42 @@ function createTriColorLinePattern(
 }
 
 /**
+ * Create a quad-color line pattern in canvas.
+ *
+ * @param primaryColor – The primary color of the line pattern.
+ * @param secondaryColor – The secondary color of the line pattern.
+ * @param tertiaryColor – The tertiary color of the line pattern.
+ * @param quaternaryColor – The quaternary color of the line pattern.
+ * @param size – The size of the canvas, drawn as a square.
+ * @returns – The data URL of the line pattern.
+ */
+function createQuadColorLinePattern(
+  primaryColor: string,
+  secondaryColor: string,
+  tertiaryColor: string,
+  quaternaryColor: string,
+  size = 32
+): string {
+  const canvas = createCanvas(size, size);
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d");
+
+  if (!ctx) {
+    return "";
+  }
+
+  const colors = [primaryColor, secondaryColor, tertiaryColor, quaternaryColor];
+
+  for (let i = 0; i < colors.length; i++) {
+    ctx.fillStyle = colors[i];
+    ctx.fillRect((size / 4) * i, 0, size / 4, size);
+  }
+
+  return canvas.toDataURL("image/png");
+}
+
+/**
  * Identify the unique combinations of land uses present in the dataset.
  *
  * @param stlors – STLoRs.
@@ -175,40 +212,61 @@ async function main() {
   ) as FeatureCollection<Polygon, ProcessedParcelProperties>;
 
   const combinations = identifyLandUseCombinations(stlors);
+  const patternsByLength = groupBy(
+    combinations,
+    (combo) => combo.split(", ").length
+  );
 
-  const dualPatterns = combinations
-    .filter(
-      (combo) =>
-        combo.split(", ").length === 2 && !combo.includes("Uncategorized")
-    )
-    .map((combo) => {
-      const colors = combo
-        .split(", ")
-        .map((landUse) => LAND_USE_TO_COLORS[landUse as LandUse]);
+  const patterns = Object.entries(patternsByLength).flatMap(
+    ([length, combos]) => {
+      switch (+length) {
+        case 2:
+          return combos.map((combo) => {
+            const colors = combo
+              .split(", ")
+              .map((landUse) => LAND_USE_TO_COLORS[landUse as LandUse]);
 
-      return {
-        combo,
-        pattern: createDualColorHatchPattern(colors[0], colors[1]),
-      };
-    });
+            return {
+              combo,
+              pattern: createDualColorHatchPattern(colors[0], colors[1]),
+            };
+          });
+        case 3:
+          return combos.map((combo) => {
+            const colors = combo
+              .split(", ")
+              .map((landUse) => LAND_USE_TO_COLORS[landUse as LandUse]);
 
-  const triPatterns = combinations
-    .filter(
-      (combo) =>
-        combo.split(", ").length === 3 && !combo.includes("Uncategorized")
-    )
-    .map((combo) => {
-      const colors = combo
-        .split(", ")
-        .map((landUse) => LAND_USE_TO_COLORS[landUse as LandUse]);
+            return {
+              combo,
+              pattern: createTriColorLinePattern(
+                colors[0],
+                colors[1],
+                colors[2]
+              ),
+            };
+          });
+        case 4:
+          return combos.map((combo) => {
+            const colors = combo
+              .split(", ")
+              .map((landUse) => LAND_USE_TO_COLORS[landUse as LandUse]);
 
-      return {
-        combo,
-        pattern: createTriColorLinePattern(colors[0], colors[1], colors[2]),
-      };
-    });
-
-  const patterns = [...dualPatterns, ...triPatterns];
+            return {
+              combo,
+              pattern: createQuadColorLinePattern(
+                colors[0],
+                colors[1],
+                colors[2],
+                colors[3]
+              ),
+            };
+          });
+        default:
+          return [];
+      }
+    }
+  );
 
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/land-use-patterns.json"),

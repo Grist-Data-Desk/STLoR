@@ -5,10 +5,10 @@
 
 	import Menu from '$lib/components/menu/Menu.svelte';
 	import { SOURCE_CONFIG, LAYER_CONFIG, ACREAGE_LAYER_CONFIG } from '$lib/utils/config';
-	import { BASEMAP_STYLE } from '$lib/utils/style';
 	import { reservation } from '$lib/stores/reservation';
 	import type { Data } from '$lib/types';
-	import { INITIAL_BOUNDS } from '$lib/utils/constants';
+	import { DO_SPACES_URL, INITIAL_BOUNDS } from '$lib/utils/constants';
+	import ExpandLegend from '$lib/components/legend/ExpandLegend.svelte';
 	import Legend from '$lib/components/legend/Legend.svelte';
 	import Search from '$lib/components/search/Search.svelte';
 	import { convertDataURLToImageData } from '$lib/utils/pattern';
@@ -27,7 +27,7 @@
 
 		map = new maplibregl.Map({
 			container: 'stlor-map',
-			style: BASEMAP_STYLE,
+			style: `${DO_SPACES_URL}/styles/style.json`,
 			center: [-105.93, 40.36],
 			zoom: tabletOrAbove ? 8.5 : 7.6,
 			minZoom: 2
@@ -103,6 +103,7 @@
 	{#if map}
 		<Menu {map} />
 		<Legend />
+		<ExpandLegend />
 		<Search {map} />
 	{/if}
 </div>

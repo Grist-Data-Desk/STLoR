@@ -381,7 +381,7 @@
   },
   "Choctaw": {
     "reservation_name": "Choctaw",
-    "acres": 6995550.73,
+    "acres": 6967367.89,
     "land_uses": {
       "top_land_uses": [
         {
@@ -409,9 +409,9 @@
     },
     "bounds": [
       -96.514343,
-      31.766146423000077,
-      -88.68288570599998,
-      35.68487614400004
+      33.615787,
+      -94.431596,
+      35.458895
     ],
     "stl_total_acres": 47069.62,
     "stl_subsurface_acres": 47069.62,
@@ -1103,7 +1103,7 @@
   },
   "Iowa": {
     "reservation_name": "Iowa",
-    "acres": 242350.66,
+    "acres": 230199.13,
     "land_uses": {
       "top_land_uses": [
         {
@@ -1132,8 +1132,8 @@
     "bounds": [
       -97.248539,
       35.640259,
-      -95.31784950599996,
-      40.02788887600005
+      -96.909156,
+      36.026747
     ],
     "stl_total_acres": 7732.22,
     "stl_subsurface_acres": 7203.18,

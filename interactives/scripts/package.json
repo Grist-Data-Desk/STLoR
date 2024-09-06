@@ -12,7 +12,8 @@
     "process:reservations": "tsc && node dist/process-reservations.js && cp data/processed/reservation-stats.json ../stlor-map/static/reservation-stats.json",
     "store:csv": "tsc && node --env-file=.env dist/store-csv.js",
     "store:png": "tsc && node --env-file=.env dist/store-png.js",
-    "store:pmtiles": "tsc && node --env-file=.env dist/store-pmtiles.js"
+    "store:pmtiles": "tsc && node --env-file=.env dist/store-pmtiles.js",
+    "store:styles": "tsc && node --env-file=.env dist/store-styles.js"
   },
   "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
   "devDependencies": {

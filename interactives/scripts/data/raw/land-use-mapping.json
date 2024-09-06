@@ -5128,7 +5128,7 @@
     "land_use": [
       "Infrastructure",
       "Grazing",
-      "Convservation"
+      "Conservation"
     ]
   },
   {
@@ -5443,7 +5443,6 @@
       "Grazing",
       "Infrastructure",
       "Conservation",
-      "Water",
       "Renewables"
     ]
   },

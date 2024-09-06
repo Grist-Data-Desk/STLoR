@@ -1,50 +1,23 @@
 <script lang="ts">
+	import AcreageLegend from '$lib/components/legend/AcreageLegend.svelte';
+	import LandUseLegend from '$lib/components/legend/LandUseLegend.svelte';
+	import RightsTypeLegend from '$lib/components/legend/RightsTypeLegend.svelte';
+	import { legendOpen } from '$lib/stores/legend';
 	import { view } from '$lib/stores/view';
-	import { LAND_USE_TO_COLORS, RIGHTS_TYPE_TO_COLORS } from '$lib/utils/constants';
 </script>
 
 <div
-	class="border-earth bg-smog/75 absolute left-[6.25rem] top-4 grid grid-cols-2 gap-y-2 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8"
+	class="border-earth bg-smog/75 absolute right-14 top-14 grid grid-cols-2 gap-1 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8 sm:gap-2"
+	class:rounded-tr-none={$legendOpen}
+	class:hidden={!$legendOpen}
+	class:grid-cols-2={$view === 'Acreage' || $view === 'Rights type'}
+	class:grid-cols-3={$view === 'Land use'}
 >
 	{#if $view === 'Acreage'}
-		<div class="stack-h stack-h-xs items-center">
-			<div class="bg-primary border-primary h-4 w-4 border bg-opacity-75 sm:h-5 sm:w-5" />
-			<span class="font-sans-alt text-xs sm:text-sm">Parcel</span>
-		</div>
-		<div class="stack-h stack-h-xs items-center">
-			<div
-				class="bg-secondary border-secondary relative h-4 w-4 border-[3px] bg-opacity-10 sm:h-5 sm:w-5"
-			>
-				<div
-					class="border-secondary absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 transform border sm:h-3 sm:w-3"
-				/>
-			</div>
-			<span class="font-sans-alt text-xs sm:text-sm">Reservation</span>
-		</div>
+		<AcreageLegend />
 	{:else if $view === 'Land use'}
-		{#each Object.entries(LAND_USE_TO_COLORS) as [landUse, color]}
-			<div class="stack-h stack-h-xs items-center">
-				<div
-					class="h-4 w-4 border bg-opacity-75 sm:h-5 sm:w-5"
-					style="background-color: {color}; border-color: {color};"
-				/>
-				<span class="font-sans-alt text-xs sm:text-sm">{landUse}</span>
-			</div>
-		{/each}
+		<LandUseLegend />
 	{:else if $view === 'Rights type'}
-		<div class="stack-h stack-h-xs items-center">
-			<div
-				class="h-4 w-4 border bg-opacity-75 sm:h-5 sm:w-5"
-				style="background-color: {RIGHTS_TYPE_TO_COLORS.surface}"
-			/>
-			<span class="font-sans-alt text-xs sm:text-sm">Surface</span>
-		</div>
-		<div class="stack-h stack-h-xs items-center">
-			<div
-				class="h-4 w-4 border bg-opacity-75 sm:h-5 sm:w-5"
-				style="background-color: {RIGHTS_TYPE_TO_COLORS.subsurface}"
-			/>
-			<span class="font-sans-alt text-xs sm:text-sm">Subsurface</span>
-		</div>
+		<RightsTypeLegend />
 	{/if}
 </div>
