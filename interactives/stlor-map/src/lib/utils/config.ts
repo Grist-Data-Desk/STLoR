@@ -339,17 +339,6 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'line-width': 1
 		}
 	},
-	commercialInfrastructure: {
-		id: 'commercial-infrastructure',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Commercial","Infrastructure"]'],
-		paint: {
-			'fill-pattern': 'Commercial, Infrastructure',
-			'fill-opacity': 0.75
-		}
-	},
 	agricultureInfrastructure: {
 		id: 'agriculture-infrastructure',
 		source: 'stlors',
@@ -358,6 +347,17 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'land_use'], '["Agriculture","Infrastructure"]'],
 		paint: {
 			'fill-pattern': 'Agriculture, Infrastructure',
+			'fill-opacity': 0.75
+		}
+	},
+	commercialInfrastructure: {
+		id: 'commercial-infrastructure',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Commercial","Infrastructure"]'],
+		paint: {
+			'fill-pattern': 'Commercial, Infrastructure',
 			'fill-opacity': 0.75
 		}
 	},
@@ -405,6 +405,17 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'fill-opacity': 0.75
 		}
 	},
+	conservationGrazing: {
+		id: 'conservation-grazing',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing"]'],
+		paint: {
+			'fill-pattern': 'Conservation, Grazing',
+			'fill-opacity': 0.75
+		}
+	},
 	agricultureGrazing: {
 		id: 'agriculture-grazing',
 		source: 'stlors',
@@ -427,6 +438,17 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'fill-opacity': 0.75
 		}
 	},
+	conservationInfrastructure: {
+		id: 'conservation-infrastructure',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Conservation","Infrastructure"]'],
+		paint: {
+			'fill-pattern': 'Conservation, Infrastructure',
+			'fill-opacity': 0.75
+		}
+	},
 	fossilFuelsMining: {
 		id: 'fossil-fuels-mining',
 		source: 'stlors',
@@ -435,17 +457,6 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'land_use'], '["Fossil Fuels","Mining"]'],
 		paint: {
 			'fill-pattern': 'Fossil Fuels, Mining',
-			'fill-opacity': 0.75
-		}
-	},
-	agricultureWater: {
-		id: 'agriculture-water',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Water"]'],
-		paint: {
-			'fill-pattern': 'Agriculture, Water',
 			'fill-opacity': 0.75
 		}
 	},
@@ -460,6 +471,17 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'fill-opacity': 0.75
 		}
 	},
+	conservationRenewables: {
+		id: 'conservation-renewables',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Conservation","Renewables"]'],
+		paint: {
+			'fill-pattern': 'Conservation, Renewables',
+			'fill-opacity': 0.75
+		}
+	},
 	recreationTimber: {
 		id: 'recreation-timber',
 		source: 'stlors',
@@ -468,6 +490,28 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'land_use'], '["Recreation","Timber"]'],
 		paint: {
 			'fill-pattern': 'Recreation, Timber',
+			'fill-opacity': 0.75
+		}
+	},
+	infrastructureTimber: {
+		id: 'infrastructure-timber',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Infrastructure","Timber"]'],
+		paint: {
+			'fill-pattern': 'Infrastructure, Timber',
+			'fill-opacity': 0.75
+		}
+	},
+	grazingTimber: {
+		id: 'grazing-timber',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Grazing","Timber"]'],
+		paint: {
+			'fill-pattern': 'Grazing, Timber',
 			'fill-opacity': 0.75
 		}
 	},
@@ -490,17 +534,6 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'land_use'], '["Grazing","Recreation"]'],
 		paint: {
 			'fill-pattern': 'Grazing, Recreation',
-			'fill-opacity': 0.75
-		}
-	},
-	agricultureInfrastructureRenewables: {
-		id: 'agriculture-infrastructure-renewables',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Infrastructure","Renewables"]'],
-		paint: {
-			'fill-pattern': 'Agriculture, Infrastructure, Renewables',
 			'fill-opacity': 0.75
 		}
 	},
@@ -537,113 +570,58 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'fill-opacity': 0.75
 		}
 	},
-	agricultureGrazingInfrastructure: {
-		id: 'agriculture-grazing-infrastructure',
+	conservationGrazingInfrastructure: {
+		id: 'conservation-grazing-infrastructure',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Grazing","Infrastructure"]'],
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing","Infrastructure"]'],
 		paint: {
-			'fill-pattern': 'Agriculture, Grazing, Infrastructure',
+			'fill-pattern': 'Conservation, Grazing, Infrastructure',
 			'fill-opacity': 0.75
 		}
 	},
-	infrastructureMiningRenewables: {
-		id: 'infrastructure-mining-renewables',
+	agricultureConservationGrazing: {
+		id: 'agriculture-conservation-grazing',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Infrastructure","Mining","Renewables"]'],
+		filter: ['==', ['get', 'land_use'], '["Agriculture","Conservation","Grazing"]'],
 		paint: {
-			'fill-pattern': 'Infrastructure, Mining, Renewables',
+			'fill-pattern': 'Agriculture, Conservation, Grazing',
 			'fill-opacity': 0.75
 		}
 	},
-	fossilFuelsInfrastructureMining: {
-		id: 'fossil-fuels-infrastructure-mining',
+	conservationGrazingRenewables: {
+		id: 'conservation-grazing-renewables',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Fossil Fuels","Infrastructure","Mining"]'],
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing","Renewables"]'],
 		paint: {
-			'fill-pattern': 'Fossil Fuels, Infrastructure, Mining',
+			'fill-pattern': 'Conservation, Grazing, Renewables',
 			'fill-opacity': 0.75
 		}
 	},
-	conservationTimberWater: {
-		id: 'conservation-timber-water',
+	conservationGrazingWater: {
+		id: 'conservation-grazing-water',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Conservation","Timber","Water"]'],
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing","Water"]'],
 		paint: {
-			'fill-pattern': 'Conservation, Timber, Water',
+			'fill-pattern': 'Conservation, Grazing, Water',
 			'fill-opacity': 0.75
 		}
 	},
-	agricultureGrazingWater: {
-		id: 'agriculture-grazing-water',
+	conservationInfrastructureRenewables: {
+		id: 'conservation-infrastructure-renewables',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Grazing","Water"]'],
+		filter: ['==', ['get', 'land_use'], '["Conservation","Infrastructure","Renewables"]'],
 		paint: {
-			'fill-pattern': 'Agriculture, Grazing, Water',
-			'fill-opacity': 0.75
-		}
-	},
-	grazingInfrastructureRenewables: {
-		id: 'grazing-infrastructure-renewables',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Grazing","Infrastructure","Renewables"]'],
-		paint: {
-			'fill-pattern': 'Grazing, Infrastructure, Renewables',
-			'fill-opacity': 0.75
-		}
-	},
-	agricultureGrazingRenewables: {
-		id: 'agriculture-grazing-renewables',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Grazing","Renewables"]'],
-		paint: {
-			'fill-pattern': 'Agriculture, Grazing, Renewables',
-			'fill-opacity': 0.75
-		}
-	},
-	agricultureRenewablesWater: {
-		id: 'agriculture-renewables-water',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Renewables","Water"]'],
-		paint: {
-			'fill-pattern': 'Agriculture, Renewables, Water',
-			'fill-opacity': 0.75
-		}
-	},
-	agricultureInfrastructureWater: {
-		id: 'agriculture-infrastructure-water',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Agriculture","Infrastructure","Water"]'],
-		paint: {
-			'fill-pattern': 'Agriculture, Infrastructure, Water',
-			'fill-opacity': 0.75
-		}
-	},
-	infrastructureRecreationTimber: {
-		id: 'infrastructure-recreation-timber',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Infrastructure","Recreation","Timber"]'],
-		paint: {
-			'fill-pattern': 'Infrastructure, Recreation, Timber',
+			'fill-pattern': 'Conservation, Infrastructure, Renewables',
 			'fill-opacity': 0.75
 		}
 	},
@@ -669,14 +647,80 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 			'fill-opacity': 0.75
 		}
 	},
-	commercialInfrastructureTimber: {
-		id: 'commercial-infrastructure-timber',
+	agricultureGrazingInfrastructure: {
+		id: 'agriculture-grazing-infrastructure',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'land_use'], '["Commercial","Infrastructure","Timber"]'],
+		filter: ['==', ['get', 'land_use'], '["Agriculture","Grazing","Infrastructure"]'],
 		paint: {
-			'fill-pattern': 'Commercial, Infrastructure, Timber',
+			'fill-pattern': 'Agriculture, Grazing, Infrastructure',
+			'fill-opacity': 0.75
+		}
+	},
+	commercialInfrastructureMiningWater: {
+		id: 'commercial-infrastructure-mining-water',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Commercial","Infrastructure","Mining","Water"]'],
+		paint: {
+			'fill-pattern': 'Commercial, Infrastructure, Mining, Water',
+			'fill-opacity': 0.75
+		}
+	},
+	conservationGrazingInfrastructureRenewables: {
+		id: 'conservation-grazing-infrastructure-renewables',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing","Infrastructure","Renewables"]'],
+		paint: {
+			'fill-pattern': 'Conservation, Grazing, Infrastructure, Renewables',
+			'fill-opacity': 0.75
+		}
+	},
+	conservationGrazingInfrastructureWater: {
+		id: 'conservation-grazing-infrastructure-water',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Conservation","Grazing","Infrastructure","Water"]'],
+		paint: {
+			'fill-pattern': 'Conservation, Grazing, Infrastructure, Water',
+			'fill-opacity': 0.75
+		}
+	},
+	fossilFuelsGrazingInfrastructureMining: {
+		id: 'fossil-fuels-grazing-infrastructure-mining',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Fossil Fuels","Grazing","Infrastructure","Mining"]'],
+		paint: {
+			'fill-pattern': 'Fossil Fuels, Grazing, Infrastructure, Mining',
+			'fill-opacity': 0.75
+		}
+	},
+	commercialGrazingInfrastructureRecreation: {
+		id: 'commercial-grazing-infrastructure-recreation',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Commercial","Grazing","Infrastructure","Recreation"]'],
+		paint: {
+			'fill-pattern': 'Commercial, Grazing, Infrastructure, Recreation',
+			'fill-opacity': 0.75
+		}
+	},
+	grazingInfrastructureRecreationTimber: {
+		id: 'grazing-infrastructure-recreation-timber',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		filter: ['==', ['get', 'land_use'], '["Grazing","Infrastructure","Recreation","Timber"]'],
+		paint: {
+			'fill-pattern': 'Grazing, Infrastructure, Recreation, Timber',
 			'fill-opacity': 0.75
 		}
 	}

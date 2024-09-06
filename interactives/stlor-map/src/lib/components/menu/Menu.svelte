@@ -12,9 +12,11 @@
 		RIGHTS_TYPE_LAYER_CONFIG
 	} from '$lib/utils/config';
 	import { view } from '$lib/stores/view';
+	import { slide } from 'svelte/transition';
 
 	export let map: Map;
 	let innerWidth: number;
+	let collapsed: boolean;
 
 	const tabs = [
 		{
@@ -99,7 +101,10 @@
 
 <svelte:window bind:innerWidth />
 <div
-	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 w-[94%] max-w-sm rounded-t border-x border-t p-4 shadow-xl backdrop-blur sm:bottom-auto sm:left-8 sm:top-8 sm:p-6 md:rounded md:border"
+	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 w-[94%] max-w-sm rounded-t border-x border-t p-4 shadow-xl backdrop-blur transition-all duration-300 sm:bottom-auto sm:left-8 sm:top-8 sm:p-6 md:rounded md:border"
+	class:collapsed={collapsed && innerWidth <= 640}
+	class:expanded={!collapsed || innerWidth > 640}
+	transition:slide
 >
 	{#if innerWidth > 640}
 		<h1
@@ -109,10 +114,20 @@
 		</h1>
 	{/if}
 	<div class="stack stack-xs">
-		<Tabs {tabs} on:change={onChange} />
+		<Tabs {tabs} on:change={onChange} bind:collapsed />
 	</div>
 	<div class="stack stack-xs">
 		<h2 class="text-base font-semibold sm:text-lg">Explore other reservations</h2>
 		<ReservationSelect />
 	</div>
 </div>
+
+<style lang="postcss">
+	.collapsed {
+		max-height: 6.375rem;
+	}
+
+	.expanded {
+		max-height: 100%;
+	}
+</style>
