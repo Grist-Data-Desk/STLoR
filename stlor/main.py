@@ -177,6 +177,54 @@ def remove_timber_rows(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf[gdf[RIGHTS_TYPE].str.lower() != "timber"]
 
 
+def remove_river_slivers(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Remove STLs with navigable river and streambed trust beneficiaries on
+    borders.
+
+    Arguments:
+    gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with border river
+    parcels removed"""
+
+    border_rivers = [
+        #Blackfeet
+        '12031',
+        #Fort Peck
+        '11931',
+        '11799',
+        '12096',
+        '12099',
+        '11937',
+        '11824',
+        '12098',
+        '11930',
+        '11934',
+        '11936',
+        '12097',
+        '11933',
+        '11932',
+        '11926',
+        '11927',
+        '11836',
+        '12084',
+        '11830',
+        '11829',
+        '11834',
+        '11833',
+        '11832',
+        #Fort Yuma (Quechan)
+        '589',
+        '588',
+        '594',
+        #Spokane
+        '33924'
+    ]
+    
+    return gdf[~gdf[OBJECT_ID].isin(border_rivers)]
+
+
 def join_activity_info(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     """Join the activity_info and activity_info_2 columns into a single column.
 
@@ -277,6 +325,10 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     # Remove timber parcels from the dataset.
     stl_gdf = remove_timber_rows(stl_gdf)
     logger.info(f"STLoR row count after removing timber parcels: {stl_gdf.shape[0]}")
+
+    # Remove borderline river parcels from the dataset.
+    stl_gdf = remove_river_slivers(stl_gdf)
+    logger.info(f"STLoR row count after removing river sliver polygons: {stl_gdf.shape[0]}")
 
     # Write the output of the activity match process to disk.
     logger.info("Writing activity match output to 03_ActivityMatch.{csv,xlsx,geojson}")
