@@ -93,9 +93,9 @@ function enrichParcelsWithLandUse(
       activityMatch.land_use.forEach((landUse) => landUses.add(landUse));
     }
 
-    // if (rightsTypeInfoMatch) {
-    //   rightsTypeInfoMatch.land_use.forEach((landUse) => landUses.add(landUse));
-    // }
+    if (rightsTypeInfoMatch) {
+      rightsTypeInfoMatch.land_use.forEach((landUse) => landUses.add(landUse));
+    }
 
     return {
       ...parcel,

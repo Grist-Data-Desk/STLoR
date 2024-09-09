@@ -45,6 +45,11 @@
 			'top-left'
 		);
 
+		const popup = new maplibregl.Popup({
+			closeButton: true,
+			closeOnClick: true
+		});
+
 		map.on('load', async () => {
 			map.fitBounds(tabletOrAbove ? INITIAL_BOUNDS.desktop : INITIAL_BOUNDS.mobile);
 
@@ -80,6 +85,28 @@
 				reservation.set(clickedReservation);
 			}
 		});
+
+		map.on('click', ACREAGE_LAYER_CONFIG.stlors.id, (event) => {
+			const parcelPopup = new maplibregl.Popup({
+				closeButton: false,
+				closeOnClick: true
+			});
+
+			if (event.features) {
+				const coordinates = event.lngLat;
+
+				parcelPopup.setLngLat(coordinates);
+				parcelPopup
+					.setHTML(
+						`
+					<div class="">
+					<h2></h2>
+						<p class="text-sm text-earth">Acres: ${event.features[0].properties.acres}</p>
+					</div>`
+					)
+					.addTo(map);
+			}
+		});
 	});
 
 	$: if (map) {
@@ -98,7 +125,7 @@
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
-<div class="absolute inset-0 font-sans">
+<div class="absolute inset-0 overflow-hidden font-sans">
 	<div id="stlor-map" class="h-full w-full" />
 	{#if map}
 		<Menu {map} />

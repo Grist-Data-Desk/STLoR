@@ -92,3 +92,11 @@
 #stlor-map .maplibregl-ctrl-top-right {
 	@apply bottom-auto right-[3%] top-4 sm:bottom-10 sm:right-8 sm:top-auto;
 }
+
+#stlor-map .maplibregl-popup-tip {
+	display: none;
+}
+
+#stlor-map .maplibregl-popup-content {
+	@apply rounded border border-solid border-earth !bg-smog bg-smog/75 p-2 shadow-md backdrop-blur;
+}

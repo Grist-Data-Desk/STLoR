@@ -318,7 +318,9 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		}
 	},
 	water: {
-		id: 'water',
+		// Note: This is a special case where the basemap style already has a layer
+		// with id "water". Thus, we give it the id "water-land-use" to avoid conflicts.
+		id: 'water-land-use',
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
