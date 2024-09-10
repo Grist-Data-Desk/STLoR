@@ -7,7 +7,7 @@ How we investigated state trust lands on reservations
 
 Sept 12, 2024
 
-Over the course of reporting our [investigation](https://grist.org/land-grant-universities-stolen-indigenous-land/) into state trust lands benefiting land-grant universities, we observed thousands of acres of trust lands within tribal reservation boundaries. This repository represents the methods underlying our subsequent follow-up reporting. In it, we have sought to construct a dataset of all state trust lands, irrespective of beneficiary, that fall within reservation borders. The resulting dataset consists of approximately 2 million acres of state trust lands, spread across 15 states, within 79 tribal reservation boundaries.
+Over the course of reporting our [investigation](https://grist.org/land-grant-universities-stolen-indigenous-land/) into state trust lands benefiting land-grant universities, we observed thousands of acres of trust lands within tribal reservation boundaries. This repository represents the methods underlying our subsequent follow-up reporting. In it, we have sought to construct a dataset of all state trust lands, irrespective of beneficiary, that fall within reservation borders. The resulting dataset consists of approximately 2.1 million acres of state trust lands, spread across 15 states, within 79 Indian reservation boundaries.
 
 To identify the types of activities that take place on state trust land parcels, we collected and compared state datasets describing land use. Activities in such data layers include, but are not limited to: active and inactive leases for coal, oil and gas, minerals, agriculture, grazing, commercial use, real estate, water, renewable energies, and easements. We calculated spatial joins between these layers in order to assign land uses to trust-land parcels on reservations. 
 
@@ -24,7 +24,7 @@ Terminology
 
 **PLSS Number:** The surveying method developed and used in the United States to plat, or divide, real property for sale and settling.
 
-**CRS System**: A reference system defining how a map projection in a GIS program relates to and represents real places on Earth. Deciding what CRS to use depends on the regional area of analysis.
+**Coordinate Reference System (CRS)**: A reference system defining how a map projection in a GIS program relates to and represents real places on Earth. Deciding what CRS to use depends on the regional area of analysis.
 
 **Dataframe**: A "two-dimensional" manner of storing and manipulating tabular data, similar to a table with columns and rows.
 
@@ -57,21 +57,21 @@ _(Please see_ [_Appendix A_](https://github.com/Grist-Data-Desk/land-grab-2/blob
 
 ### Step 2: Extract parcels of interest
 
-After acquiring the raw state data, we identified parcels overlapping with tribal reservation areas. The raw state data can be found in the [`01\States Raw Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/01_States%20Raw%20Data) folder.
+After acquiring the raw state data, we identified parcels overlapping with reservation areas. The raw state data can be found in the [`01_States Raw Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/01_States%20Raw%20Data) folder.
 
-We utilized spatial data from the Bureau of Indian Affairs, specifically their [American Indian and Alaska Native Land Area Representation (AIAN-LAR)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_National_LAR/MapServer) and [Tribal Statistical Areas (TSA)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_Tribal_Statistical_Areas/MapServer) data layers. The TSA layer was particularly crucial for identifying Indigenous land in Oklahoma. These spatial files can be found in the [`00\Reservation Layer`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/00_Reservation%20Layer) folder.
+We utilized spatial data from the Bureau of Indian Affairs, specifically their [American Indian and Alaska Native Land Area Representation (AIAN-LAR)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_National_LAR/MapServer) and [Tribal Statistical Areas (TSA)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_Tribal_Statistical_Areas/MapServer) data layers. The TSA layer was particularly crucial for identifying Indigenous land in Oklahoma. These spatial files can be found in the [`00_Reservation Layer`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/00_Reservation%20Layer) folder.
 
 The analysis was conducted in QGIS on a state-by-state basis using the *Extract by location* tool. We selected geometric predicates where parcels from the state trust land layers intersect, overlap, or are within the polygons representing tribal land from the BIA layers. This process also captured information from the BIA layers to indicate which reservation each parcel overlapped.
 
 Following identification and filtration, we reviewed the raw data to identify additional fields relevant to our schema. We included these fields in the data extracted from state servers or spatial files, along with the geometric data locating and mapping the parcels. Typically, we retained geographic data such as Public Land Survey System (PLSS) ID numbers, as well as activity or lease information where available.
 
-For data cleaning purposes, overlapping surface and subsurface acres were saved as separate files. The processing for this step can be found in the [`02\States Overlapping Reservations Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/02_States%20Overlapping%20Reservations%20Data) folder, which shows, by state, the overlapping surface and subsurface parcel files.
+For data cleaning purposes, overlapping surface and subsurface acres were saved as separate files. The processing for this step can be found in the [`02_States Overlapping Reservations Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/02_States%20Overlapping%20Reservations%20Data) folder, which shows, by state, the overlapping surface and subsurface parcel files.
 
 ### Step 3: Clean and merge data
 
 A primary challenge in data cleaning was the diversity of formats across data sources. Key issues included:
 
-- Varying coordinate reference systems (CRS) requiring reprojection
+- Varying coordinate reference systems (CRSs) requiring reprojection
 - Inconsistent trust name references
 - Disparate field contents, with some sources providing detailed information (e.g., location-specific identifiers, land use activity) while others lacked entire categories
 
@@ -93,7 +93,7 @@ We standardized the information for each state in two primary ways:
    - Rights type (surface or subsurface acreage)
    - Locational information
 
-The standardized data can be found in the [`03\States Merged Layers`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/03_States%20Merged%20Layers) folder, which contains merged data for each state.
+The standardized data can be found in the [`03_States Merged Layers`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/03_States%20Merged%20Layers) folder, which contains merged data for each state.
 
 To ensure consistency, we recalculated GIS acreage, addressing cases where states did not provide reported acreage and establishing a standardized reporting method.
 
@@ -180,15 +180,15 @@ For detailed information on data sources and state-specific querying details, pl
 
 Our initial spatial analysis to identify state trust land parcels overlapping with reservation land included parcels that may only partially overlap or exist on reservation edges. This extensive approach provided important context for understanding the issue's landscape, both literally and figuratively, ensuring a comprehensive dataset capturing all areas of overlap.
 
-However, our story's ultimate focus was on how state trust lands interfere with tribal jurisdiction. Therefore, we decided to concentrate on state trust lands explicitly overlapping with reservation land.
+However, our story's ultimate focus was on how state trust lands interfere with tribal jurisdiction. Therefore, we decided to concentrate on state trust lands explicitly overlapping with reservation land. Note that this step does not elimate potential slivering, in which minimal overlap between polygons results in the inclusion of potentially inappropriate geospatial artifacts of extremely narrow width. Such sliver polygons are addressed with a thresholding procedure in the next step.
 
 #### Methodology
 
 To achieve this focused dataset, we employed the following process:
 
-1. **Clipping**: We used QGIS's geoprocessing function to clip the state trust lands layer to the exact outlines of the borders in the Bureau of Indian Affairs (BIA) reservations and tribal statistical area layers.
+1. **Clipping**: We used QGIS's Clip tool to clip the state trust lands layer to the exact outlines of the borders in the Bureau of Indian Affairs (BIA) reservations and tribal statistical area layers.
 
-2. **Projection**: For accuracy, we conducted this analysis in the Conus Albers projection (EPSG: 5070). Both the state trust lands layer and the BIA layers were projected into this coordinate system.
+2. **Projection**: For accuracy, we conducted this analysis in the NAD83 Conus Albers projection (EPSG: 5070). Both the state trust lands layer and the BIA layers were projected into this coordinate system.
 
 #### Data Output
 
@@ -214,7 +214,7 @@ Results of the sensitivity analysis for selected states:
 
 | State      | Original                                            | Acreage change                    | Acreage > 5                                                                                                          | Acreage change                  | Acreage > 7                                                                                                                | Acreage change                  | Acreage > 10                                         | Acreage change                  | Acreage > 13                                                                                                                        | Acreage change                  | Acreage > 15                                         |
 | ---------- | --------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- |
-| Arizona    | # of parcels: 1160<br>Acreage: 41,858.38<br>Notes:  | _Parcel: -1015<br>Acres: -522.81_ | # of parcels: 145<br>Acreage: 41,335.57<br>Notes:                                                                    | _Parcel: -14<br>Acres: 83.56_   | # of parcels: 131<br>Acreage: 41,252.01<br>Notes:                                                                          | _Parcel: -7<br>Acres: 57.28_    | # of parcels: 124<br>Acreage: 41,194.73<br>Notes:    | _Parcel: -0<br>Acres: -0_       | # of parcels: 124<br>Acreage: 41,194.73<br>Notes: Two parcels that are \~15 acres are well within the borders, not just on the edge | _Parcel: -2<br>Acres: -29.02_   | # of parcels: 122<br>Acreage: 41,165.71<br>Notes:    |
+| Arizona    | # of parcels: 1160<br>Acreage: 41,858.38<br>Notes:  | _Parcel: -1015<br>Acres: -522.81_ | # of parcels: 145<br>Acreage: 41,335.57<br>Notes:                                                                    | _Parcel: -14<br>Acres: 83.56_   | # of parcels: 131<br>Acreage: 41,252.01<br>Notes:                                                                          | _Parcel: -7<br>Acres: 57.28_    | # of parcels: 124<br>Acreage: 41,194.73<br>Notes:    | _Parcel: -0<br>Acres: -0_       | # of parcels: 124<br>Acreage: 41,194.73<br>Notes: Two parcels that are _~15 acres are well within the borders, not just on the edge | _Parcel: -2<br>Acres: -29.02_   | # of parcels: 122<br>Acreage: 41,165.71<br>Notes:    |
 | New Mexico | # of parcels: 7421<br>Acreage: 130,088.54<br>Notes: | _Parcel: -4100<br>Acres: -456.28_ | # of parcels: 3321<br>Acreage: 129,632.26<br>Notes: Some parcels under 5 acres were fully within reservation borders | _Parcel: -18<br>Acres: -114.52_ | # of parcels: 3303<br>Acreage: 129,517.7<br>4Notes: A group of parcels around 6 acres was fully within reservation borders | _Parcel: -4<br>Acres: -34.56_   | # of parcels: 3299<br>Acreage: 129,483.18<br>Notes:  | _Parcel: -23<br>Acres: -270.63_ | # of parcels: 3276<br>Acreage: 129,212.55<br>Notes:                                                                                 | _Parcel: -10<br>Acres: -146.01_ | # of parcels: 3266<br>Acreage: 129,066.54<br>Notes:  |
 | Minnesota  | # of parcels: 9627<br>Acreage: 344,891.40<br>Notes: | _Parcel: -719<br>Acres: -352.06_  | # of parcels: 8908<br>Acreage: 344,539.34<br>Notes:                                                                  | _Parcel: -41<br>Acres: -251.33_ | # of parcels: 8867<br>Acreage: 344,288.01<br>Notes: There are some small parcels fully within reservation borders          | _Parcel: -40<br>Acres: -346.97_ | # of parcels: 8827<br>Acreage: 343,941.04<br>Notes:  | _Parcel: -62<br>Acres: -727.19_ | # of parcels: 8765<br>Acreage: 343,213.85<br>Notes:                                                                                 | _Parcel: -41<br>Acres: -567.57_ | # of parcels: 8724<br>Acreage: 342,646.28<br>Notes:  |
 | Montana    | # of parcels: 701<br>Acreage:162,369.62<br>Notes:   | _Parcel: -192<br>Acres: -95.33_   | # of parcels: 509<br>Acreage: 162,274.29<br>Notes:                                                                   | _Parcel: -7<br>Acres: -41.22_   | # of parcels: 502<br>Acreage: 162,233.07<br>Notes:                                                                         | _Parcel: -8<br>Acres: -70.94_   | # of parcels: 494<br>Acreage: 162,162.13<br>Notes:   | _Parcel: -5<br>Acres: -55.05_   | # of parcels: 489<br>Acreage: 162,107.08<br>Notes:                                                                                  | _Parcel: -3<br>Acres: -42.71_   | # of parcels: 486<br>Acreage: 162,064.37<br>Notes:   |
@@ -234,7 +234,7 @@ Summary of dataset versions:
 | Clipped STL parcels; parcels with acreage < 13 culled                           | 27210        | 2,069,926.07  | 79                |
 | Clipped STL parcels; parcels with acreage < 15 culled                           | 27119        | 2,068,648.65  | 79                |
 
-Given the nature of navigable rivers and streambed trusts (and the shifting geological/hydrological nature of borders delineated by rivers), we also decided to remove state trust lands at river bottoms that fall along reservation boundaries. The affected reservations include the Blackfeet, Fort Peck, Fort Yuma (Quechan), and Spokane Reservations. In all but the latter case, the reservations in question remain in the dataset. Spokane has been removed entirely, since the only parcel on Spokane we identified fell in this category. All told, this step removes 689.59 subsurface and 812.38 surface acres across our 2.1M-acre dataset (i.e. we retain 99.93% of the originally estimated acreage).
+Given the nature of navigable rivers and streambed trusts (and the shifting geological/hydrological nature of borders delineated by rivers), we removed state trust lands at river bottoms that fall along reservation boundaries. The affected reservations include the Blackfeet, Fort Peck, Fort Yuma (Quechan), and Spokane Reservations. In all but the latter case, the reservations in question remain in the dataset. Spokane has been removed entirely, since the only parcel on Spokane we identified fell in this category. All told, this step removes 689.59 subsurface and 812.38 surface acres across our 2.1M-acre dataset (i.e. we retain 99.93% of the originally estimated acreage). In the case of the Fort Berthold Reservation, which contains substantive portions of the Missouri River, we retain the relevant trust-land parcels following the river extent, given that these parcels are a) not litigating a border and b) offer opportunity for land uses applicable to our line of inquiry (e.g. pipeline right-of-way). 
 
 Finally, we also integrated Nebraska subsurface acreage into our dataset by manually duplicating the existing clipped surface acreage and geometries. While the Nebraska Board of Educational Lands and Funds (BELF) does not make subsurface parcels digitally available, BELF staff sources confirmed to Grist and High Country News that they own the mineral rights to the parcels in question, and we have thus included them here accordingly.
 
