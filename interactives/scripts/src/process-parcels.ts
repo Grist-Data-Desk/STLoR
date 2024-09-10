@@ -101,9 +101,12 @@ function enrichParcelsWithLandUse(
       ...parcel,
       properties: {
         ...parcel.properties,
-        land_use: Array.from(landUses)
-          .filter((landUse) => landUse !== "Uncategorized")
-          .sort(),
+        land_use:
+          landUses.size > 1 && landUses.has("Uncategorized")
+            ? Array.from(landUses)
+                .filter((landUse) => landUse !== "Uncategorized")
+                .sort()
+            : Array.from(landUses).sort(),
       },
     };
   });
@@ -135,15 +138,16 @@ function enrichParcelsWithRightsTypeDual(
       rightsTypes.includes("surface") &&
       rightsTypes.includes("subsurface");
 
-    const parcel = {
-      ...parcels[0],
-      properties: {
-        ...parcels[0].properties,
-        has_rights_type_dual: hasRightsTypeDual,
-      },
-    };
-
-    return [...acc, parcel];
+    return [
+      ...acc,
+      ...parcels.map((parcel) => ({
+        ...parcel,
+        properties: {
+          ...parcel.properties,
+          has_rights_type_dual: hasRightsTypeDual,
+        },
+      })),
+    ];
   }, []);
 
   return parcelsWithRightsTypeDual;

@@ -789,7 +789,7 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'has_rights_type_dual'], true],
 		paint: {
 			'fill-pattern': 'rights-type',
-			'fill-opacity': 1
+			'fill-opacity': 0.375
 		}
 	}
 };

@@ -10,10 +10,9 @@
 
 <svelte:window bind:innerWidth />
 <div
-	class="border-earth bg-smog/75 absolute right-14 top-14 grid grid-cols-2 gap-1 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8 sm:gap-2"
-	class:hidden={innerWidth <= 640 ? !$legendOpen : false}
-	class:grid-cols-2={$view === 'Acreage' || $view === 'Rights type'}
-	class:grid-cols-3={$view === 'Land use'}
+	class="border-earth bg-smog/75 stack stack-xs absolute right-14 top-14 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8"
+	class:!hidden={innerWidth <= 640 ? !$legendOpen : false}
+	style="max-width: calc(94% - 3rem);"
 >
 	{#if $view === 'Acreage'}
 		<AcreageLegend />

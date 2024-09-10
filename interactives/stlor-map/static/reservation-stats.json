@@ -52,11 +52,11 @@
         },
         {
           "land_use": "Grazing",
-          "acreage": 17.01
+          "acreage": 0
         },
         {
           "land_use": "Agriculture",
-          "acreage": 17.01
+          "acreage": 0
         },
         {
           "land_use": "Infrastructure",
@@ -71,9 +71,9 @@
       -112.22508900399998,
       48.998768377000054
     ],
-    "stl_total_acres": 98.22,
+    "stl_total_acres": 81.21,
     "stl_subsurface_acres": 81.21,
-    "stl_surface_acres": 17.01
+    "stl_surface_acres": 0
   },
   "Bois Forte (Vermillion Lake)": {
     "reservation_name": "Bois Forte (Vermillion Lake)",
@@ -120,11 +120,11 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 6724.61
+          "acreage": 6844.09
         },
         {
           "land_use": "Agriculture",
-          "acreage": 206.85
+          "acreage": 284.78
         },
         {
           "land_use": "Infrastructure",
@@ -177,7 +177,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 133.18
+      "uncategorized_acreage": 254.67
     },
     "bounds": [
       -123.25825890399994,
@@ -215,7 +215,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 632.17
+      "uncategorized_acreage": 1264.34
     },
     "bounds": [
       -114.46107625099995,
@@ -234,7 +234,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 22203.36
+          "acreage": 22243.3
         },
         {
           "land_use": "Grazing",
@@ -310,15 +310,15 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 66599.35
+          "acreage": 71094.46
         },
         {
           "land_use": "Agriculture",
-          "acreage": 4250.23
+          "acreage": 5809
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 474.89
+          "acreage": 512.57
         },
         {
           "land_use": "Grazing",
@@ -329,7 +329,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 2212.43
+      "uncategorized_acreage": 2294.8
     },
     "bounds": [
       -100.00042,
@@ -348,11 +348,11 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 29006.45
+          "acreage": 29329.75
         },
         {
           "land_use": "Agriculture",
-          "acreage": 2033.35
+          "acreage": 2153.84
         },
         {
           "land_use": "Grazing",
@@ -386,7 +386,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 47427.58
+          "acreage": 47909.95
         },
         {
           "land_use": "Grazing",
@@ -424,22 +424,22 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 15768.73
+          "acreage": 16643.69
         },
         {
           "land_use": "Agriculture",
-          "acreage": 1185.08
+          "acreage": 2300.19
         },
         {
           "land_use": "Infrastructure",
           "acreage": 397.44
         },
         {
-          "land_use": "Grazing",
-          "acreage": 0
+          "land_use": "Commercial",
+          "acreage": 38.2
         },
         {
-          "land_use": "Renewables",
+          "land_use": "Grazing",
           "acreage": 0
         }
       ],
@@ -500,15 +500,15 @@
       "top_land_uses": [
         {
           "land_use": "Timber",
-          "acreage": 6310.58
+          "acreage": 16849.61
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 6261.09
+          "acreage": 14376.38
         },
         {
           "land_use": "Grazing",
-          "acreage": 2160.64
+          "acreage": 5546.54
         },
         {
           "land_use": "Fossil Fuels",
@@ -519,7 +519,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 14077.66
+      "uncategorized_acreage": 22197.45
     },
     "bounds": [
       -117.04034434,
@@ -576,7 +576,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 15982.61
+          "acreage": 16022.74
         },
         {
           "land_use": "Grazing",
@@ -690,11 +690,11 @@
       "top_land_uses": [
         {
           "land_use": "Fossil Fuels",
-          "acreage": 70445.42
+          "acreage": 70457.07
         },
         {
           "land_use": "Mining",
-          "acreage": 57642.73
+          "acreage": 57654.38
         },
         {
           "land_use": "Grazing",
@@ -709,7 +709,7 @@
           "acreage": 1803.98
         }
       ],
-      "uncategorized_acreage": 7315.31
+      "uncategorized_acreage": 7512.05
     },
     "bounds": [
       -115.77674693999997,
@@ -727,12 +727,12 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Recreation",
-          "acreage": 187.02
+          "land_use": "Mining",
+          "acreage": 226.66
         },
         {
-          "land_use": "Mining",
-          "acreage": 39.64
+          "land_use": "Recreation",
+          "acreage": 226.66
         },
         {
           "land_use": "Grazing",
@@ -842,7 +842,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 189.29
+          "acreage": 216.51
         },
         {
           "land_use": "Fossil Fuels",
@@ -917,12 +917,12 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Fossil Fuels",
-          "acreage": 1736.1
+          "land_use": "Grazing",
+          "acreage": 1103.47
         },
         {
-          "land_use": "Grazing",
-          "acreage": 1330.74
+          "land_use": "Fossil Fuels",
+          "acreage": 1065.35
         },
         {
           "land_use": "Mining",
@@ -937,7 +937,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 478.65
+      "uncategorized_acreage": 79.9
     },
     "bounds": [
       -106.57844112599997,
@@ -945,9 +945,9 @@
       -104.446997841,
       48.635561705000086
     ],
-    "stl_total_acres": 3534.42,
-    "stl_subsurface_acres": 1725.02,
-    "stl_surface_acres": 1809.4
+    "stl_total_acres": 2237.65,
+    "stl_subsurface_acres": 1054.27,
+    "stl_surface_acres": 1183.38
   },
   "Fort Yuma (Quechan)": {
     "reservation_name": "Fort Yuma (Quechan)",
@@ -955,11 +955,11 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Agriculture",
-          "acreage": 41.04
+          "land_use": "Grazing",
+          "acreage": 0
         },
         {
-          "land_use": "Grazing",
+          "land_use": "Agriculture",
           "acreage": 0
         },
         {
@@ -975,7 +975,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 40.39
+      "uncategorized_acreage": 987.16
     },
     "bounds": [
       -114.73737047199995,
@@ -983,9 +983,9 @@
       -113.40379300099994,
       32.83335968000004
     ],
-    "stl_total_acres": 1156.37,
+    "stl_total_acres": 987.03,
     "stl_subsurface_acres": 619.86,
-    "stl_surface_acres": 536.51
+    "stl_surface_acres": 367.17
   },
   "Grand Portage": {
     "reservation_name": "Grand Portage",
@@ -994,7 +994,7 @@
       "top_land_uses": [
         {
           "land_use": "Recreation",
-          "acreage": 11.32
+          "acreage": 35.13
         },
         {
           "land_use": "Grazing",
@@ -1013,7 +1013,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 151.84
+      "uncategorized_acreage": 163.16
     },
     "bounds": [
       -89.88655094299997,
@@ -1032,7 +1032,7 @@
       "top_land_uses": [
         {
           "land_use": "Grazing",
-          "acreage": 252.63
+          "acreage": 1640.9
         },
         {
           "land_use": "Agriculture",
@@ -1051,7 +1051,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 0
+      "uncategorized_acreage": 1644.19
     },
     "bounds": [
       -112.87619864099997,
@@ -1069,12 +1069,12 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Grazing",
-          "acreage": 15.8
+          "land_use": "Fossil Fuels",
+          "acreage": 29.84
         },
         {
-          "land_use": "Fossil Fuels",
-          "acreage": 14.04
+          "land_use": "Grazing",
+          "acreage": 15.8
         },
         {
           "land_use": "Agriculture",
@@ -1108,15 +1108,15 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 7043.63
-        },
-        {
-          "land_use": "Infrastructure",
-          "acreage": 120.39
+          "acreage": 7203.21
         },
         {
           "land_use": "Agriculture",
-          "acreage": 120.26
+          "acreage": 200.07
+        },
+        {
+          "land_use": "Infrastructure",
+          "acreage": 160.52
         },
         {
           "land_use": "Grazing",
@@ -1127,7 +1127,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 289.67
+      "uncategorized_acreage": 328.99
     },
     "bounds": [
       -97.248539,
@@ -1184,15 +1184,15 @@
       "top_land_uses": [
         {
           "land_use": "Infrastructure",
-          "acreage": 1397.17
+          "acreage": 1494.6
         },
         {
           "land_use": "Commercial",
-          "acreage": 1397.17
+          "acreage": 1494.6
         },
         {
           "land_use": "Agriculture",
-          "acreage": 74
+          "acreage": 97.43
         },
         {
           "land_use": "Grazing",
@@ -1260,19 +1260,19 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 17821.38
+          "acreage": 18054.28
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 1238.86
+          "acreage": 1278.66
         },
         {
           "land_use": "Agriculture",
-          "acreage": 472.08
+          "acreage": 863.42
         },
         {
           "land_use": "Commercial",
-          "acreage": 150.25
+          "acreage": 300.96
         },
         {
           "land_use": "Grazing",
@@ -1298,11 +1298,11 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 1673.72
+          "acreage": 1712.58
         },
         {
           "land_use": "Agriculture",
-          "acreage": 38.86
+          "acreage": 79.92
         },
         {
           "land_use": "Grazing",
@@ -1336,22 +1336,22 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 8515
+          "acreage": 8912.31
         },
         {
           "land_use": "Agriculture",
-          "acreage": 751.99
+          "acreage": 1389.01
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 160.39
+          "acreage": 241
+        },
+        {
+          "land_use": "Commercial",
+          "acreage": 80.56
         },
         {
           "land_use": "Grazing",
-          "acreage": 0
-        },
-        {
-          "land_use": "Renewables",
           "acreage": 0
         }
       ],
@@ -1374,15 +1374,15 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 42788.18
+          "acreage": 43792.9
         },
         {
           "land_use": "Agriculture",
-          "acreage": 3577.19
+          "acreage": 4378.17
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 561.07
+          "acreage": 600.06
         },
         {
           "land_use": "Commercial",
@@ -1393,7 +1393,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 1321.86
+      "uncategorized_acreage": 1361.22
     },
     "bounds": [
       -100.000479,
@@ -1412,7 +1412,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 962.36
+          "acreage": 1003.97
         },
         {
           "land_use": "Agriculture",
@@ -1450,15 +1450,15 @@
       "top_land_uses": [
         {
           "land_use": "Infrastructure",
-          "acreage": 15071.49
+          "acreage": 26296.82
         },
         {
           "land_use": "Commercial",
-          "acreage": 15071.49
+          "acreage": 26296.82
         },
         {
           "land_use": "Agriculture",
-          "acreage": 6006.51
+          "acreage": 10874.12
         },
         {
           "land_use": "Grazing",
@@ -1488,26 +1488,26 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 65193.61
+          "acreage": 126742.91
         },
         {
           "land_use": "Recreation",
-          "acreage": 58708.22
+          "acreage": 117846.98
         },
         {
           "land_use": "Timber",
-          "acreage": 8573.81
+          "acreage": 16991.04
         },
         {
           "land_use": "Conservation",
-          "acreage": 5445.94
+          "acreage": 11944.09
         },
         {
           "land_use": "Grazing",
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 15123.6
+      "uncategorized_acreage": 27923.17
     },
     "bounds": [
       -94.68506909499996,
@@ -1564,19 +1564,19 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 2099.42
+          "acreage": 2830.38
         },
         {
           "land_use": "Timber",
-          "acreage": 311.85
+          "acreage": 429.07
         },
         {
           "land_use": "Recreation",
-          "acreage": 183.75
+          "acreage": 214.06
         },
         {
           "land_use": "Conservation",
-          "acreage": 78.79
+          "acreage": 197.65
         },
         {
           "land_use": "Grazing",
@@ -1602,26 +1602,26 @@
       "top_land_uses": [
         {
           "land_use": "Infrastructure",
-          "acreage": 17661.69
+          "acreage": 17879.91
         },
         {
           "land_use": "Fossil Fuels",
-          "acreage": 12369.94
+          "acreage": 12529.69
         },
         {
           "land_use": "Commercial",
-          "acreage": 10015.69
+          "acreage": 10030.15
         },
         {
           "land_use": "Mining",
-          "acreage": 652.79
+          "acreage": 667.25
         },
         {
           "land_use": "Water",
-          "acreage": 492.37
+          "acreage": 506.83
         }
       ],
-      "uncategorized_acreage": 40.44
+      "uncategorized_acreage": 18955.48
     },
     "bounds": [
       -111.89070623099997,
@@ -1640,15 +1640,15 @@
       "top_land_uses": [
         {
           "land_use": "Infrastructure",
-          "acreage": 6981.81
+          "acreage": 7041.14
         },
         {
           "land_use": "Commercial",
-          "acreage": 6981.81
+          "acreage": 7041.14
         },
         {
           "land_use": "Agriculture",
-          "acreage": 43.35
+          "acreage": 72.63
         },
         {
           "land_use": "Grazing",
@@ -1678,15 +1678,15 @@
       "top_land_uses": [
         {
           "land_use": "Infrastructure",
-          "acreage": 17336.11
+          "acreage": 34243.45
         },
         {
           "land_use": "Agriculture",
-          "acreage": 11673.78
+          "acreage": 24485.25
         },
         {
           "land_use": "Commercial",
-          "acreage": 10195.75
+          "acreage": 19139.07
         },
         {
           "land_use": "Grazing",
@@ -1697,7 +1697,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 198.9
+      "uncategorized_acreage": 21078.24
     },
     "bounds": [
       -108.57240776899994,
@@ -1715,27 +1715,27 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Grazing",
-          "acreage": 2395.78
+          "land_use": "Infrastructure",
+          "acreage": 3540.94
         },
         {
-          "land_use": "Infrastructure",
-          "acreage": 2380.71
+          "land_use": "Grazing",
+          "acreage": 3100.84
         },
         {
           "land_use": "Timber",
-          "acreage": 1274.52
+          "acreage": 1994.7
         },
         {
           "land_use": "Recreation",
-          "acreage": 1003.13
+          "acreage": 1672.8
         },
         {
           "land_use": "Commercial",
-          "acreage": 646.68
+          "acreage": 1194.3
         }
       ],
-      "uncategorized_acreage": 4725.93
+      "uncategorized_acreage": 11728.7
     },
     "bounds": [
       -116.912115558,
@@ -1754,15 +1754,15 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 21112.14
+          "acreage": 21711.95
         },
         {
           "land_use": "Agriculture",
-          "acreage": 1121.16
+          "acreage": 1995.33
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 78.64
+          "acreage": 117.97
         },
         {
           "land_use": "Grazing",
@@ -1773,7 +1773,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 1590.95
+      "uncategorized_acreage": 1631.21
     },
     "bounds": [
       -96.926004,
@@ -1943,6 +1943,10 @@
     "land_uses": {
       "top_land_uses": [
         {
+          "land_use": "Recreation",
+          "acreage": 23.97
+        },
+        {
           "land_use": "Timber",
           "acreage": 11.93
         },
@@ -1957,13 +1961,9 @@
         {
           "land_use": "Infrastructure",
           "acreage": 0
-        },
-        {
-          "land_use": "Renewables",
-          "acreage": 0
         }
       ],
-      "uncategorized_acreage": 23.97
+      "uncategorized_acreage": 35.9
     },
     "bounds": [
       -96.06812849399995,
@@ -2058,15 +2058,15 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 18387.75
+          "acreage": 19020.26
         },
         {
           "land_use": "Agriculture",
-          "acreage": 1105.4
+          "acreage": 2059.47
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 796.66
+          "acreage": 876.31
         },
         {
           "land_use": "Grazing",
@@ -2115,7 +2115,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 0
+      "uncategorized_acreage": 342.55
     },
     "bounds": [
       -111.90957975599997,
@@ -2153,7 +2153,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 0
+      "uncategorized_acreage": 20.7
     },
     "bounds": [
       -110.75311788699997,
@@ -2286,7 +2286,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 120.63
+          "acreage": 161.83
         },
         {
           "land_use": "Grazing",
@@ -2431,44 +2431,6 @@
     "stl_subsurface_acres": 27927.29,
     "stl_surface_acres": 4883.92
   },
-  "Spokane": {
-    "reservation_name": "Spokane",
-    "acres": 158625.43,
-    "land_uses": {
-      "top_land_uses": [
-        {
-          "land_use": "Grazing",
-          "acreage": 0
-        },
-        {
-          "land_use": "Agriculture",
-          "acreage": 0
-        },
-        {
-          "land_use": "Infrastructure",
-          "acreage": 0
-        },
-        {
-          "land_use": "Renewables",
-          "acreage": 0
-        },
-        {
-          "land_use": "Conservation",
-          "acreage": 0
-        }
-      ],
-      "uncategorized_acreage": 18.84
-    },
-    "bounds": [
-      -118.38058896299998,
-      47.79104161400002,
-      -117.72541756499999,
-      48.013592988
-    ],
-    "stl_total_acres": 18.84,
-    "stl_subsurface_acres": 18.84,
-    "stl_surface_acres": 0
-  },
   "Squaxin Island": {
     "reservation_name": "Squaxin Island",
     "acres": 1737.94,
@@ -2495,7 +2457,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 277.56
+      "uncategorized_acreage": 329.83
     },
     "bounds": [
       -123.08919701399996,
@@ -2552,7 +2514,7 @@
       "top_land_uses": [
         {
           "land_use": "Grazing",
-          "acreage": 1408.89
+          "acreage": 4903.53
         },
         {
           "land_use": "Agriculture",
@@ -2571,7 +2533,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 0
+      "uncategorized_acreage": 9707.78
     },
     "bounds": [
       -112.87697653599997,
@@ -2597,11 +2559,11 @@
           "acreage": 197.58
         },
         {
-          "land_use": "Grazing",
-          "acreage": 0
+          "land_use": "Agriculture",
+          "acreage": 38.6
         },
         {
-          "land_use": "Agriculture",
+          "land_use": "Grazing",
           "acreage": 0
         },
         {
@@ -2628,26 +2590,26 @@
       "top_land_uses": [
         {
           "land_use": "Fossil Fuels",
-          "acreage": 253523.71
+          "acreage": 281367.13
         },
         {
           "land_use": "Mining",
-          "acreage": 246724.42
-        },
-        {
-          "land_use": "Grazing",
-          "acreage": 171574.48
+          "acreage": 274567.84
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 171494.07
+          "acreage": 208114.03
+        },
+        {
+          "land_use": "Grazing",
+          "acreage": 202998.24
         },
         {
           "land_use": "Conservation",
-          "acreage": 79156.14
+          "acreage": 88634.35
         }
       ],
-      "uncategorized_acreage": 1749.7
+      "uncategorized_acreage": 2387.89
     },
     "bounds": [
       -112.13863656499996,
@@ -2780,15 +2742,15 @@
       "top_land_uses": [
         {
           "land_use": "Recreation",
-          "acreage": 6432.06
+          "acreage": 12786.93
         },
         {
           "land_use": "Timber",
-          "acreage": 1698.28
+          "acreage": 3307.84
         },
         {
           "land_use": "Conservation",
-          "acreage": 894.82
+          "acreage": 1504.7
         },
         {
           "land_use": "Grazing",
@@ -2799,7 +2761,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 18645.38
+      "uncategorized_acreage": 27627.97
     },
     "bounds": [
       -96.06760972299998,
@@ -2817,12 +2779,12 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Infrastructure",
-          "acreage": 78.83
+          "land_use": "Mining",
+          "acreage": 99.43
         },
         {
-          "land_use": "Mining",
-          "acreage": 40.12
+          "land_use": "Infrastructure",
+          "acreage": 78.83
         },
         {
           "land_use": "Grazing",
@@ -2837,7 +2799,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 4281.04
+      "uncategorized_acreage": 5793.27
     },
     "bounds": [
       -109.47325990399997,
@@ -2875,7 +2837,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 62.54
+      "uncategorized_acreage": 125.08
     },
     "bounds": [
       -121.92679921099995,
@@ -2894,15 +2856,15 @@
       "top_land_uses": [
         {
           "land_use": "Water",
-          "acreage": 7013.56
+          "acreage": 14027.12
         },
         {
           "land_use": "Grazing",
-          "acreage": 1840.98
+          "acreage": 4109.15
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 459.09
+          "acreage": 799.44
         },
         {
           "land_use": "Agriculture",
@@ -2913,7 +2875,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 12964.96
+      "uncategorized_acreage": 73408.8
     },
     "bounds": [
       -121.51284396099999,
@@ -3027,7 +2989,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 4540.18
+      "uncategorized_acreage": 7419.81
     },
     "bounds": [
       -109.60057324599995,

@@ -127,16 +127,13 @@ function createTriColorLinePattern(
   }
 
   ctx.fillStyle = primaryColor;
-  ctx.fillRect(0, 0, size, size / 6);
+  ctx.fillRect(0, 0, size, size / 3);
 
   ctx.fillStyle = secondaryColor;
-  ctx.fillRect(0, size / 6, size, size / 3);
+  ctx.fillRect(0, size / 3, size, size / 3);
 
   ctx.fillStyle = tertiaryColor;
-  ctx.fillRect(0, size / 6 + size / 3, size, size / 3);
-
-  ctx.fillStyle = primaryColor;
-  ctx.fillRect(0, size / 6 + 2 * (size / 3), size, size / 6);
+  ctx.fillRect(0, 2 * (size / 3), size, size / 3);
 
   return canvas.toDataURL("image/png");
 }
@@ -273,7 +270,7 @@ async function main() {
     JSON.stringify(patterns, null, 2)
   );
 
-  const rightsTypePattern = createDualColorHatchPattern("#3877f3", "#3c3830");
+  const rightsTypePattern = createDualColorHatchPattern("#076869", "#79270A");
 
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/rights-type-pattern.json"),

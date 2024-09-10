@@ -6,13 +6,12 @@
 	import ReservationSelect from '$lib/components/menu/ReservationSelect.svelte';
 	import RightsTypePanel from '$lib/components/menu/RightsTypePanel.svelte';
 	import Tabs from '$lib/components/shared/Tabs.svelte';
+	import { view } from '$lib/stores/view';
 	import {
 		ACREAGE_LAYER_CONFIG,
 		LAND_USE_LAYER_CONFIG,
 		RIGHTS_TYPE_LAYER_CONFIG
 	} from '$lib/utils/config';
-	import { view } from '$lib/stores/view';
-	import { slide } from 'svelte/transition';
 
 	export let map: Map;
 	let innerWidth: number;
@@ -101,10 +100,9 @@
 
 <svelte:window bind:innerWidth />
 <div
-	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 w-[94%] max-w-sm rounded-t border-x border-t p-4 shadow-xl backdrop-blur transition-all duration-300 sm:bottom-auto sm:left-8 sm:top-8 sm:p-6 md:rounded md:border"
+	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 w-[94%] max-w-sm rounded-t border-x border-t p-4 shadow-xl backdrop-blur transition-all duration-300 sm:bottom-auto sm:left-8 sm:top-8 sm:p-6 sm:transition-none md:rounded md:border"
 	class:collapsed={collapsed && innerWidth <= 640}
 	class:expanded={!collapsed || innerWidth > 640}
-	transition:slide
 >
 	{#if innerWidth > 640}
 		<h1

@@ -3,15 +3,23 @@
 	import { onDestroy, onMount, getContext } from 'svelte';
 	import * as pmtiles from 'pmtiles';
 
-	import Menu from '$lib/components/menu/Menu.svelte';
-	import { SOURCE_CONFIG, LAYER_CONFIG, ACREAGE_LAYER_CONFIG } from '$lib/utils/config';
-	import { reservation } from '$lib/stores/reservation';
-	import type { Data } from '$lib/types';
-	import { DO_SPACES_URL, INITIAL_BOUNDS } from '$lib/utils/constants';
 	import ExpandLegend from '$lib/components/legend/ExpandLegend.svelte';
 	import Legend from '$lib/components/legend/Legend.svelte';
+	import Menu from '$lib/components/menu/Menu.svelte';
 	import Search from '$lib/components/search/Search.svelte';
+	import { reservation } from '$lib/stores/reservation';
+	import { view } from '$lib/stores/view';
+	import type { Data } from '$lib/types';
+	import {
+		SOURCE_CONFIG,
+		LAYER_CONFIG,
+		ACREAGE_LAYER_CONFIG,
+		LAND_USE_LAYER_CONFIG,
+		RIGHTS_TYPE_LAYER_CONFIG
+	} from '$lib/utils/config';
+	import { DO_SPACES_URL, INITIAL_BOUNDS } from '$lib/utils/constants';
 	import { convertDataURLToImageData } from '$lib/utils/pattern';
+	import { setParcelPopupHTML } from '$lib/utils/popup';
 
 	const data = getContext<Data>('data');
 
@@ -86,25 +94,83 @@
 			}
 		});
 
-		map.on('click', ACREAGE_LAYER_CONFIG.stlors.id, (event) => {
-			const parcelPopup = new maplibregl.Popup({
-				closeButton: false,
-				closeOnClick: true
-			});
+		map.on('click', (event) => {
+			let renderedLayers: string[] = [];
 
-			if (event.features) {
+			switch ($view) {
+				case 'Acreage':
+					renderedLayers = Object.values(ACREAGE_LAYER_CONFIG)
+						.filter((layerConfig) => layerConfig.type === 'fill')
+						.map((config) => config.id);
+					break;
+				case 'Land use':
+					renderedLayers = Object.values(LAND_USE_LAYER_CONFIG)
+						.filter((layerConfig) => layerConfig.type === 'fill')
+						.map((config) => config.id);
+					break;
+				case 'Rights type':
+					renderedLayers = Object.values(RIGHTS_TYPE_LAYER_CONFIG)
+						.filter((layerConfig) => layerConfig.type === 'fill')
+						.map((config) => config.id);
+					break;
+			}
+
+			const features = map.queryRenderedFeatures(event.point, { layers: renderedLayers });
+
+			if (features.length > 0) {
+				const parcelPopup = new maplibregl.Popup({
+					closeButton: false,
+					closeOnClick: true
+				});
+
 				const coordinates = event.lngLat;
+				let index = 0;
 
+				// Pagination functions.
+				function next() {
+					index++;
+					if (index >= features.length) {
+						index = 0;
+					}
+
+					parcelPopup.setHTML(setParcelPopupHTML(features, index));
+
+					document
+						.getElementById(`popup-pagination-previous-${features[index].properties.object_id}`)
+						?.addEventListener('click', previous);
+					document
+						.getElementById(`popup-pagination-next-${features[index].properties.object_id}`)
+						?.addEventListener('click', next);
+				}
+
+				function previous() {
+					index--;
+					if (index < 0) {
+						index = features.length - 1;
+					}
+
+					parcelPopup.setHTML(setParcelPopupHTML(features, index));
+
+					document
+						.getElementById(`popup-pagination-previous-${features[index].properties.object_id}`)
+						?.addEventListener('click', previous);
+					document
+						.getElementById(`popup-pagination-next-${features[index].properties.object_id}`)
+						?.addEventListener('click', next);
+				}
+
+				// Set the popup.
 				parcelPopup.setLngLat(coordinates);
-				parcelPopup
-					.setHTML(
-						`
-					<div class="">
-					<h2></h2>
-						<p class="text-sm text-earth">Acres: ${event.features[0].properties.acres}</p>
-					</div>`
-					)
-					.addTo(map);
+				parcelPopup.setHTML(setParcelPopupHTML(features, index)).addTo(map);
+				map.flyTo({ center: coordinates });
+
+				// Add event listeners.
+				document
+					.getElementById(`popup-pagination-previous-${features[index].properties.object_id}`)
+					?.addEventListener('click', previous);
+				document
+					.getElementById(`popup-pagination-next-${features[index].properties.object_id}`)
+					?.addEventListener('click', next);
 			}
 		});
 	});

@@ -7,7 +7,9 @@ export default {
 				earth: '#3c3830',
 				smog: '#f0f0f0',
 				primary: '#ec6c37',
-				secondary: '#476039'
+				secondary: '#476039',
+				surface: '#374FED',
+				subsurface: '#EDC337'
 			},
 			fontFamily: {
 				sans: '"PolySans", "Open Sans", Helvetica, sans-serif',
