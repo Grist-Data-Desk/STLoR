@@ -1,144 +1,227 @@
+How we investigated state trust lands on reservations
+=====================================================
+
+![](https://grist.org/wp-content/uploads/2024/02/LGU-module2.jpg?quality=75&strip=all)
+
+[Maria Parazo Rose](https://grist.org/author/maria-parazo-rose/), [Clayton Aldern](https://grist.org/author/clayton-aldern/), & [Parker Ziegler](https://parkerziegler.com/)
+
+Sept 12, 2024
+
+Over the course of reporting our [investigation](https://grist.org/land-grant-universities-stolen-indigenous-land/) into state trust lands benefiting land-grant universities, we observed thousands of acres of trust lands within tribal reservation boundaries. This repository represents the methods underlying our subsequent follow-up reporting. In it, we have sought to construct a dataset of all state trust lands, irrespective of beneficiary, that fall within reservation borders. The resulting dataset consists of approximately 2 million acres of state trust lands, spread across 15 states, within 79 tribal reservation boundaries.
+
+To identify the types of activities that take place on state trust land parcels, we collected and compared state datasets describing land use. Activities in such data layers include, but are not limited to: active and inactive leases for coal, oil and gas, minerals, agriculture, grazing, commercial use, real estate, water, renewable energies, and easements. We calculated spatial joins between these layers in order to assign land uses to trust-land parcels on reservations. 
+
+The database administrator can be contacted at <landgrabu@grist.org>. 
+
+If you republish this data or draw on it as a source for publication, cite as: *Parazo Rose, Maria, et al. "State Trust Lands on Reservations Database," Grist.org, September 2024.*
+
+If you leverage this data for [your own reporting](https://grist.org/indigenous/how-to-conduct-your-own-reporting-research-state-trust-lands), please be sure to credit Grist in the story and [please send us](mailto:landgrabu@grist.org) a link.
+
+Terminology
+-----------
+
+**STL Parcels:** State trust land parcels, or land granted to states through enabling acts. The word "parcel" refers to well-defined pieces of land that can range in size and are considered distinct units of property.
+
+**PLSS Number:** The surveying method developed and used in the United States to plat, or divide, real property for sale and settling.
+
+**CRS System**: A reference system defining how a map projection in a GIS program relates to and represents real places on Earth. Deciding what CRS to use depends on the regional area of analysis.
+
+**Dataframe**: A "two-dimensional" manner of storing and manipulating tabular data, similar to a table with columns and rows.
+
+**REST API**: Application programming interface, a type of software interface that allows users to communicate with a computer or system to retrieve information or perform a function. Systems with REST APIs, in particular, optimize client-server interactions and can be scaled up efficiently. 
+
 # State Trust Lands on Reservations Methodology
 
 ## Steps
 
-1. Data acquisition: locate the state trust land parcels for all states
-2. Extract the parcels of interest – aka, the ones that overlap with Indian reservations and Tribal Statistical Areas
-3. Clean and merge the data
-4. Acquire updated state activity data
-5. Conduct a spatial analysis to get information on land use activity
-6. Clip the trust land acreage to the exact boundaries of reservations
-7. Cull the parcels that show no overlap
-8. Create a summary statistics spreadsheet, to show all information by reservation
+1. Acquire data
+2. Extract parcels of interest
+3. Clean and merge data
+4. Acquire updated state activity layers
+5. Join in state activity layers to assign land use
+6. Clip trust land parcels to exact boundaries of reservations
+7. Cull additional parcels with acreage threshold
+8. Compute summary statistics by reservation
 
-### Step 1: Data acquisition
+### Step 1: Acquire data
 
-For this story, the first step was to acquire the raw data of _all_ state trust lands within that state so we could then filter for the parcels that overlapped with Indian reservations and Tribal Statistical Areas. We started by confirming which states still had state trust lands. This required reviewing the state data or contacting state agencies about state trust land history for 30 different states.
+The initial step involved acquiring comprehensive raw data on all state trust lands to identify parcels overlapping with Indian reservations and Tribal Statistical Areas. This process began with a thorough review of state data and consultation with state agencies to confirm the current status of state trust lands across 30 states.
 
-Once we determined which states were states of interest, we started by searching state databases, typically associated with their departments of natural resources, or the equivalent, to find data sources or maps. While most of the target states maintain online spatial data on land use and ownership, not all of that data is immediately available to download or access. For several states, we were able to scrape their online mapping platforms to access their REST servers and then query data through a REST API. For other states, we directly contacted their land management offices to get the most up-to-date information on STL parcels.
+For states of interest, we examined state databases, primarily associated with departments of natural resources or equivalent agencies, to locate relevant data sources and maps. While most target states maintain online spatial data on land use and ownership, accessibility varied. In several instances, we utilized web scraping techniques to access REST servers and query data through REST APIs. For states where data was not readily available online, we directly contacted land management offices to obtain the most current information on state trust land parcels.
 
-Much of this data had been previously collected for our project, Misplaced Trust, which was published in February 2024. However, we added three new states to our analysis: California, Nebraska, and Oregon. We also included analysis for South Dakota and Oklahoma, which were not included in the initial piece about state trust lands on reservations. This was because, for Misplaced Trust, we only collected spatial data for the trust lands that sent revenue to the land grant universities we were interested in, and didn’t yet have the state trust land parcels for _all_ beneficiaries.
+A significant portion of this data had been previously collected for our [Misplaced Trust project](https://grist.org/land-grant-universities-stolen-indigenous-land/), published in February 2024. The current analysis expanded to include California, Nebraska, and Oregon, as well as South Dakota and Oklahoma, which were not featured in our initial reporting on state trust lands on reservations. This expansion allowed for a comprehensive analysis of state trust land parcels across all beneficiaries, rather than solely those benefiting land grant universities.
 
-It's important to note that we could not find information for all of the surface and subsurface state trust lands in Oklahoma and the subsurface state trust lands in South Dakota because of how their data is kept. In both states, not all of their surface or subsurface trust land parcels are digitally mapped. Additionally, the spatial description of some parcels did not match to spatial descriptions in the state PLSS system, which meant no parcels were returned. The difference in how we collected the trust land data between this project and the Misplaced Trust project was that we did not only look at parcels that benefitted land grant universities – we collected all of them.
+It is noteworthy that complete information for all surface and subsurface state trust lands in Oklahoma and subsurface state trust lands in South Dakota was not obtainable due to data management practices in these states. Some parcels lack digital mapping, and in certain cases, spatial descriptions did not align with the state Public Land Survey System (PLSS), resulting in no returned parcels.
 
 _(Please see_ [_Appendix A_](https://github.com/Grist-Data-Desk/land-grab-2/blob/main/APPENDIX-A.md) _for specific notes on the data processing for OK and SD.)_
 
-### Step 2: Extract the STL overlap with reservation areas
+### Step 2: Extract parcels of interest
 
-Once we had the raw state data in hand, we selected the parcels that overlapped with tribal reservation areas. _The raw state data can be found in the `01\_States Raw Data` folder._
+After acquiring the raw state data, we identified parcels overlapping with tribal reservation areas. The raw state data can be found in the [`01\States Raw Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/01_States%20Raw%20Data) folder.
 
-We used spatial data from the Bureau of Indian Affairs, referencing their data layer on [American Indian and Alaska Native Land Area Representation (AIAN-LAR)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_National_LAR/MapServer), as well as their [Tribal Statistical Areas (TSA)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_Tribal_Statistical_Areas/MapServer) data layer. The Tribal Statistical Areas layer was used to identify Indigenous land in Oklahoma specifically. _These spatial files can be found in the `00\_Reservation Layer` folder._
+We utilized spatial data from the Bureau of Indian Affairs, specifically their [American Indian and Alaska Native Land Area Representation (AIAN-LAR)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_National_LAR/MapServer) and [Tribal Statistical Areas (TSA)](https://biamaps.geoplatform.gov/server/rest/services/DivLTR/BIA_AIAN_Tribal_Statistical_Areas/MapServer) data layers. The TSA layer was particularly crucial for identifying Indigenous land in Oklahoma. These spatial files can be found in the [`00\Reservation Layer`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/00_Reservation%20Layer) folder.
 
-We conducted this analysis in QGIS, on a state-by-state basis, using the _Extract by location_ tool. The geometric predicates we selected were where parcels from the state trust land layers **_intersect_**, **_overlap_**, or **_are within_** the polygons representing tribal land from the BIA layers. In this process, we also captured the information from the BIA layers to indicate which reservation the parcel overlapped with.
+The analysis was conducted in QGIS on a state-by-state basis using the *Extract by location* tool. We selected geometric predicates where parcels from the state trust land layers intersect, overlap, or are within the polygons representing tribal land from the BIA layers. This process also captured information from the BIA layers to indicate which reservation each parcel overlapped.
 
-Once identified and filtered, we reviewed the raw data to identify whether there were any additional fields that would be helpful to our schema and included those fields as part of the data we extracted from state servers or the spatial files we were given, in addition to the geometric data that located and mapped the parcels themselves. The information we kept was typically geographic data of some kind, like PLSS ID numbers, though some states provided activity or lease information, which we also kept.
+Following identification and filtration, we reviewed the raw data to identify additional fields relevant to our schema. We included these fields in the data extracted from state servers or spatial files, along with the geometric data locating and mapping the parcels. Typically, we retained geographic data such as Public Land Survey System (PLSS) ID numbers, as well as activity or lease information where available.
 
-We saved the overlapping surface and subsurface acres as separate files, for data cleaning purposes, which will be explained in the next step. _The processing for this step can be found in the `02\_States Overlapping Reservations Data` folder, which shows, by state, the overlapping surface and subsurface parcel files._
+For data cleaning purposes, overlapping surface and subsurface acres were saved as separate files. The processing for this step can be found in the [`02\States Overlapping Reservations Data`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/02_States%20Overlapping%20Reservations%20Data) folder, which shows, by state, the overlapping surface and subsurface parcel files.
 
-### Step 3: Data cleaning and merge
+### Step 3: Clean and merge data
 
-When cleaning this data, one of the main considerations was that nearly all the data sources came in different and incompatible formats: The coordinate reference systems, or CRS, varied and had to be reprojected, the references to the trust names were inconsistent, and some files contained helpful fields, like location-specific identifiers or land use activity, while others were missing entire categories of information.
+A primary challenge in data cleaning was the diversity of formats across data sources. Key issues included:
 
-This was particularly difficult for two states, Oklahoma and South Dakota, which required custom processing based on the format and quality of the initial data provided.
+- Varying coordinate reference systems (CRS) requiring reprojection
+- Inconsistent trust name references
+- Disparate field contents, with some sources providing detailed information (e.g., location-specific identifiers, land use activity) while others lacked entire categories
 
-_(Please see_ [_Appendix A_](https://github.com/Grist-Data-Desk/land-grab-2/blob/main/APPENDIX-A.md) _for specific descriptions of the data processing for OK and SD.)_
+Oklahoma and South Dakota presented particular challenges, necessitating custom processing due to their unique data formats and quality.
 
-Once we narrowed down the data we wanted, we cleaned and standardized the data, and sorted it into a common set of column names. We saved the overlapping subsurface and surface data for each state as both a GeoJSON file and as a CSV. This allowed us to add and manipulate the table data and then rejoin the information to the spatial data.
+*(For detailed information on Oklahoma and South Dakota data processing, please refer to [Appendix A](https://github.com/Grist-Data-Desk/land-grab-2/blob/main/APPENDIX-A.md).)*
 
-We standardized the information for each state in **two** ways. First, we added contextual information like the state enabling act and state managing agency. Second, we ensured that meaningful information from the raw data was kept clearly in the dataset, including the associated trust name (or assigned beneficiary of the revenue from that parcel), the rights type (surface or subsurface acreage), and the locational information. _The data for this step can be found in the `03\_States Merged Layers` folder, which shows the merged data for each state._
+After data selection, we undertook a standardization process:
 
-We also reran the GIS calculated acreage, since not all states provided the reported acreage and so that we would have a standardized way of reporting it.
+1. Cleaning and normalizing the data
+2. Establishing a common set of column names
+3. Saving overlapping subsurface and surface data for each state as both GeoJSON and CSV files, facilitating table data manipulation and subsequent spatial data rejoining
 
-### Step 4: State activity dataset collection
+We standardized the information for each state in two primary ways:
 
-To identify what types of activity currently takes place on these parcels, we collected datasets on different kinds of land use from states, including, but not limited to, active and inactive leases for coal, oil and gas, minerals, agriculture, grazing, commercial use, real estate, water, renewable energies, and easements. We searched state databases or contacted land use offices to acquire spatial data, and we queried data through REST APIs. The information for state land use activity is dated to Spring 2024, with activity datasets collected through April and May of this year.
+1. Adding contextual information (e.g., state enabling act, managing agency)
+2. Preserving meaningful raw data, including:
+   - Associated trust name (or assigned revenue beneficiary)
+   - Rights type (surface or subsurface acreage)
+   - Locational information
 
-For efficiency’s sake, we converted the majority of the datasets to shapefiles for faster processing rather than call state servers each time we ran our activity match operations.
+The standardized data can be found in the [`03\States Merged Layers`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/03_States%20Merged%20Layers) folder, which contains merged data for each state.
 
-_(Please see_ [_Table 1_](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing) _for a list of the data sources referenced for each state, as well as all state-specific querying details.)_
+To ensure consistency, we recalculated GIS acreage, addressing cases where states did not provide reported acreage and establishing a standardized reporting method.
 
-### Step 5: Land use activity match
+### Step 4: Acquire updated state activity layers
 
-We processed the land use activity for all of these state trust land parcels via the same codebase structure that was designed and used for the Misplaced Trust dataset. We offer here a short summary of the process, as well as several important updates that we made to the program functions that added nuance and clarity in the final dataset.
+To identify current land use activities on the identified parcels, we collected diverse datasets from states, including:
 
-### Overall summary:
+- Active and inactive leases for:
+  - Coal
+  - Oil and gas
+  - Minerals
+  - Agriculture
+  - Grazing
+  - Commercial use
+  - Real estate
+  - Water
+  - Renewable energies
+  - Easements
 
-It is important to note that states manage and track land use activity data in a variety of ways. Some states have different datasets for each type of activity, while some combine all land use activity into a single file. Some states indicate whether a certain lease or activity is presently active or not, some specify its precise status (prospecting, drilling, etc.), and some don't include that information at all. Activities might be broadly classified as easement, agriculture, oil and gas, or coal, but some states might include a more specific description about its nature such as "Natural Gas Storage Operations," "Access Road," or "Offset Gas Well Pad." Some states use numbers that require a key to interpret the activity. To accommodate these variations, we used the activity description that struck the best balance between being detailed and being clear, which either meant calling on the value of a specific column or titling the data layer as something general ("Oil and Gas") and using that as the activity name. Users can look at the `activity_match.py` and `state_data_sources.py` files for further detail.
+Data collection methods included:
+1. Searching state databases
+2. Contacting land use offices directly
+3. Querying data through REST APIs
 
-To identify how state trust land parcels are used, we gathered state datasets with spatial information on where land use activities take place. The data came as either points or polygons.
+The land use activity information is current as of Spring 2024, with datasets collected through April and May of the same year.
 
-Because there were so many data points in the information coming from states that were being matched against each row in the Grist dataset, we needed to find a way to expedite the process. Ultimately, we organized the activity datasets from each state into their own [R-trees](https://ia600900.us.archive.org/27/items/nasa_techdoc_19970016975/19970016975.pdf), tree data structures that are used to index multidimensional information, which allowed us to group together nearby parcels (which we will use from here on to mean polygons or points). For point data, we established bounding "envelopes" around each point to create the smallest appropriate polygon. In the diagram below, you can see an example of how nearby parcels are grouped together.
+For processing efficiency, we converted the majority of datasets to shapefiles, reducing the need for repeated server queries during activity match operations.
 
-This data structure works by collecting nearby objects and organizing them with their minimum bounding rectangle. Then, one activity-set-turned-R-tree was compared to our trust land dataset at a time. In that process, a comparison looked at one Grist parcel through an activity's R-tree, which is like a cascading way of identifying what parcels are close together. Whenever a query is conducted to compare another dataset against information in this R-tree, if a parcel does not intersect a given bounding rectangle, then it also cannot intersect any of the contained objects.
+*(For a comprehensive list of data sources and state-specific querying details, please refer to [Table 1](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing).)*
 
-In other words, instead of comparing every parcel in our trust land dataset to every single other activity parcel in all of the state datasets, we are able to do much faster comparisons by looking at bigger areas and then narrowing down to more specific parcels when it's relevant.
+### Step 5: Join in state activity layers to assign land use
 
-### Function updates summary:
+We processed land use activity for state trust land parcels using a codebase structure designed for the Misplaced Trust dataset. This section summarizes the process and highlights important updates to the program functions that enhanced nuance and clarity in the final dataset.
 
-To conduct this activity match with as much accuracy and clarity as possible, we made several updates:
+#### Methodology Overview
 
-- First, we added a field called _activity_info,_ which shows the lease status and the lessee information. Each instance of activity overlap has its own line of corresponding information in the _activity_info_ field, and shows the name of the state activity layer and the activity that matched. This is important to note because the _activity_ column reports what kinds of activities overlap with that parcel, but it tracks each unique instance of an activity. For example, a state trust land parcel in New Mexico might have multiple instances of a Right of Way activity. In the activity column, “Right of way lease” will show up once, but the _activity_info_ column will contain information for each instance of overlap.
+States manage and track land use activity data in diverse ways:
+- Some use separate datasets for each activity type, while others combine all activities into a single file
+- Activity status reporting varies (active, inactive, specific status like prospecting or drilling)
+- Classification methods differ (broad categories vs. specific descriptions)
+- Some states use numerical codes requiring interpretation keys
 
-In this example, this parcel in New Mexico has two instances of a Right of way lease overlap.
+To accommodate these variations, we selected activity descriptions that balanced detail and clarity, either using specific column values or general data layer titles. For more information, refer to the [`activity_match.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/activity_match.py) and [`state_data_sources.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/state_data_sources.py) files.
+
+#### Data Processing
+
+1. Gathered state datasets with spatial information on land use activities (points or polygons)
+2. Organized activity datasets into [R-trees](https://ia600900.us.archive.org/27/items/nasa_techdoc_19970016975/19970016975.pdf) for efficient processing
+3. Established bounding "envelopes" around point data to create minimal appropriate polygons
+4. Compared activity R-trees to our trust land dataset
+
+This approach allowed for faster comparisons by examining larger areas before narrowing down to specific parcels.
+
+#### Function Updates
+
+To enhance accuracy and clarity, we implemented several updates:
+
+1. Added an *activity_info* field showing lease status and lessee information for each activity overlap instance. For example, a parcel in New Mexico with multiple Right of Way lease overlaps:
 
 | activity                              | activity_info                                                                                                                                                                                                                                                                                                                                                                               |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Commercial lease, Rights of way lease | _layer_index: NM-Commercial lease activity: Commercial lease lease_status: ACTIVE lessee: ENERGY MINERALS & NATURAL RES DEPT_<br>_layer_index: NM-Rights of way lease activity: Rights of way lease lease_status: ACTIVE lessee: SOCORRO ELECTRIC COOP INC_<br>_layer_index: NM-Rights of way lease activity: Rights of way lease lease_status: ACTIVE lessee: WESTERN NM TELEPHONE CO INC_ |
 
-Just as a note, some states included information about lease activity in their state trust land layers, like Arizona and New Mexico. We collected that information in the initial state data processing step. Similarly, Oregon, Nebraska, and Oklahoma had associated land use information with their parcels, but did not include lessee information.
+2. Introduced a *rights_type_info* field to reflect mineral rights associated with subsurface parcels
+3. Included information on inactive leases due to their implications for tribal land use management
+4. Adjusted overlap assessment methodology using GeoPandas to improve accuracy
+5. Established a clearer method for assigning rights types to state activity layers:
+   - Surface
+   - Subsurface
+   - Universal
+   - Needs Lookup
 
-- Second, we added a field called _rights_type_info_, to reflect the kind of mineral rights associated with a subsurface parcel without conflating that information as active land use. We did this because several states, Colorado, Utah, and Montana, sent their subsurface data as three separate files to indicate the kind of mineral rights associated: a combination of coal, oil and gas, and other mineral rights. Because this indicates how that land may be used, we did not want to lose that information.
+#### Data Output
 
-- Third, we included information on inactive leases. This is because we looked at state trust lands on reservations, or state owned land on the reservation, and ownership of that land still has implications for tribal land use management, which is the focus of our story.
+The resulting data can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder, with files named to reflect processing steps:
 
-- Fourth, we adjusted the way we assess instances of overlap. This was because we noticed, when reviewing the data in QGIS, that one particular state activity layer with point data that we could see clearly overlapped our state trust land parcels was not being captured when we ran the analysis. We used GeoPandas to work with the geoprocessing in Python, and so expanded how we measured overlap from just looking at the [boundary](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.boundary.html) of a geometry to also looking at the [envelope](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.envelope.html) of a geometry. Ultimately, this change means that the program is better at registering when there is overlap. After making this change, we also tested to see if it changed how much overlap we saw in other states – there was minimal to no change. Users interested in the data can look in the `overlap.py` file, line 310 to see the exact language.
+1. [`01_Initial-Merge`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/01_Initial-Merge): Merged 15 state data layers in EPSG:5070
+2. [`02_SendtoActivityMatch`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/02_SendtoActivityMatch): Updated object ID field and cleaned columns
+3. [`03_ActivityMatch`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/03_ActivityMatch): Final output of the activity match process
 
-- Lastly, we established a clearer method for indicating the rights-type that any given state activity layer should be associated with. A state activity layer is now assigned a rights type of Surface, Subsurface, Universal, or Needs Lookup. Surface and Subsurface rights type assigned to an activity layer means that activity will only match to a state trust land parcel that has that respective rights type. So, agricultural activity layers will only match to surface rights parcels and oil and gas will only match to subsurface rights parcels. Universal rights type means that that activity layer will match to both surface and subsurface parcels, which is relevant for activity layers like Arizona’s Commercial lease layer, which has activities pertinent to both rights types. Needs Lookup activity layers are structured to look at the value of the matching activity and then see what the corresponding rights type should be, as defined in a table. This is relevant in layers where a single activity layer contains a combination of activities that should only correspond to certain rights-types. For example, the Current Leases layer in Washington has information on Grazing Leases, Agricultural Leases, and Mineral Permits – and we want to capture those activities, but only on the appropriate state trust land parcels. The Needs Lookup rights type allows us to identify whether it is a compatible activity with more nuance.
+For detailed information on data sources and state-specific querying details, please refer to [Table 1](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing).
 
-### Data:
+### Step 6: Clip trust land parcels to exact boundaries of reservations
 
-The resulting data from this process can be seen in the `_04\_All States_` folder. Each file is named in such a way that it reflects how the data changed in that step.
+Our initial spatial analysis to identify state trust land parcels overlapping with reservation land included parcels that may only partially overlap or exist on reservation edges. This extensive approach provided important context for understanding the issue's landscape, both literally and figuratively, ensuring a comprehensive dataset capturing all areas of overlap.
 
-- `01\_Initial-Merge`: Each of the 15 state data layers is merged into one, in `EPSG:5070`.
+However, our story's ultimate focus was on how state trust lands interfere with tribal jurisdiction. Therefore, we decided to concentrate on state trust lands explicitly overlapping with reservation land.
 
-- `02\_SendtoActivityMatch`: This data has an updated object ID field and the various columns are cleaned to match (for example, the way the Wyoming layer was saved as a .shp file instead of a GeoJSON, to preserve the projection, cutoff the column names). This layer is renamed as ‘all-states.geojson’ and used in the activity match processing.
+#### Methodology
 
-- `03\_ActivityMatch`: This data is the result of the activity match process.
+To achieve this focused dataset, we employed the following process:
 
-### Step 6: Clip our dataset to the exact boundaries of the reservations
+1. **Clipping**: We used QGIS's geoprocessing function to clip the state trust lands layer to the exact outlines of the borders in the Bureau of Indian Affairs (BIA) reservations and tribal statistical area layers.
 
-Because of how we conducted our spatial analysis to identify the state trust land parcels that overlapped reservation land, we had an additional step to find the exact amount of overlap. In our initial parcel selection process, we included parcels that may only partially overlap with reservation land or may exist on the edges of reservations. We felt that this extensive context is important for understanding the landscape of this issue, literally and figuratively, and ensured that we would end up with a dataset that captured all areas of overlap. However, our ultimate focus for the story was on how the presence of state trust lands interfered with tribal jurisdiction, and we decided to just look at the state trust lands that explicitly overlapped with reservation land.
+2. **Projection**: For accuracy, we conducted this analysis in the Conus Albers projection (EPSG: 5070). Both the state trust lands layer and the BIA layers were projected into this coordinate system.
 
-To do this, we **clipped** the state trust lands layer to follow the exact outlines of the borders in the BIA reservations and tribal statistical area layers mentioned earlier. This is a geoprocessing function in QGIS. For accuracy, we ran this analysis in the Conus Albers projection (EPSG: 5070), meaning both the state trust lands layer and the BIA layers were in that projection.
+#### Data Output
 
-Data:
+The resulting data from this process can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder. The file name reflects the data processing step:
 
-The resulting data from this process can be seen in the `_04\_All States_` folder. Each file is named in such a way that it reflects how the data changed in that step.
+- [`04_Clipped`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/04_Clipped): This dataset has been clipped to the BIA layers and includes a new GIS-calculated column reflecting the updated acreage.
 
-- `04\_Clipped`: This data has been clipped to the BIA layers and has a new GIS calculated column that reflects the new acreage.
+This refined dataset provides a more precise representation of state trust lands directly impacting tribal jurisdictions, aligning with our story's focus while maintaining the broader context established in earlier analysis stages.
 
-### Step 7: Cull unnecessary parcels
+### Step 7: Cull additional parcels with acreage threshold
 
-After we did the **clip** of the state trust land parcels to the tribal lands, we reran the GIS-calculated acreage to determine the new area of each parcel, hereafter referred to as the “clipped acreage”. In the clipping process, some parcels were reduced to a very small area or, in some cases, no area at all. These were instances where the overlap that the clipping function caught were of parcels that may have just been on the border of a reservation, and the resulting clipped acreage reflected a small sliver or line of overlap.
+After clipping the state trust land parcels to tribal lands, we recalculated the GIS acreage to determine the new area of each parcel (referred to as "clipped acreage"). This process revealed some parcels with very small or zero areas, often representing slivers or lines of overlap at reservation borders.
 
-Again, our story focus was on the issue of tribal jurisdiction, so we wanted to be sure that our dataset did not conflate an instance of zero or very little overlap, with an instance of large overlap. To cull these parcels, we followed a few steps:
+To align with our focus on tribal jurisdiction issues, we refined the dataset to exclude instances of minimal overlap:
 
-- First, we took out any parcels where the new clipped acreage was zero.
+1. Removed parcels with zero clipped acreage
+2. Eliminated instances of improper overlap (e.g., Wyoming parcels overlapping with the Crow reservation in Montana)
+3. Conducted a sensitivity analysis on states with high frequencies of checkered state trust land acreage near reservations (Arizona, New Mexico, Minnesota, and Montana)
 
-- Second, we took out any instances of improper overlap. For example, several parcels in Wyoming overlapped with the Crow reservation in Montana, which aligns right up against the border of Wyoming. We took these parcels out, since the Crow reservation is located solely within Montana.
+The sensitivity analysis aimed to identify an appropriate threshold for excluding small parcels while retaining meaningful data. We examined parcels along reservation borders to assess average sizes of clipped parcel slivers, noting instances of small parcels fully within reservation borders. The analysis considered thresholds between 5-15 acres.
 
-- Third, we looked closely at states that had a high frequency of checkered state trust land acreage close to reservation lands, like in Arizona, New Mexico, Minnesota, and Montana. We conducted a sensitivity analysis to see how the total acreage of state trust lands on reservations within these states would change based on how we adjusted the threshold for the size of a parcel to exclude. This threshold was focused on parcel slivers at the edges of reservation boundaries. The goal here was to identify a threshold that would work to get rid of those smaller parcels leftover from the clip analysis, so we could get as accurate a number as possible to show how many acres of state trust lands truly and meaningfully existed on reservation lands.
-
-As part of this process, we looked closely at the parcels along the borders of these states to assess what the average size of a clipped parcel sliver was. This also allowed us to note when some smaller parcels were fully within the borders of a reservation, which meant it was a parcel we wanted to keep, since it was not just a small reflection of overlap but rather, a small state trust land parcel fully on the reservation. For this reason, we kept the range of minimum thresholds here to be 5-15 acres – in these states, acreage higher than 15 was typically within reservation borders.
+Results of the sensitivity analysis for selected states:
 
 | State      | Original                                            | Acreage change                    | Acreage > 5                                                                                                          | Acreage change                  | Acreage > 7                                                                                                                | Acreage change                  | Acreage > 10                                         | Acreage change                  | Acreage > 13                                                                                                                        | Acreage change                  | Acreage > 15                                         |
 | ---------- | --------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- |
-| Arizona    | # of parcels: 1160<br>Acreage: 41,858.38<br>Notes:  | _Parcel: -1015<br>Acres: -522.81_ | # of parcels: 145<br>Acreage: 41,335.57<br>Notes:                                                                    | _Parcel: -14<br>Acres: 83.56_   | # of parcels: 131<br>Acreage: 41,252.01<br>Notes:                                                                          | _Parcel: -7<br>Acres: 57.28_    | # of parcels: 124<br>Acreage: 41,194.73<br>Notes:    | _Parcel: -0<br>Acres: -0_       | # of parcels: 124<br>Acreage: 41,194.73<br>Notes: Two parcels that are \~15 acres are well within the borders, not just on the edge | _Parcel: -2<br>Acres: -29.02_   | # of parcels: 122<br>Acreage: 41,165.71<br>Notes:    |
-| New Mexico | # of parcels: 7421<br>Acreage: 130,088.54<br>Notes: | _Parcel: -4100<br>Acres: -456.28_ | # of parcels: 3321<br>Acreage: 129,632.26<br>Notes: Some parcels under 5 acres were fully within reservation borders | _Parcel: -18<br>Acres: -114.52_ | # of parcels: 3303<br>Acreage: 129,517.7<br>4Notes: A group of parcels around 6 acres was fully within reservation borders | _Parcel: -4<br>Acres: -34.56_   | # of parcels: 3299<br>Acreage: 129,483.18<br>Notes:  | _Parcel: -23<br>Acres: -270.63_ | # of parcels: 3276<br>Acreage: 129,212.55<br>Notes:                                                                                 | _Parcel: -10<br>Acres: -146.01_ | # of parcels: 3266<br>Acreage: 129,066.54<br>Notes:  |
-| Minnesota  | # of parcels: 9627<br>Acreage: 344,891.40<br>Notes: | _Parcel: -719<br>Acres: -352.06_  | # of parcels: 8908<br>Acreage: 344,539.34<br>Notes:                                                                  | _Parcel: -41<br>Acres: -251.33_ | # of parcels: 8867<br>Acreage: 344,288.01<br>Notes: There are some small parcels fully within reservation borders          | _Parcel: -40<br>Acres: -346.97_ | # of parcels: 8827<br>Acreage: 343,941.04<br>Notes:  | _Parcel: -62<br>Acres: -727.19_ | # of parcels: 8765<br>Acreage: 343,213.85<br>Notes:                                                                                 | _Parcel: -41<br>Acres: -567.57_ | # of parcels: 8724<br>Acreage: 342,646.28<br>Notes:  |
-| Montana    | # of parcels: 701<br>Acreage:162,369.62<br>Notes:   | _Parcel: -192<br>Acres: -95.33_   | # of parcels: 509<br>Acreage: 162,274.29<br>Notes:                                                                   | _Parcel: -7<br>Acres: -41.22_   | # of parcels: 502<br>Acreage: 162,233.07<br>Notes:                                                                         | _Parcel: -8<br>Acres: -70.94_   | # of parcels: 494<br>Acreage: 162,162.13<br>Notes:   | _Parcel: -5<br>Acres: -55.05_   | # of parcels: 489<br>Acreage: 162,107.08<br>Notes:                                                                                  | _Parcel: -3<br>Acres: -42.71_   | # of parcels: 486<br>Acreage: 162,064.37<br>Notes:   |
+| Arizona    | # of parcels: 1160<br>Acreage: 41,858.38<br>Notes:  | _Parcel: -1015<br>Acres: -522.81_ | # of parcels: 145<br>Acreage: 41,335.57<br>Notes:                                                                    | _Parcel: -14<br>Acres: 83.56_   | # of parcels: 131<br>Acreage: 41,252.01<br>Notes:                                                                          | _Parcel: -7<br>Acres: 57.28_    | # of parcels: 124<br>Acreage: 41,194.73<br>Notes:    | _Parcel: -0<br>Acres: -0_       | # of parcels: 124<br>Acreage: 41,194.73<br>Notes: Two parcels that are \~15 acres are well within the borders, not just on the edge | _Parcel: -2<br>Acres: -29.02_   | # of parcels: 122<br>Acreage: 41,165.71<br>Notes:    |
+| New Mexico | # of parcels: 7421<br>Acreage: 130,088.54<br>Notes: | _Parcel: -4100<br>Acres: -456.28_ | # of parcels: 3321<br>Acreage: 129,632.26<br>Notes: Some parcels under 5 acres were fully within reservation borders | _Parcel: -18<br>Acres: -114.52_ | # of parcels: 3303<br>Acreage: 129,517.7<br>4Notes: A group of parcels around 6 acres was fully within reservation borders | _Parcel: -4<br>Acres: -34.56_   | # of parcels: 3299<br>Acreage: 129,483.18<br>Notes:  | _Parcel: -23<br>Acres: -270.63_ | # of parcels: 3276<br>Acreage: 129,212.55<br>Notes:                                                                                 | _Parcel: -10<br>Acres: -146.01_ | # of parcels: 3266<br>Acreage: 129,066.54<br>Notes:  |
+| Minnesota  | # of parcels: 9627<br>Acreage: 344,891.40<br>Notes: | _Parcel: -719<br>Acres: -352.06_  | # of parcels: 8908<br>Acreage: 344,539.34<br>Notes:                                                                  | _Parcel: -41<br>Acres: -251.33_ | # of parcels: 8867<br>Acreage: 344,288.01<br>Notes: There are some small parcels fully within reservation borders          | _Parcel: -40<br>Acres: -346.97_ | # of parcels: 8827<br>Acreage: 343,941.04<br>Notes:  | _Parcel: -62<br>Acres: -727.19_ | # of parcels: 8765<br>Acreage: 343,213.85<br>Notes:                                                                                 | _Parcel: -41<br>Acres: -567.57_ | # of parcels: 8724<br>Acreage: 342,646.28<br>Notes:  |
+| Montana    | # of parcels: 701<br>Acreage:162,369.62<br>Notes:   | _Parcel: -192<br>Acres: -95.33_   | # of parcels: 509<br>Acreage: 162,274.29<br>Notes:                                                                   | _Parcel: -7<br>Acres: -41.22_   | # of parcels: 502<br>Acreage: 162,233.07<br>Notes:                                                                         | _Parcel: -8<br>Acres: -70.94_   | # of parcels: 494<br>Acreage: 162,162.13<br>Notes:   | _Parcel: -5<br>Acres: -55.05_   | # of parcels: 489<br>Acreage: 162,107.08<br>Notes:                                                                                  | _Parcel: -3<br>Acres: -42.71_   | # of parcels: 486<br>Acreage: 162,064.37<br>Notes:   |
 
-**Based on the results from these tests, we recommended that parcels with acreage greater than 10 are what should be kept in the dataset.**
+Based on these results, we recommend retaining parcels with acreage greater than 10 in the final dataset.
+
+Summary of dataset versions:
 
 | Dataset version description                                                     | # of Parcels | Total Acreage | # of Reservations |
 | ------------------------------------------------------------------------------- | ------------ | ------------- | ----------------- |
@@ -151,30 +234,72 @@ As part of this process, we looked closely at the parcels along the borders of t
 | Clipped STL parcels; parcels with acreage < 13 culled                           | 27210        | 2,069,926.07  | 79                |
 | Clipped STL parcels; parcels with acreage < 15 culled                           | 27119        | 2,068,648.65  | 79                |
 
-Data:
+Given the nature of navigable rivers and streambed trusts (and the shifting geological/hydrological nature of borders delineated by rivers), we also decided to remove state trust lands at river bottoms that fall along reservation boundaries and are redistributing the data accordingly. The affected reservations include the Blackfeet, Fort Peck, Fort Yuma (Quechan), and Spokane Reservations. In all but the latter case, the reservations in question remain in the dataset. Spokane has been removed, since the only parcel on Spokane we identified fell in this category. All told, we have removed 689.59 subsurface and 812.38 surface acres across our 2.1M-acre dataset (i.e. we retained 99.93% of the originally distributed acreage).
 
-The resulting data from this process can be seen in the `04\_All States` folder. Each file is named in such a way that it reflects how the data changed in that step.
+#### Data Output
 
-- `05\_AcreageGreaterThan10`: This data layer only contains parcels that are larger than 10 acres.
+The resulting data from this process can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder:
 
-- `06\_All-STLs-on-Reservations-Final`: This is the final data layer with all the table information checked and cleaned.
+- [`05_AcreageGreaterThan10`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/05_AcreageGreaterThan10): This data layer contains only parcels larger than 10 acres.
 
-**Step 8: Create summary spreadsheets**
+- [`06_All-STLs-on-Reservations-Final`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/06_All-STLs-on-Reservations-Final): This is the final data layer with all table information checked and cleaned.
 
-Finally, to present this data in a way that allows readers to make sense of the information on a reservation-by-reservation basis, we aggregated the information by reservation. To do this, we used the **Aggregate** tool in QGIS, which allows us to combine the parcels by reservation. For this, we also wanted to delineate the total surface and subsurface acreage (in addition to the total acreage) and parcel count, so we split the file by rights-type to get those totals. We also wanted to capture information on the various trusts associated with each reservation, and so captured each unique instance of that trust name. Lastly, we added the total acreage of the reservation to the spreadsheet.
+### Step 8: Compute summary statistics by reservation
 
-Data:
+To present the data in a format that allows readers to comprehend the information on a reservation-by-reservation basis, we aggregated the data using the following methodology:
 
-The resulting data from this process can be seen in the `05\_Final-Dataset` folder.
+#### Aggregation Process
 
-- `01\_STLs-on-Reservations-by-Reservation`: This data layer contains all the parcels we are focused on, aggregated by reservation.
+1. Utilized the **Aggregate** tool in QGIS to combine parcels by reservation.
+2. Delineated total surface and subsurface acreage, in addition to the total acreage and parcel count.
+3. Split the file by rights-type to obtain these totals.
+4. Captured each unique instance of trust names associated with each reservation.
+5. Added the total acreage of each reservation to the spreadsheet.
 
-- `02\_All-STLs-on-Reservations`: This is the final data layer with all the parcels.
+This process allows for a comprehensive view of state trust lands within each reservation, including:
+- Total acreage (surface and subsurface)
+- Number of parcels
+- Associated trusts
+- Proportion of reservation land affected
+
+#### Data Output
+
+The resulting data from this process can be found in the [`05_Final-Dataset`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset) folder:
+
+1. [`01_STLs-on-Reservations-by-Reservation`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset/01_STLs-on-Reservations-by-Reservation): This data layer contains all the focus parcels, aggregated by reservation.
+
+2. [`02_All-STLs-on-Reservations`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset/02_All-STLs-on-Reservations): This is the final data layer containing all individual parcels.
+
+These final datasets provide a comprehensive and accessible overview of state trust lands on reservations, facilitating analysis and understanding of the impact on tribal jurisdictions.
 
 ## Automation
 
-Since the original QGIS analysis, we have worked to automate a portion of the analysis in Python. We hope this can aid other journalists, developers, and analysts in reproducing our work or modifying the analysis to explore new directions.
+Following the original QGIS analysis, we have developed Python scripts to automate a portion of the analysis. This automation aims to assist journalists, developers, and analysts in reproducing our work or modifying the analysis to explore new directions.
 
-### Changes from the QGIS Analysis
+### Differences from the QGIS Analysis
 
-Our Python scripts aim to faithfully match the original QGIS analysis one-for-one. However, there is one key change we made in Step 8 to compute the aggregated total, surface, and subsurface acres by reservation. In the original analysis, we used the **Aggregate** tool to compute these values by reservation, using the `sum` function to add values from the `clipped_acres` column. However, we noticed that certain subsurface trust land parcels in some states partially overlap, meaning that a straight `sum` aggregation of the `clipped_acres` column will effectively double count the area of overlap. In our Python analysis (`aggregate.py`), we get around this by unioning all surface and subsurface trust lands for each reservation into two `MultiPolygons`—one for surface and subsurface acres, respectively. The total state trust land acreage on a reservation is computed by summing these two values. In short, reported aggregates for each reservation capture the total **non-overlapping** trust lands acreage and thus may be smaller than the values arrived at by summing the `clipped_acres` column directly.
+Our Python scripts are designed to faithfully replicate the original QGIS analysis step-by-step. However, we implemented one significant change in Step 8, which computes the aggregated total, surface, and subsurface acres by reservation.
+
+#### Key Change in Aggregation Method
+
+In the original QGIS analysis:
+- We used the **Aggregate** tool to compute values by reservation.
+- The `sum` function was applied to the `clipped_acres` column.
+
+Issue identified:
+- Certain subsurface trust land parcels in some states partially overlap.
+- A straight `sum` aggregation of the `clipped_acres` column effectively double-counts the area of overlap.
+
+Solution implemented in Python (`aggregate.py`):
+1. For each reservation, we union all surface and subsurface trust lands into two separate `MultiPolygons`:
+   - One for surface acres
+   - One for subsurface acres
+2. The total state trust land acreage on a reservation is computed by summing these two values.
+
+#### Impact of the Change
+
+The reported aggregates for each reservation now capture the total **non-overlapping** trust lands acreage. Consequently, these values may be smaller than those obtained by directly summing the `clipped_acres` column.
+
+This methodological adjustment enhances the accuracy of our acreage calculations, particularly in cases where subsurface parcels overlap.
+
+The Python scripts and associated documentation can be found in the [project repository](https://github.com/Grist-Data-Desk/STLoR). We encourage users to review the code and documentation for a detailed understanding of the automated analysis process.
