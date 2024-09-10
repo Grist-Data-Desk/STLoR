@@ -46,14 +46,18 @@ def concatenate_main_and_supplemental_stls(
 
     Returns:
     gpd.GeoDataFrame -- the concatenation of the state trust lands GeoDataFrame
-    with state trust lands identified from the BIA-AIAN supplemental dataset
+    with state trust lands identified from the BIA-AIAN supplemental dataset and
+    Nebraska subsurface data
     """
     supplemental_stl_gdf = gpd.read_file(
         Path("public_data/04_All States/01d_Supplemental.geojson").resolve()
     )
+    ne_subsurface_gdf = gpd.read_file(
+        Path("public_data/04_All States/01e_Nebraska_Subsurface.geojson").resolve()
+    )
 
     return gpd.GeoDataFrame(
-        pd.concat([stl_gdf, supplemental_stl_gdf], ignore_index=True)
+        pd.concat([stl_gdf, supplemental_stl_gdf, ne_subsurface_gdf], ignore_index=True)
     )
 
 
@@ -282,7 +286,7 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     stl_gdf = gpd.read_file(stl_path)
 
     # Concatenate this dataframe with the supplemental STLs derived from
-    # supplemental.py.
+    # supplemental.py and the Nebraska subsurface parcels in 01e_Nebraska_Subsurface.
     logger.info("Concatenating main and supplemental state trust lands datasets.")
     stl_gdf = concatenate_main_and_supplemental_stls(stl_gdf)
 
