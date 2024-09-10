@@ -236,6 +236,8 @@ Summary of dataset versions:
 
 Given the nature of navigable rivers and streambed trusts (and the shifting geological/hydrological nature of borders delineated by rivers), we also decided to remove state trust lands at river bottoms that fall along reservation boundaries and are redistributing the data accordingly. The affected reservations include the Blackfeet, Fort Peck, Fort Yuma (Quechan), and Spokane Reservations. In all but the latter case, the reservations in question remain in the dataset. Spokane has been removed, since the only parcel on Spokane we identified fell in this category. All told, we have removed 689.59 subsurface and 812.38 surface acres across our 2.1M-acre dataset (i.e. we retained 99.93% of the originally distributed acreage).
 
+Finally, we also integrated Nebraska subsurface acreage into our dataset by manually duplicating the existing clipped surface acreage and geometries. While the Nebraska Board of Educational Lands and Funds (BELF) does not make subsurface parcels digitally available, BELF staff sources confirmed to Grist and High Country News that they own the mineral rights to the parcels in question, and we have thus included them here accordingly.
+
 #### Data Output
 
 The resulting data from this process can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder:
