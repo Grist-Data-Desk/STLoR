@@ -734,7 +734,11 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		source: 'stlors',
 		type: 'fill',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'rights_type'], 'surface'],
+		filter: [
+			'all',
+			['==', ['get', 'rights_type'], 'surface'],
+			['==', ['get', 'has_rights_type_dual'], false]
+		],
 		paint: {
 			'fill-color': RIGHTS_TYPE_TO_COLORS['surface'],
 			'fill-opacity': 0.75
@@ -745,7 +749,11 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		source: 'stlors',
 		type: 'line',
 		'source-layer': 'stlors',
-		filter: ['==', ['get', 'rights_type'], 'surface'],
+		filter: [
+			'all',
+			['==', ['get', 'rights_type'], 'surface'],
+			['==', ['get', 'has_rights_type_dual'], false]
+		],
 		paint: {
 			'line-color': RIGHTS_TYPE_TO_COLORS['surface'],
 			'line-width': 1
@@ -758,8 +766,8 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		'source-layer': 'stlors',
 		filter: [
 			'all',
-			['==', ['get', 'has_rights_type_dual'], false],
-			['==', ['get', 'rights_type'], 'subsurface']
+			['==', ['get', 'rights_type'], 'subsurface'],
+			['==', ['get', 'has_rights_type_dual'], false]
 		],
 		paint: {
 			'fill-color': RIGHTS_TYPE_TO_COLORS['subsurface'],
@@ -773,8 +781,8 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		'source-layer': 'stlors',
 		filter: [
 			'all',
-			['==', ['get', 'has_rights_type_dual'], false],
-			['==', ['get', 'rights_type'], 'subsurface']
+			['==', ['get', 'rights_type'], 'subsurface'],
+			['==', ['get', 'has_rights_type_dual'], false]
 		],
 		paint: {
 			'line-color': RIGHTS_TYPE_TO_COLORS['subsurface'],
@@ -789,7 +797,15 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 		filter: ['==', ['get', 'has_rights_type_dual'], true],
 		paint: {
 			'fill-pattern': 'rights-type',
-			'fill-opacity': 0.375
+			'fill-opacity': 0.75
 		}
 	}
 };
+
+export const POPUP_LAYER_IDS = Object.values({
+	...ACREAGE_LAYER_CONFIG,
+	...LAND_USE_LAYER_CONFIG,
+	...RIGHTS_TYPE_LAYER_CONFIG
+})
+	.filter((layer) => layer.type === 'fill')
+	.map((layer) => layer.id);

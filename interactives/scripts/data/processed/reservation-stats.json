@@ -2267,7 +2267,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 0
+      "uncategorized_acreage": 2337.21
     },
     "bounds": [
       -97.95525978899997,
@@ -2275,8 +2275,8 @@
       -97.72023553699995,
       42.8718177760001
     ],
-    "stl_total_acres": 2337.21,
-    "stl_subsurface_acres": 0,
+    "stl_total_acres": 4674.42,
+    "stl_subsurface_acres": 2337.21,
     "stl_surface_acres": 2337.21
   },
   "Seminole": {
