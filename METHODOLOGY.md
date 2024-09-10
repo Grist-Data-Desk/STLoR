@@ -136,7 +136,7 @@ States manage and track land use activity data in diverse ways:
 - Classification methods differ (broad categories vs. specific descriptions)
 - Some states use numerical codes requiring interpretation keys
 
-To accommodate these variations, we selected activity descriptions that balanced detail and clarity, either using specific column values or general data layer titles. For more information, refer to the [`activity_match.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/activity_match.py) and [`state_data_sources.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/state_data_sources.py) files.
+To accommodate these variations, we selected activity descriptions that balanced detail and clarity, either using specific column values or general data layer titles. For more information, refer to the [`activity.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/stlor/activity.py) and [`config.py`](https://github.com/Grist-Data-Desk/STLoR/blob/main/stlor/config.py) files.
 
 #### Data Processing
 
@@ -170,9 +170,9 @@ To enhance accuracy and clarity, we implemented several updates:
 
 The resulting data can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder, with files named to reflect processing steps:
 
-1. [`01_Initial-Merge`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/01_Initial-Merge): Merged 15 state data layers in EPSG:5070
-2. [`02_SendtoActivityMatch`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/02_SendtoActivityMatch): Updated object ID field and cleaned columns
-3. [`03_ActivityMatch`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/03_ActivityMatch): Final output of the activity match process
+1. `01_Initial-Merge`: Merged 15 state data layers in EPSG:5070
+2. `02_SendtoActivityMatch`: Updated object ID field and cleaned columns
+3. `03_ActivityMatch`: Final output of the activity match process
 
 For detailed information on data sources and state-specific querying details, please refer to [Table 1](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing).
 
@@ -194,7 +194,7 @@ To achieve this focused dataset, we employed the following process:
 
 The resulting data from this process can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder. The file name reflects the data processing step:
 
-- [`04_Clipped`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/04_Clipped): This dataset has been clipped to the BIA layers and includes a new GIS-calculated column reflecting the updated acreage.
+- `04_Clipped`: This dataset has been clipped to the BIA layers and includes a new GIS-calculated column reflecting the updated acreage.
 
 This refined dataset provides a more precise representation of state trust lands directly impacting tribal jurisdictions, aligning with our story's focus while maintaining the broader context established in earlier analysis stages.
 
@@ -240,9 +240,9 @@ Given the nature of navigable rivers and streambed trusts (and the shifting geol
 
 The resulting data from this process can be found in the [`04_All States`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States) folder:
 
-- [`05_AcreageGreaterThan10`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/05_AcreageGreaterThan10): This data layer contains only parcels larger than 10 acres.
+- `05_AcreageGreaterThan10`: This data layer contains only parcels larger than 10 acres.
 
-- [`06_All-STLs-on-Reservations-Final`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/04_All%20States/06_All-STLs-on-Reservations-Final): This is the final data layer with all table information checked and cleaned.
+- `06_All-STLs-on-Reservations-Final`: This is the final data layer with all table information checked and cleaned.
 
 ### Step 8: Compute summary statistics by reservation
 
@@ -266,9 +266,9 @@ This process allows for a comprehensive view of state trust lands within each re
 
 The resulting data from this process can be found in the [`05_Final-Dataset`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset) folder:
 
-1. [`01_STLs-on-Reservations-by-Reservation`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset/01_STLs-on-Reservations-by-Reservation): This data layer contains all the focus parcels, aggregated by reservation.
+1. `01_STLs-on-Reservations-by-Reservation`[`.csv`, `.xlsx`, `.geojson`]: This data layer contains all the focus parcels, aggregated by reservation.
 
-2. [`02_All-STLs-on-Reservations`](https://github.com/Grist-Data-Desk/STLoR/tree/main/public_data/05_Final-Dataset/02_All-STLs-on-Reservations): This is the final data layer containing all individual parcels.
+2. `02_All-STLs-on-Reservations`[`.csv`, `.xlsx`, `.geojson`]: This is the final data layer containing all individual parcels.
 
 These final datasets provide a comprehensive and accessible overview of state trust lands on reservations, facilitating analysis and understanding of the impact on tribal jurisdictions.
 
