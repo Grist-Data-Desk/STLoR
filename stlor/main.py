@@ -13,13 +13,17 @@ from stlor.activity import (
     is_compatible_activity,
     exclude_inactive,
     capture_lessee_and_lease_type,
-    concatenate_activity_info,
+)
+from stlor.clean import (
+    join_activity_info,
+    remove_timber_rows,
+    remove_river_slivers,
+    fix_trust_names,
 )
 from stlor.clip import clip_to_reservation_boundaries, filter_parcels_by_acreage
 from stlor.config import STATE_ACTIVITIES
 from stlor.constants import (
     ACTIVITY_INFO,
-    ACTIVITY_INFO_2,
     ACTIVITY,
     FINAL_DATASET_COLUMNS,
     OBJECT_ID,
@@ -169,82 +173,6 @@ def match_activities(
     return stl_data_update, activity_info_update
 
 
-def remove_timber_rows(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    """Remove STLs with timber rights from the dataset.
-
-    Arguments:
-    gdf -- the state trust lands GeoDataFrame
-
-    Returns:
-    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with timber parcels
-    removed"""
-    return gdf[gdf[RIGHTS_TYPE].str.lower() != "timber"]
-
-
-def remove_river_slivers(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    """Remove STLs with navigable river and streambed trust beneficiaries on
-    borders.
-
-    Arguments:
-    gdf -- the state trust lands GeoDataFrame
-
-    Returns:
-    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with border river
-    parcels removed"""
-
-    border_rivers = [
-        # Blackfeet
-        12031,
-        # Fort Peck
-        11931,
-        11799,
-        12096,
-        12099,
-        11937,
-        11824,
-        12098,
-        11930,
-        11934,
-        11936,
-        12097,
-        11933,
-        11932,
-        11926,
-        11927,
-        11836,
-        12084,
-        11830,
-        11829,
-        11834,
-        11833,
-        11832,
-        # Fort Yuma (Quechan)
-        589,
-        588,
-        594,
-        # Spokane
-        33924,
-    ]
-
-    return gdf[~gdf["object_id_LAST"].isin(border_rivers)]
-
-
-def join_activity_info(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    """Join the activity_info and activity_info_2 columns into a single column.
-
-    Arguments:
-    gdf -- the state trust lands GeoDataFrame
-
-    Returns:
-    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with a cleaned
-    activity_info column
-    """
-    gdf[ACTIVITY_INFO] = gdf.apply(concatenate_activity_info, axis=1)
-    gdf = gdf.drop(ACTIVITY_INFO_2, axis=1)
-
-    return gdf
-
-
 def write_gdf_to_disk(gdf: gpd.GeoDataFrame, output_dir: Path, filename: str):
     """Write a GeoDataFrame to disk on GeoJSON (EPSG:5070), GeoJSON (EPSG:4326),
     CSV, and XLSX formats.
@@ -335,6 +263,9 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     logger.info(
         f"STLoR row count after removing river sliver polygons: {stl_gdf.shape[0]}"
     )
+
+    # Clean up trust names.
+    stl_gdf = fix_trust_names(stl_gdf)
 
     # Write the output of the activity match process to disk.
     logger.info("Writing activity match output to 03_ActivityMatch.{csv,xlsx,geojson}")
