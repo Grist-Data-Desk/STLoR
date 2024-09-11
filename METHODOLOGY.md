@@ -122,8 +122,6 @@ The land use activity information is current as of Spring 2024, with datasets co
 
 For processing efficiency, we converted the majority of datasets to shapefiles, reducing the need for repeated server queries during activity match operations.
 
-*(For a comprehensive list of data sources and state-specific querying details, please refer to [Table 1](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing).)*
-
 ### Step 5: Join in state activity layers to assign land use
 
 We processed land use activity for state trust land parcels using a codebase structure designed for the Misplaced Trust dataset. This section summarizes the process and highlights important updates to the program functions that enhanced nuance and clarity in the final dataset.
@@ -173,8 +171,6 @@ The resulting data can be found in the [`04_All States`](https://github.com/Gris
 1. `01_Initial-Merge`: Merged 15 state data layers in EPSG:5070
 2. `02_SendtoActivityMatch`: Updated object ID field and cleaned columns
 3. `03_ActivityMatch`: Final output of the activity match process
-
-For detailed information on data sources and state-specific querying details, please refer to [Table 1](https://docs.google.com/spreadsheets/d/1s80JRwNA9j463TcezXK7S14h4mt4L2ltARcyKkUSJuc/edit?usp=sharing).
 
 ### Step 6: Clip trust land parcels to exact boundaries of reservations
 
