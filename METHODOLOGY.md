@@ -51,7 +51,9 @@ For states of interest, we examined state databases, primarily associated with d
 
 A significant portion of this data had been previously collected for our [Misplaced Trust project](https://grist.org/land-grant-universities-stolen-indigenous-land/), published in February 2024. The current analysis expanded to include California, Nebraska, and Oregon, as well as South Dakota and Oklahoma, which were not featured in our initial reporting on state trust lands on reservations. This expansion allowed for a comprehensive analysis of state trust land parcels across all beneficiaries, rather than solely those benefiting land grant universities.
 
-It is noteworthy that complete information for all surface and subsurface state trust lands in Oklahoma and subsurface state trust lands in South Dakota was not obtainable due to data management practices in these states. Some parcels lack digital mapping, and in certain cases, spatial descriptions did not align with the state Public Land Survey System (PLSS), resulting in no returned parcels.
+Complete information for all surface and subsurface state trust lands in Oklahoma and subsurface state trust lands in South Dakota was not obtainable due to data management practices in these states. Some parcels lack digital mapping, and in certain cases, spatial descriptions did not align with the state Public Land Survey System (PLSS), resulting in no returned parcels.
+
+Upon advice from agency sources, we occasionally implemented manual edits to names of trusts that diverged from publicly available datasets. Notably, the North Dakota Commissioner of University & School Lands advised us to rename the Bank of North Dakota beneficiary as the Strategic Investment and Improvements Fund to reflect a previous transfer of the parcels in question to the Department of Trust Lands upon their foreclosure.
 
 _(Please see_ [_Appendix A_](https://github.com/Grist-Data-Desk/land-grab-2/blob/main/APPENDIX-A.md) _for specific notes on the data processing for OK and SD.)_
 
