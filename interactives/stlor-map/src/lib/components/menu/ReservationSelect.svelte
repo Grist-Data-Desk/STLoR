@@ -18,7 +18,7 @@
 </script>
 
 <select
-	class="text-secondary font-sans-alt truncate bg-transparent text-sm sm:text-base"
+	class="font-sans-alt truncate bg-transparent text-sm sm:text-base"
 	on:change={onChange}
 	value={$reservation}
 >

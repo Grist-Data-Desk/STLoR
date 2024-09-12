@@ -26,29 +26,39 @@
 </div>
 <div class="stack-h stack-h-xs items-center">
 	<div class="h-4 w-4 sm:h-5 sm:w-5">
-		<svg viewBox="0 0 36 36" width="36" height="36" class="h-auto max-w-full">
-			<path d="M0,24 L12,36 L0,36, z" fill={RIGHTS_TYPE_TO_COLORS.surface} fill-opacity="0.75" />
+		<svg viewBox="0 0 32 32" width="32" height="32" class="h-auto max-w-full">
+			<path d="M0,24 L8,32 L0,32 z" fill={RIGHTS_TYPE_TO_COLORS.surface} fill-opacity="0.75" />
 			<path
-				d="M0,12 L24,36 L12,36, L0,24 z"
+				d="M0,16 L16,32 L8,32, L0,24 z"
 				fill={RIGHTS_TYPE_TO_COLORS.subsurface}
 				fill-opacity="0.75"
 			/>
 			<path
-				d="M0,0 L36,36 L24,36, L0,12 z"
+				d="M0,8 L24,32 L16,32, L0,16 z"
 				fill={RIGHTS_TYPE_TO_COLORS.surface}
 				fill-opacity="0.75"
 			/>
 			<path
-				d="M12,0 L36,24 L36,36, 0,0 z"
+				d="M0,0 L32,32 L24,32, L0,8 z"
 				fill={RIGHTS_TYPE_TO_COLORS.subsurface}
 				fill-opacity="0.75"
 			/>
 			<path
-				d="M24,0 L36,12 L36,24, L12,0 z"
+				d="M8,0 L32,24 L32,32, L0,0 z"
 				fill={RIGHTS_TYPE_TO_COLORS.surface}
 				fill-opacity="0.75"
 			/>
-			<path d="M24,0 L36,0 L36,12 z" fill={RIGHTS_TYPE_TO_COLORS.subsurface} fill-opacity="0.75" />
+			<path
+				d="M16,0 L32,16 L32,24 L8,0 z"
+				fill={RIGHTS_TYPE_TO_COLORS.subsurface}
+				fill-opacity="0.75"
+			/>
+			<path
+				d="M24,0 L32,8 L32,16, L16,0 z"
+				fill={RIGHTS_TYPE_TO_COLORS.surface}
+				fill-opacity="0.75"
+			/>
+			<path d="M24,0 L32,0 L32,8 z" fill={RIGHTS_TYPE_TO_COLORS.subsurface} fill-opacity="0.75" />
 		</svg>
 	</div>
 	<span class="font-sans-alt text-xs sm:text-sm">Surface and Subsurface</span>

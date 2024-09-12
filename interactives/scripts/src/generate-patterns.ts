@@ -75,29 +75,75 @@ function createDualColorHatchPattern(
     return "";
   }
 
-  // Fill background with primaryColor.
   ctx.fillStyle = primaryColor;
-  ctx.fillRect(0, 0, size, size);
+  ctx.beginPath();
+  ctx.moveTo(0, size * (3 / 4));
+  ctx.lineTo(size * (1 / 4), size);
+  ctx.lineTo(0, size);
+  ctx.closePath();
+  ctx.fill();
 
-  // Draw four equally-spaced, equally-sized lines with secondaryColor.
-  ctx.lineWidth = size / 8;
-  ctx.strokeStyle = secondaryColor;
+  ctx.fillStyle = secondaryColor;
+  ctx.beginPath();
+  ctx.moveTo(0, size * (1 / 2));
+  ctx.lineTo(size * (1 / 2), size);
+  ctx.lineTo(size * (1 / 4), size);
+  ctx.lineTo(0, size * (3 / 4));
+  ctx.closePath();
+  ctx.fill();
 
-  ctx.moveTo(-1, size * (3 / 4) - 1);
-  ctx.lineTo(size * (1 / 4) + 1, size + 1);
-  ctx.stroke();
+  ctx.fillStyle = primaryColor;
+  ctx.beginPath();
+  ctx.moveTo(0, size * (1 / 4));
+  ctx.lineTo(size * (3 / 4), size);
+  ctx.lineTo(size * (1 / 2), size);
+  ctx.lineTo(0, size * (1 / 2));
+  ctx.closePath();
+  ctx.fill();
 
-  ctx.moveTo(-1, size * (1 / 4) - 1);
-  ctx.lineTo(size * (3 / 4) + 1, size + 1);
-  ctx.stroke();
+  ctx.fillStyle = secondaryColor;
+  ctx.beginPath();
+  ctx.moveTo(0, 0);
+  ctx.lineTo(size, size);
+  ctx.lineTo(size * (3 / 4), size);
+  ctx.lineTo(0, size * (1 / 4));
+  ctx.closePath();
+  ctx.fill();
 
-  ctx.moveTo(size * (1 / 4) - 1, -1);
-  ctx.lineTo(size + 1, size * (3 / 4) + 1);
-  ctx.stroke();
+  ctx.fillStyle = primaryColor;
+  ctx.beginPath();
+  ctx.moveTo(size * (1 / 4), 0);
+  ctx.lineTo(size, size * (3 / 4));
+  ctx.lineTo(size, size);
+  ctx.lineTo(0, 0);
+  ctx.closePath();
+  ctx.fill();
 
-  ctx.moveTo(size * (3 / 4) - 1, -1);
-  ctx.lineTo(size + 1, size * (1 / 4) + 1);
-  ctx.stroke();
+  ctx.fillStyle = secondaryColor;
+  ctx.beginPath();
+  ctx.moveTo(size * (1 / 2), 0);
+  ctx.lineTo(size, size * (1 / 2));
+  ctx.lineTo(size, size * (3 / 4));
+  ctx.lineTo(size * (1 / 4), 0);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.fillStyle = primaryColor;
+  ctx.beginPath();
+  ctx.moveTo(size * (3 / 4), 0);
+  ctx.lineTo(size, size * (1 / 4));
+  ctx.lineTo(size, size * (1 / 2));
+  ctx.lineTo(size * (1 / 2), 0);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.fillStyle = secondaryColor;
+  ctx.beginPath();
+  ctx.moveTo(size * (3 / 4), 0);
+  ctx.lineTo(size, 0);
+  ctx.lineTo(size, size * (1 / 4));
+  ctx.closePath();
+  ctx.fill();
 
   return canvas.toDataURL("image/png");
 }
@@ -126,14 +172,12 @@ function createTriColorLinePattern(
     return "";
   }
 
-  ctx.fillStyle = primaryColor;
-  ctx.fillRect(0, 0, size, size / 3);
+  const colors = [primaryColor, secondaryColor, tertiaryColor];
 
-  ctx.fillStyle = secondaryColor;
-  ctx.fillRect(0, size / 3, size, size / 3);
-
-  ctx.fillStyle = tertiaryColor;
-  ctx.fillRect(0, 2 * (size / 3), size, size / 3);
+  for (let i = 0; i < colors.length * 2; i++) {
+    ctx.fillStyle = colors[i % 3];
+    ctx.fillRect(0, (i * size) / 6, size, size / 6);
+  }
 
   return canvas.toDataURL("image/png");
 }
@@ -166,9 +210,9 @@ function createQuadColorLinePattern(
 
   const colors = [primaryColor, secondaryColor, tertiaryColor, quaternaryColor];
 
-  for (let i = 0; i < colors.length; i++) {
-    ctx.fillStyle = colors[i];
-    ctx.fillRect((size / 4) * i, 0, size / 4, size);
+  for (let i = 0; i < colors.length * 2; i++) {
+    ctx.fillStyle = colors[i % 4];
+    ctx.fillRect((size / 8) * i, 0, size / 8, size);
   }
 
   return canvas.toDataURL("image/png");
@@ -270,7 +314,7 @@ async function main() {
     JSON.stringify(patterns, null, 2)
   );
 
-  const rightsTypePattern = createDualColorHatchPattern("#076869", "#79270A");
+  const rightsTypePattern = createDualColorHatchPattern("#40798A", "#D8A772");
 
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/rights-type-pattern.json"),

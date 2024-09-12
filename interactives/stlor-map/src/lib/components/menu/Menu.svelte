@@ -106,9 +106,9 @@
 >
 	{#if innerWidth > 640}
 		<h1
-			class="sm:visible sm:flex sm:flex-col sm:items-center sm:font-serif sm:text-4xl sm:font-semibold"
+			class="sm:visible sm:flex sm:flex-col sm:items-center sm:text-center sm:font-sans sm:text-4xl sm:font-semibold"
 		>
-			State trust lands<span class="sm:text-3xl sm:font-normal">on reservations</span>
+			State trust lands on reservations
 		</h1>
 	{/if}
 	<div class="stack stack-xs">

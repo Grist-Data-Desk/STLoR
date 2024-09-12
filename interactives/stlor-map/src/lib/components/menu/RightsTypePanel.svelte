@@ -19,19 +19,25 @@
 	$: pctSurface = 100 - pctSubsurface;
 	$: majority =
 		pctSubsurface > pctSurface
-			? { rights_type: 'subsurface', pct: pctSubsurface }
-			: { rights_type: 'surface', pct: pctSurface };
+			? { rights_type: 'subsurface' as const, pct: pctSubsurface }
+			: { rights_type: 'surface' as const, pct: pctSurface };
 </script>
 
 {#if stats.stl_total_acres > 0}
 	<Description>
 		{#if majority.pct === 100}
 			All state trust lands on the {$reservation} reservation are
-			{majority.rights_type} acres.
+			<span class="font-semibold">{majority.rights_type}</span> acres.
+		{:else if majority.pct === 50}
+			State trust lands on the {$reservation} reservation are
+			<span class="font-semibold">evenly split</span> between
+			<span class="font-semibold">surface</span>
+			and
+			<span class="font-semibold">subsurface</span> acres.
 		{:else}
 			The majority <span class="font-semibold">({majority.pct.toFixed(2)}%)</span> of state trust
 			lands on the {$reservation} reservation are
-			{majority.rights_type} acres.
+			<span class="font-semibold">{majority.rights_type}</span> acres.
 		{/if}
 	</Description>
 	<svg
@@ -46,7 +52,6 @@
 			height="40"
 			width={xScale(stats.stl_subsurface_acres)}
 			fill={RIGHTS_TYPE_TO_COLORS.subsurface}
-			fill-opacity="0.75"
 		/>
 		<g>
 			<text
@@ -56,7 +61,7 @@
 				font-size="14"
 				font-family="Basis Grotesque Pro"
 				font-weight="bold"
-				fill="#ffffff"
+				fill={COLORS.EARTH}
 			>
 				Subsurface
 			</text>
@@ -67,7 +72,7 @@
 				font-size="12"
 				font-family="Basis Grotesque Pro"
 				font-style="italic"
-				fill="#ffffff"
+				fill={COLORS.EARTH}
 				class="transition-all duration-300"
 			>
 				{stats.stl_subsurface_acres.toLocaleString()} Acres
@@ -79,7 +84,6 @@
 			height="40"
 			width={xScale(stats.stl_surface_acres)}
 			fill={RIGHTS_TYPE_TO_COLORS.surface}
-			fill-opacity="0.75"
 			class="transition-all duration-300"
 		/>
 		<g>
