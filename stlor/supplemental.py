@@ -243,6 +243,56 @@ def concatenate_supplemental_stls(
     return gdf
 
 
+def create_ne_subsurface_layer(last_objectid: int):
+    """Create a layer of NE subsurface parcels based on surface parcels."""
+    gdf = gpd.read_file("public_data/04_All States/02_SendtoActivityMatch.geojson")
+
+    ne_gdf = gdf[gdf[STATE] == "NE"]
+    ne_gdf[RIGHTS_TYPE] = "Subsurface"
+    ne_gdf[ACTIVITY] = ""
+
+    # Assign new object IDs to the new subsurface parcels.
+    ne_gdf["object_id_LAST"] = [
+        i for i in range(last_objectid + 1, last_objectid + 1 + len(ne_gdf))
+    ]
+
+    # Subset to the final columns.
+    ne_gdf = ne_gdf[COLUMNS]
+
+    return ne_gdf
+
+
+def create_sd_subsurface_layer(last_objectid: int):
+    """Create a layer of SD subsurface parcels based on surface parcels that do
+    not have a corresponding subsurface parcel.
+    """
+    gdf = gpd.read_file("public_data/04_All States/02_SendtoActivityMatch.geojson")
+
+    sd_gdf = gdf[gdf[STATE] == "SD"]
+    sd_gdf_surface = sd_gdf[sd_gdf[RIGHTS_TYPE] == "Surface"]
+    sd_gdf_subsurface = sd_gdf[sd_gdf[RIGHTS_TYPE] == "Subsurface"]
+
+    # Compute the difference of the surface and subsurface GeoDataFrames. This
+    # represents the geographic area for which we have surface parcels but no
+    # corresponding subsurface parcels. We'll use this to create the new sub-
+    # surface parcels.
+    difference = sd_gdf_surface.overlay(sd_gdf_subsurface, how="difference")
+
+    difference["acres"] = (difference.area / 4046.8564224).round(2)
+    difference["gis_acres"] = (difference.area / 4046.8564224).round(2)
+    difference["rights_type"] = "Subsurface"
+
+    # Assign new object IDs to the new subsurface parcels.
+    difference["object_id_LAST"] = [
+        i for i in range(last_objectid + 1, last_objectid + 1 + len(difference))
+    ]
+
+    # Subset to the final columns.
+    difference = difference[COLUMNS]
+
+    return difference
+
+
 def main():
     logger.info("Beginning supplemental STL processing.")
 
@@ -263,6 +313,28 @@ def main():
         "Writing supplemental layer processing output to 01d_Supplemental.geojson."
     )
     gdf.to_file("public_data/04_All States/01d_Supplemental.geojson", driver="GeoJSON")
+
+    # Create the NE subsurface layer.
+    last_objectid = gdf["object_id_LAST"].max()
+    ne_gdf = create_ne_subsurface_layer(last_objectid)
+
+    logger.info(
+        "Writing NE subsurface layer processing output to 01e_Nebraska_Subsurface.geojson."
+    )
+    ne_gdf.to_file(
+        "public_data/04_All States/01e_Nebraska_Subsurface.geojson", driver="GeoJSON"
+    )
+
+    # Create the SD subsurface layer.
+    last_objectid = ne_gdf["object_id_LAST"].max()
+    sd_gdf = create_sd_subsurface_layer(last_objectid)
+
+    logger.info(
+        "Writing SD subsurface layer processing output to 01f_SouthDakota_Subsurface.geojson."
+    )
+    sd_gdf.to_file(
+        "public_data/04_All States/01f_SouthDakota_Subsurface.geojson", driver="GeoJSON"
+    )
 
     logger.info("Supplemental STL processing completed.")
 
