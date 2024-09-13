@@ -59,9 +59,15 @@ def concatenate_main_and_supplemental_stls(
     ne_subsurface_gdf = gpd.read_file(
         Path("public_data/04_All States/01e_Nebraska_Subsurface.geojson").resolve()
     )
+    sd_subsurface_gdf = gpd.read_file(
+        Path("public_data/04_All States/01f_SouthDakota_Subsurface.geojson").resolve()
+    )
 
     return gpd.GeoDataFrame(
-        pd.concat([stl_gdf, supplemental_stl_gdf, ne_subsurface_gdf], ignore_index=True)
+        pd.concat(
+            [stl_gdf, supplemental_stl_gdf, ne_subsurface_gdf, sd_subsurface_gdf],
+            ignore_index=True,
+        )
     )
 
 
