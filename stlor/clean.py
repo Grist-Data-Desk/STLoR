@@ -221,6 +221,48 @@ def fix_az_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf
 
 
+def filter_id_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """
+    Filter trust lands for Idaho, keeping only specific trusts.
+
+    The function performs the following operations:
+    1. Creates a mask for rows where the 'state' is 'ID'.
+    2. Creates a list of allowed trust names for Idaho.
+    3. Removes rows where the state is 'ID' and the trust name is not in the allowed list.
+
+    Arguments:
+    gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with only the specified
+    Idaho trusts and all other states' data intact
+    """
+    # List of allowed trust names for Idaho
+    id_allowed_trusts = [
+        "100.00% Agricultural College",
+        "100.00% Charitable Institute",
+        "100.00% Normal School",
+        "100.00% Public School (Indemnity, Schools, Common Schools)",
+        "100.00% State Hospital South (Insane Asylum)",
+        "100.00% University of Idaho",
+        "Agricultural College",
+        "Normal School",
+        "Public School (Indemnity, Schools, Common Schools)",
+        "State Hospital South (Insane Asylum)"
+    ]
+
+    # Create a mask for Idaho rows
+    id_mask = gdf["state"] == "ID"
+
+    # Create a mask for Idaho rows with allowed trust names
+    keep_mask = id_mask & gdf["trust_name"].isin(id_allowed_trusts)
+
+    # Keep rows that are either not in Idaho or are in Idaho with allowed trust names
+    gdf = gdf[~id_mask | keep_mask]
+
+    return gdf
+
+
 def fix_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     """
     Fix up trust names for parcels in all states.
