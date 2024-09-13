@@ -56,7 +56,6 @@ def remove_river_slivers(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
         34348,
         34117,
         34345,
-        34121,
     ]
 
     return gdf[~gdf["object_id_LAST"].isin(border_rivers)]
