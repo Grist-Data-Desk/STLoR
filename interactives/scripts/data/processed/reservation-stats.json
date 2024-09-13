@@ -177,7 +177,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 254.67
+      "uncategorized_acreage": 23.38
     },
     "bounds": [
       -123.25825890399994,
@@ -185,9 +185,9 @@
       -123.13927000099996,
       46.836860705000035
     ],
-    "stl_total_acres": 254.66,
-    "stl_subsurface_acres": 49.11,
-    "stl_surface_acres": 205.55
+    "stl_total_acres": 23.38,
+    "stl_subsurface_acres": 23.38,
+    "stl_surface_acres": 0
   },
   "Chemehuevi": {
     "reservation_name": "Chemehuevi",
@@ -291,7 +291,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 51905.6
+      "uncategorized_acreage": 70671.66
     },
     "bounds": [
       -102.07213408399997,
@@ -299,8 +299,8 @@
       -100.24620253699999,
       45.471252150000055
     ],
-    "stl_total_acres": 51905.67,
-    "stl_subsurface_acres": 31475.74,
+    "stl_total_acres": 70671.72,
+    "stl_subsurface_acres": 50241.79,
     "stl_surface_acres": 20429.93
   },
   "Cheyenne-Arapaho": {
@@ -500,26 +500,26 @@
       "top_land_uses": [
         {
           "land_use": "Timber",
-          "acreage": 16849.61
+          "acreage": 8756.7
         },
         {
           "land_use": "Infrastructure",
-          "acreage": 14376.38
+          "acreage": 7546.19
         },
         {
           "land_use": "Grazing",
-          "acreage": 5546.54
+          "acreage": 4331.18
         },
         {
           "land_use": "Fossil Fuels",
-          "acreage": 305.31
+          "acreage": 353.61
         },
         {
           "land_use": "Agriculture",
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 22197.45
+      "uncategorized_acreage": 12521.15
     },
     "bounds": [
       -117.04034434,
@@ -527,9 +527,9 @@
       -116.45091223599995,
       47.52346521400004
     ],
-    "stl_total_acres": 40617.24,
-    "stl_subsurface_acres": 22387.66,
-    "stl_surface_acres": 18229.58
+    "stl_total_acres": 21631.39,
+    "stl_subsurface_acres": 12874.73,
+    "stl_surface_acres": 8756.66
   },
   "Colville": {
     "reservation_name": "Colville",
@@ -842,7 +842,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 216.51
+          "acreage": 206.42
         },
         {
           "land_use": "Fossil Fuels",
@@ -869,8 +869,8 @@
       -111.94571300200002,
       43.26677865500001
     ],
-    "stl_total_acres": 243.74,
-    "stl_subsurface_acres": 216.52,
+    "stl_total_acres": 233.64,
+    "stl_subsurface_acres": 206.42,
     "stl_surface_acres": 27.22
   },
   "Fort McDermitt": {
@@ -1492,22 +1492,22 @@
         },
         {
           "land_use": "Recreation",
-          "acreage": 117846.98
+          "acreage": 117857.59
         },
         {
           "land_use": "Timber",
-          "acreage": 16991.04
+          "acreage": 16971.64
         },
         {
           "land_use": "Conservation",
-          "acreage": 11944.09
+          "acreage": 11933.48
         },
         {
           "land_use": "Grazing",
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 27923.17
+      "uncategorized_acreage": 27931.96
     },
     "bounds": [
       -94.68506909499996,
@@ -1606,7 +1606,7 @@
         },
         {
           "land_use": "Fossil Fuels",
-          "acreage": 12529.69
+          "acreage": 12489.45
         },
         {
           "land_use": "Commercial",
@@ -1715,27 +1715,27 @@
     "land_uses": {
       "top_land_uses": [
         {
-          "land_use": "Infrastructure",
-          "acreage": 3540.94
+          "land_use": "Grazing",
+          "acreage": 3085.53
         },
         {
-          "land_use": "Grazing",
-          "acreage": 3100.84
+          "land_use": "Infrastructure",
+          "acreage": 3030.96
         },
         {
           "land_use": "Timber",
-          "acreage": 1994.7
+          "acreage": 1965.5
         },
         {
           "land_use": "Recreation",
-          "acreage": 1672.8
+          "acreage": 1658.91
         },
         {
           "land_use": "Commercial",
           "acreage": 1194.3
         }
       ],
-      "uncategorized_acreage": 11728.7
+      "uncategorized_acreage": 10042.14
     },
     "bounds": [
       -116.912115558,
@@ -1743,9 +1743,9 @@
       -115.89650380899997,
       46.56532925500009
     ],
-    "stl_total_acres": 16326.31,
-    "stl_subsurface_acres": 11849.65,
-    "stl_surface_acres": 4476.66
+    "stl_total_acres": 14115.86,
+    "stl_subsurface_acres": 10163.08,
+    "stl_surface_acres": 3952.78
   },
   "Pawnee": {
     "reservation_name": "Pawnee",
@@ -1811,7 +1811,7 @@
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 22694.18
+      "uncategorized_acreage": 33808.25
     },
     "bounds": [
       -103.00101696199994,
@@ -1819,8 +1819,8 @@
       -101.22795376,
       43.79627856400001
     ],
-    "stl_total_acres": 23020.84,
-    "stl_subsurface_acres": 10988.27,
+    "stl_total_acres": 34134.94,
+    "stl_subsurface_acres": 22102.37,
     "stl_surface_acres": 12032.57
   },
   "Ponca": {
@@ -2019,6 +2019,10 @@
     "land_uses": {
       "top_land_uses": [
         {
+          "land_use": "Mining",
+          "acreage": 172.19
+        },
+        {
           "land_use": "Grazing",
           "acreage": 0
         },
@@ -2033,13 +2037,9 @@
         {
           "land_use": "Renewables",
           "acreage": 0
-        },
-        {
-          "land_use": "Conservation",
-          "acreage": 0
         }
       ],
-      "uncategorized_acreage": 3311.72
+      "uncategorized_acreage": 3371.67
     },
     "bounds": [
       -101.22842636799999,
@@ -2047,8 +2047,8 @@
       -99.00162295699994,
       43.861584386000075
     ],
-    "stl_total_acres": 3311.74,
-    "stl_subsurface_acres": 3079.6,
+    "stl_total_acres": 3543.87,
+    "stl_subsurface_acres": 3311.73,
     "stl_surface_acres": 232.14
   },
   "Sac and Fox": {
@@ -2476,7 +2476,11 @@
       "top_land_uses": [
         {
           "land_use": "Fossil Fuels",
-          "acreage": 1443.42
+          "acreage": 2252.16
+        },
+        {
+          "land_use": "Mining",
+          "acreage": 652.01
         },
         {
           "land_use": "Grazing",
@@ -2489,13 +2493,9 @@
         {
           "land_use": "Infrastructure",
           "acreage": 0
-        },
-        {
-          "land_use": "Renewables",
-          "acreage": 0
         }
       ],
-      "uncategorized_acreage": 115545.4
+      "uncategorized_acreage": 137426.06
     },
     "bounds": [
       -102.00164162099998,
@@ -2503,8 +2503,8 @@
       -100.30116393199995,
       46.430136847
     ],
-    "stl_total_acres": 116988.78,
-    "stl_subsurface_acres": 70165.38,
+    "stl_total_acres": 140330.19,
+    "stl_subsurface_acres": 93506.79,
     "stl_surface_acres": 46823.4
   },
   "Tohono O'odham": {

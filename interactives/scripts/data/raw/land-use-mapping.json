@@ -6485,5 +6485,19 @@
       "Conservation",
       "Timber"
     ]
+  },
+  {
+    "activity": "Oil/gas well -  - Dry Hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Ditch,Easement Purpose:Irrigation,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
   }
 ]
