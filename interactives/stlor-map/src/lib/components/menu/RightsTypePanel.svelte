@@ -61,7 +61,7 @@
 				font-size="14"
 				font-family="Basis Grotesque Pro"
 				font-weight="bold"
-				fill={COLORS.EARTH}
+				fill="#ffffff"
 			>
 				Subsurface
 			</text>
@@ -72,7 +72,7 @@
 				font-size="12"
 				font-family="Basis Grotesque Pro"
 				font-style="italic"
-				fill={COLORS.EARTH}
+				fill="#ffffff"
 				class="transition-all duration-300"
 			>
 				{stats.stl_subsurface_acres.toLocaleString()} Acres

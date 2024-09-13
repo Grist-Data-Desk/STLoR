@@ -4,7 +4,6 @@ import * as url from "node:url";
 
 import { featureCollection } from "@turf/helpers";
 import type { FeatureCollection, Feature, Polygon } from "geojson";
-import groupBy from "lodash.groupby";
 
 import type {
   LandUse,
@@ -112,47 +111,6 @@ function enrichParcelsWithLandUse(
   });
 }
 
-/**
- * Enrich parcels with information on whether they share geometry with other
- * parcels of the opposite rights_type.
- *
- * @param parcels — STLoR parcels.
- * @returns — STLoR parcels with has_rights_type_dual information added.
- */
-function enrichParcelsWithRightsTypeDual(
-  parcels: Feature<Polygon, ParcelProperties>[]
-): Feature<Polygon, ParcelProperties & { has_rights_type_dual: boolean }>[] {
-  const parcelsByGeometry = groupBy(parcels, (parcel) =>
-    JSON.stringify(parcel.geometry.coordinates)
-  );
-
-  const parcelsWithRightsTypeDual = Object.values(parcelsByGeometry).reduce<
-    Feature<Polygon, ParcelProperties & { has_rights_type_dual: boolean }>[]
-  >((acc, parcels) => {
-    // Determine if we have exactly two parcels with opposite rights_type.
-    const rightsTypes = parcels.map((parcel) =>
-      parcel.properties.rights_type.toLowerCase()
-    );
-    const hasRightsTypeDual =
-      parcels.length === 2 &&
-      rightsTypes.includes("surface") &&
-      rightsTypes.includes("subsurface");
-
-    return [
-      ...acc,
-      ...parcels.map((parcel) => ({
-        ...parcel,
-        properties: {
-          ...parcel.properties,
-          has_rights_type_dual: hasRightsTypeDual,
-        },
-      })),
-    ];
-  }, []);
-
-  return parcelsWithRightsTypeDual;
-}
-
 const main = async (): Promise<void> => {
   const parcels = JSON.parse(
     await fs.readFile(
@@ -188,12 +146,9 @@ const main = async (): Promise<void> => {
     rightsTypeInfoMappings
   );
 
-  const parcelsWithRightsTypeDual =
-    enrichParcelsWithRightsTypeDual(parcelsWithLandUse);
-
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/stlors.geojson"),
-    JSON.stringify(featureCollection(parcelsWithRightsTypeDual), null, 2)
+    JSON.stringify(featureCollection(parcelsWithLandUse), null, 2)
   );
 };
 

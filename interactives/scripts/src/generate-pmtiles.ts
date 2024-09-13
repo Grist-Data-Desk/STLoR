@@ -7,6 +7,9 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const files = [
   "../data/processed/stlors.geojson",
   "../data/processed/reservations.geojson",
+  "../data/processed/surface.geojson",
+  "../data/processed/subsurface.geojson",
+  "../data/processed/surface-subsurface.geojson",
 ];
 
 /**

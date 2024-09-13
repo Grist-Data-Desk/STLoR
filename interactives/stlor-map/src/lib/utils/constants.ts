@@ -36,8 +36,8 @@ export const LAND_USE_TO_COLORS: Record<LandUse, string> = {
 };
 
 export const RIGHTS_TYPE_TO_COLORS = {
-	surface: '#40798A',
-	subsurface: '#D8A772'
+	surface: '#D8A772',
+	subsurface: '#40798A'
 };
 
 export const INITIAL_BOUNDS = {

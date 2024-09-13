@@ -21,6 +21,27 @@ export const SOURCE_CONFIG: Record<string, { id: string; config: SourceSpecifica
 			type: 'vector',
 			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/reservations.pmtiles`
 		}
+	},
+	surface: {
+		id: 'surface',
+		config: {
+			type: 'vector',
+			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/surface.pmtiles`
+		}
+	},
+	subsurface: {
+		id: 'subsurface',
+		config: {
+			type: 'vector',
+			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/subsurface.pmtiles`
+		}
+	},
+	surfaceSubsurface: {
+		id: 'surface-subsurface',
+		config: {
+			type: 'vector',
+			url: `pmtiles://${DO_SPACES_URL}/data/pmtiles/surface-subsurface.pmtiles`
+		}
 	}
 };
 
@@ -729,46 +750,11 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 };
 
 export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
-	surface: {
-		id: 'surface',
-		source: 'stlors',
-		type: 'fill',
-		'source-layer': 'stlors',
-		filter: [
-			'all',
-			['==', ['get', 'rights_type'], 'surface'],
-			['==', ['get', 'has_rights_type_dual'], false]
-		],
-		paint: {
-			'fill-color': RIGHTS_TYPE_TO_COLORS['surface'],
-			'fill-opacity': 0.75
-		}
-	},
-	surfaceOutlines: {
-		id: 'surface-outlines',
-		source: 'stlors',
-		type: 'line',
-		'source-layer': 'stlors',
-		filter: [
-			'all',
-			['==', ['get', 'rights_type'], 'surface'],
-			['==', ['get', 'has_rights_type_dual'], false]
-		],
-		paint: {
-			'line-color': RIGHTS_TYPE_TO_COLORS['surface'],
-			'line-width': 1
-		}
-	},
 	subsurface: {
 		id: 'subsurface',
-		source: 'stlors',
+		source: 'subsurface',
 		type: 'fill',
-		'source-layer': 'stlors',
-		filter: [
-			'all',
-			['==', ['get', 'rights_type'], 'subsurface'],
-			['==', ['get', 'has_rights_type_dual'], false]
-		],
+		'source-layer': 'subsurface',
 		paint: {
 			'fill-color': RIGHTS_TYPE_TO_COLORS['subsurface'],
 			'fill-opacity': 0.75
@@ -776,36 +762,59 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	},
 	subsurfaceOutlines: {
 		id: 'subsurface-outlines',
-		source: 'stlors',
+		source: 'subsurface',
 		type: 'line',
-		'source-layer': 'stlors',
-		filter: [
-			'all',
-			['==', ['get', 'rights_type'], 'subsurface'],
-			['==', ['get', 'has_rights_type_dual'], false]
-		],
+		'source-layer': 'subsurface',
 		paint: {
 			'line-color': RIGHTS_TYPE_TO_COLORS['subsurface'],
 			'line-width': 1
 		}
 	},
+	surface: {
+		id: 'surface',
+		source: 'surface',
+		type: 'fill',
+		'source-layer': 'surface',
+		paint: {
+			'fill-color': RIGHTS_TYPE_TO_COLORS['surface'],
+			'fill-opacity': 0.75
+		}
+	},
+	surfaceOutlines: {
+		id: 'surface-outlines',
+		source: 'surface',
+		type: 'line',
+		'source-layer': 'surface',
+		paint: {
+			'line-color': RIGHTS_TYPE_TO_COLORS['surface'],
+			'line-width': 1
+		}
+	},
 	surfaceSubsurface: {
 		id: 'surface-subsurface',
-		source: 'stlors',
+		source: 'surface-subsurface',
 		type: 'fill',
-		'source-layer': 'stlors',
-		filter: ['==', ['get', 'has_rights_type_dual'], true],
+		'source-layer': 'surface-subsurface',
 		paint: {
 			'fill-pattern': 'rights-type',
 			'fill-opacity': 0.75
+		}
+	},
+	stlors: {
+		id: 'stlors',
+		source: 'stlors',
+		type: 'fill',
+		'source-layer': 'stlors',
+		paint: {
+			'fill-color': '#ffffff',
+			'fill-opacity': 0
 		}
 	}
 };
 
 export const POPUP_LAYER_IDS = Object.values({
 	...ACREAGE_LAYER_CONFIG,
-	...LAND_USE_LAYER_CONFIG,
-	...RIGHTS_TYPE_LAYER_CONFIG
+	...LAND_USE_LAYER_CONFIG
 })
 	.filter((layer) => layer.type === 'fill')
 	.map((layer) => layer.id);

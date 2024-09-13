@@ -21,7 +21,11 @@ async function main(): Promise<void> {
     },
   });
 
-  const tilesets = ["stlors", "reservations"];
+  const tilesets = (
+    await fs.readdir(path.resolve(__dirname, "../data/processed"))
+  )
+    .filter((file) => path.extname(file) === ".pmtiles")
+    .map((file) => path.parse(file).name);
 
   for (const tileset of tilesets) {
     console.log(`Uploading ${tileset}.pmtiles.`);
