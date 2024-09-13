@@ -18,6 +18,7 @@ from stlor.clean import (
     join_activity_info,
     remove_timber_rows,
     remove_river_slivers,
+    filter_id_trust_names,
     fix_trust_names,
 )
 from stlor.clip import clip_to_reservation_boundaries, filter_parcels_by_acreage
@@ -59,9 +60,15 @@ def concatenate_main_and_supplemental_stls(
     ne_subsurface_gdf = gpd.read_file(
         Path("public_data/04_All States/01e_Nebraska_Subsurface.geojson").resolve()
     )
+    sd_subsurface_gdf = gpd.read_file(
+        Path("public_data/04_All States/01f_SouthDakota_Subsurface.geojson").resolve()
+    )
 
     return gpd.GeoDataFrame(
-        pd.concat([stl_gdf, supplemental_stl_gdf, ne_subsurface_gdf], ignore_index=True)
+        pd.concat(
+            [stl_gdf, supplemental_stl_gdf, ne_subsurface_gdf, sd_subsurface_gdf],
+            ignore_index=True,
+        )
     )
 
 
@@ -262,6 +269,12 @@ def main(activities_dir: Path, stl_path: Path, output_dir: Path):
     stl_gdf = remove_river_slivers(stl_gdf)
     logger.info(
         f"STLoR row count after removing river sliver polygons: {stl_gdf.shape[0]}"
+    )
+
+    # Remove inappropriate Idaho trust parcels from the dataset.
+    stl_gdf = filter_id_trust_names(stl_gdf)
+    logger.info(
+        f"STLoR row count after removing inappropriate Idaho trust parcels: {stl_gdf.shape[0]}"
     )
 
     # Clean up trust names.
