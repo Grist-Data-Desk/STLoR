@@ -310,7 +310,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 71094.46
+          "acreage": 70776.62
         },
         {
           "land_use": "Agriculture",
@@ -337,8 +337,8 @@
       -97.673981,
       36.165771
     ],
-    "stl_total_acres": 75948.48,
-    "stl_subsurface_acres": 67019.86,
+    "stl_total_acres": 75630.65,
+    "stl_subsurface_acres": 66702.03,
     "stl_surface_acres": 8928.62
   },
   "Chickasaw": {
@@ -348,7 +348,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 29329.75
+          "acreage": 26959.04
         },
         {
           "land_use": "Agriculture",
@@ -375,8 +375,8 @@
       -96.094882,
       35.377328
     ],
-    "stl_total_acres": 31025.17,
-    "stl_subsurface_acres": 28842.21,
+    "stl_total_acres": 28654.43,
+    "stl_subsurface_acres": 26471.47,
     "stl_surface_acres": 2182.96
   },
   "Choctaw": {
@@ -386,7 +386,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 47909.95
+          "acreage": 43588.96
         },
         {
           "land_use": "Grazing",
@@ -413,8 +413,8 @@
       -94.431596,
       35.458895
     ],
-    "stl_total_acres": 47069.62,
-    "stl_subsurface_acres": 47069.62,
+    "stl_total_acres": 42748.64,
+    "stl_subsurface_acres": 42748.64,
     "stl_surface_acres": 0
   },
   "Citizen Potawatomi Nation-Absentee Shawnee": {
@@ -424,7 +424,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 16643.69
+          "acreage": 16283.4
         },
         {
           "land_use": "Agriculture",
@@ -451,8 +451,8 @@
       -96.775342,
       35.600467
     ],
-    "stl_total_acres": 20286.01,
-    "stl_subsurface_acres": 16524.48,
+    "stl_total_acres": 19925.71,
+    "stl_subsurface_acres": 16164.18,
     "stl_surface_acres": 3761.53
   },
   "Cochiti": {
@@ -512,14 +512,14 @@
         },
         {
           "land_use": "Fossil Fuels",
-          "acreage": 353.61
+          "acreage": 305.31
         },
         {
           "land_use": "Agriculture",
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 12521.15
+      "uncategorized_acreage": 12569.45
     },
     "bounds": [
       -117.04034434,
@@ -576,7 +576,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 16022.74
+          "acreage": 12563.37
         },
         {
           "land_use": "Grazing",
@@ -603,8 +603,8 @@
       -95.302491,
       36.164852
     ],
-    "stl_total_acres": 15982.61,
-    "stl_subsurface_acres": 15982.61,
+    "stl_total_acres": 12523.26,
+    "stl_subsurface_acres": 12523.26,
     "stl_surface_acres": 0
   },
   "Crow": {
@@ -1108,7 +1108,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 7203.21
+          "acreage": 7123.23
         },
         {
           "land_use": "Agriculture",
@@ -1135,8 +1135,8 @@
       -96.909156,
       36.026747
     ],
-    "stl_total_acres": 7732.22,
-    "stl_subsurface_acres": 7203.18,
+    "stl_total_acres": 7652.24,
+    "stl_subsurface_acres": 7123.2,
     "stl_surface_acres": 529.04
   },
   "Isleta": {
@@ -1492,22 +1492,22 @@
         },
         {
           "land_use": "Recreation",
-          "acreage": 117857.59
+          "acreage": 117846.98
         },
         {
           "land_use": "Timber",
-          "acreage": 16971.64
+          "acreage": 16991.04
         },
         {
           "land_use": "Conservation",
-          "acreage": 11933.48
+          "acreage": 11944.09
         },
         {
           "land_use": "Grazing",
           "acreage": 0
         }
       ],
-      "uncategorized_acreage": 27931.96
+      "uncategorized_acreage": 27923.17
     },
     "bounds": [
       -94.68506909499996,
@@ -1606,7 +1606,7 @@
         },
         {
           "land_use": "Fossil Fuels",
-          "acreage": 12489.45
+          "acreage": 12529.69
         },
         {
           "land_use": "Commercial",
@@ -1754,7 +1754,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 21711.95
+          "acreage": 21631.27
         },
         {
           "land_use": "Agriculture",
@@ -1781,8 +1781,8 @@
       -96.242799,
       36.565407
     ],
-    "stl_total_acres": 25178.51,
-    "stl_subsurface_acres": 21551.98,
+    "stl_total_acres": 25097.82,
+    "stl_subsurface_acres": 21471.29,
     "stl_surface_acres": 3626.53
   },
   "Pine Ridge": {
@@ -2058,7 +2058,7 @@
       "top_land_uses": [
         {
           "land_use": "Mining",
-          "acreage": 19020.26
+          "acreage": 18980.27
         },
         {
           "land_use": "Agriculture",
@@ -2085,8 +2085,8 @@
       -96.619181,
       36.093371
     ],
-    "stl_total_acres": 21650.76,
-    "stl_subsurface_acres": 18940.78,
+    "stl_total_acres": 21610.76,
+    "stl_subsurface_acres": 18900.78,
     "stl_surface_acres": 2709.98
   },
   "Salt River": {
