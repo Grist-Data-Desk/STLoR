@@ -17,6 +17,7 @@ export default {
 				serif: '"GT Super Display", Georgia, serif'
 			},
 			fontSize: {
+				'3xs': ['0.625rem', '1rem'],
 				'2xs': ['0.6875rem', '1rem']
 			}
 		}

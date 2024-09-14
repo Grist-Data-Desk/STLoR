@@ -118,6 +118,12 @@
 		<h2 class="text-base font-semibold sm:text-lg">Explore other reservations</h2>
 		<ReservationSelect />
 	</div>
+	<div class="border-earth font-sans-alt text-3xs border-t border-opacity-25 pt-2">
+		<p>
+			<strong>Sources</strong> &nbsp;Grist & High Country News analysis / Bureau of Indian Affairs
+		</p>
+		<p><strong>Graphic</strong> &nbsp;Parker Ziegler / Grist</p>
+	</div>
 </div>
 
 <style lang="postcss">
