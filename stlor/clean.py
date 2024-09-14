@@ -247,7 +247,7 @@ def filter_id_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
         "Agricultural College",
         "Normal School",
         "Public School (Indemnity, Schools, Common Schools)",
-        "State Hospital South (Insane Asylum)"
+        "State Hospital South (Insane Asylum)",
     ]
 
     # Create a mask for Idaho rows
@@ -258,6 +258,50 @@ def filter_id_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
     # Keep rows that are either not in Idaho or are in Idaho with allowed trust names
     gdf = gdf[~id_mask | keep_mask]
+
+    return gdf
+
+
+def filter_ok_trust_names(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """
+    Filter trust lands for Oklahoma, keeping only specific trusts.
+
+    The function performs the following operations:
+    1. Creates a mask for rows where the 'state' is 'OK'.
+    2. Creates a list of allowed trust names for Oklahoma.
+    3. Removes rows where the state is 'OK' and the trust name is not in the allowed list.
+
+    Arguments:
+    gdf -- the state trust lands GeoDataFrame
+
+    Returns:
+    gpd.GeoDataFrame -- the state trust lands GeoDataFrame with only the specified
+    Oklahoma trusts and all other states' data intact
+    """
+    # List of allowed trust names for Oklahoma
+    ok_allowed_trusts = [
+        "Common Schools",
+        "Oklahoma State University",
+        "Normal Schools",
+        "State Educational Institutions",
+        "University Preparatory",
+        "Connors State College",
+        "Langston University",
+        "University of Oklahoma",
+        "Public Building",
+        "Redlands Community College",
+        "Greer 33",
+    ]
+
+    # Create a mask for Oklahoma rows
+    ok_mask = gdf["state"] == "OK"
+
+    # Create a mask for Oklahoma rows with allowed trust names
+    keep_mask = ok_mask & gdf["trust_name"].isin(ok_allowed_trusts)
+
+    # Keep rows that are either not in Oklahoma or are in Oklahoma with allowed
+    # trust names
+    gdf = gdf[~ok_mask | keep_mask]
 
     return gdf
 
