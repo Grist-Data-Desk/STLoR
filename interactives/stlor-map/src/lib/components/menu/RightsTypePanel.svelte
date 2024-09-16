@@ -59,7 +59,7 @@
 				y="0"
 				dy="1.2em"
 				font-size="14"
-				font-family="Basis Grotesque Pro"
+				font-family="Basis Grotesque"
 				font-weight="bold"
 				fill="#ffffff"
 			>
@@ -70,7 +70,7 @@
 				y="0"
 				dy="2.6em"
 				font-size="12"
-				font-family="Basis Grotesque Pro"
+				font-family="Basis Grotesque"
 				font-style="italic"
 				fill="#ffffff"
 				class="transition-all duration-300"

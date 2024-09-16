@@ -74,7 +74,7 @@
 					y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
 					dy="1.2em"
 					font-size="14"
-					font-family="Basis Grotesque Pro"
+					font-family="Basis Grotesque"
 					font-weight="bold"
 					fill={xScale(acreage) > 350 ? 'white' : 'black'}
 					text-anchor={xScale(acreage) > 350 ? 'end' : 'start'}
@@ -86,7 +86,7 @@
 					y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
 					dy="2.6em"
 					font-size="12"
-					font-family="Basis Grotesque Pro"
+					font-family="Basis Grotesque"
 					font-style="italic"
 					fill={xScale(acreage) > 350 ? 'white' : 'black'}
 					text-anchor={xScale(acreage) > 350 ? 'end' : 'start'}
