@@ -11,10 +11,10 @@
         font-display: auto;
         font-family: "PolySans";
         font-style: normal;
-        font-weight: 500;
-        src: url(https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff2)
+        font-weight: 700;
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff2")
             format("woff2"),
-          url(https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff)
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff")
             format("woff");
       }
 
@@ -23,9 +23,9 @@
         font-family: "Basis Grotesque";
         font-style: normal;
         font-weight: 500;
-        src: url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff2)
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff2")
             format("woff2"),
-          url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff)
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff")
             format("woff");
       }
 
@@ -34,9 +34,9 @@
         font-family: "Basis Grotesque";
         font-style: normal;
         font-weight: 700;
-        src: url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff2)
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff2")
             format("woff2"),
-          url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff)
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff")
             format("woff");
       }
 
@@ -45,20 +45,20 @@
         font-family: "Basis Grotesque";
         font-style: italic;
         font-weight: 700;
-        src: url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff2)
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff2")
             format("woff2"),
-          url(https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff)
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff")
             format("woff");
       }
 
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
       body,
       html {
         margin: 0;
         padding: 0;
         width: 100%;
-        font-family: "Basis Grotesque Pro", Arial, sans-serif;
+        font-family: "Basis Grotesque", Arial, sans-serif;
       }
+
       #lessee-pack {
         display: flex;
         flex-direction: column;
@@ -66,28 +66,33 @@
         height: 100%;
         color: #3c3830;
       }
+
       .lessee-pack__title-container {
         text-align: center;
         padding: 15px 0;
       }
+
       .lessee-pack__title {
-        font-family: "GT Super Display", "Poppins", sans-serif;
+        font-family: "PolySans", sans-serif;
         font-size: 2rem;
         line-height: 2rem;
         margin: 0;
         font-weight: 700;
       }
+
       .lessee-pack__subtitle {
         font-size: 1.3rem;
         line-height: 1.5rem;
         margin: 5px;
         margin-bottom: auto;
       }
+
       #controls {
         margin-bottom: 20px;
         display: flex;
         gap: 8px;
       }
+
       #reservation-selector,
       #hierarchy-switch,
       #reset-button {
@@ -101,30 +106,36 @@
         cursor: pointer;
         transition: background-color 0.3s ease, color 0.3s ease;
       }
+
       #reservation-selector {
         width: 150px;
         max-width: 100%;
         transition: width 0.3s ease;
       }
+
       #reservation-selector:focus,
       #hierarchy-switch:focus {
         outline: none;
         border-color: #476039;
       }
+
       #reservation-selector:hover,
       #hierarchy-switch:hover,
       #reset-button:hover {
         background-color: #476039;
         color: #fff;
       }
+
       #hierarchy-switch {
         transition: background-color 0.3s ease;
       }
+
       #visualization {
         width: 100%;
         height: calc(100% - 200px);
         overflow: hidden;
       }
+
       .tooltip {
         position: absolute;
         background-color: #fff;
@@ -134,12 +145,20 @@
         font-size: 12px;
         pointer-events: none;
       }
-      .note {
-        font-size: 0.8rem;
-        font-style: italic;
+
+      lfigcaption {
+        font-family: "Basis Grotesque", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.4;
+        margin-top: 8px;
         text-align: center;
-        margin-top: 10px;
       }
+
+      lcite {
+        font-style: italic;
+      }
+
       .reservation-label {
         font-size: 14px;
         pointer-events: none;
@@ -147,22 +166,29 @@
         opacity: 0;
         transition: opacity 0.3s;
       }
+
       @media (min-width: 768px) {
         .lessee-pack__title {
           font-size: 2rem;
           line-height: 2.5rem;
         }
+
         .lessee-pack__subtitle {
           font-size: 1.25rem;
           line-height: 2rem;
         }
       }
+
       @media (max-width: 768px) {
         #visualization {
           width: 100%;
           height: 455px;
           overflow: hidden;
         }
+      }
+
+      div.observer-pixel-14 {
+        display: none;
       }
     </style>
   </head>
@@ -180,11 +206,11 @@
         <button id="reset-button">Reset</button>
       </div>
       <div id="visualization"></div>
-      <p class="note">
-        Note: Only known, active lessees are included (roughly 33 percent of
+      <lfigcaption
+        >Note: Only known, active lessees are included (roughly 32 percent of
         state trust land on reservations).
-        <strong>Clayton Aldern / Grist</strong>
-      </p>
+        <lcite>Clayton Aldern / Grist</lcite></lfigcaption
+      >
     </div>
 
     <script>
@@ -220,22 +246,22 @@
 
         if (width <= 2 * radius || height <= 2 * radius) {
           return `M${x},${y} 
-                    h${width} 
-                    v${height} 
-                    h-${width} 
-                    Z`;
+                h${width} 
+                v${height} 
+                h-${width} 
+                Z`;
         }
 
         return `M${x + radius},${y} 
-                h${width - 2 * radius} 
-                a${radius},${radius} 0 0 1 ${radius},${radius} 
-                v${height - 2 * radius} 
-                a${radius},${radius} 0 0 1 -${radius},${radius} 
-                h-${width - 2 * radius} 
-                a${radius},${radius} 0 0 1 -${radius},-${radius} 
-                v-${height - 2 * radius} 
-                a${radius},${radius} 0 0 1 ${radius},-${radius} 
-                Z`;
+            h${width - 2 * radius} 
+            a${radius},${radius} 0 0 1 ${radius},${radius} 
+            v${height - 2 * radius} 
+            a${radius},${radius} 0 0 1 -${radius},${radius} 
+            h-${width - 2 * radius} 
+            a${radius},${radius} 0 0 1 -${radius},-${radius} 
+            v-${height - 2 * radius} 
+            a${radius},${radius} 0 0 1 ${radius},-${radius} 
+            Z`;
       }
 
       const svg = d3
@@ -534,13 +560,13 @@
               tooltip
                 .html(
                   `
-                        <strong>${trimLesseeName(d.data.name)}</strong><br/>
-                        <strong>Total Acres:</strong> ${d.value.toFixed(
-                          2
-                        )} acres<br/>
-                        <strong>Reservations:</strong> ${reservationsList}<br/>
-                        <strong>States:</strong> ${statesList}
-                    `
+                    <strong>${trimLesseeName(d.data.name)}</strong><br />
+                    <strong>Total Acres:</strong> ${d.value.toFixed(
+                      2
+                    )} acres<br />
+                    <strong>Reservations:</strong> ${reservationsList}<br />
+                    <strong>States:</strong> ${statesList}
+                `
                 )
                 .style("left", event.pageX + 10 + "px")
                 .style("top", event.pageY - 28 + "px");
@@ -635,7 +661,7 @@
           .style("opacity", 0.9);
         tooltip
           .html(
-            `${trimLesseeName(d.data.name)}<br/>${d.value.toFixed(2)} acres`
+            `${trimLesseeName(d.data.name)}<br />${d.value.toFixed(2)} acres`
           )
           .style("left", event.pageX + 10 + "px")
           .style("top", event.pageY - 28 + "px");
@@ -957,7 +983,7 @@
               .duration(transitionDurationFast)
               .style("opacity", 0.9);
             tooltip
-              .html(`${d.name}<br/>${d.value.toFixed(2)} acres`)
+              .html(`${d.name}<br />${d.value.toFixed(2)} acres`)
               .style("left", event.pageX + 10 + "px")
               .style("top", event.pageY - 28 + "px");
           })
@@ -1113,7 +1139,7 @@
               .duration(transitionDurationFast)
               .style("opacity", 0.9);
             tooltip
-              .html(`${d.name}<br/>${d.value.toFixed(2)} acres`)
+              .html(`${d.name}<br />${d.value.toFixed(2)} acres`)
               .style("left", event.pageX + 10 + "px")
               .style("top", event.pageY - 28 + "px");
           })
