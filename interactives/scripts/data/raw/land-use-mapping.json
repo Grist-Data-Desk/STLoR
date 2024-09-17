@@ -1,0 +1,6503 @@
+[
+  {
+    "activity": "Grazing",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag/grazing",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Agriculture",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Solar zone,Wind zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Range improvement project contract",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract,Renewables - SOLAR,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS)",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "DEVELOPMENT LEASE,EASEMENT (COUNTY ROADS)",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "DEVELOPMENT GROUND LEASE,EASEMENT (COUNTY ROADS)",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Coal,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Coal,Oil And Gas,Other Minerals,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Other Minerals,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,Oil And Gas,Other Minerals,Other minerals - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,OIL GAS & HYDROCARBON,Oil And Gas,Oil and gas fields,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Oil and gas fields,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,Oil And Gas,Oil and gas fields,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,Oil And Gas,Other Minerals,Other minerals - LITHIUM",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Other Minerals,Other minerals - POTASH",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Other Minerals",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,OIL GAS & HYDROCARBON,Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Coal,HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,OIL GAS & ASSOCIATED HYDROCARBONS,Oil And Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Forest Grazing License",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Commercial,Forest Grazing License",
+    "land_use": [
+      "Timber",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Cabin",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Commercial",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Grazing Lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing Competitive Bid",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Forest Grazing License,Grazing Lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Commercial,Grazing Lease",
+    "land_use": [
+      "Grazing",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Lease,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Forest Grazing & Ag License",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Competitive Bid",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag Lease",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Agriculture and grazing,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Cabin,Grazing Lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Competitive Bid,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Cabin,Forest Grazing License",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Forest Grazing Competitive Bid",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Agriculture and grazing",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Lease,Agriculture and grazing",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag & Grazing Competitive Bid,Ag Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing Competitive Bid,Grazing Lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Ag Lease,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "OilAndGas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "OtherMin",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "OilAndGas,OtherMin",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas active lease,OilAndGas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Coal,OilAndGas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "State Forest",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Wildlife Management Area",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Other Forest Land",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "State Park",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Aquatic Management Area",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Other Forest Land,State Park",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "State Forest,State Park",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Historic NonFerrous Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Historic Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Active Mineral Lease,Historic Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Active Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Historic Mineral Lease,Historic NonFerrous Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Mineral Lease,Minerals",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Unleased Minerals",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Long Term Commercial Lease,Mineral Lease",
+    "land_use": [
+      "Mining",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Long Term Commercial Lease",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,MAINTAIN PUBLIC HIGHWAY,Mineral Lease",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Mineral Lease,Short Term Commercial Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Short Term Commercial Lease",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Long Term Commercial Lease,Short Term Commercial Lease",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Recreation",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Interagency Agreement",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Temporary Access Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Agreement",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Public Access Program",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Other",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Road Access Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Coal,Oil & Gas,Other Minerals",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Grazing lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Power",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Easements - Mineral Associated Activity,Grazing lease",
+    "land_use": [
+      "Mining",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation,Grazing lease",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Grazing lease",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation,Special use lease - Black Powder and Muzzleloader Shooting Range and Access Road",
+    "land_use": [
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Power,Grazing lease",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Special use lease - Black Powder and Muzzleloader Shooting Range and Access Road",
+    "land_use": [
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing lease,Special use lease - Black Powder and Muzzleloader Shooting Range and Access Road",
+    "land_use": [
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easements - Power,Grazing lease,Special use lease - Black Powder and Muzzleloader Shooting Range and Access Road",
+    "land_use": [
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Grazing lease,Special use lease - Residence (3) & Access Road",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Mineral Associated Activity,Grazing lease,Special use lease - Residence (3) & Access Road",
+    "land_use": [
+      "Mining",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Oil,Grazing lease",
+    "land_use": [
+      "Fossil Fuels",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Power,Grazing lease,Special use lease - Cabin Site and Access Road",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Power,Special use lease - Cabin Site and Access Road",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements,Grazing lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing lease,Wind lease",
+    "land_use": [
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Grazing lease,Wind lease",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Easements",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation,Grazing lease,Special use lease - Wetland/Riparian/Waterfowl Habitat Enhancement and Nonconsumptive Public Use Project",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Easements,Grazing lease,Special use lease - Wetland/Riparian/Waterfowl Habitat Enhancement and Nonconsumptive Public Use Project",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing lease,Special use lease - Farm/Ranch Management Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation,Grazing lease,Wind lease",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing lease,Special use lease - Military Training Purposes",
+    "land_use": [
+      "Grazing",
+      "Federal Government"
+    ]
+  },
+  {
+    "activity": "Wind lease",
+    "land_use": [
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Special use lease - Abandoned Mine Reclamation and Restoration Work",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Flow Lines and Access Roads,Grazing lease,Offset Well Pad,Special use lease - Tank Battery",
+    "land_use": [
+      "Grazing",
+      "Fossil Fuels",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Flow Lines and Access Roads,Offset Well Pad,Special use lease - Tank Battery",
+    "land_use": [
+      "Fossil Fuels",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Grazing lease,Special use lease - Access Road",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Power,Grazing lease,Special use lease - Spring Development and Pipeline",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing lease,Special use lease - Spring Development and Pipeline",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Grazing lease,Special use lease - Spring Development and Pipeline",
+    "land_use": [
+      "Grazing",
+      "Water",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Gas,Grazing lease",
+    "land_use": [
+      "Fossil Fuels",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Special use lease - Farm and Ranch Management Lease on Bull Creek Ranch",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easements - Communication",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easements - Water",
+    "land_use": [
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easements - Irrigation",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Easements - Communication,Special use lease - Water Supply System",
+    "land_use": [
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easements - Transportation,Grazing lease,Special use lease - Habitat Conservation Bank",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Metallic and nonmetallic mineral lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Metallic and nonmetallic mineral lease,Oil and gas lease",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Highways",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Water for Grazing",
+    "land_use": [
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Water for Grazing",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Fracking Pond,Grazing Lease",
+    "land_use": [
+      "Grazing",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Utility (Public)",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Utility (Public)",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Highways",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - CLOSED,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Released",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Under Review",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidated Drilling Development Unit,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidated Drilling Development Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - CLOSING,Well Bottom Hole - CLOSING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas Well Bottom Hole - CONSTRUCTING,Oil and gas lease - Producing,Well Bottom Hole - CONSTRUCTING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidated Drilling Development Unit,Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidated Drilling Development Unit,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Released",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit (Sub)",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas,Oil and gas Well Bottom Hole - CLOSED,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement (Sub),Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - OPERATING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit (Sub),Oil and gas",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit (Sub),Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement (Sub)",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidated Drilling Development Unit,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement (Sub),Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - CLOSED,Oil and gas lease - Producing,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Allocated Drilling Development Unit,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Allocated Drilling Development Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Well Bottom Hole - CLOSED,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement (Sub),Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement (Sub),Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Held by Unit,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas,Oil and gas Wellbores - CLOSING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - CLOSING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - CLOSING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - CLOSING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Expired,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Allocated Drilling Development Unit,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - CONSTRUCTING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - CONSTRUCTING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Well Bottom Hole - CLOSED,Oil and gas lease - Producing,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - CONSTRUCTING,Oil and gas Wellbores - OPERATING",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - OPERATING,Oil and gas lease - Primary Term Non-Producing",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Wellbores - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Well Bottom Hole - CLOSED,Oil and gas lease - Producing,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Wellbores - CLOSED",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas lease - Held by Unit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit (Sub),Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas lease - Shut-In Royalty",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease - Shut-In Royalty",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Well Bottom Hole - CLOSING,Oil and gas lease - Producing,Well Bottom Hole - CLOSING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Allocated Drilling Development Unit,Oil and gas Wellbores - CLOSED,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas Wellbores - OPERATING,Oil and gas lease - Expired",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Consolidation Unit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - CLOSING,Oil and gas Wellbores - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas Well Bottom Hole - CLOSED,Oil and gas Wellbores - OPERATING,Well Bottom Hole - CLOSED",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals - Development Agreement,Oil and gas Wellbores - CLOSING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Wellbores - CLOSING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - CLOSED,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas,Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Secondary Recovery Unit,Oil and gas Well Bottom Hole - OPERATING,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Producing,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Drilling Development Unit,Oil and gas lease - Terminated",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Continuous Development Agreement,Oil and gas Wellbores - OPERATING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Production Sharing Agreement,Oil and gas,Oil and gas Well Bottom Hole - OPERATING,Oil and gas lease - Expired,Well Bottom Hole - OPERATING",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals - Pooled Unit,Oil and gas Wellbores - PLANNING,Oil and gas lease - Producing",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and Gas Lease",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Agriculture,Rights of way lease",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Rights of way lease",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Agriculture,Commercial lease,Rights of way lease",
+    "land_use": [
+      "Agriculture",
+      "Commercial",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Rights of way lease",
+    "land_use": [
+      "Commercial",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Agriculture,Energy By Solar,Rights of way lease",
+    "land_use": [
+      "Agriculture",
+      "Renewables",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Agriculture,Commercial lease,Energy By Wind,Rights of way lease",
+    "land_use": [
+      "Agriculture",
+      "Renewables",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Agriculture,Commercial lease,Rights of way lease,Wind Energy",
+    "land_use": [
+      "Agriculture",
+      "Renewables",
+      "Infrastructure",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Rights of way lease,Wind Energy",
+    "land_use": [
+      "Commercial",
+      "Renewables",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Rights of way lease,Wind Energy",
+    "land_use": [
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Agriculture,Rights of way lease,Wind Energy",
+    "land_use": [
+      "Agriculture",
+      "Renewables",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Agriculture,Energy By Wind,Rights of way lease",
+    "land_use": [
+      "Agriculture",
+      "Renewables",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Energy By Wind,Rights of way lease",
+    "land_use": [
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Commercial lease",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Agriculture,Commercial lease",
+    "land_use": [
+      "Agriculture",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Oil and gas lease",
+    "land_use": [
+      "Fossil Fuels",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Oil and gas lease,Water",
+    "land_use": [
+      "Commercial",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Water",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Water",
+    "land_use": [
+      "Commercial",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Salt Water Disposal",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Water",
+    "land_use": [
+      "Water"
+    ]
+  },
+  {
+    "activity": "Sand & Gravel",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Sand & Gravel",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Caliche,Commercial lease",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Caliche,Commercial lease,Oil and gas lease",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "misc",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Commercial Lease,misc",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,misc",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Agriculture,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Agriculture,Solar",
+    "land_use": [
+      "Agriculture",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Commercial Lease",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Commercial Lease,Grazing Lease",
+    "land_use": [
+      "Grazing",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Agriculture,misc",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Institutional Use",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Institutional Use,misc",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Institutional Use",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Solar",
+    "land_use": [
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,US Govt Exclusive Use",
+    "land_use": [
+      "Grazing",
+      "Federal Government"
+    ]
+  },
+  {
+    "activity": "Solar,misc",
+    "land_use": [
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Minerals,Oil and gas",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals,Oil and gas,Prospecting Permit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas,Prospecting Permit",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Minerals,Oil and Gas Permit",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals,Oil and Gas Permit,Oil and gas",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and Gas Permit",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Prospecting Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Crop,Easement Purpose:Ingress Egress,Easement Purpose:Utility Line,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Agriculture",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Crop,Easement Purpose:Ingress Egress,Easement Purpose:Utility Line,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ditch,Grazing,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Military,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure",
+      "Federal Government"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Land Use Permit,Military,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Federal Government"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Land Use Permit,Military,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Federal Government"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Grazing,Miscellaneous",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Transmission Line",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Transmission Line,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Timber - Advertised,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Temporary Permit,Water Rights",
+    "land_use": [
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Temporary Permit,Timber - Proposed",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Timber - Sold,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Salvage Sale,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Water",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Salvage Sale,Temporary Permit,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Timber - Proposed,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Temporary Permit,Timber - Proposed,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Timber - Proposed,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Temporary Permit,Timber - Proposed,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Land Use Permit,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Easement Purpose:Road,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Land Use Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Bridge,Easement Purpose:Road,Grazing,Recreation - Commercial",
+    "land_use": [
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Temporary Permit,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Easement Purpose:Road,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Easement Purpose:Power Line,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Recreation - Commercial",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Grazing,Recreation - Commercial,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Recreation - Commercial,Timber - Proposed",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Communication,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Grazing,Recreation - Commercial",
+    "land_use": [
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Recreation - Commercial",
+    "land_use": [
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Timber - Advertised,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Recreation - Commercial",
+    "land_use": [
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Recreation - Commercial,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Cable,Easement Purpose:Ingress Egress,Easement Purpose:Power Line,Easement Purpose:Road,Easement Purpose:Structure,Easement Purpose:Transmission Line,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Cable,Easement Purpose:Ingress Egress,Easement Purpose:Power Line,Easement Purpose:Road,Easement Purpose:Structure,Easement Purpose:Transmission Line,Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Miscellaneous,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Miscellaneous,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Grazing,Miscellaneous",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Recreation - Commercial,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Recreation - Commercial,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Miscellaneous,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Timber - Proposed,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Salvage Sale,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Industrial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Temporary Permit,Timber - Advertised",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Temporary Permit,Timber - Advertised,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Water Rights",
+    "land_use": [
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Fiber Optic Cable,Grazing,Land Use Permit,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Fiber Optic Cable,Grazing,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Fiber Optic Cable,Land Use Permit,Temporary Permit,Water Rights",
+    "land_use": [
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Grazing,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Sewer Pipeline,Grazing,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Sewer Pipeline,Grazing,Land Use Permit,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Grazing,Land Use Permit,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Sewer Pipeline,Grazing,Land Use Permit,Miscellaneous,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Highway,Grazing,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Power Line",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Power Line,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Power Line,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Industrial,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Telephone Line,Easement Purpose:Transmission Line,Grazing,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pipeline,Grazing,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Land Use Permit,Miscellaneous,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold,Water Rights",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:All Purpose,Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Highway,Grazing,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Temporary Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Recreation - Commercial",
+    "land_use": [
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Temporary Permit,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Grazing,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Timber - Sold,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Easement Purpose:Telecommunication Line,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Land Use Permit",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Ditch,Easement Purpose:Irrigation,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Agriculture",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Crop,Easement Purpose:Transmission Line,Land Use Permit",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Pipeline,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Natural Gas Pipeline,Grazing,Water Rights",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Natural Gas Pipeline,Grazing",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Land Use Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Telephone Line,Grazing,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Telephone Line,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Environmental,Temporary Permit",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Conservation,Grazing",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Ingress Egress,Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Land Use Permit,Timber - Proposed,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Temporary Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Grazing,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Grazing,Land Use Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit,Recreation - Commercial",
+    "land_use": [
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Land Use Permit,Timber - Sold",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Temporary Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Crop,Easement Purpose:Power Line,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Grazing,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Cable,Easement Purpose:Ingress Egress,Easement Purpose:Power Line,Easement Purpose:Road,Easement Purpose:Structure,Easement Purpose:Transmission Line,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Timber - Sold",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Grazing,Recreation - Commercial,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Road,Land Use Permit,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Land Use Permit,Recreation - Commercial,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Power Line,Grazing,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Recreation - Commercial,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Highway,Grazing,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Sewer Pipeline,Miscellaneous,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Timber - In Review,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:UNKNOWN,Temporary Permit,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Temporary Permit,Timber Sale,Water Rights",
+    "land_use": [
+      "Timber",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Timber - Proposed,Water Rights",
+    "land_use": [
+      "Timber",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Grazing,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Miscellaneous,Temporary Permit,Timber - Advertised",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Miscellaneous,Temporary Permit,Timber - Advertised",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Miscellaneous,Temporary Permit,Timber - Advertised,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Temporary Permit,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Timber - Sold,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pedestrian,Easement Purpose:Road,Land Use Permit,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Temporary Permit,Timber - Advertised,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Grazing,Timber Sale",
+    "land_use": [
+      "Timber",
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Grazing,Temporary Permit,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Communication,Grazing,Temporary Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Crop,Temporary Permit,Water Rights",
+    "land_use": [
+      "Agriculture",
+      "Water",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Pipeline,Grazing,Land Use Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Natural Gas Pipeline,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Pipeline",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Telephone Line,Grazing,Land Use Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Water Rights",
+    "land_use": [
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pipeline,Land Use Permit,Water Rights",
+    "land_use": [
+      "Infrastructure",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Pipeline",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Crop,Easement Purpose:Highway",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Crop",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Grazing,Land Use Permit",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Transmission Line,Land Use Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Land Use Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,SCATTERED WILDLIFE - WD",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATEWIDE WILDLIFE HABITAT - SD",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,STATEWIDE WILDLIFE HABITAT - SD",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,NATURAL AREA - DEDICATION",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATEWIDE HABITAT AREAS - WD",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,STATEWIDE PUBLIC ACCESS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,TUSCOBIA STATE TRAIL",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATEWIDE PUBLIC ACCESS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,GIFT LANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Owned - Open to public access,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,LAKE OF THE PINES CONSERVATION EASEMENT",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access,DNR Owned - Open to public access,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,SPRINGSTEAD MUSKEG STATE NATURAL AREA",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,STATEWIDE SPRING PONDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,STATEWIDE SPRING PONDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,STATEWIDE SPRING PONDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,STATEWIDE PUBLIC ACCESS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,TUSCOBIA STATE TRAIL",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,NICOLET STATE TRAIL",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,FOREST LEGACY PROGRAM",
+    "land_use": [
+      "Conservation",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,NICOLET STATE TRAIL",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Owned - Open to public access,NICOLET STATE TRAIL",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATEWIDE SPRING PONDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access,DNR Owned - Open to public access,STATEWIDE SPRING PONDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access,STATE OWNED ISLANDS - NW",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access,DNR Owned - Open to public access,NATURAL AREA - DEDICATION",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to public access,NATURAL AREA - DEDICATION",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,NATURAL AREA - DEDICATION",
+    "land_use": [
+      "Recreation",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use only,DNR Owned - Open to public access,STATEWIDE PUBLIC ACCESS - LM",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "DNR Easement - Open to passive use and fishing,DNR Owned - Open to public access,STATEWIDE WILDLIFE HABITAT - LM",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Granted by DNR",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Granted by DNR,Special Use Permits and Land Use Licenses",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Communications Site Lease",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Special Use Permits and Land Use Licenses",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Recreation Sites,Special Use Permits and Land Use Licenses",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Recreation Sites",
+    "land_use": [
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Communications Site Lease,Easement/Permit Granted by DNR",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Water Rights",
+    "land_use": [
+      "Water"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Easement/Permit Granted by DNR",
+    "land_use": [
+      "Infrastructure",
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Acquired by DNR",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Special Use Permits and Land Use Licenses",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Water Rights",
+    "land_use": [
+      "Grazing",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Granted by DNR,Water Rights",
+    "land_use": [
+      "Water"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Acquired by DNR,Easement/Permit Granted by DNR",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Grazing Lease",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Granted by DNR,Grazing Lease",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Water Rights",
+    "land_use": [
+      "Water",
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Longterm Commercial",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "ELECTRIC LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "10\" SANITARY SEWER LINE & 4' MANHOLE COVER & DRAINAGE AREA,Long Term Commercial Lease",
+    "land_use": [
+      "Infrastructure",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "10\" SANITARY SEWER LINE & 4' MANHOLE COVER & DRAINAGE AREA,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "HIGHWAY,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,OVERHEAD ELECTRIC TRANSMISSION LINE - WIND",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "1.7\" UNDERGROUND 34.5 KV ELECTRIC COLLECTION LINE & DATA FIBER OPTICS - WIND,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "ROADWAY IMPROVEMENTS,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "COMMUNICATION TOWER AND ACCESS ROAD,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV ELECTRIC TRANSMISSON LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "HIGHWAY PURPOSES,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "HIGHWAY IMPROVEMENTS,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "FIRE HYDRANT AND ROADWAY,Long Term Commercial Lease,PUBLIC ROAD AND UTILITIES - 8\" WATER & SEWER PIPELINE,SEWER MANHOLE COVER",
+    "land_use": [
+      "Infrastructure",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "FIRE HYDRANT AND ROADWAY,PUBLIC ROAD AND UTILITIES - 8\" WATER & SEWER PIPELINE,SEWER MANHOLE COVER,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "STREET FOR ELEMENTARY SCHOOL,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,STREET FOR ELEMENTARY SCHOOL",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "140' TALL,15' DIAMETER,50'X50' RURAL WATER STANDPIPE SITE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "18\" HYDROCARBONS PIPELINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV OVERHEAD ELECTRIC TRANSMISSION LINE,Agricultural Lease",
+    "land_use": [
+      "Infrastructure",
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "345 KV OVERHEAD ELECTRIC TRANSMISSION LINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV OVERHEAD ELECTRIC TRANSMISSION LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "WELLSITE ROADWAY",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "12\" CRUDE OIL,16\" FRESH WATER,16\" NATURAL GAS,2 75'x75' SITES,4 PIPELINES - 12\" SALT WATER,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "FIBER OPTIC LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "SCHOOL,Unleased Minerals",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "(2) 8\" SEWER LINES,12\" SEWER LINE & WASTE WATER TREATMENT PLANT SITE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "2 SEWER LINES,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "138 KV OVERHEAD ELECTRIC TRANSMISSION LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "138 KV OVERHEAD ELECTRIC TRANSMISSION LINE,Agricultural Lease",
+    "land_use": [
+      "Infrastructure",
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "RAILROAD,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,HIGHWAY IMPROVEMENTS",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "138 KV OVERHEAD ELECTRIC LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "138 KV OVERHEAD ELECTRIC LINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "15' DRAINAGE EASEMENT,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "7.2 KV UNDERGROUND ELECTRIC LINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Minerals,POWER LINE FOR RAILROAD SWITCHES",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "2 PIPELINES 4\" & 8-12\" NATURAL GAS & 30'X50' VALVE SITE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "3 PHASE OVERHEAD ELECTRIC LINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "3 PHASE OVERHEAD ELECTRIC LINE",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "24\" CRUDE OIL PIPELINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "30'X30 VALVE SITE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV OVERHEAD ELECTRIC COLLECITON LINE - WIND,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV ELECTRIC TRANSMISSION LINE - WIND,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "345 KV OVERHEAD ELECTRIC COLLECITON LINE - WIND,Agricultural Lease",
+    "land_use": [
+      "Infrastructure",
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "345 KV ELECTRIC TRANSMISSION LINE - WIND,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "16\" PIPELINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "HIGHWAY,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "6\" & 2 - 1\" NATURAL GAS PIPELINES,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Mineral lease - Water,Rights of way lease",
+    "land_use": [
+      "Commercial",
+      "Mining",
+      "Water",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "24.9 KV OVERHEAD ELECTRIC LINE,Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "2\" CONDUIT BURIED ELECTRIC LINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "4\" NATURAL GAS PIPELINE,Unleased Minerals",
+    "land_use": [
+      "Infrastructure",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Agricultural Lease,Long Term Commercial Lease",
+    "land_use": [
+      "Agriculture",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Non-utility - 2 acres, Grassland - 38 acres",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Enhanced for livestock - 1 acre, Grassland - 639 acres",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Pivot irrigated cropland - 11 acres, Non-utility - 2 acres, Grassland - 147 acres",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Dryland cropground - 183 acres, Water for livestock - 1 acre, Enhanced for livestock - 1 acre, Grassland - 125.3",
+    "land_use": [
+      "Agriculture",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Dryland cropground - 3.5 acres, Special class - 163.2 acres, Grassland - 457.8 acres, Non-utility - 4 acres",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Enhanced for livestock - 1 acre, Grassland - 558 acres, Real estate taxes - 1 acre",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil/gas well -  - OG",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Crushed Stone Potential Location",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Other Forest Land,State Forest",
+    "land_use": [
+      "Timber",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Aquatic Management Area,State Forest",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Aggregate Minerals - Gravel Pit,Crushed Stone Potential Location,Sand and Gravel Potential Location",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Crushed Stone Potential Location,Sand and Gravel Potential Location",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "State Forest,Wildlife Management Area",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Scientific and Natural Area,State Forest",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Sand and Gravel Potential Location",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Aggregate Minerals - Gravel Pit,Crushed Stone Potential Location",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Unleased Parcels",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Oil and Gas Permit,Unleased Parcels",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Agriculture,Unleased Parcels",
+    "land_use": [
+      "Agriculture"
+    ]
+  },
+  {
+    "activity": "Commercial Lease,Unleased Parcels",
+    "land_use": [
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Commercial lease,Oil and gas lease,Rights of way lease",
+    "land_use": [
+      "Commercial",
+      "Fossil Fuels",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Rights of way lease",
+    "land_use": [
+      "Fossil Fuels",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Mineral lease - Water,Rights of way lease",
+    "land_use": [
+      "Mining",
+      "Water",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -,Wind zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Wind zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Special use contract -",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Unleased Parcels",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD)",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Twin Knolls Water Well",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Range improvement project contract -",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON (SPECIAL),Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON (SPECIAL),Oil and gas well bottom hole,Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON (SPECIAL),Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - McClelland Meadow Creek Veg Mowing",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (SPECIAL)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (SPECIAL),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - HELIUM OIL GAS & ASSOCIATED HYDROCARBONS",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Book Cliffs lower elevation guzzlers phase II",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (SPECIAL)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil shale contract,Other minerals contract -  - BUILDING STONE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Archy Bench P-J Project",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - BUILDING STONE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - BUILDING STONE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas wells,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas well bottom hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS (SPECIAL),Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
+    "land_use": [
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Desert Springs Corral",
+    "land_use": [
+      "Infrastructure",
+      "Conservation",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pleasant Valley Guzzlers,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Solar zone,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pariette Lands Prescribed Burn Project,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pleasant Valley Guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pleasant Valley Guzzlers",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Historic/Past Uranium Production,Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Mining",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Oil and Gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Tom Patterson Prescribed burn and bullhog,Wind zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Wind zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Rat Hole Hazardous Fuel Reduction",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Tom Patterson Prescribed burn and bullhog",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Historic mine -  - Gravel Pit",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Historic mine -  - Tailings - Pond",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (SPECIAL),Range improvement project contract -  - Bottom Canyon Bullhog P/J Removal Phase II",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Bottom Canyon Bullhog P/J Removal Phase II,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - Bull Canyon Guzzler,Sagebrush treatment & ponds,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - Pine Spring Bullhog P/J Removal",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (SPECIAL),Grazing contract -  - GRAZING (STANDARD)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "EASEMENT (SPECIAL),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - HELIUM OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Seep Ridge Maintenance Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Atchee Ridge Fuel Break",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Atchee ridge Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Augusi Bullhog",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Atchee ridge Lop & Scatter",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - P/J LOP & SCATTER",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas wells,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - East Seep Pond Repair",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil shale contract,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Tar Sands Pond Maintenance",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells,Oil shale contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Archy Bench P-J Project,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Phase 4,Range improvement project contract -  - White River Enhancement",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Phase 4,Range improvement project contract -  - White River Enhancement,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Phase 4,Range improvement project contract -  - White River Enhancement",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Phase 4,Range improvement project contract -  - White River Enhancement",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Phase 4,RIGHT OF WAY,Range improvement project contract -  - White River Enhancement",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation",
+      "Water"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & ASSOCIATED HYDROCARBONS,Oil and gas wells,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Solar zone",
+    "land_use": [
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers",
+    "land_use": [
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -  - Greater Natural Buttes Pronghorn guzzlers,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Range improvement project contract -  - Raven Ridge Harrow,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - GILSONITE",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON (SPECIAL),Oil and gas well bottom hole,Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Raven Ridge Harrow,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Coal Mine Basin Snake John Herbicide,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - KODA Resources Pronghorn Guzzlers",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL & GAS (SPECIAL),Oil and gas wells",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Range improvement project contract -  - KODA Resources Pronghorn Guzzlers,Solar zone",
+    "land_use": [
+      "Infrastructure",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Walker Hollow,Solar zone",
+    "land_use": [
+      "Grazing",
+      "Conservation",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "Other minerals contract -  - INDUSTRIAL SANDS",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Solar zone,Special use contract -",
+    "land_use": [
+      "Infrastructure",
+      "Renewables"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (STANDARD),Range improvement project contract -  - Pariette Lands Prescribed Burn Project",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Oil and gas well bottom hole,Oil and gas wells,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas contract -  - OIL GAS & HYDROCARBON,Other minerals contract -  - METALLIFEROUS MINERALS",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "RIGHT OF WAY,Range improvement project contract -  - FENCE",
+    "land_use": [
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - FENCE",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (STANDARD),RIGHT OF WAY,Range improvement project contract -  - McCoy Flat Reservoirs (new construction)",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Oil and gas well bottom hole,Oil and gas wells,Tar sand contract",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "EASEMENT,Grazing contract -  - GRAZING (BLOCK)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),RIGHT OF WAY",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK)",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),RIGHT OF WAY,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),Range improvement project contract -  - pipeline and troughs - Tabby Mountain",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),Range improvement project contract -  - Rock Springs Pipe Line",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (BLOCK)",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),RIGHT OF WAY,Range improvement project contract -  - pipeline and troughs - Tabby Mountain",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "EASEMENT (COUNTY ROADS),Grazing contract -  - GRAZING (BLOCK),Range improvement project contract -  - pipeline and troughs - Tabby Mountain",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Water",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),RIGHT OF WAY,Range improvement project contract -  - pipeline and troughs - Tabby Mountain,Special use contract -",
+    "land_use": [
+      "Grazing",
+      "Infrastructure",
+      "Water",
+      "Conservation"
+    ]
+  },
+  {
+    "activity": "Grazing contract -  - GRAZING (BLOCK),TRAVEL DESIGNATION (PRED)",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "MINERAL_ENERGY - MER",
+    "land_use": [
+      "Mining",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Timber Harvest Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "MINERAL_ENERGY",
+    "land_use": [
+      "Mining",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Miscellaneous",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:UNKNOWN,Grazing,Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Commercial",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Mineral Lease",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Mineral Lease,Oil & Gas",
+    "land_use": [
+      "Mining",
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing Competitive Bid,Timber Harvest Sale",
+    "land_use": [
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Recreation - Commercial,Temporary Permit",
+    "land_use": [
+      "Recreation",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Power Line,Grazing,Recreation - Commercial",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Recreation",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Road,Easement Purpose:Utility Line,Grazing,Recreation - Commercial",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Recreation",
+      "Commercial"
+    ]
+  },
+  {
+    "activity": "Crop,Grazing,Temporary Permit",
+    "land_use": [
+      "Agriculture",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Crop,Easement Purpose:Power Line,Grazing,Temporary Permit",
+    "land_use": [
+      "Agriculture",
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Crop,Easement Purpose:UNKNOWN,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Agriculture",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Ditch,Easement Purpose:Sewer Pipeline,Miscellaneous,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Miscellaneous,Temporary Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Communication,Grazing,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Highway,Grazing",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Land Use Permit",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:UNKNOWN,Grazing,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Infrastructure",
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Pole Line,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Land Use Permit,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Power Line,Grazing,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Pole Line,Grazing,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Transmission Line,Grazing,Land Use Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Telephone Line,Miscellaneous",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Permit Range",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Easement/Permit Granted by DNR,Permit Range",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Communication,Miscellaneous",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Spill Site -  - Oil",
+    "land_use": [
+      "Fossil Fuels",
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Construction Aggregate and Mining -  - SAND/GRAVEL",
+    "land_use": [
+      "Mining"
+    ]
+  },
+  {
+    "activity": "Oil and gas well - Dry Hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas active lease,Oil and gas well - Gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil field",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil field",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil field,Oil/gas well -  - OG",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil field,Oil/gas well -  - OG",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil/gas well -  - OG",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil field,Oil/gas well -  - ST",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil field,Oil/gas well -  - SWD",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas lease,Oil field,Oil/gas well -  - Confidential",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas active lease",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Oil and gas well - Gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Permit Range",
+    "land_use": [
+      "Grazing"
+    ]
+  },
+  {
+    "activity": "Forest Grazing License,Timber Harvest Sale",
+    "land_use": [
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Forest Grazing Competitive Bid,Timber Harvest Sale",
+    "land_use": [
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Grazing Lease,Timber Harvest Sale",
+    "land_use": [
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Salvage Sale,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Cabin,Grazing Competitive Bid",
+    "land_use": [
+      "Grazing",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Cabin,Timber Harvest Sale",
+    "land_use": [
+      "Timber",
+      "Recreation"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Road,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Highway,Grazing,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Temporary Permit",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Grazing,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road",
+    "land_use": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Easement Purpose:Ingress Egress,Easement Purpose:Road,Salvage Sale,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Direct Sale,Salvage Sale,Timber Sale",
+    "land_use": [
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Easement Purpose:Ingress Egress,Easement Purpose:Road,Salvage Sale,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Oil & Gas",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Submerged Land Lease",
+    "land_use": [
+      "Uncategorized"
+    ]
+  },
+  {
+    "activity": "Conservation Easement - Forests for the Future,State Forest",
+    "land_use": [
+      "Conservation",
+      "Timber"
+    ]
+  },
+  {
+    "activity": "Oil/gas well -  - Dry Hole",
+    "land_use": [
+      "Fossil Fuels"
+    ]
+  },
+  {
+    "activity": "Communication,Easement Purpose:Ditch,Easement Purpose:Irrigation,Grazing,Temporary Permit,Timber Sale",
+    "land_use": [
+      "Infrastructure",
+      "Grazing",
+      "Timber"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "@grist/stlor-interactives-scripts",
+  "version": "0.1.0",
+  "description": "Scripts for generating, storing, and deploying the data and code used by interactives in STLoR.",
+  "private": true,
+  "scripts": {
+    "build": "pnpm run process:parcels && pnpm run process:reservations && pnpm run process:rights-type && pnpm run gen:patterns && pnpm run gen:pmtiles",
+    "deploy:stlor-map": "tsc && node --env-file=.env dist/deploy-stlor-map.js",
+    "gen:pmtiles": "tsc && node dist/generate-pmtiles.js",
+    "gen:patterns": "tsc && node dist/generate-patterns.js && cp data/processed/land-use-patterns.json ../stlor-map/static/land-use-patterns.json && cp data/processed/rights-type-pattern.json ../stlor-map/static/rights-type-pattern.json",
+    "process:parcels": "tsc && node dist/process-parcels.js",
+    "process:reservations": "tsc && node dist/process-reservations.js && cp data/processed/reservation-stats.json ../stlor-map/static/reservation-stats.json",
+    "process:rights-type": "python src/generate_rights_type_layers.py",
+    "store:csv": "tsc && node --env-file=.env dist/store-csv.js",
+    "store:png": "tsc && node --env-file=.env dist/store-png.js",
+    "store:pmtiles": "tsc && node --env-file=.env dist/store-pmtiles.js",
+    "store:styles": "tsc && node --env-file=.env dist/store-styles.js"
+  },
+  "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/geojson": "^7946.0.14",
+    "@types/lodash.groupby": "^4.6.9",
+    "@types/lodash.round": "^4.0.9",
+    "@types/node": "^22.1.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "@turf/bbox": "^7.1.0",
+    "@turf/helpers": "^7.0.0",
+    "canvas": "^2.11.2",
+    "lodash.groupby": "^4.6.0",
+    "lodash.round": "^4.0.4"
+  }
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "combo": "Commercial, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAt0lEQVRYhWNMC5x8gOUNuz0DDvBH+fvBfyK/cMoz3eU4SJH+f8o/7P+I/DyISwHLXU57pjdsOOUp1c9EDUMo0c9EDUMo0c+EzBkIRzChK6K3IzAcQG9HYHUAvRzB+Ib1KBMtsxgh/ax3uayZaJ3PCelnooYhlOiHp4GBcgRKIhwIR2DkAno7Ams2pKcjcJYD9HDEX5FfR5kGsir+q/zderQ9MNoeGG0PjLYHRtsDo+2B0fbAgLcHAJniAMYaTZflAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Agriculture, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA9ElEQVRYhWN07Q848E7wjj0DDiD32Oqg8EdVnPIPpY8epEQ/s5Nu8vxfrF8Pfud8p4BNwUf+xwpsP7kPcv0Uxiov8FlOgRL9TAwMDAzyT63thd6rHMTlykeyx+zf8t/GKU+JfiZqGEKJfiZkzkA4ggldEb0dgeEAejuC2cjKrQGbIkpTNzH62X/wHWWW91R0pFUWI6z/kRwzd/zP+bTM54T0M0sFiDXQurDBp59ZKkCsgRo+IVc/3AED5QgUBwyEIzAcQG9HYHUAvRzxk+3TUWYdeyvHgaqKBT7Jy422B0bbA6PtgdH2wGh7YLQ9MNoeGPD2AACXXIOWMyHCYwAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Agriculture, Commercial",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWP0qAk78Frlmj0DDqB40OWg2B0tnPL37PccpEQ/s9v//Pm/+D4f/Cb0WgGbgg8K9xTYPvMe5H4nilVe8KGSAiX6mU3lfRsoNYQS/cym8r4N1PAJufrhDhgoR6A4YCAcgeEAejsCqwPo5QiOj/xHmeWdlR1plcUI6X+veFeOmbPgy3xa5nNC+pmlAsQaaF3Y4NPPLBUg1kANn5CrH+6AgXIEigMGwhEYDqC3I7A6gF6O+MH//iizvo6D40BVxUIPVORG2wOj7YHR9sBoe2C0PTDaHhhtDwx4ewAAGNTMlzD+dT8AAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Infrastructure, Mining",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWOc2Fl04PJrSXsGHMBd6fpBPbEXOOV33NU4SIl+5okZgvM//+Q4+OobrwI2BXffiyrwsv04KM79Bau8itAbBUr0M+eGqTZQaggl+plzw1QbqOETcvXDHTBQjkBxwEA4AsMB9HYEVgfQyxFCHN+OMts72DrSKosR0n/rnZgcM79m1Hxa5nNC+pmNrNwaaF3Y4NPPbGTl1kANn5CrH+6AgXIEigMGwhEYDqC3I7A6gF6OeP+d6yhzvL+u40BVxWrCr+VG2wOj7YHR9sBoe2C0PTDaHhhtDwx4ewAAi83QrpMg4mkAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Fossil Fuels, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA9klEQVRYhWP08gs88OnVfXsGHEBS1fIgv7gSTvlnt44dpEQ/s71v8vxfP74c/Pn1gwI2BV/ePVFgZec5yMEjiFWeV1hWgRL9TAwMDAxSalb2fGKKB3G58vnt4/YfX97DKU+JfiZqGEKJfiZkzkA4ggldEb0dgeEAejuC2cjKrQGbIkpTNzH62Tj5jzIrK6s40iqLEdL/+e0jOWYhrj/zaZnPCelnlpORaKB1YYNPP7OcjEQDNXxCrn64AwbKESgOGAhHYDiA3o7A6gB6OeLn909HmXWMLB0HqirmE5GTG20PjLYHRtsDo+2B0fbAaHtgtD0w4O0BADaOgGmhyOY4AAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Conservation, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWPsXJd1QNNQwZ4BB9i34dzB6xcf4pR38jM8SIl+ZmZOlvm8/JwHRSUFFLApUNSQVPjy4fvBNy8/YpW/f/OFAiX6mVUMZBsoNYQS/cwqBrIN1PAJufrhDhgoR6A4YCAcgeEAejsCqwPo5YgPb74eZfaNt3GkVRYjpF9ZS0qOuWpG3Hxa5nNC+pkjC1wbaF3Y4NPPHFng2kANn5CrH+6AgXIEigMGwhEYDqC3I7A6gF6OEBTmOcpsYK/qOFBV8d3rz+RG2wOj7YHR9sBoe2C0PTDaHhhtDwx4ewAA+9vOybm+AJ0AAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Conservation, Grazing",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAtklEQVRYhWNcebzrAKcEgz0DDvD5BsPB76+YcMrzqv07SIl+ps+3mOy/v2A4iNMCDQZ7TrF/OOUp1c9EDUMo0c9EDUMo0c+EzBkIRzChK6K3IzAcQG9HYHUAvRzBLvr/KBMtsxgh/fya/62ZaJ3PCelnooYhlOiHp4GBcgRKIhwIR2DkAno7Ams2pKcjcJYDdHHEa4ajTANZFX++zmQ92h4YbQ+MtgdG2wOj7YHR9sBoe2DA2wMAEY/DHqcmn+EAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Agriculture, Grazing",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA9klEQVRYhWOMWhh44Ob/2/YMOIDjf6uDGkxqOOX3MRw9SIl+5vzAlPmfGb8efMvwTgGbggeMjxV4/3MdFGEUxiqvyCCnQIl+JgYGBgYnBmt7dUbVg7hcuZ/xmP2Nf7dwylOin4kahlCinwmZMxCOYEJXRG9HYDiA3o5g9gt0a8CmiNLUTYx+fgbeo8xq/gqOtMpihPTfZ3gkx/wz8Od8WuZzQvqZpQLEGmhd2ODTzywVINZADZ+Qqx/ugIFyBIoDBsIRGA6gtyOwOoBejvjA8PEos2OgteNAVcXKjApyo+2B0fbAaHtgtD0w2h4YbQ+MtgcGvD0AAKubINB7hOCkAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Fossil Fuels, Mining",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWOsSLE8cOTKd3sGHCDRQ/CgjQ4nTvn5O94fpEQ/89wqvfnvPv05+OjVHwVsCi7c+aEgzMdyUE6MFau8oQqnAiX6mXPDVBsoNYQS/cy5YaoN1PAJufrhDhgoR6A4YCAcgeEAejsCqwPo5QhJQZajzIZaMo60ymKE9J+9/UOO+d0Pgfm0zOeE9DPLyUg00LqwwaefWU5GooEaPiFXP9wBA+UIFAcMhCMwHEBvR2B1AL0c8eLd76PMUR6KjgNVFZuoccqNtgdG2wOj7YHR9sBoe2C0PTDaHhjw9gAA7fLOceYUNCcAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Infrastructure, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWOcXph14Cyzoj0DDhD86/RB038PccqvZjU+SIl+5oUmTPPfM3IefM4kqIBNwXVmaQX+f18PSv//iFVe+99zBUr0M5eZyTRQaggl+pnLzGQaqOETcvXDHTBQjkBxwEA4AsMB9HYEVgfQyxHC/78cZXa0sHakVRYjpP8qs7QcM6dtwnxa5nNC+pmNrNwaaF3Y4NPPbGTl1kANn5CrH+6AgXIEigMGwhEYDqC3I7A6gF6OeM3Ic5Q51VzVcaCqYt1/T+VG2wOj7YHR9sBoe2C0PTDaHhhtDwx4ewAAaR/Oj28RLOsAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Grazing, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAuElEQVRYhWNs6+86ICbEZM+AA9x98v/g6/cMOOWVpP8fpEQ/072njPav3v07iEuBsgyjvaggA055SvUzUcMQSvQzUcMQSvQzIXMGwhFM6Iro7QgMB9DbEVgdQC9HCPEzHGWiZRYjpF9NjtGaidb5nJB+JmoYQol+eBoYKEegJMKBcARGLqC3I7BmQ3o6Amc5QA9HvP74/yjTQFbFdx8xWI+2B0bbA6PtgdH2wGh7YLQ9MNoeGPD2AAAAfMK6YiPt/gAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Conservation, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA50lEQVRYhWOcvK3zgLwmoz0DDnBhD8PBRzdxy+s7/TtIiX5maUn3+Ry8/w8KiDIqYFMgocSg8P0Tw8GPb7HLv7zPqECJfiYGBgaGi/uY7B9e/38QlysNXBjs5dRxy1Oin4kahlCinwmZMxCOYEJXRG9HYDiA3o5gNrJya8CmiNLUTYz+z+8ZjzIHJLo60iqLEdIvpcIgx0TLLEaMfiZqGEKJfngiHChHoOSCgXAERjaktyOwlgP0dARWB9DLEU9uMxxltnJ3cRyoqvj5XUa50fbAaHtgtD0w2h4YbQ+MtgdG2wMD3h4AAFu3BE5v6ZhSAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Conservation, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA+0lEQVRYhWM8vjnzwGsdRXsGHEBl+5mDYtce4pS/7W50kBL9zJ3CzPN/8HEe/CYmqIBNwTtVKQX2j98Ocr/+iFVe+O5zBUr0M5eZyTRQaggl+pnLzGQaqOETcvXDHTBQjkBxwEA4AsMB9HYEVgfQyxEc774eZU5IsHakVRYjqF9NWo7ZfUr8fFrmc0L6mRgYGBjueJrYv9KSP4hNAQMDA4PqznP2olfu45SnRD8TNQyhRD8TMmcgHMGErojejsBwAL0dwRxZ4NqATRGta0Hhu88VvgvxHGXOc1FxHKiqWPj2M7nR9sBoe2C0PTDaHhhtD4y2B0bbAwPeHgAAyGSIM8ZiWbYAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Infrastructure, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA6ElEQVRYhWOMzMk5wM0hb8+AA7z9cvbgtx8PccoL8RgfpEQ/s7QW83wWJq6DbCwCCtgUcLFJKfz59+3g7z8fscp///VcgRL9TAwMDAzvvpy1//rj4UFcrhTmMbbn4pDHKU+JfiZqGEKJfiZkzkA4ggldEb0dgeEAejuCWcVAtgGbIkpTN1H6/345yqxnYeNIqyxGUD+7tBwTLbMYMfqZqGEIJfrhiXCgHIGSCwbCERjZkN6OwFoO0NMRWB1AL0d8+/HkKLO6kbrjQFXF3389lRttD4y2B0bbA6PtgdH2wGh7YLQ9MODtAQAG0B2ql88ufAAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Recreation, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA4ElEQVRYhWPc1lxywFVc1Z4BB+i/c/Tg3le3ccrnK1sfpEQ/8xv5//NF2bgPKvMIK2BTYCkkp/Dy59eD97++wyp/8v1jBUr0M6sYyDZQaggl+plVDGQbqOETcvXDHTBQjkBxwEA4AsMB9HYEVgfQyxFPv386ypzu5uRIqyxGSL+1sLwc87b4rPm0zOeE9DPX+fo20Lqwwaefuc7Xt4EaPiFXP9wBA+UIFAcMhCMwHEBvR2B1AL0cIcPBf5TZ0kzDcaCq4qPvHsqNtgdG2wOj7YHR9sBoe2C0PTDaHhjw9gAAdZzTLHP3cZYAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Commercial, Recreation",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA8UlEQVRYhWOcnzDrwOm7DPYMOECk9f+DFkq45ZccYzxIiX7mNVk+899+ZTz47D2DAjYFVx4zKgjyMhyUEcQuryfLoECJfiYGBgaGGKv/9qbKDAdxuXL5UUb7E/dwy1Oin4kahlCinwmZMxCOYEJXRG9HYDiA3o5grvP1bcCmiNLUTYx+MT7Go8xu2r6OtMpihPRffMQgx8zJ6DeflvmckH5mU3nfBloXNvj0M5vKQ9LAQDkC7oCBcgSKAwbCERgOoLcjsDqAXo549ZnxKHOWk6/jQFXFBnIMcqPtgdH2wGh7YLQ9MNoeGG0PjLYHBrw9AAD+jvhg8EbNRQAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Grazing, Recreation",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAuUlEQVRYhWPcP2/igbvMv+0ZcACrP+wHVf+y4ZQ/wvLjICX6mWz+cNgr/2U9iEvBMZaf9reZf+GUp1Q/EzUMoUQ/EzUMoUQ/EzJnIBzBhK6I3o7AcAC9HYHVAfRyxD2m30eZaJnFCOk/zPrDmonW+ZyQfiZqGEKJfngaGChHoCTCgXAERi6gtyOwZkN6OgJnOUAPRyj+YznKNJBVsd1vTuvR9sBoe2C0PTDaHhhtD4y2B0bbAwPeHgAAuQEAja+dpxwAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Grazing, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA/ElEQVRYhWOsac85oCClYM+AA5y6cfbgw+cPcMqbqhsfpEQ/M6cs83xudq6DArwCCtgUSItIKXz9+f3gxy8fsMo/e/tcgRL9zCoGsg2UGkKJfmYVA9kGaviEXP1wBwyUI1AcMBCOwHAAvR2B1QH0csTnb1+OMjt72jrSKosR0i8jJi3HnJmaMJ+W+ZyQfiYGBgYGMw1je3lJhYPYFDAwMDCcvnnW/sGzBzjlKdHPRA1DKNHPhMwZCEcwoSuityMwHEBvRzD7Bbo1YFNE61rw2dvnCrxcvEeZ9czVHAeqKn76+qncaHtgtD0w2h4YbQ+MtgdG2wOj7YEBbw8AAPoqgZwyw9pVAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Grazing, Water",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA1ElEQVRYhWOcv2ntgb/v79sz4ACsMmYHWQUVccr/fHLqICX6mdhlzOyZBRUP4lLw+8kp+9/v7+OUp1Q/EzUMoUQ/EzUMoUQ/EzJnIBzBhK6I3o7AcAC9HYHVAXRzxIeHR5lomcUI6n98wprZx1l7PgMb90FmTkEFbIpY+KQV/v3+dvD/jw9Y5f99eqpAiX4mqviEAv3wNDBQjkBJhAPhCIxcQG9HYM2G9HQEznKALo4QkD3KNJBVMbuslfVoe2C0PTDaHhhtD4y2B0bbA6PtgQFvDwAATfEInVkaWiMAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Commercial, Grazing",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAA6klEQVRYhWOsSZp64N1tVnsGHEDe/vtBYdXfOOUfHOQ8SIl+JgX77/ZCqr8P4lLw8CCn/dvbrDjlKdXPRA1DKNHPRA1DKNHPhMwZCEcwoSuityMwHEBvR2B1AL0c8e4uy1Fmax1vRy7hfwrYFAko/FH4+Znp4Pd3zFjlPz5kVWDj/XeQXP0fHrDKMav9D5pPiSGUOoKJgYH2hQ0+/fA0MFCOQEmEA+EIjFxAb0dgzYb0dASzqbxvAzZFlKZuYvR//8h4lNndxcORVlmMkH5BxT9yo+2B0fbAaHtgtD0w2h4YbQ+MtgcGvD0AAJarJagOEo+3AAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Agriculture, Commercial, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZ0lEQVRYhWM0XqDzn2EAAdNAWj7qgEHhABaDVXEnBtQB7J8FLAbSAQMeBaMOYPkr8ev4wDpA/rvlQDpgwKNg1AED7gCW8zoLB9QBAx4Cow4YcAeMtgcGPApGHTDaHhjwKBh1wIA7AADOrRS078qGAwAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Commercial, Fossil Fuels, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAaElEQVRYhWPMsp31n2EAAdNAWj7qgEHhAJabf5eeGFAH/Pz30WIgHTDgUTDqABZBKbXjA+oAcSVTy4F0wIBHwagDBtwBLGwn+QfUAQMeAqMOGHAHjLYHBjwKRh0w2h4Y8CgYdcCAOwAA5UMTtOZDtT4AAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Agriculture, Conservation, Grazing",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAYklEQVRYhWM0XqDzn2EAAdNAWj7qgEHhAJZcs6ATA+oAIU4ei4F0wIBHwagDWL4/Yzw+oA74fIfRciAdMOBRMOqAAXcA42h7YNQBA+2A0fbAgEfBqANG2wMDHgWjDhhwBwAAmRoR31mqvT4AAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Infrastructure, Mining, Water",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVRYhWNMKen+zzCAgGkgLR91wKBwAEuqwYkTA+oAAY7vFgPpgAGPglEHsLwWcDo+kA5gXHbu8WhRPOqAAQUs+5atGFAHDHgIjDpgwB0w2h4Y8CgYdcBoe2DAo2DUAQPuAACdEBZGYsWSDAAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Conservation, Grazing, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZ0lEQVRYhe3WsRGAIBBE0ZO5oqQJGrETy7EJHZpwSCC63MTBMr7B0gBv7ie7HPc+DXyJ/FyAXwA8arpQwPvYSgLwBAL4iHmigNYtkwA8gQA4wMuGzgH+AgLgAO0BPIEA2gN4AgFwwAfI4xm0y6zUKQAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Grazing, Infrastructure, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVRYhWOcs7DnP8MAAqaBtHzUAYPCASwXbv07MaAO+PGT0WIgHTDgUTDqABabP3eOD6QDGN/kmI8WxaMOGFDAssE0dEAdMOAhMOqAAXfAaHtgwKNg1AGj7YEBj4JRBwy4AwDgQBpUJTiX3AAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Conservation, Grazing, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAYklEQVRYhWPcdL/rP8MAAqaBtHzUAYPCASxvTzGdGFAH/P3BYDGQDhjwKBh1AIvyy9vHB9QBuo8uWA6kAwY8CkYdMOAOYBxtD4w6YKAdMNoeGPAoGHXAaHtgwKNg1AED7gAACpIZa014oGQAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Conservation, Grazing, Water",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAaElEQVRYhWPcdL/rP8MAAqaBtHzUAYPCASxvTzGdGFAH/P3BYDGQDhjwKBh1AAuLsNrxAXUAm5Sh5UA6YMCjYNQBA+4AFh7B5QPqgAEPgVEHDLgDRtsDAx4Fow4YbQ8MeBSMOmDAHQAAhZAQqKQ+MscAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Conservation, Infrastructure, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAXklEQVRYhWPcdL/rP8MAAqaBtHzUAYPCASx7ljCcGFAHfPvIaDGQDhjwKBh1AIvNnzvHB9IBjG9yzEeL4lEHDChgHG0PjDpgoB0w2h4Y8CgYdcBoe2DAo2DUAQPuAADSiBnfI3bFHAAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Grazing, Infrastructure, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAaUlEQVRYhWOcs7DnP8MAAqaBtHzUAYPCASwXbv07MaAO+PGT0WIgHTDgUTDqAJav3+8eH1AHvPt60XIgHTDgUTDqgAF3AEuoY/CAOmDAQ2DUAQPugNH2wIBHwagDRtsDAx4Fow4YcAcAAFEEHDFGKvQFAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Infrastructure, Recreation, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAY0lEQVRYhWNMKen+zzCAgGkgLR91wKBwAEujIs+JAXWAGCuTxUA6YMCjYNQBLJtfXD8+kA5gdE+wHC2KRx0woIBFViRoQB0w4CEw6oABd8Boe2DAo2DUAaPtgQGPglEHDLgDAOCGEPe3LNEMAAAAAElFTkSuQmCC"
+  },
+  {
+    "combo": "Grazing, Recreation, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZElEQVRYhWOcs7DnP8MAAqaBtHzUAYPCASyBv7hPDKgD+P4zWQykAwY8CkYdwLL5xfXjA+kARvcEy9GieNQBAwpYQh2DB9QBAx4Cow4YcAeMtgcGPApGHTDaHhjwKBh1wIA7AAA09hT385uk1AAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Agriculture, Grazing, Infrastructure",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAZ0lEQVRYhe3WsRWAIAxF0eBJi5PQ0egcliyn00jHDDRYOQOO8Sx+Fsg9eU1CPtM0cBZyuQC/AHixo6KANcSNBOAJBPDnnTcK6MN2EoAnEAAHeEsXCsAvIAAO0D+AJxBA/wCeQAAc8AGNRRK0YgwZjgAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Agriculture, Infrastructure, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAaElEQVRYhWM0XqDzn2EAAdNAWj7qgEHhABbtW0EnBtQBbL94LQbSAQMeBaMOYPn6/e7xAXXAu68XLQfSAQMeBaMOGHAHsLxx+DygDhjwEBh1wIA7YLQ9MOBRMOqA0fbAgEfBqAMG3AEA70cYMXmIwMYAAAAASUVORK5CYII="
+  },
+  {
+    "combo": "Commercial, Infrastructure, Mining, Water",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWPMsp31nwEJ/DL/iMxlKLXYj8I/qzQThX8kfzsKn1T9TAwDDEYdMOqAUQeMOmDUAaMOGHXAqANGHTDqgFEHjDpg1AGjDhh1AAA7Mw6Wob4xiAAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Conservation, Grazing, Infrastructure, Renewables",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWPcdL/rPwMSeHWICZnLcOIyijRDx481KPxjxcEofFL1o6oeADDqgFEHjDpg1AGjDhh1wKgDRh0w6oBRB4w6YNQBow4YdcCoAwBmMhHOiUiu7QAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Conservation, Grazing, Infrastructure, Water",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWPcdL/rPwMSeHWICZnLcOIyijSDU1QECp9HcDkKn1T9qKoHAIw6YNQBow4YdcCoA0YdMOqAUQeMOmDUAaMOGHXAqANGHTDqAAB2sw6WxyI/bgAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Fossil Fuels, Grazing, Infrastructure, Mining",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWO0sTD4z4AEEjJjkLkMJy6jSDOUWuxH4Sf3PEPhk6qfiWGAwagDRh0w6oBRB4w6YNQBow4YdcCoA0YdMOqAUQeMOmDUAaMOAACIKA4OICDj+AAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Agriculture, Grazing, Infrastructure, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWM0XqDznwEJZDImIHMZTlxGkWZ4/GYdCv+Nw2cUPqn6mRgGGIw6YNQBow4YdcCoA0YdMOqAUQeMOmDUAaMOGHXAqANGHTDqAAA+lBAfKeGw4gAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Commercial, Grazing, Infrastructure, Recreation",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAT0lEQVRYhWPMsp31nwEJGKV8QuYynLiMIs0wXY0PhZ+/mBGFT6p+JoYBBqMOGHXAqANGHTDqgFEHjDpg1AGjDhh1wKgDRh0w6oBRB4w6AADVhw1tNMBzggAAAABJRU5ErkJggg=="
+  },
+  {
+    "combo": "Grazing, Infrastructure, Recreation, Timber",
+    "pattern": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAATklEQVRYhWOcs7DnPwMSOHEZhcswXY0Phe9zbAEKP9QxGIVPqn4mhgEGow4YdcCoA0YdMOqAUQeMOmDUAaMOGHXAqANGHTDqgFEHjDoAAAajDh/Farh3AAAAAElFTkSuQmCC"
+  }
+]

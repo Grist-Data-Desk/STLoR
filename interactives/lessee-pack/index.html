@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lessee Data Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/flubber@0.3.0"></script>
+    <style>
+      @font-face {
+        font-display: auto;
+        font-family: "PolySans";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff2")
+            format("woff2"),
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/PolySansUS-Median..woff")
+            format("woff");
+      }
+
+      @font-face {
+        font-display: auto;
+        font-family: "Basis Grotesque";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff2")
+            format("woff2"),
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-regular-pro..woff")
+            format("woff");
+      }
+
+      @font-face {
+        font-display: auto;
+        font-family: "Basis Grotesque";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff2")
+            format("woff2"),
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-pro..woff")
+            format("woff");
+      }
+
+      @font-face {
+        font-display: auto;
+        font-family: "Basis Grotesque";
+        font-style: italic;
+        font-weight: 700;
+        src: url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff2")
+            format("woff2"),
+          url("https://grist.org/wp-content/themes/grist/dist/fonts/basis-grotesque-bold-italic-pro..woff")
+            format("woff");
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: "Basis Grotesque", Arial, sans-serif;
+      }
+
+      #lessee-pack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        color: #3c3830;
+      }
+
+      .lessee-pack__title-container {
+        text-align: center;
+        padding: 15px 0;
+      }
+
+      .lessee-pack__title {
+        font-family: "PolySans", sans-serif;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 0;
+        font-weight: 700;
+      }
+
+      .lessee-pack__subtitle {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin: 5px;
+        margin-bottom: auto;
+      }
+
+      #controls {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 8px;
+      }
+
+      #reservation-selector,
+      #hierarchy-switch,
+      #reset-button {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+        font-family: "Basis Grotesque Pro", Arial, sans-serif;
+        border: 1px solid #3c3830;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        color: #3c3830;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      #reservation-selector {
+        width: 150px;
+        max-width: 100%;
+        transition: width 0.3s ease;
+      }
+
+      #reservation-selector:focus,
+      #hierarchy-switch:focus {
+        outline: none;
+        border-color: #476039;
+      }
+
+      #reservation-selector:hover,
+      #hierarchy-switch:hover,
+      #reset-button:hover {
+        background-color: #476039;
+        color: #fff;
+      }
+
+      #hierarchy-switch {
+        transition: background-color 0.3s ease;
+      }
+
+      #visualization {
+        width: 100%;
+        height: calc(100% - 200px);
+        overflow: hidden;
+      }
+
+      .tooltip {
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #3c3830;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 12px;
+        pointer-events: none;
+      }
+
+      lfigcaption {
+        font-family: "Basis Grotesque", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.4;
+        margin-top: 8px;
+        text-align: center;
+      }
+
+      lcite {
+        font-style: italic;
+      }
+
+      .reservation-label {
+        font-size: 14px;
+        pointer-events: none;
+        font-weight: 600;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      @media (min-width: 768px) {
+        .lessee-pack__title {
+          font-size: 2rem;
+          line-height: 2.5rem;
+        }
+
+        .lessee-pack__subtitle {
+          font-size: 1.25rem;
+          line-height: 2rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        #visualization {
+          width: 100%;
+          height: 455px;
+          overflow: hidden;
+        }
+      }
+
+      div.observer-pixel-14 {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lessee-pack">
+      <div class="lessee-pack__title-container">
+        <h1 class="lessee-pack__title">Who leases this land?</h1>
+        <p class="lessee-pack__subtitle">
+          Known lessee acreage of state trust lands on reservations
+        </p>
+      </div>
+      <div id="controls">
+        <select id="reservation-selector"></select>
+        <button id="hierarchy-switch">Group by Lessees</button>
+        <button id="reset-button">Reset</button>
+      </div>
+      <div id="visualization"></div>
+      <lfigcaption
+        >Note: Only known, active lessees are included (roughly 32 percent of
+        state trust land on reservations).
+        <lcite>Clayton Aldern / Grist</lcite></lfigcaption
+      >
+    </div>
+
+    <script>
+      const DO_SPACES_URL =
+        "https://grist.nyc3.cdn.digitaloceanspaces.com/stlor";
+
+      const mobileThreshold = 768;
+      const isMobile = window.innerWidth < mobileThreshold;
+      let width = window.innerWidth;
+      let height = isMobile ? 455 : window.innerHeight - 215;
+      let data, originalData, validReservations;
+      let rootCategory = "reservation_name";
+      let activeReservation = null;
+      let dataLoaded = false;
+      let isBarChartView = false;
+
+      const barChartWidth = isMobile ? width * 0.9 : width * 0.6;
+      const bgImageOpacity = 0.5;
+      const nodeFill = 0.7;
+      const transitionDurationFast = 100;
+      const transitionDurationSlow = 750;
+      const cornerRadius = 10;
+
+      const green = "#476039";
+      const smog = "#f0f0f0";
+      const orange = d3
+        .scaleLinear()
+        .domain([0, 1])
+        .range(["#faeee8", "#ec6c37"]);
+
+      function createRoundedRectPath(x, y, width, height, radius) {
+        radius = Math.min(radius, width / 2, height / 2);
+
+        if (width <= 2 * radius || height <= 2 * radius) {
+          return `M${x},${y} 
+                h${width} 
+                v${height} 
+                h-${width} 
+                Z`;
+        }
+
+        return `M${x + radius},${y} 
+            h${width - 2 * radius} 
+            a${radius},${radius} 0 0 1 ${radius},${radius} 
+            v${height - 2 * radius} 
+            a${radius},${radius} 0 0 1 -${radius},${radius} 
+            h-${width - 2 * radius} 
+            a${radius},${radius} 0 0 1 -${radius},-${radius} 
+            v-${height - 2 * radius} 
+            a${radius},${radius} 0 0 1 ${radius},-${radius} 
+            Z`;
+      }
+
+      const svg = d3
+        .select("#visualization")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("viewBox", [0, 0, width, height]);
+
+      const defs = svg.append("defs");
+
+      const backgroundImage = new Image();
+      backgroundImage.src = `${DO_SPACES_URL}/assets/png/bg.png`;
+
+      const g = svg.append("g");
+
+      const xAxisGroup = svg
+        .append("g")
+        .attr("class", "x-axis")
+        .style("opacity", 0);
+
+      const tooltip = d3
+        .select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      function loadData() {
+        d3.csv(`${DO_SPACES_URL}/data/csv/circle-data.csv`)
+          .then((csvData) => {
+            originalData = csvData;
+            validReservations = getValidReservations(originalData);
+            data = originalData.filter((d) =>
+              validReservations.has(d.reservation_name)
+            );
+            dataLoaded = true;
+            if (backgroundImage.complete) {
+              updateVisualization();
+            }
+            populateReservationSelector();
+          })
+          .catch((error) => {
+            console.error("Error loading the CSV file:", error);
+          });
+      }
+
+      backgroundImage.onload = function () {
+        if (dataLoaded) {
+          updateVisualization();
+        }
+      };
+
+      function getValidReservations(data) {
+        const reservations = new Set();
+        data.forEach((d) => {
+          const lessees = d.lessee
+            .split(";")
+            .map((l) => l.trim())
+            .filter(
+              (l) =>
+                l !== "" &&
+                l.toLowerCase() !== "unknown" &&
+                l.toLowerCase() !== "none"
+            );
+          if (lessees.length > 0) {
+            reservations.add(d.reservation_name);
+          }
+        });
+        return reservations;
+      }
+
+      let currentTopLessees = [];
+      let visualizationOffset = { x: 0, y: 0 };
+      let circlePackLayout = null;
+      let previousNodes = new Map();
+
+      function updateVisualization() {
+        if (!dataLoaded || !backgroundImage.complete) {
+          console.log(
+            "Data or image not yet loaded. Skipping visualization update."
+          );
+          return;
+        }
+
+        const rootNode = d3
+          .hierarchy(processData())
+          .sum((d) => d.value)
+          .sort((a, b) => b.value - a.value);
+
+        const pack = d3.pack().size([width, height]).padding(7);
+
+        const packedData = pack(rootNode);
+        circlePackLayout = packedData;
+
+        g.selectAll("*").remove();
+        defs.selectAll("*").remove();
+
+        const clipPath = defs
+          .append("clipPath")
+          .attr("id", "root-clip")
+          .append("circle")
+          .attr("cx", width / 2)
+          .attr("cy", height / 2)
+          .attr("r", Math.min(width, height) / 2);
+
+        const scale =
+          Math.min(width, height) /
+          Math.min(backgroundImage.width, backgroundImage.height);
+
+        const backgroundImg = g
+          .append("image")
+          .attr("xlink:href", backgroundImage.src)
+          .attr("width", backgroundImage.width * scale)
+          .attr("height", backgroundImage.height * scale)
+          .attr("x", (width - backgroundImage.width * scale) / 2)
+          .attr("y", (height - backgroundImage.height * scale) / 2)
+          .attr("clip-path", "url(#root-clip)")
+          .style("opacity", 0);
+
+        const node = g
+          .selectAll("g")
+          .data(packedData.descendants())
+          .join("g")
+          .attr("transform", (d) => `translate(${d.x},${d.y})`)
+          .style("opacity", 0);
+
+        const labelGroup = g.append("g").attr("class", "label-group");
+
+        if (rootCategory === "reservation_name") {
+          node
+            .append("path")
+            .attr("d", (d) => {
+              const r = d.r;
+              return `M${-r},0a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${
+                -r * 2
+              },0`;
+            })
+            .attr("fill", (d) => {
+              if (d.depth === 0) return "none";
+              if (d.depth === 1) return green;
+              if (d.depth === 2) return orange(1);
+            })
+            .attr("fill-opacity", (d) => (d.depth === 2 ? nodeFill : 0.1))
+            .attr("stroke", (d) => {
+              if (d.depth === 0) return "none";
+              if (d.depth === 1) return green;
+              if (d.depth === 2) return orange(1);
+            })
+            .attr("stroke-width", (d) => (d.depth === 0 ? 0 : 1.75))
+            .attr("stroke-opacity", 0.7);
+
+          node
+            .filter((d) => d.depth === 1)
+            .append("path")
+            .attr("d", (d) => {
+              const r = d.r - 2;
+              return `M${-r},0a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${
+                -r * 2
+              },0`;
+            })
+            .attr("fill", "transparent")
+            .attr("stroke", green)
+            .attr("stroke-width", 0.5)
+            .attr("stroke-opacity", 0.7);
+
+          node
+            .filter((d) => d.depth === 1)
+            .append("path")
+            .attr("d", (d) => {
+              const r = d.r;
+              return `M${-r},0a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${
+                -r * 2
+              },0`;
+            })
+            .attr("fill", "transparent")
+            .on("mouseover", function (event, d) {
+              node
+                .filter((n) => n.depth === 1 && n !== d)
+                .transition()
+                .duration(transitionDurationFast)
+                .style("opacity", 0.2);
+
+              node
+                .filter(
+                  (n) => n.parent && n.parent.depth === 1 && n.parent !== d
+                )
+                .transition()
+                .duration(transitionDurationFast)
+                .style("opacity", 0.2);
+
+              if (activeReservation !== d) {
+                showReservationLabel(d, labelGroup);
+                activeReservation = d;
+              }
+            });
+
+          node
+            .filter((d) => d.depth === 2)
+            .on("mouseover", function (event, d) {
+              showTooltip(event, d);
+              if (activeReservation !== d.parent) {
+                node
+                  .filter((n) => n.depth === 1 && n !== d.parent)
+                  .transition()
+                  .duration(transitionDurationFast)
+                  .style("opacity", 0.2);
+
+                node
+                  .filter(
+                    (n) =>
+                      n.parent && n.parent.depth === 1 && n.parent !== d.parent
+                  )
+                  .transition()
+                  .duration(transitionDurationFast)
+                  .style("opacity", 0.2);
+
+                showReservationLabel(d.parent, labelGroup);
+                activeReservation = d.parent;
+              }
+            })
+            .on("mousemove", moveTooltip)
+            .on("mouseout", function (event, d) {
+              hideTooltip();
+              if (
+                !event.relatedTarget ||
+                !event.relatedTarget.closest(
+                  `[data-reservation="${d.parent.data.name}"]`
+                )
+              ) {
+                node
+                  .filter((n) => n.depth === 1 || n.depth === 2)
+                  .transition()
+                  .duration(transitionDurationFast)
+                  .style("opacity", 1);
+
+                hideReservationLabel(labelGroup);
+                activeReservation = null;
+              }
+            });
+
+          node
+            .filter((d) => d.depth === 1)
+            .on("mouseout", function (event, d) {
+              const relatedTarget = event.relatedTarget;
+              const isLeavingGroup =
+                !relatedTarget ||
+                !relatedTarget.closest(`[data-reservation="${d.data.name}"]`);
+
+              if (isLeavingGroup) {
+                node
+                  .filter((n) => n.depth === 1 || n.depth === 2)
+                  .transition()
+                  .duration(transitionDurationFast)
+                  .style("opacity", 1);
+
+                hideReservationLabel(labelGroup);
+                activeReservation = null;
+              }
+            });
+
+          node
+            .filter((d) => d.depth === 1 || d.depth === 2)
+            .attr("data-reservation", (d) =>
+              d.depth === 1 ? d.data.name : d.parent.data.name
+            );
+        } else {
+          node
+            .append("path")
+            .attr("d", (d) => {
+              const r = d.r;
+              return `M${-r},0a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${
+                -r * 2
+              },0`;
+            })
+            .attr("fill", (d) => (d.depth === 0 ? "none" : orange(1)))
+            .attr("stroke", (d) => (d.depth === 0 ? "none" : orange(1)))
+            .attr("stroke-width", (d) => (d.depth === 0 ? 0 : 1))
+            .attr("stroke-opacity", (d) => (d.depth === 0 ? 0 : 1))
+            .attr("fill-opacity", nodeFill);
+
+          node
+            .filter((d) => d.depth === 1)
+            .on("mouseover", function (event, d) {
+              const reservationsList = d.data.reservations
+                ? d.data.reservations.join(", ")
+                : "N/A";
+              const statesList = d.data.states
+                ? d.data.states.join(", ")
+                : "N/A";
+
+              tooltip
+                .transition()
+                .duration(transitionDurationFast)
+                .style("opacity", 0.9);
+
+              tooltip
+                .html(
+                  `
+                    <strong>${trimLesseeName(d.data.name)}</strong><br />
+                    <strong>Total Acres:</strong> ${d.value.toFixed(
+                      2
+                    )} acres<br />
+                    <strong>Reservations:</strong> ${reservationsList}<br />
+                    <strong>States:</strong> ${statesList}
+                `
+                )
+                .style("left", event.pageX + 10 + "px")
+                .style("top", event.pageY - 28 + "px");
+            })
+            .on("mousemove", moveTooltip)
+            .on("mouseout", hideTooltip);
+        }
+
+        const gBBox = g.node().getBBox();
+        const gOffsetX = (width - gBBox.width) / 2 - gBBox.x;
+        const gOffsetY = (height - gBBox.height) / 2 - gBBox.y;
+        g.attr("transform", `translate(${gOffsetX},${gOffsetY})`);
+
+        visualizationOffset = { x: gOffsetX, y: gOffsetY };
+
+        xAxisGroup.style("opacity", 0);
+
+        backgroundImg
+          .transition()
+          .duration(transitionDurationFast)
+          .style("opacity", bgImageOpacity);
+
+        node.transition().duration(transitionDurationFast).style("opacity", 1);
+      }
+
+      function trimLesseeName(name) {
+        if (!name) return "";
+        name = name.replace(/\(.*$/, "");
+        name = name.replace(/,/g, "");
+        return name.trim().toUpperCase();
+      }
+
+      function showReservationLabel(d, labelGroup) {
+        labelGroup.selectAll(".reservation-label, .label-background").remove();
+
+        const label = labelGroup
+          .append("text")
+          .attr("class", "reservation-label")
+          .attr("x", d.x)
+          .attr("y", d.y - d.r - 10)
+          .attr("text-anchor", "middle")
+          .attr("fill", "#333")
+          .text(d.data.name + " Reservation")
+          .style("opacity", 0);
+
+        const labelBBox = label.node().getBBox();
+
+        let labelY = d.y - d.r - 10;
+        if (labelBBox.y < 0) {
+          labelY = d.y + d.r + labelBBox.height + 3;
+          label.attr("y", labelY);
+        }
+
+        const adjustedLabelBBox = label.node().getBBox();
+
+        const labelBackground = labelGroup
+          .append("rect")
+          .attr("class", "label-background")
+          .attr("x", adjustedLabelBBox.x - 5)
+          .attr("y", adjustedLabelBBox.y - 2)
+          .attr("rx", 4)
+          .attr("ry", 4)
+          .attr("width", adjustedLabelBBox.width + 10)
+          .attr("height", adjustedLabelBBox.height + 4)
+          .attr("fill", "#fff")
+          .attr("stroke", "#3c3830")
+          .attr("stroke-width", 1)
+          .attr("opacity", 0);
+
+        label.raise();
+        labelBackground
+          .transition()
+          .duration(transitionDurationFast)
+          .style("opacity", 0.9);
+
+        label.transition().duration(transitionDurationFast).style("opacity", 1);
+      }
+
+      function hideReservationLabel(labelGroup) {
+        labelGroup
+          .selectAll(".reservation-label, .label-background")
+          .transition()
+          .duration(transitionDurationFast)
+          .style("opacity", 0)
+          .remove();
+      }
+
+      function showTooltip(event, d) {
+        tooltip
+          .transition()
+          .duration(transitionDurationFast)
+          .style("opacity", 0.9);
+        tooltip
+          .html(
+            `${trimLesseeName(d.data.name)}<br />${d.value.toFixed(2)} acres`
+          )
+          .style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY - 28 + "px");
+      }
+
+      function moveTooltip(event) {
+        tooltip
+          .style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY - 28 + "px");
+      }
+
+      function hideTooltip() {
+        tooltip
+          .transition()
+          .duration(transitionDurationFast)
+          .style("opacity", 0);
+      }
+
+      function processData() {
+        const nestedData = d3.group(data, (d) => d[rootCategory]);
+        const root = { name: "root", children: [] };
+
+        if (rootCategory === "lessee") {
+          const lesseeData = new Map();
+          for (let [key, value] of nestedData) {
+            value.forEach((item) => {
+              const lessees = item.lessee.split(";").map(trimLesseeName);
+              lessees.forEach((lessee) => {
+                if (lessee !== "" && lessee !== "UNKNOWN") {
+                  const currentValue = lesseeData.get(lessee) || {
+                    value: 0,
+                    reservations: new Set(),
+                    states: new Set(),
+                  };
+                  currentValue.value += +item.clipped_acres;
+                  currentValue.reservations.add(item.reservation_name);
+                  currentValue.states.add(item.state);
+                  lesseeData.set(lessee, currentValue);
+                }
+              });
+            });
+          }
+          for (let [lessee, lesseeInfo] of lesseeData) {
+            root.children.push({
+              name: lessee,
+              value: lesseeInfo.value,
+              reservations: Array.from(lesseeInfo.reservations),
+              states: Array.from(lesseeInfo.states),
+            });
+          }
+        } else {
+          for (let [key, value] of nestedData) {
+            const category = { name: key, children: [] };
+            const lesseeData = new Map();
+
+            value.forEach((item) => {
+              const lessees = item.lessee.split(";").map(trimLesseeName);
+              lessees.forEach((lessee) => {
+                if (lessee !== "" && lessee !== "UNKNOWN") {
+                  const currentValue = lesseeData.get(lessee) || 0;
+                  lesseeData.set(lessee, currentValue + +item.clipped_acres);
+                }
+              });
+            });
+
+            for (let [lessee, acres] of lesseeData) {
+              category.children.push({
+                name: lessee,
+                value: acres,
+                reservation_name: key,
+                state: value[0].state,
+              });
+            }
+
+            if (category.children.length > 0) {
+              root.children.push(category);
+            }
+          }
+        }
+
+        return root;
+      }
+
+      function getTopLessees(reservationData, limit = 10) {
+        const lesseeData = new Map();
+        reservationData.forEach((d) => {
+          const lessees = d.lessee.split(";").map(trimLesseeName);
+          lessees.forEach((lessee) => {
+            if (lessee !== "" && lessee !== "UNKNOWN") {
+              const currentValue = lesseeData.get(lessee) || 0;
+              lesseeData.set(lessee, currentValue + +d.clipped_acres);
+            }
+          });
+        });
+
+        return Array.from(lesseeData.entries())
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, limit)
+          .map(([name, value]) => ({ name, value }));
+      }
+
+      function populateReservationSelector() {
+        const selector = d3.select("#reservation-selector");
+        const reservations = ["All", ...validReservations].sort((a, b) => {
+          if (a === "All") return -1;
+          if (b === "All") return 1;
+          return a.localeCompare(b);
+        });
+
+        selector
+          .selectAll("option")
+          .data(reservations)
+          .enter()
+          .append("option")
+          .text((d) => d);
+
+        selector.on("change", function () {
+          const selectedReservation = d3.select(this).property("value");
+
+          if (selectedReservation === "All") {
+            resetVisualization();
+          } else {
+            rootCategory = "reservation_name";
+            const filteredData = originalData.filter(
+              (d) => d.reservation_name === selectedReservation
+            );
+            const topLessees = getTopLessees(filteredData);
+            updateSubtitle(selectedReservation, topLessees.length);
+
+            if (isBarChartView) {
+              transitionBarChart(topLessees, selectedReservation);
+            } else {
+              currentTopLessees = calculateTopLesseesForReservation(
+                filteredData,
+                topLessees
+              );
+              drawBarChart(topLessees, selectedReservation);
+            }
+          }
+        });
+      }
+
+      function calculateTopLesseesForReservation(reservationData, topLessees) {
+        if (!circlePackLayout) {
+          console.error("Circle pack layout not available");
+          return [];
+        }
+
+        const reservationNode = circlePackLayout.children.find(
+          (d) => d.data.name === reservationData[0].reservation_name
+        );
+        if (!reservationNode) {
+          console.error("Reservation not found in circle pack layout");
+          return [];
+        }
+
+        return topLessees
+          .map((lessee) => {
+            const matchingNode = reservationNode.children.find(
+              (node) =>
+                trimLesseeName(node.data.name) === trimLesseeName(lessee.name)
+            );
+            if (matchingNode) {
+              return {
+                name: trimLesseeName(lessee.name),
+                value: lessee.value,
+                circlePack: {
+                  x: matchingNode.x,
+                  y: matchingNode.y,
+                  r: matchingNode.r,
+                },
+              };
+            }
+            return null;
+          })
+          .filter(Boolean);
+      }
+
+      function packReservationData(reservationData) {
+        const reservationHierarchy = {
+          name: "root",
+          children: [
+            {
+              name: reservationData[0].reservation_name,
+              children: reservationData.flatMap((d) =>
+                d.lessee.split(";").map((lessee) => ({
+                  name: trimLesseeName(lessee),
+                  value: +d.clipped_acres,
+                }))
+              ),
+            },
+          ],
+        };
+
+        const root = d3
+          .hierarchy(reservationHierarchy)
+          .sum((d) => d.value)
+          .sort((a, b) => b.value - a.value);
+
+        const pack = d3.pack().size([width, height]).padding(3);
+
+        return pack(root);
+      }
+
+      function drawBarChart(topLessees, selectedReservation) {
+        isBarChartView = true;
+        updateSubtitle(selectedReservation, topLessees.length);
+
+        const xScale = d3
+          .scaleLinear()
+          .domain([0, d3.max(topLessees, (d) => d.value)])
+          .range([0, barChartWidth]);
+
+        const yScale = d3
+          .scaleBand()
+          .domain(topLessees.map((d) => d.name))
+          .range([0, height - 70])
+          .padding(0.1);
+
+        g.selectAll("*").remove();
+
+        const barGroup = g.append("g").attr("class", "bar-group");
+        const labelGroup = g.append("g").attr("class", "label-group");
+
+        const xAxis = d3
+          .axisBottom(xScale)
+          .ticks(6)
+          .tickSize(8)
+          .tickFormat(d3.format(".2s"))
+          .tickSizeOuter(0);
+
+        xAxisGroup
+          .attr(
+            "transform",
+            `translate(${(width - barChartWidth) / 2}, ${height - 70})`
+          )
+          .call(xAxis);
+
+        xAxisGroup
+          .selectAll("path, line")
+          .attr("stroke", "#3c3830")
+          .attr("stroke-width", 2);
+
+        xAxisGroup
+          .selectAll("text")
+          .attr("fill", "#3c3830")
+          .attr("font-size", "14px");
+
+        let xAxisLabel = xAxisGroup.select(".x-axis-label");
+        if (xAxisLabel.empty()) {
+          xAxisLabel = xAxisGroup
+            .append("text")
+            .attr("class", "x-axis-label")
+            .attr("text-anchor", "middle")
+            .attr("fill", "#3c3830")
+            .attr("font-weight", "bold")
+            .attr("font-size", "16px")
+            .attr("font-family", "Basis Grotesque Pro, Arial, sans-serif")
+            .attr("x", xScale.range()[1] / 2)
+            .attr("y", 50)
+            .text("Total lessee acreage");
+        } else {
+          xAxisLabel
+            .attr("x", xScale.range()[1] / 2)
+            .attr("y", 50)
+            .attr("font-size", "16px")
+            .attr("font-family", "Basis Grotesque Pro, Arial, sans-serif")
+            .attr("fill", "#3c3830")
+            .attr("font-weight", "bold");
+        }
+
+        const circlePaths = topLessees.map((d) => {
+          const matchingCircle = currentTopLessees.find(
+            (l) => trimLesseeName(l.name) === trimLesseeName(d.name)
+          );
+          if (matchingCircle && matchingCircle.circlePack) {
+            const { x, y, r } = matchingCircle.circlePack;
+            return `M${x - r},${y} a${r},${r} 0 1,0 ${
+              r * 2
+            },0 a${r},${r} 0 1,0 ${-r * 2},0`;
+          } else {
+            return `M0,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0`;
+          }
+        });
+
+        const barPaths = topLessees.map((d) => {
+          const barHeight = yScale.bandwidth();
+          const y = yScale(d.name);
+          const barWidth = xScale(d.value);
+          const x = (width - barChartWidth) / 2;
+          return createRoundedRectPath(x, y, barWidth, barHeight, cornerRadius);
+        });
+
+        const bars = barGroup
+          .selectAll(".bar")
+          .data(topLessees)
+          .join("path")
+          .attr("class", "bar")
+          .attr("fill", orange(1))
+          .attr("fill-opacity", nodeFill)
+          .attr("stroke", orange(1))
+          .attr("stroke-width", 1)
+          .attr("stroke-opacity", 1)
+          .attr("d", (d, i) => circlePaths[i]);
+
+        bars
+          .transition()
+          .duration(transitionDurationSlow)
+          .attrTween("d", (d, i) => {
+            return flubber.interpolate(circlePaths[i], barPaths[i], {
+              maxSegmentLength: 2,
+            });
+          });
+
+        bars
+          .on("mouseover", function (event, d) {
+            tooltip
+              .transition()
+              .duration(transitionDurationFast)
+              .style("opacity", 0.9);
+            tooltip
+              .html(`${d.name}<br />${d.value.toFixed(2)} acres`)
+              .style("left", event.pageX + 10 + "px")
+              .style("top", event.pageY - 28 + "px");
+          })
+          .on("mousemove", moveTooltip)
+          .on("mouseout", hideTooltip);
+
+        const labels = labelGroup
+          .selectAll(".bar-label")
+          .data(topLessees)
+          .join("text")
+          .attr("class", "bar-label")
+          .attr("x", (width - barChartWidth) / 2 + 10)
+          .attr("y", (d) => yScale(d.name) + yScale.bandwidth() / 2)
+          .attr("dy", "0.35em")
+          .attr("font-size", "14px")
+          .attr("text-anchor", "start")
+          .attr("fill", "#3c3830")
+          .text((d) => d.name)
+          .style("opacity", 0);
+
+        labels
+          .transition()
+          .delay(transitionDurationSlow)
+          .duration(transitionDurationFast)
+          .style("opacity", 1);
+
+        xAxisGroup.style("opacity", 1);
+      }
+
+      function transitionBarChart(newTopLessees, selectedReservation) {
+        const xScale = d3
+          .scaleLinear()
+          .domain([0, d3.max(newTopLessees, (d) => d.value)])
+          .range([0, barChartWidth]);
+
+        const yScale = d3
+          .scaleBand()
+          .domain(newTopLessees.map((d) => d.name))
+          .range([0, height - 70])
+          .padding(0.1);
+
+        const xAxis = d3
+          .axisBottom(xScale)
+          .ticks(6)
+          .tickSize(8)
+          .tickFormat(d3.format(".2s"))
+          .tickSizeOuter(0);
+
+        xAxisGroup.transition().duration(transitionDurationSlow).call(xAxis);
+
+        xAxisGroup
+          .selectAll("text")
+          .attr("fill", "#3c3830")
+          .attr("font-size", "14px");
+
+        xAxisGroup
+          .selectAll("path, line")
+          .attr("stroke", "#3c3830")
+          .attr("stroke-width", 2);
+
+        const leftMargin = isMobile ? 10 : (width - barChartWidth) / 2;
+
+        function createBarPath(x, y, width, height) {
+          return createRoundedRectPath(x, y, width, height, cornerRadius);
+        }
+
+        const bars = g.selectAll(".bar").data(newTopLessees, (d) => d.name);
+
+        bars
+          .exit()
+          .transition()
+          .duration(transitionDurationSlow / 2)
+          .attrTween("d", function (d) {
+            const startWidth = parseFloat(this.getAttribute("width") || "0");
+            const y = parseFloat(this.getAttribute("y") || "0");
+            const height = parseFloat(this.getAttribute("height") || "0");
+            return (t) =>
+              createBarPath(leftMargin, y, startWidth * (1 - t), height);
+          })
+          .remove();
+
+        const enterBars = bars
+          .enter()
+          .append("path")
+          .attr("class", "bar")
+          .attr("fill", orange(1))
+          .attr("fill-opacity", nodeFill)
+          .attr("stroke", orange(1))
+          .attr("stroke-width", 1)
+          .attr("stroke-opacity", 1)
+          .attr("d", (d) =>
+            createBarPath(leftMargin, yScale(d.name), 0, yScale.bandwidth())
+          )
+          .attr("y", (d) => yScale(d.name))
+          .attr("height", yScale.bandwidth());
+
+        bars
+          .merge(enterBars)
+          .transition()
+          .duration(transitionDurationSlow)
+          .attrTween("d", function (d) {
+            const currentWidth = parseFloat(this.getAttribute("width") || "0");
+            const targetWidth = xScale(d.value);
+            const y = yScale(d.name);
+            const height = yScale.bandwidth();
+            return (t) =>
+              createBarPath(
+                leftMargin,
+                y,
+                currentWidth * (1 - t) + targetWidth * t,
+                height
+              );
+          })
+          .attr("width", (d) => xScale(d.value))
+          .attr("y", (d) => yScale(d.name))
+          .attr("height", yScale.bandwidth());
+
+        const labels = g
+          .selectAll(".bar-label")
+          .data(newTopLessees, (d) => d.name);
+
+        labels
+          .exit()
+          .transition()
+          .duration(transitionDurationSlow / 2)
+          .style("opacity", 0)
+          .remove();
+
+        const enterLabels = labels
+          .enter()
+          .append("text")
+          .attr("class", "bar-label")
+          .attr("x", leftMargin + 10)
+          .attr("y", (d) => yScale(d.name) + yScale.bandwidth() / 2)
+          .attr("dy", "0.35em")
+          .attr("font-size", "14px")
+          .attr("text-anchor", "start")
+          .attr("fill", "#3c3830")
+          .text((d) => d.name)
+          .style("opacity", 0);
+
+        labels
+          .merge(enterLabels)
+          .transition()
+          .duration(transitionDurationSlow)
+          .attr("y", (d) => yScale(d.name) + yScale.bandwidth() / 2)
+          .style("opacity", 1);
+
+        g.selectAll(".bar")
+          .on("mouseover", function (event, d) {
+            tooltip
+              .transition()
+              .duration(transitionDurationFast)
+              .style("opacity", 0.9);
+            tooltip
+              .html(`${d.name}<br />${d.value.toFixed(2)} acres`)
+              .style("left", event.pageX + 10 + "px")
+              .style("top", event.pageY - 28 + "px");
+          })
+          .on("mousemove", moveTooltip)
+          .on("mouseout", hideTooltip);
+
+        currentTopLessees = newTopLessees;
+
+        updateSubtitle(selectedReservation, newTopLessees.length);
+      }
+
+      d3.select("#hierarchy-switch").on("click", () => {
+        if (rootCategory === "lessee") {
+          resetVisualization();
+        } else {
+          resetState();
+          rootCategory = "lessee";
+          d3.select("#hierarchy-switch").text("Group by Reservations");
+          d3.select("#reservation-selector")
+            .style("opacity", "0.3")
+            .style("pointer-events", "none")
+            .property("disabled", true)
+            .property("value", "All");
+          updateVisualization();
+        }
+      });
+
+      d3.select("#reset-button").on("click", () => {
+        resetVisualization();
+      });
+
+      function resetVisualization() {
+        resetState();
+
+        const bars = g.selectAll(".bar");
+        if (bars.size() > 0) {
+          bars
+            .transition()
+            .duration(transitionDurationFast)
+            .style("opacity", 0)
+            .remove();
+
+          g.selectAll(".bar-label")
+            .transition()
+            .duration(transitionDurationFast)
+            .style("opacity", 0)
+            .remove();
+
+          xAxisGroup
+            .transition()
+            .duration(transitionDurationFast)
+            .style("opacity", 0);
+
+          setTimeout(updateVisualization, transitionDurationFast);
+        } else {
+          updateVisualization();
+        }
+      }
+
+      window.addEventListener("resize", () => {
+        width = window.innerWidth;
+        height = isMobile ? 455 : window.innerHeight - 215;
+        svg
+          .attr("width", width)
+          .attr("height", height)
+          .attr("viewBox", [0, 0, width, height]);
+        if (dataLoaded && backgroundImage.complete) {
+          updateVisualization();
+        }
+      });
+
+      function updateSubtitle(selectedReservation, numLessees) {
+        const subtitle = document.querySelector(".lessee-pack__subtitle");
+
+        let reservationText =
+          "Known lessee acreage of state trust lands on reservations";
+
+        if (selectedReservation !== "All" && selectedReservation) {
+          reservationText = `Known lessee acreage of state trust lands on the ${selectedReservation} Reservation`;
+
+          let lesseeText = "";
+          if (numLessees === 1) {
+            lesseeText = " (1 lessee)";
+          } else if (numLessees > 1) {
+            lesseeText = ` (top ${numLessees} lessees)`;
+          }
+
+          subtitle.textContent = reservationText + lesseeText;
+        } else {
+          subtitle.textContent = reservationText;
+        }
+      }
+
+      function resetState() {
+        rootCategory = "reservation_name";
+        activeReservation = null;
+        currentTopLessees = [];
+        isBarChartView = false;
+        d3.select("#reservation-selector")
+          .style("opacity", "1")
+          .style("pointer-events", "auto")
+          .property("disabled", false)
+          .property("value", "All");
+        d3.select("#hierarchy-switch").text("Group by Lessees");
+        updateSubtitle("All");
+        data = originalData.filter((d) =>
+          validReservations.has(d.reservation_name)
+        );
+      }
+
+      loadData();
+    </script>
+  </body>
+</html>
