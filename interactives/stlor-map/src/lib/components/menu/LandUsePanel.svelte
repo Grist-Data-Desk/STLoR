@@ -87,7 +87,6 @@
 					dy="2.6em"
 					font-size="12"
 					font-family="Basis Grotesque"
-					font-style="italic"
 					fill={xScale(acreage) > 350 ? 'white' : 'black'}
 					text-anchor={xScale(acreage) > 350 ? 'end' : 'start'}
 				>
