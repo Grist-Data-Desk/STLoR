@@ -10,7 +10,7 @@
 	import { reservation } from '$lib/stores/reservation';
 	import type { Data } from '$lib/types';
 	import { SOURCE_CONFIG, LAYER_CONFIG, ACREAGE_LAYER_CONFIG } from '$lib/utils/config';
-	import { DO_SPACES_URL, INITIAL_BOUNDS } from '$lib/utils/constants';
+	import { DO_SPACES_URL, INITIAL_BOUNDS, TABLET_BREAKPOINT } from '$lib/utils/constants';
 	import { convertDataURLToImageData } from '$lib/utils/pattern';
 	import { PaginatedPopup } from '$lib/utils/popup';
 
@@ -20,17 +20,17 @@
 	let innerWidth: number;
 	let innerHeight: number;
 
+	$: isTabletOrAbove = innerWidth > TABLET_BREAKPOINT;
+
 	onMount(() => {
 		const protocol = new pmtiles.Protocol();
 		maplibregl.addProtocol('pmtiles', protocol.tile);
-
-		const tabletOrAbove = innerWidth > 640;
 
 		map = new maplibregl.Map({
 			container: 'stlor-map',
 			style: `${DO_SPACES_URL}/styles/style.json`,
 			center: [-105.93, 40.36],
-			zoom: tabletOrAbove ? 8.5 : 7.6,
+			zoom: isTabletOrAbove ? 8.5 : 7.6,
 			minZoom: 2
 		});
 
@@ -47,7 +47,7 @@
 		);
 
 		map.on('load', async () => {
-			map.fitBounds(tabletOrAbove ? INITIAL_BOUNDS.desktop : INITIAL_BOUNDS.mobile);
+			map.fitBounds(isTabletOrAbove ? INITIAL_BOUNDS.desktop : INITIAL_BOUNDS.mobile);
 
 			Object.values(SOURCE_CONFIG).forEach(({ id, config }) => {
 				map.addSource(id, config);
@@ -88,10 +88,9 @@
 	$: if (map) {
 		const bounds = data.reservationStats[$reservation].bounds;
 		map.fitBounds(bounds, {
-			padding:
-				innerWidth > 640
-					? { top: 50, bottom: 50, left: 350, right: 0 }
-					: { top: 20, left: 20, right: 20, bottom: innerHeight / 3 }
+			padding: isTabletOrAbove
+				? { top: 50, bottom: 50, left: 350, right: 0 }
+				: { top: 20, left: 20, right: 20, bottom: innerHeight / 3 }
 		});
 	}
 

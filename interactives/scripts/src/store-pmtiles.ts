@@ -8,7 +8,7 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const PMTILES_PATH = "stlor/data/pmtiles";
 
 /**
- * Store PMTiles archives in the Grist DigitalOcean Spaces bucket, s3://grist.
+ * Store PMTiles archives in the Grist DigitalOcean Spaces bucket.
  */
 async function main(): Promise<void> {
   const s3Client = new S3Client({

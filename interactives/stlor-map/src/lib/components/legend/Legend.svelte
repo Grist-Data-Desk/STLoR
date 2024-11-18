@@ -4,14 +4,16 @@
 	import RightsTypeLegend from '$lib/components/legend/RightsTypeLegend.svelte';
 	import { legendOpen } from '$lib/stores/legend';
 	import { view } from '$lib/stores/view';
+	import { TABLET_BREAKPOINT } from '$lib/utils/constants';
 
 	let innerWidth: number;
+	$: isTabletOrAbove = innerWidth > TABLET_BREAKPOINT;
 </script>
 
 <svelte:window bind:innerWidth />
 <div
-	class="border-earth bg-smog/75 stack stack-xs absolute right-14 top-14 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8"
-	class:!hidden={innerWidth <= 640 ? !$legendOpen : false}
+	class="border-earth bg-smog/75 stack-xs stack absolute right-14 top-14 rounded border p-2 shadow-xl backdrop-blur sm:left-auto sm:right-8 sm:top-8"
+	class:!hidden={isTabletOrAbove ? false : !$legendOpen}
 	style="max-width: calc(94% - 3rem);"
 >
 	{#if $view === 'Acreage'}

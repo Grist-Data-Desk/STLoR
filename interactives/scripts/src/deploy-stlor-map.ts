@@ -12,6 +12,12 @@ import {
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const STLOR_MAP_PATH = "stlor/interactives/stlor-map/_app";
 
+/**
+ * Delete all objects in the stlor-map/_app directory from the Grist Digital
+ * Ocean Spaces bucket.
+ *
+ * @param s3Client – The S3 client instance.
+ */
 async function deleteMap(s3Client: S3Client): Promise<void> {
   try {
     // List all objects in the stlor-map/_app directory.
@@ -48,7 +54,7 @@ async function deleteMap(s3Client: S3Client): Promise<void> {
 }
 
 /**
- * Derive the Content-Type header from the file extension.
+ * Derive the Content-Type header from a file's extension.
  *
  * @param file — The name of the file on disk.
  * @returns – The appropriate Content-Type header for the file type.

@@ -3,7 +3,7 @@ import * as path from "node:path";
 import * as url from "node:url";
 
 import { bbox } from "@turf/bbox";
-import round from "lodash.round";
+import { round } from "lodash-es";
 
 import type { Feature, FeatureCollection, Polygon } from "geojson";
 import type {
@@ -19,10 +19,9 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 /**
  * Compute the acreage for each land use on a reservation.
  *
- * @param {Feature<Polygon, ProcessedParcelProperties>[]} parcels – The parcels
- * on the reservation.
- * @returns {ReservationStats["land_uses"]} — The acreages of the top five land
- * uses on the reservation, in addition to the total 'Uncategorized' acreage.
+ * @param parcels – The parcels on the reservation.
+ * @returns — The acreages of the top five land uses on the reservation, in add-
+ * ition to the total 'Uncategorized' acreage.
  */
 function computeLandUseAcreageForReservation(
   parcels: Feature<Polygon, ProcessedParcelProperties>[]
@@ -68,6 +67,9 @@ function computeLandUseAcreageForReservation(
   };
 }
 
+/**
+ * Process reservations and compute aggregate STLoR statistics.
+ */
 async function main() {
   const reservations = JSON.parse(
     await fs.readFile(

@@ -1,10 +1,10 @@
 import maplibregl, { type MapGeoJSONFeature } from 'maplibre-gl';
 
 import { opacifyHex } from '$lib/utils/color';
+import { POPUP_LAYER_IDS } from '$lib/utils/config';
 import { LAND_USE_TO_COLORS, RIGHTS_TYPE_TO_COLORS } from '$lib/utils/constants';
 import { capitalize } from '$lib/utils/format';
 import type { LandUse, ParcelProperties } from '$lib/types';
-import { POPUP_LAYER_IDS } from './config';
 
 export class PaginatedPopup {
 	private map: maplibregl.Map;
@@ -22,7 +22,7 @@ export class PaginatedPopup {
 			const layerIds =
 				this.map
 					.getStyle()
-					.layers?.filter((layer) => layer.type === 'fill' && POPUP_LAYER_IDS.includes(layer.id))
+					.layers?.filter((layer) => POPUP_LAYER_IDS.includes(layer.id))
 					.map((layer) => layer.id) || [];
 
 			const features = this.map.queryRenderedFeatures(e.point, { layers: layerIds });

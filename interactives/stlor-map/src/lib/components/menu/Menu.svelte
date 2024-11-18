@@ -12,6 +12,7 @@
 		LAND_USE_LAYER_CONFIG,
 		RIGHTS_TYPE_LAYER_CONFIG
 	} from '$lib/utils/config';
+	import { TABLET_BREAKPOINT } from '$lib/utils/constants';
 
 	export let map: Map;
 	let innerWidth: number;
@@ -94,17 +95,19 @@
 				Object.values(RIGHTS_TYPE_LAYER_CONFIG).forEach((config) => {
 					map.addLayer(config);
 				});
+				break;
 		}
 	}
+
+	$: isTabletOrAbove = innerWidth > TABLET_BREAKPOINT;
 </script>
 
 <svelte:window bind:innerWidth />
 <div
-	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 w-[94%] max-w-sm rounded-t border-x border-t p-4 shadow-xl backdrop-blur transition-all duration-300 sm:bottom-auto sm:left-8 sm:top-8 sm:p-6 sm:transition-none md:rounded md:border"
-	class:collapsed={collapsed && innerWidth <= 640}
-	class:expanded={!collapsed || innerWidth > 640}
+	class="stack stack-sm border-earth text-earth bg-smog/75 absolute bottom-0 left-[3%] z-10 max-h-full w-[94%] rounded-t border-x border-t p-4 shadow-xl backdrop-blur transition-transform duration-300 sm:bottom-auto sm:left-8 sm:top-8 sm:max-w-sm sm:rounded sm:border sm:p-6 sm:transition-none"
+	class:translate-y-[calc(100%-6.5rem)]={collapsed}
 >
-	{#if innerWidth > 640}
+	{#if isTabletOrAbove}
 		<h1
 			class="sm:visible sm:flex sm:flex-col sm:items-center sm:text-center sm:font-sans sm:text-4xl sm:font-semibold"
 		>
@@ -125,13 +128,3 @@
 		<p><strong>Graphic</strong> &nbsp;Parker Ziegler / Grist</p>
 	</div>
 </div>
-
-<style lang="postcss">
-	.collapsed {
-		max-height: 6.375rem;
-	}
-
-	.expanded {
-		max-height: 100%;
-	}
-</style>

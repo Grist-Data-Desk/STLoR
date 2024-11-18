@@ -10,7 +10,7 @@
 		label: reservation_name
 	}));
 
-	async function onChange(event: Event) {
+	function onChange(event: Event) {
 		const target = event.target as HTMLSelectElement;
 
 		reservation.set(target.value);

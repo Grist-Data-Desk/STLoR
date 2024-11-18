@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { slide } from 'svelte/transition';
 	import maplibregl, { type Map } from 'maplibre-gl';
-	import { COLORS } from '$lib/utils/constants';
+
+	import { COLORS, TABLET_BREAKPOINT } from '$lib/utils/constants';
 
 	interface NominatimHit {
 		type: string;
@@ -26,12 +25,6 @@
 
 	let input: HTMLInputElement;
 	let innerWidth: number;
-
-	onMount(() => {
-		if (innerWidth > 640) {
-			searchOpen = true;
-		}
-	});
 
 	async function queryNominatim(query: string): Promise<NominatimHit[]> {
 		const features = [];
@@ -118,18 +111,20 @@
 		const [lat, lon] = coordinates.split(',').map((coord) => parseFloat(coord.trim()));
 		addMarkerAndFly([lon, lat]);
 	}
+
+	$: isTabletOrAbove = innerWidth > TABLET_BREAKPOINT;
+	$: showSearch = searchOpen || isTabletOrAbove;
 </script>
 
 <svelte:window bind:innerWidth />
 <form
-	class="text-earth font-sans-alt border-earth bg-smog/75 absolute left-[3%] top-4 z-10 flex rounded border backdrop-blur sm:bottom-8 sm:left-8 sm:top-auto sm:w-72"
-	class:w-[94%]={searchOpen}
-	class:w-auto={!searchOpen}
+	class="text-earth font-sans-alt border-earth bg-smog/75 search-left absolute top-4 z-10 flex rounded border backdrop-blur sm:bottom-10 sm:left-8 sm:top-auto sm:w-72"
+	class:search-width={searchOpen}
 >
 	<button
 		class="flex h-8 w-8 items-center justify-center"
 		on:click={() => (searchOpen = !searchOpen)}
-		disabled={innerWidth > 640}
+		disabled={isTabletOrAbove}
 		><svg
 			height="16"
 			stroke-linejoin="round"
@@ -144,7 +139,7 @@
 			></path></svg
 		></button
 	>
-	{#if searchOpen}
+	{#if showSearch}
 		<input
 			value={query}
 			placeholder="Search by location or lat, lon"
@@ -158,23 +153,23 @@
 	{/await}
 </form>
 {#await search then hits}
-	{#if hits.length === 0 && query.length > 0 && !validateLatLon(query) && document.activeElement === input}
+	{#if hits.length === 0 && query.length > 0 && !validateLatLon(query) && showSearch && document.activeElement === input}
 		<p
-			class="border-earth bg-smog/75 text-2xs font-sans-alt absolute left-[3%] top-14 mb-0 w-[94%] rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
 		>
 			No results found
 		</p>
-	{:else if hits.length > 0 && query.length > 0 && validateLatLon(query)}
+	{:else if hits.length > 0 && query.length > 0 && validateLatLon(query) && showSearch}
 		<p
-			class="border-earth bg-smog/75 text-2xs font-sans-alt absolute left-[3%] top-14 mb-0 w-[94%] rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
 		>
 			<button on:click={() => onClickCoordinatesHit(query)}>
 				Go to {query}
 			</button>
 		</p>
-	{:else if hits.length > 0 && query.length > 0}
+	{:else if hits.length > 0 && query.length > 0 && showSearch}
 		<ul
-			class="border-earth bg-smog/75 text-2xs font-sans-alt absolute left-[3%] top-14 mb-0 w-[94%] rounded border shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
 		>
 			{#each hits as hit}
 				<li
@@ -231,5 +226,13 @@
 		100% {
 			clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
 		}
+	}
+
+	.search-width {
+		width: calc(94% - 7.5rem);
+	}
+
+	.search-left {
+		left: calc(3% + 2.5rem);
 	}
 </style>
