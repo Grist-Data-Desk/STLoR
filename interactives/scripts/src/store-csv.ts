@@ -8,7 +8,7 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const CSV_PATH = "stlor/data/csv";
 
 /**
- * Store CSV data in the Grist DigitalOcean Spaces bucket, s3://grist.
+ * Store CSV data in the Grist DigitalOcean Spaces bucket.
  */
 async function main(): Promise<void> {
   const s3Client = new S3Client({

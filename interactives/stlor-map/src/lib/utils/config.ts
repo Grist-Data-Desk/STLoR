@@ -7,6 +7,7 @@ import {
 	DO_SPACES_URL
 } from '$lib/utils/constants';
 
+// The mapping of source IDs to their configurations.
 export const SOURCE_CONFIG: Record<string, { id: string; config: SourceSpecification }> = {
 	stlors: {
 		id: 'stlors',
@@ -45,6 +46,7 @@ export const SOURCE_CONFIG: Record<string, { id: string; config: SourceSpecifica
 	}
 };
 
+// The mapping of always-on layers to their configurations.
 export const LAYER_CONFIG: Record<string, AddLayerObject> = {
 	reservations: {
 		id: 'reservations',
@@ -89,6 +91,7 @@ export const LAYER_CONFIG: Record<string, AddLayerObject> = {
 	}
 };
 
+// The mapping of layers in the 'Acreage' view to their configurations.
 export const ACREAGE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	stlors: {
 		id: 'stlors',
@@ -117,6 +120,7 @@ export const ACREAGE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	}
 };
 
+// The mapping of layers in the 'Land Use' view to their configurations.
 export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	uncategorized: {
 		id: 'uncategorized',
@@ -749,6 +753,7 @@ export const LAND_USE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	}
 };
 
+// The mapping of layers in the 'Rights Type' view to their configurations.
 export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	subsurface: {
 		id: 'subsurface',
@@ -812,6 +817,7 @@ export const RIGHTS_TYPE_LAYER_CONFIG: Record<string, AddLayerObject> = {
 	}
 };
 
+// The set of layers to generate popups for.
 export const POPUP_LAYER_IDS = Object.values({
 	...ACREAGE_LAYER_CONFIG,
 	...LAND_USE_LAYER_CONFIG

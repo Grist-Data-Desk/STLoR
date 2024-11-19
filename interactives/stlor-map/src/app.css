@@ -125,7 +125,7 @@
 }
 
 #stlor-map .maplibregl-ctrl-top-left {
-	@apply left-14 right-auto top-4 sm:bottom-8 sm:left-[21rem] sm:top-auto;
+	@apply left-[3%] top-4 sm:bottom-10 sm:left-[21rem] sm:top-auto;
 }
 
 #stlor-map .maplibregl-ctrl.maplibregl-ctrl-group {

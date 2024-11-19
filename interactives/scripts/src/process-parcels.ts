@@ -111,6 +111,9 @@ function enrichParcelsWithLandUse(
   });
 }
 
+/**
+ * Process STLoR parcels.
+ */
 const main = async (): Promise<void> => {
   const parcels = JSON.parse(
     await fs.readFile(

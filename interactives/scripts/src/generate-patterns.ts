@@ -3,16 +3,17 @@ import * as path from "node:path";
 import * as url from "node:url";
 
 import { createCanvas } from "canvas";
-
+import { schemePaired } from "d3-scale-chromatic";
 import type { FeatureCollection, Polygon } from "geojson";
+import { groupBy } from "lodash-es";
+
 import type { ProcessedParcelProperties, LandUse } from "./types";
-import groupBy from "lodash.groupby";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
+// Grist brand colors.
 const COLORS = {
   EARTH: "#3c3830",
-  SMOG: "#f0f0f0",
   ORANGE: "#ec6c37",
   GOLD: "#d9ac4a",
   GRAY: "#9ca3af",
@@ -20,21 +21,7 @@ const COLORS = {
   PALE_GREEN: "#9ca18c",
 };
 
-const schemePaired = [
-  "#a6cee3",
-  "#1f78b4",
-  "#b2df8a",
-  "#33a02c",
-  "#fb9a99",
-  "#e31a1c",
-  "#fdbf6f",
-  "#ff7f00",
-  "#cab2d6",
-  "#6a3d9a",
-  "#ffff99",
-  "#b15928",
-];
-
+// The mapping of land uses to colors.
 const LAND_USE_TO_COLORS: Record<LandUse, string> = {
   Grazing: COLORS.PALE_GREEN,
   Agriculture: schemePaired[3],
@@ -50,25 +37,31 @@ const LAND_USE_TO_COLORS: Record<LandUse, string> = {
   Water: schemePaired[0],
 };
 
+// The mapping of rights type to colors.
+const RIGHTS_TYPE_TO_COLORS = {
+  surface: "#D8A772",
+  subsurface: "#40798A",
+};
+
+// Canvas size.
+const CANVAS_SIZE = 32;
+
 /**
  * Create a dual color hatch pattern in canvas.
  *
- * @param primaryColor — The primary color of the hatch pattern, used
- * to fill the background.
- * @param secondaryColor — The secondary color of the hatch pattern,
- * used to draw stripes.
- * @param size — The size of the canvas, drawn as a square.
- * @param lineWidth — The width of lines in the hatch pattern.
+ * @param primaryColor — The primary color of the hatch pattern, used to fill
+ * the background.
+ * @param secondaryColor — The secondary color of the hatch pattern, used to
+ * draw stripes.
  * @returns — The data URL of the hatch pattern.
  */
 function createDualColorHatchPattern(
   primaryColor: string,
-  secondaryColor: string,
-  size = 32
+  secondaryColor: string
 ) {
-  const canvas = createCanvas(size, size);
-  canvas.width = size;
-  canvas.height = size;
+  const canvas = createCanvas(CANVAS_SIZE, CANVAS_SIZE);
+  canvas.width = CANVAS_SIZE;
+  canvas.height = CANVAS_SIZE;
   const ctx = canvas.getContext("2d");
 
   if (!ctx) {
@@ -77,71 +70,71 @@ function createDualColorHatchPattern(
 
   ctx.fillStyle = primaryColor;
   ctx.beginPath();
-  ctx.moveTo(0, size * (3 / 4));
-  ctx.lineTo(size * (1 / 4), size);
-  ctx.lineTo(0, size);
+  ctx.moveTo(0, CANVAS_SIZE * (3 / 4));
+  ctx.lineTo(CANVAS_SIZE * (1 / 4), CANVAS_SIZE);
+  ctx.lineTo(0, CANVAS_SIZE);
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = secondaryColor;
   ctx.beginPath();
-  ctx.moveTo(0, size * (1 / 2));
-  ctx.lineTo(size * (1 / 2), size);
-  ctx.lineTo(size * (1 / 4), size);
-  ctx.lineTo(0, size * (3 / 4));
+  ctx.moveTo(0, CANVAS_SIZE * (1 / 2));
+  ctx.lineTo(CANVAS_SIZE * (1 / 2), CANVAS_SIZE);
+  ctx.lineTo(CANVAS_SIZE * (1 / 4), CANVAS_SIZE);
+  ctx.lineTo(0, CANVAS_SIZE * (3 / 4));
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = primaryColor;
   ctx.beginPath();
-  ctx.moveTo(0, size * (1 / 4));
-  ctx.lineTo(size * (3 / 4), size);
-  ctx.lineTo(size * (1 / 2), size);
-  ctx.lineTo(0, size * (1 / 2));
+  ctx.moveTo(0, CANVAS_SIZE * (1 / 4));
+  ctx.lineTo(CANVAS_SIZE * (3 / 4), CANVAS_SIZE);
+  ctx.lineTo(CANVAS_SIZE * (1 / 2), CANVAS_SIZE);
+  ctx.lineTo(0, CANVAS_SIZE * (1 / 2));
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = secondaryColor;
   ctx.beginPath();
   ctx.moveTo(0, 0);
-  ctx.lineTo(size, size);
-  ctx.lineTo(size * (3 / 4), size);
-  ctx.lineTo(0, size * (1 / 4));
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE);
+  ctx.lineTo(CANVAS_SIZE * (3 / 4), CANVAS_SIZE);
+  ctx.lineTo(0, CANVAS_SIZE * (1 / 4));
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = primaryColor;
   ctx.beginPath();
-  ctx.moveTo(size * (1 / 4), 0);
-  ctx.lineTo(size, size * (3 / 4));
-  ctx.lineTo(size, size);
+  ctx.moveTo(CANVAS_SIZE * (1 / 4), 0);
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (3 / 4));
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE);
   ctx.lineTo(0, 0);
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = secondaryColor;
   ctx.beginPath();
-  ctx.moveTo(size * (1 / 2), 0);
-  ctx.lineTo(size, size * (1 / 2));
-  ctx.lineTo(size, size * (3 / 4));
-  ctx.lineTo(size * (1 / 4), 0);
+  ctx.moveTo(CANVAS_SIZE * (1 / 2), 0);
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (1 / 2));
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (3 / 4));
+  ctx.lineTo(CANVAS_SIZE * (1 / 4), 0);
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = primaryColor;
   ctx.beginPath();
-  ctx.moveTo(size * (3 / 4), 0);
-  ctx.lineTo(size, size * (1 / 4));
-  ctx.lineTo(size, size * (1 / 2));
-  ctx.lineTo(size * (1 / 2), 0);
+  ctx.moveTo(CANVAS_SIZE * (3 / 4), 0);
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (1 / 4));
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (1 / 2));
+  ctx.lineTo(CANVAS_SIZE * (1 / 2), 0);
   ctx.closePath();
   ctx.fill();
 
   ctx.fillStyle = secondaryColor;
   ctx.beginPath();
-  ctx.moveTo(size * (3 / 4), 0);
-  ctx.lineTo(size, 0);
-  ctx.lineTo(size, size * (1 / 4));
+  ctx.moveTo(CANVAS_SIZE * (3 / 4), 0);
+  ctx.lineTo(CANVAS_SIZE, 0);
+  ctx.lineTo(CANVAS_SIZE, CANVAS_SIZE * (1 / 4));
   ctx.closePath();
   ctx.fill();
 
@@ -154,18 +147,16 @@ function createDualColorHatchPattern(
  * @param primaryColor – The primary color of the line pattern.
  * @param secondaryColor – The secondary color of the line pattern.
  * @param tertiaryColor – The tertiary color of the line pattern.
- * @param size – The size of the canvas, drawn as a square.
  * @returns – The data URL of the line pattern.
  */
 function createTriColorLinePattern(
   primaryColor: string,
   secondaryColor: string,
-  tertiaryColor: string,
-  size = 32
+  tertiaryColor: string
 ): string {
-  const canvas = createCanvas(size, size);
-  canvas.width = size;
-  canvas.height = size;
+  const canvas = createCanvas(CANVAS_SIZE, CANVAS_SIZE);
+  canvas.width = CANVAS_SIZE;
+  canvas.height = CANVAS_SIZE;
   const ctx = canvas.getContext("2d");
 
   if (!ctx) {
@@ -176,7 +167,7 @@ function createTriColorLinePattern(
 
   for (let i = 0; i < colors.length * 2; i++) {
     ctx.fillStyle = colors[i % 3];
-    ctx.fillRect(0, (i * size) / 6, size, size / 6);
+    ctx.fillRect(0, (i * CANVAS_SIZE) / 6, CANVAS_SIZE, CANVAS_SIZE / 6);
   }
 
   return canvas.toDataURL("image/png");
@@ -189,19 +180,17 @@ function createTriColorLinePattern(
  * @param secondaryColor – The secondary color of the line pattern.
  * @param tertiaryColor – The tertiary color of the line pattern.
  * @param quaternaryColor – The quaternary color of the line pattern.
- * @param size – The size of the canvas, drawn as a square.
  * @returns – The data URL of the line pattern.
  */
 function createQuadColorLinePattern(
   primaryColor: string,
   secondaryColor: string,
   tertiaryColor: string,
-  quaternaryColor: string,
-  size = 32
+  quaternaryColor: string
 ): string {
-  const canvas = createCanvas(size, size);
-  canvas.width = size;
-  canvas.height = size;
+  const canvas = createCanvas(CANVAS_SIZE, CANVAS_SIZE);
+  canvas.width = CANVAS_SIZE;
+  canvas.height = CANVAS_SIZE;
   const ctx = canvas.getContext("2d");
 
   if (!ctx) {
@@ -212,7 +201,7 @@ function createQuadColorLinePattern(
 
   for (let i = 0; i < colors.length * 2; i++) {
     ctx.fillStyle = colors[i % 4];
-    ctx.fillRect((size / 8) * i, 0, size / 8, size);
+    ctx.fillRect((CANVAS_SIZE / 8) * i, 0, CANVAS_SIZE / 8, CANVAS_SIZE);
   }
 
   return canvas.toDataURL("image/png");
@@ -221,7 +210,7 @@ function createQuadColorLinePattern(
 /**
  * Identify the unique combinations of land uses present in the dataset.
  *
- * @param stlors – STLoRs.
+ * @param stlors – STLoR parcels.
  * @returns – An array of all unique combinations of land uses present in the
  * dataset.
  */
@@ -244,6 +233,10 @@ function identifyLandUseCombinations(
   return Array.from(combinations);
 }
 
+/**
+ * Generate data URLs for land use and rights type canvas patterns and write
+ * them to disk.
+ */
 async function main() {
   const stlors = JSON.parse(
     await fs.readFile(
@@ -314,7 +307,10 @@ async function main() {
     JSON.stringify(patterns, null, 2)
   );
 
-  const rightsTypePattern = createDualColorHatchPattern("#40798A", "#D8A772");
+  const rightsTypePattern = createDualColorHatchPattern(
+    RIGHTS_TYPE_TO_COLORS.subsurface,
+    RIGHTS_TYPE_TO_COLORS.surface
+  );
 
   await fs.writeFile(
     path.resolve(__dirname, "../data/processed/rights-type-pattern.json"),

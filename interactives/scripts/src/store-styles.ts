@@ -8,7 +8,7 @@ const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const STYLE_PATH = "stlor/styles";
 
 /**
- * Store our basemap style in the Grist DigitalOcean Spaces bucket, s3://grist.
+ * Store our basemap style in the Grist DigitalOcean Spaces bucket.
  */
 const main = async () => {
   const s3Client = new S3Client({

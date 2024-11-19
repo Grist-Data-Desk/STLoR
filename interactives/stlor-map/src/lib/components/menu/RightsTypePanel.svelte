@@ -5,12 +5,11 @@
 	import Description from '$lib/components/shared/Description.svelte';
 	import { reservation } from '$lib/stores/reservation';
 	import type { Data } from '$lib/types';
-	import { COLORS, RIGHTS_TYPE_TO_COLORS } from '$lib/utils/constants';
+	import { RIGHTS_TYPE_TO_COLORS } from '$lib/utils/constants';
 
 	const data = getContext<Data>('data');
 
 	$: stats = data.reservationStats[$reservation];
-
 	$: xScale = scaleLinear()
 		.domain([0, stats.stl_subsurface_acres + stats.stl_surface_acres])
 		.range([0, 450]);
@@ -57,8 +56,8 @@
 			<text
 				x="10"
 				y="0"
-				dy="1.2em"
-				font-size="14"
+				dy="1.3em"
+				font-size="13"
 				font-family="Basis Grotesque"
 				font-weight="bold"
 				fill="#ffffff"
@@ -68,8 +67,8 @@
 			<text
 				x="10"
 				y="0"
-				dy="2.6em"
-				font-size="12"
+				dy="2.8em"
+				font-size="11"
 				font-family="Basis Grotesque"
 				fill="#ffffff"
 				class="transition-all duration-300"
@@ -89,8 +88,8 @@
 			<text
 				x="440"
 				y="0"
-				dy="1.2em"
-				font-size="14"
+				dy="1.3em"
+				font-size="13"
 				font-family="Basis Grotesque"
 				font-weight="bold"
 				fill="white"
@@ -101,8 +100,8 @@
 			<text
 				x="440"
 				y="0"
-				dy="2.6em"
-				font-size="12"
+				dy="2.8em"
+				font-size="11"
 				font-family="Basis Grotesque"
 				fill="white"
 				text-anchor="end"

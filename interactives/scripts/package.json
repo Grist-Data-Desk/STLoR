@@ -1,6 +1,6 @@
 {
-  "name": "@grist/stlor-interactives-scripts",
-  "version": "0.1.0",
+  "name": "@grist/stlor-scripts",
+  "version": "1.0.0",
   "description": "Scripts for generating, storing, and deploying the data and code used by interactives in STLoR.",
   "private": true,
   "scripts": {
@@ -19,10 +19,10 @@
   "author": "Parker Ziegler <peziegler@cs.berkeley.edu>",
   "devDependencies": {
     "@eslint/js": "^9.8.0",
+    "@types/d3-scale-chromatic": "^3.0.3",
     "@types/eslint__js": "^8.42.3",
     "@types/geojson": "^7946.0.14",
-    "@types/lodash.groupby": "^4.6.9",
-    "@types/lodash.round": "^4.0.9",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.1.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
@@ -35,7 +35,7 @@
     "@turf/bbox": "^7.1.0",
     "@turf/helpers": "^7.0.0",
     "canvas": "^2.11.2",
-    "lodash.groupby": "^4.6.0",
-    "lodash.round": "^4.0.4"
+    "d3-scale-chromatic": "^3.1.0",
+    "lodash-es": "^4.17.21"
   }
 }

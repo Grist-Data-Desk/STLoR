@@ -12,7 +12,6 @@
 	$: stats = data.reservationStats[$reservation];
 	$: landUses = stats.land_uses.top_land_uses.filter((landUse) => landUse.acreage > 0);
 	$: displayedLandUses = landUses.length > 2 ? landUses.slice(0, 3) : landUses;
-
 	$: xScale = scaleLinear()
 		.domain([0, landUses[0]?.acreage ?? 0])
 		.range([0, 450]);
@@ -72,8 +71,8 @@
 				<text
 					x={xScale(acreage) > 350 ? xScale(acreage) - 10 : xScale(acreage) + 10}
 					y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
-					dy="1.2em"
-					font-size="14"
+					dy="1.3em"
+					font-size="13"
 					font-family="Basis Grotesque"
 					font-weight="bold"
 					fill={xScale(acreage) > 350 ? 'white' : 'black'}
@@ -84,8 +83,8 @@
 				<text
 					x={xScale(acreage) > 350 ? xScale(acreage) - 10 : xScale(acreage) + 10}
 					y={yScale(land_use) ?? 0 + yScale.bandwidth() / 2}
-					dy="2.6em"
-					font-size="12"
+					dy="2.8em"
+					font-size="11"
 					font-family="Basis Grotesque"
 					fill={xScale(acreage) > 350 ? 'white' : 'black'}
 					text-anchor={xScale(acreage) > 350 ? 'end' : 'start'}
