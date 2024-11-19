@@ -7,8 +7,7 @@
 </script>
 
 <div
-	class="bg-smog/75 border-earth absolute top-4 rounded border shadow backdrop-blur sm:hidden"
-	style="right: calc(3% + 2.5rem);"
+	class="bg-smog/75 border-earth absolute right-[calc(3%+2.5rem)] top-4 rounded border shadow backdrop-blur sm:hidden"
 >
 	<button class="flex h-8 w-8 items-center justify-center" on:click={onClick}>
 		<svg

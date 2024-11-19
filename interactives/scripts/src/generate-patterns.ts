@@ -19,8 +19,6 @@ const COLORS = {
   GRAY: "#9ca3af",
   GREEN: "#476039",
   PALE_GREEN: "#9ca18c",
-  BLUE: "#40798A",
-  TAN: "#D8A772",
 };
 
 // The mapping of land uses to colors.

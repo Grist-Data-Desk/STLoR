@@ -56,8 +56,8 @@
 			<text
 				x="10"
 				y="0"
-				dy="1.5em"
-				font-size="12"
+				dy="1.3em"
+				font-size="13"
 				font-family="Basis Grotesque"
 				font-weight="bold"
 				fill="#ffffff"
@@ -67,8 +67,8 @@
 			<text
 				x="10"
 				y="0"
-				dy="3em"
-				font-size="10"
+				dy="2.8em"
+				font-size="11"
 				font-family="Basis Grotesque"
 				fill="#ffffff"
 				class="transition-all duration-300"
@@ -88,8 +88,8 @@
 			<text
 				x="440"
 				y="0"
-				dy="1.5em"
-				font-size="12"
+				dy="1.3em"
+				font-size="13"
 				font-family="Basis Grotesque"
 				font-weight="bold"
 				fill="white"
@@ -100,8 +100,8 @@
 			<text
 				x="440"
 				y="0"
-				dy="3em"
-				font-size="10"
+				dy="2.8em"
+				font-size="11"
 				font-family="Basis Grotesque"
 				fill="white"
 				text-anchor="end"
