@@ -155,13 +155,13 @@
 {#await search then hits}
 	{#if hits.length === 0 && query.length > 0 && !validateLatLon(query) && showSearch && document.activeElement === input}
 		<p
-			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-20 sm:left-8 sm:top-auto sm:w-72"
 		>
 			No results found
 		</p>
 	{:else if hits.length > 0 && query.length > 0 && validateLatLon(query) && showSearch}
 		<p
-			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border p-2 shadow-md backdrop-blur sm:bottom-20 sm:left-8 sm:top-auto sm:w-72"
 		>
 			<button on:click={() => onClickCoordinatesHit(query)}>
 				Go to {query}
@@ -169,7 +169,7 @@
 		</p>
 	{:else if hits.length > 0 && query.length > 0 && showSearch}
 		<ul
-			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border shadow-md backdrop-blur sm:bottom-[4.5rem] sm:left-8 sm:top-auto sm:w-72"
+			class="border-earth bg-smog/75 text-2xs font-sans-alt search-width search-left absolute top-14 mb-0 rounded border shadow-md backdrop-blur sm:bottom-20 sm:left-8 sm:top-auto sm:w-72"
 		>
 			{#each hits as hit}
 				<li
